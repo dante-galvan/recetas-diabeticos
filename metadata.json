@@ -1,0 +1,6 @@
+{
+  "name": "DiaRecipes",
+  "description": "Professional, modern and simple recipe app and weekly meal planner for Type 1 and Type 2 diabetes with bilingual Spanish and English support, full nutritional breakdowns, and grocery lists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
