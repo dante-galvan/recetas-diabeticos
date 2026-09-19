@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-  namespace = "com.example"
+  namespace = "com.app.diabeticos"
   compileSdk { version = release(36) { minorApiLevel = 1 } }
 
   defaultConfig {
-    applicationId = "com.aistudio.diabrecipes.kztgla"
+    applicationId = "com.app.diabeticos"
     minSdk = 24
     targetSdk = 36
     versionCode = 1
@@ -42,7 +42,7 @@ android {
       proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
       signingConfig = signingConfigs.getByName("release")
     }
-    debug { signingConfig = signingConfigs.getByName("debugConfig") }
+    debug { /* signingConfig = signingConfigs.getByName("debugConfig") */ }
   }
   compileOptions {
     sourceCompatibility = JavaVersion.VERSION_11

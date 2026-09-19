@@ -1,6 +1,6 @@
 package com.example.data.local
 
-import com.example.R
+import com.dantegalvan.diarecipes.R
 import com.example.data.model.Difficulty
 import com.example.data.model.GroceryCategory
 import com.example.data.model.Ingredient
