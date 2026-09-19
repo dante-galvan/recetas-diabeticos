@@ -7,13 +7,11 @@ import androidx.room.Room
 import com.example.data.local.DiaRecipesDatabase
 import com.example.data.model.DiabetesType
 import com.example.data.model.Difficulty
-import com.example.data.model.GroceryCategory
 import com.example.data.model.MealPlanItem
 import com.example.data.model.MealSlot
 import com.example.data.model.Recipe
 import com.example.data.model.RecipeCategory
 import com.example.data.model.RecipeCollection
-import com.example.data.model.ShoppingItem
 import com.example.data.model.UserProfile
 import com.example.data.repository.RecipeRepository
 import com.example.data.repository.SortOption
@@ -37,7 +35,6 @@ enum class AppScreen {
   FAVORITES,
   PROFILE,
   RECIPE_DETAIL,
-  SHOPPING_LIST,
   ONBOARDING
 }
 
@@ -57,7 +54,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     application,
     DiaRecipesDatabase::class.java,
     "dia_recipes_db"
-  ).build()
+  ).fallbackToDestructiveMigration().build()
 
   val repository = RecipeRepository(database.dao())
 
@@ -143,17 +140,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
   }
   val selectedDayOfWeek = MutableStateFlow(initialDay)
 
-  // Shopping List
-  val shoppingItems: StateFlow<List<ShoppingItem>> = repository.shoppingItems
-    .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
-
   // UI Dialog States
   val showAddToPlanDialog = MutableStateFlow(false)
-  val showAddCustomGroceryDialog = MutableStateFlow(false)
   val showNewCollectionDialog = MutableStateFlow(false)
   val showFilterSheet = MutableStateFlow(false)
   val showDisclaimerDialog = MutableStateFlow(false)
-  val showProSheet = MutableStateFlow(false)
   val showRecipePickerForPlanSlot = MutableStateFlow<Pair<Int, MealSlot>?>(null)
 
   // Snackbar Toast Events
@@ -197,14 +188,6 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     }
   }
 
-  fun addCurrentRecipeToShoppingList(successMessage: String) {
-    val recipe = _selectedRecipe.value ?: return
-    viewModelScope.launch {
-      repository.addIngredientsFromRecipe(recipe, _servingsMultiplier.value)
-      _toastMessage.emit(successMessage)
-    }
-  }
-
   fun addCurrentRecipeToMealPlan(day: Int, slot: MealSlot, successMessage: String) {
     val recipe = _selectedRecipe.value ?: return
     viewModelScope.launch {
@@ -230,49 +213,6 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
   fun generateWeeklyMenu(successMessage: String) {
     viewModelScope.launch {
       repository.generateWeeklyMenu()
-      _toastMessage.emit(successMessage)
-    }
-  }
-
-  // Shopping List Actions
-  fun toggleShoppingItem(item: ShoppingItem) {
-    viewModelScope.launch {
-      repository.toggleShoppingItem(item)
-    }
-  }
-
-  fun addCustomShoppingItem(name: String, category: GroceryCategory) {
-    if (name.isBlank()) return
-    viewModelScope.launch {
-      repository.addCustomShoppingItem(name, category)
-      showAddCustomGroceryDialog.value = false
-    }
-  }
-
-  fun deleteShoppingItem(id: Long) {
-    viewModelScope.launch {
-      repository.deleteShoppingItem(id)
-    }
-  }
-
-  fun clearPurchasedShoppingItems() {
-    viewModelScope.launch {
-      repository.clearPurchasedShoppingItems()
-    }
-  }
-
-  fun clearAllShoppingItems() {
-    viewModelScope.launch {
-      repository.clearAllShoppingItems()
-    }
-  }
-
-  fun generateShoppingListFromPlan(successMessage: String) {
-    viewModelScope.launch {
-      val plan = mealPlanItems.value
-      for (item in plan) {
-        repository.addIngredientsFromRecipe(item.recipe, 1.0)
-      }
       _toastMessage.emit(successMessage)
     }
   }

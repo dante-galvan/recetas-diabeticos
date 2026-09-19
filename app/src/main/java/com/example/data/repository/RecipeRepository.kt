@@ -5,17 +5,14 @@ import com.example.data.local.DiaRecipesDao
 import com.example.data.local.FavoriteEntity
 import com.example.data.local.MealPlanEntity
 import com.example.data.local.SampleData
-import com.example.data.local.ShoppingItemEntity
 import com.example.data.local.UserProfileEntity
 import com.example.data.model.DiabetesType
 import com.example.data.model.Difficulty
-import com.example.data.model.GroceryCategory
 import com.example.data.model.MealPlanItem
 import com.example.data.model.MealSlot
 import com.example.data.model.Recipe
 import com.example.data.model.RecipeCategory
 import com.example.data.model.RecipeCollection
-import com.example.data.model.ShoppingItem
 import com.example.data.model.UserProfile
 import com.example.ui.i18n.Language
 import kotlinx.coroutines.flow.Flow
@@ -216,83 +213,6 @@ class RecipeRepository(private val dao: DiaRecipesDao) {
       dao.insertMealPlanItem(MealPlanEntity(dayOfWeek = day, slotKey = MealSlot.DINNER.key, recipeId = d.id))
       dao.insertMealPlanItem(MealPlanEntity(dayOfWeek = day, slotKey = MealSlot.SNACK.key, recipeId = s.id))
     }
-  }
-
-  // Shopping Items
-  val shoppingItems: Flow<List<ShoppingItem>> = dao.getAllShoppingItems().map { list ->
-    list.map { entity ->
-      val cat = try {
-        GroceryCategory.valueOf(entity.categoryKey)
-      } catch (e: Exception) {
-        GroceryCategory.OTHER
-      }
-      ShoppingItem(
-        id = entity.id,
-        nameEs = entity.nameEs,
-        nameEn = entity.nameEn,
-        amount = entity.amount,
-        unit = entity.unit,
-        category = cat,
-        isChecked = entity.isChecked,
-        sourceRecipe = entity.sourceRecipe
-      )
-    }
-  }
-
-  suspend fun addIngredientsFromRecipe(recipe: Recipe, multiplier: Double = 1.0) {
-    val items = recipe.ingredients.map { ing ->
-      ShoppingItemEntity(
-        nameEs = ing.nameEs,
-        nameEn = ing.nameEn,
-        amount = ing.baseAmount * multiplier,
-        unit = ing.unit,
-        categoryKey = ing.category.name,
-        isChecked = false,
-        sourceRecipe = recipe.titleEs
-      )
-    }
-    dao.insertShoppingItems(items)
-  }
-
-  suspend fun addCustomShoppingItem(name: String, category: GroceryCategory) {
-    dao.insertShoppingItem(
-      ShoppingItemEntity(
-        nameEs = name,
-        nameEn = name,
-        amount = 1.0,
-        unit = "",
-        categoryKey = category.name,
-        isChecked = false,
-        sourceRecipe = ""
-      )
-    )
-  }
-
-  suspend fun toggleShoppingItem(item: ShoppingItem) {
-    dao.updateShoppingItem(
-      ShoppingItemEntity(
-        id = item.id,
-        nameEs = item.nameEs,
-        nameEn = item.nameEn,
-        amount = item.amount,
-        unit = item.unit,
-        categoryKey = item.category.name,
-        isChecked = !item.isChecked,
-        sourceRecipe = item.sourceRecipe
-      )
-    )
-  }
-
-  suspend fun deleteShoppingItem(id: Long) {
-    dao.deleteShoppingItemById(id)
-  }
-
-  suspend fun clearPurchasedShoppingItems() {
-    dao.clearPurchasedShoppingItems()
-  }
-
-  suspend fun clearAllShoppingItems() {
-    dao.clearAllShoppingItems()
   }
 
   // User Profile

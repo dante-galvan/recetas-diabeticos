@@ -34,18 +34,6 @@ data class MealPlanEntity(
   val recipeId: String
 )
 
-@Entity(tableName = "shopping_items")
-data class ShoppingItemEntity(
-  @PrimaryKey(autoGenerate = true) val id: Long = 0,
-  val nameEs: String,
-  val nameEn: String,
-  val amount: Double,
-  val unit: String,
-  val categoryKey: String,
-  val isChecked: Boolean = false,
-  val sourceRecipe: String = ""
-)
-
 @Entity(tableName = "user_profile")
 data class UserProfileEntity(
   @PrimaryKey val id: Int = 1,
@@ -96,28 +84,6 @@ interface DiaRecipesDao {
   @Query("DELETE FROM meal_plan")
   suspend fun clearMealPlan()
 
-  // Shopping Items
-  @Query("SELECT * FROM shopping_items ORDER BY isChecked ASC, id DESC")
-  fun getAllShoppingItems(): Flow<List<ShoppingItemEntity>>
-
-  @Insert(onConflict = OnConflictStrategy.REPLACE)
-  suspend fun insertShoppingItem(item: ShoppingItemEntity): Long
-
-  @Insert(onConflict = OnConflictStrategy.REPLACE)
-  suspend fun insertShoppingItems(items: List<ShoppingItemEntity>)
-
-  @Update
-  suspend fun updateShoppingItem(item: ShoppingItemEntity)
-
-  @Query("DELETE FROM shopping_items WHERE id = :id")
-  suspend fun deleteShoppingItemById(id: Long)
-
-  @Query("DELETE FROM shopping_items WHERE isChecked = 1")
-  suspend fun clearPurchasedShoppingItems()
-
-  @Query("DELETE FROM shopping_items")
-  suspend fun clearAllShoppingItems()
-
   // User Profile
   @Query("SELECT * FROM user_profile WHERE id = 1")
   fun getUserProfile(): Flow<UserProfileEntity?>
@@ -131,7 +97,6 @@ interface DiaRecipesDao {
     FavoriteEntity::class,
     CollectionEntity::class,
     MealPlanEntity::class,
-    ShoppingItemEntity::class,
     UserProfileEntity::class
   ],
   version = 1,

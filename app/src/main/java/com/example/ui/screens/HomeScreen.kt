@@ -56,7 +56,6 @@ import com.example.data.model.MealSlot
 import com.example.data.model.Recipe
 import com.example.data.model.RecipeCategory
 import com.example.ui.components.MedicalDisclaimerBanner
-import com.example.ui.components.PremiumBanner
 import com.example.ui.components.RecipeCard
 import com.example.ui.components.RecipeHorizontalCard
 import com.example.ui.i18n.AppStrings
@@ -435,17 +434,7 @@ fun HomeScreen(
       }
     }
 
-    // 8. Freemium Pro Banner
-    item {
-      Box(modifier = Modifier.padding(horizontal = 20.dp)) {
-        PremiumBanner(
-          language = language,
-          onLearnMoreClick = { viewModel.showProSheet.value = true }
-        )
-      }
-    }
-
-    // 9. Discreet Health Notice
+    // 8. Discreet Health Notice
     item {
       Box(modifier = Modifier.padding(horizontal = 20.dp)) {
         MedicalDisclaimerBanner(language = language)

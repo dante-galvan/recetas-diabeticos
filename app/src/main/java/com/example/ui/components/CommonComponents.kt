@@ -13,8 +13,6 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Info
-import androidx.compose.material.icons.outlined.Search
-import androidx.compose.material.icons.outlined.Star
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -138,72 +136,4 @@ fun MedicalDisclaimerBanner(
   }
 }
 
-@Composable
-fun PremiumBanner(
-  language: Language,
-  onLearnMoreClick: () -> Unit,
-  modifier: Modifier = Modifier
-) {
-  Card(
-    modifier = modifier.fillMaxWidth(),
-    shape = RoundedCornerShape(18.dp),
-    colors = CardDefaults.cardColors(
-      containerColor = MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.5f)
-    )
-  ) {
-    androidx.compose.foundation.layout.Row(
-      modifier = Modifier
-        .fillMaxWidth()
-        .padding(16.dp),
-      verticalAlignment = Alignment.CenterVertically,
-      horizontalArrangement = Arrangement.SpaceBetween
-    ) {
-      Column(modifier = Modifier.weight(1f)) {
-        androidx.compose.foundation.layout.Row(
-          verticalAlignment = Alignment.CenterVertically,
-          horizontalArrangement = Arrangement.spacedBy(6.dp)
-        ) {
-          Icon(
-            imageVector = Icons.Outlined.Star,
-            contentDescription = null,
-            tint = MaterialTheme.colorScheme.tertiary,
-            modifier = Modifier.size(18.dp)
-          )
-          Text(
-            text = AppStrings.unlockProTitle(language),
-            fontSize = 14.sp,
-            fontWeight = FontWeight.Bold,
-            color = MaterialTheme.colorScheme.onTertiaryContainer
-          )
-        }
 
-        Spacer(modifier = Modifier.height(4.dp))
-
-        Text(
-          text = AppStrings.unlockProDesc(language),
-          fontSize = 11.sp,
-          color = MaterialTheme.colorScheme.onTertiaryContainer.copy(alpha = 0.85f),
-          lineHeight = 15.sp,
-          maxLines = 2
-        )
-      }
-
-      Spacer(modifier = Modifier.size(12.dp))
-
-      Button(
-        onClick = onLearnMoreClick,
-        shape = RoundedCornerShape(10.dp),
-        colors = androidx.compose.material3.ButtonDefaults.buttonColors(
-          containerColor = MaterialTheme.colorScheme.tertiary
-        )
-      ) {
-        Text(
-          text = AppStrings.learnMore(language),
-          fontSize = 11.sp,
-          fontWeight = FontWeight.Bold,
-          color = MaterialTheme.colorScheme.onTertiary
-        )
-      }
-    }
-  }
-}

@@ -79,28 +79,6 @@ data class MealPlanItem(
   val recipe: Recipe
 )
 
-data class ShoppingItem(
-  val id: Long = 0,
-  val nameEs: String,
-  val nameEn: String,
-  val amount: Double,
-  val unit: String,
-  val category: GroceryCategory,
-  val isChecked: Boolean = false,
-  val sourceRecipe: String = ""
-) {
-  fun localizedName(lang: Language): String = if (lang == Language.SPANISH) nameEs else nameEn
-
-  fun formattedAmount(): String {
-    if (amount <= 0.0) return ""
-    return if (amount == amount.toLong().toDouble()) {
-      "${amount.toLong()} $unit".trim()
-    } else {
-      String.format("%.1f %s", amount, unit).trim()
-    }
-  }
-}
-
 data class RecipeCollection(
   val id: String,
   val nameEs: String,

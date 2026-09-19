@@ -25,13 +25,11 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.CalendarMonth
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material.icons.filled.Share
-import androidx.compose.material.icons.filled.ShoppingCart
 import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -43,10 +41,8 @@ import androidx.compose.material3.Divider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -329,29 +325,6 @@ fun RecipeDetailScreen(
               style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
               color = MaterialTheme.colorScheme.onBackground
             )
-
-            // Add all ingredients to shopping list button
-            TextButton(
-              onClick = {
-                viewModel.addCurrentRecipeToShoppingList(AppStrings.addedToShoppingSuccess(language))
-              }
-            ) {
-              Row(
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(4.dp)
-              ) {
-                Icon(
-                  imageVector = Icons.Default.ShoppingCart,
-                  contentDescription = null,
-                  modifier = Modifier.size(16.dp)
-                )
-                Text(
-                  text = AppStrings.addIngredientsToShopping(language),
-                  fontSize = 12.sp,
-                  fontWeight = FontWeight.Bold
-                )
-              }
-            }
           }
 
           Spacer(modifier = Modifier.height(8.dp))
@@ -505,7 +478,7 @@ fun RecipeDetailScreen(
       }
     }
 
-    // Bottom Sticky Action Bar: "Add to Plan" & "Shopping List"
+    // Bottom Sticky Action Bar: "Add to Plan"
     Surface(
       modifier = Modifier
         .fillMaxWidth()
@@ -519,32 +492,10 @@ fun RecipeDetailScreen(
           .padding(horizontal = 20.dp, vertical = 14.dp),
         horizontalArrangement = Arrangement.spacedBy(12.dp)
       ) {
-        OutlinedButton(
-          onClick = {
-            viewModel.addCurrentRecipeToShoppingList(AppStrings.addedToShoppingSuccess(language))
-          },
-          modifier = Modifier
-            .weight(1f)
-            .height(50.dp),
-          shape = RoundedCornerShape(14.dp)
-        ) {
-          Icon(
-            imageVector = Icons.Default.ShoppingCart,
-            contentDescription = null,
-            modifier = Modifier.size(18.dp)
-          )
-          Spacer(modifier = Modifier.width(6.dp))
-          Text(
-            text = AppStrings.shoppingList(language),
-            fontSize = 13.sp,
-            fontWeight = FontWeight.Bold
-          )
-        }
-
         Button(
           onClick = { viewModel.showAddToPlanDialog.value = true },
           modifier = Modifier
-            .weight(1.2f)
+            .fillMaxWidth()
             .height(50.dp),
           shape = RoundedCornerShape(14.dp),
           colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary)

@@ -61,9 +61,7 @@ object AppStrings {
   fun ingredients(lang: Language) = if (lang == Language.SPANISH) "Ingredientes" else "Ingredients"
   fun instructions(lang: Language) = if (lang == Language.SPANISH) "Preparación Paso a Paso" else "Step-by-Step Instructions"
   fun addToPlan(lang: Language) = if (lang == Language.SPANISH) "Agregar al Plan" else "Add to Plan"
-  fun addIngredientsToShopping(lang: Language) = if (lang == Language.SPANISH) "Agregar a Lista de Compras" else "Add to Shopping List"
   fun shareRecipe(lang: Language) = if (lang == Language.SPANISH) "Compartir" else "Share"
-  fun addedToShoppingSuccess(lang: Language) = if (lang == Language.SPANISH) "¡Ingredientes agregados a tu lista!" else "Ingredients added to shopping list!"
   fun addedToPlanSuccess(lang: Language) = if (lang == Language.SPANISH) "¡Receta agregada a tu plan semanal!" else "Recipe added to weekly plan!"
   fun step(lang: Language, num: Int) = if (lang == Language.SPANISH) "Paso $num" else "Step $num"
 
@@ -108,29 +106,7 @@ object AppStrings {
   fun changeRecipe(lang: Language) = if (lang == Language.SPANISH) "Cambiar receta" else "Change recipe"
   fun removeRecipe(lang: Language) = if (lang == Language.SPANISH) "Quitar receta" else "Remove recipe"
   fun emptyDayPlan(lang: Language) = if (lang == Language.SPANISH) "No has agregado comidas para este día" else "No meals added for this day yet"
-  fun goToShoppingList(lang: Language) = if (lang == Language.SPANISH) "Ver lista de compras" else "View shopping list"
   fun selectDayAndSlot(lang: Language) = if (lang == Language.SPANISH) "Selecciona día y horario" else "Select day and meal slot"
-
-  // Shopping list
-  fun shoppingList(lang: Language) = if (lang == Language.SPANISH) "Lista de Compras" else "Shopping List"
-  fun generateFromPlan(lang: Language) = if (lang == Language.SPANISH) "Generar desde el Plan" else "Generate from Plan"
-  fun addCustomProduct(lang: Language) = if (lang == Language.SPANISH) "Agregar producto" else "Add product"
-  fun clearPurchased(lang: Language) = if (lang == Language.SPANISH) "Limpiar comprados" else "Clear purchased"
-  fun clearAll(lang: Language) = if (lang == Language.SPANISH) "Vaciar lista" else "Clear all"
-  fun emptyShoppingList(lang: Language) = if (lang == Language.SPANISH) "Tu lista de compras está vacía" else "Your shopping list is empty"
-  fun emptyShoppingListDesc(lang: Language) = if (lang == Language.SPANISH) 
-    "Agrega ingredientes desde cualquier receta o genera la lista a partir de tu plan semanal." 
-  else 
-    "Add ingredients from any recipe or generate the list directly from your weekly plan."
-
-  // Shopping categories
-  fun catVegetables(lang: Language) = if (lang == Language.SPANISH) "Vegetales y Verduras" else "Vegetables & Greens"
-  fun catFruits(lang: Language) = if (lang == Language.SPANISH) "Frutas" else "Fruits"
-  fun catMeatProtein(lang: Language) = if (lang == Language.SPANISH) "Carnes y Proteínas" else "Meat & Proteins"
-  fun catDairy(lang: Language) = if (lang == Language.SPANISH) "Lácteos y Sustitutos" else "Dairy & Alternatives"
-  fun catGrains(lang: Language) = if (lang == Language.SPANISH) "Cereales y Legumbres" else "Grains & Legumes"
-  fun catPantry(lang: Language) = if (lang == Language.SPANISH) "Despensa y Especias" else "Pantry & Spices"
-  fun catOther(lang: Language) = if (lang == Language.SPANISH) "Otros productos" else "Other items"
 
   // Favorites & Collections
   fun myFavorites(lang: Language) = if (lang == Language.SPANISH) "Mis Favoritos" else "My Favorites"
@@ -201,15 +177,6 @@ object AppStrings {
   else 
     "DiaRecipes is a culinary recipe and meal planning tool. Nutritional values are estimates and DO NOT constitute medical advice, diagnosis, or prescription for insulin or medications. Always consult your certified physician or dietitian."
 
-  // Freemium / Premium
-  fun premiumBadge(lang: Language) = if (lang == Language.SPANISH) "Plan Gratuito" else "Free Plan"
-  fun unlockProTitle(lang: Language) = if (lang == Language.SPANISH) "DiaRecipes Pro" else "DiaRecipes Pro"
-  fun unlockProDesc(lang: Language) = if (lang == Language.SPANISH) 
-    "Disfruta de experiencia sin anuncios, cientos de recetas exclusivas y generación avanzada de menús mensuales." 
-  else 
-    "Enjoy an ad-free experience, hundreds of exclusive recipes, and advanced monthly menu planning."
-  fun learnMore(lang: Language) = if (lang == Language.SPANISH) "Conoce más" else "Learn more"
-
   // Empty & Error states
   fun noSearchResults(lang: Language) = if (lang == Language.SPANISH) "No encontramos recetas para tu búsqueda" else "No recipes found matching your search"
   fun noSearchResultsDesc(lang: Language) = if (lang == Language.SPANISH) 
@@ -248,12 +215,7 @@ object AppStrings {
   fun termsPrivacy(lang: Language) = if (lang == Language.SPANISH) "Términos y Privacidad" else "Terms & Privacy"
   fun confirm(lang: Language) = if (lang == Language.SPANISH) "Confirmar" else "Confirm"
   fun understood(lang: Language) = if (lang == Language.SPANISH) "Entendido" else "Understood"
-  fun addCustomItem(lang: Language) = if (lang == Language.SPANISH) "Nuevo producto" else "New product"
-  fun productName(lang: Language) = if (lang == Language.SPANISH) "Nombre del producto" else "Product name"
-  fun productCategory(lang: Language) = if (lang == Language.SPANISH) "Categoría" else "Category"
   fun collectionName(lang: Language) = collectionNamePrompt(lang)
-  fun addItem(lang: Language) = addCustomProduct(lang)
-  fun emptyShoppingDesc(lang: Language) = emptyShoppingListDesc(lang)
 
   fun onboardingTitle(lang: Language) = onboardingWelcomeTitle(lang)
   fun onboardingSubtitle(lang: Language) = onboardingWelcomeSub(lang)

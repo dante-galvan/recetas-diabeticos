@@ -54,7 +54,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.data.model.DiabetesType
 import com.example.ui.components.MedicalDisclaimerBanner
-import com.example.ui.components.PremiumBanner
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
 import com.example.ui.viewmodel.MainViewModel
@@ -110,14 +109,6 @@ fun ProfileScreen(
           )
         }
       }
-    }
-
-    // Pro Upgrade Card
-    item {
-      PremiumBanner(
-        language = language,
-        onLearnMoreClick = { viewModel.showProSheet.value = true }
-      )
     }
 
     // Section 1: Diabetes & Health Profile

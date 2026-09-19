@@ -25,7 +25,6 @@ import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Edit
-import androidx.compose.material.icons.filled.ShoppingCart
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -33,7 +32,6 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -55,7 +53,6 @@ import com.example.data.model.Recipe
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
 import com.example.ui.theme.CarbAccent
-import com.example.ui.viewmodel.AppScreen
 import com.example.ui.viewmodel.MainViewModel
 
 @Composable
@@ -109,57 +106,31 @@ fun MealPlanScreen(
 
         Spacer(modifier = Modifier.height(14.dp))
 
-        // Prominent Friendly Generate Button & Shopping List Shortcut
-        Row(
-          modifier = Modifier.fillMaxWidth(),
-          horizontalArrangement = Arrangement.spacedBy(10.dp)
+        // Prominent Friendly Generate Button
+        Button(
+          onClick = {
+            viewModel.generateWeeklyMenu(
+              if (language == Language.SPANISH) "¡Menú semanal equilibrado generado!" else "Balanced weekly menu generated!"
+            )
+          },
+          shape = RoundedCornerShape(14.dp),
+          colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary),
+          modifier = Modifier
+            .fillMaxWidth()
+            .height(48.dp)
+            .testTag("generate_menu_button")
         ) {
-          Button(
-            onClick = {
-              viewModel.generateWeeklyMenu(
-                if (language == Language.SPANISH) "¡Menú semanal equilibrado generado!" else "Balanced weekly menu generated!"
-              )
-            },
-            shape = RoundedCornerShape(14.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary),
-            modifier = Modifier
-              .weight(1.3f)
-              .height(48.dp)
-              .testTag("generate_menu_button")
-          ) {
-            Icon(
-              imageVector = Icons.Default.AutoAwesome,
-              contentDescription = null,
-              modifier = Modifier.size(18.dp)
-            )
-            Spacer(modifier = Modifier.width(6.dp))
-            Text(
-              text = AppStrings.generateWeeklyMenu(language),
-              fontSize = 12.sp,
-              fontWeight = FontWeight.Bold
-            )
-          }
-
-          OutlinedButton(
-            onClick = { viewModel.navigateTo(AppScreen.SHOPPING_LIST) },
-            shape = RoundedCornerShape(14.dp),
-            modifier = Modifier
-              .weight(1f)
-              .height(48.dp)
-              .testTag("open_shopping_list_button")
-          ) {
-            Icon(
-              imageVector = Icons.Default.ShoppingCart,
-              contentDescription = null,
-              modifier = Modifier.size(16.dp)
-            )
-            Spacer(modifier = Modifier.width(4.dp))
-            Text(
-              text = AppStrings.shoppingList(language),
-              fontSize = 11.sp,
-              fontWeight = FontWeight.SemiBold
-            )
-          }
+          Icon(
+            imageVector = Icons.Default.AutoAwesome,
+            contentDescription = null,
+            modifier = Modifier.size(18.dp)
+          )
+          Spacer(modifier = Modifier.width(6.dp))
+          Text(
+            text = AppStrings.generateWeeklyMenu(language),
+            fontSize = 12.sp,
+            fontWeight = FontWeight.Bold
+          )
         }
       }
     }

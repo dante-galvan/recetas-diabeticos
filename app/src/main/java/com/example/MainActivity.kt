@@ -45,12 +45,10 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.ui.components.AddCustomGroceryDialog
 import com.example.ui.components.AddToPlanDialog
 import com.example.ui.components.FilterBottomSheet
 import com.example.ui.components.MedicalDisclaimerDialog
 import com.example.ui.components.NewCollectionDialog
-import com.example.ui.components.ProUpgradeSheet
 import com.example.ui.components.RecipePickerForSlotDialog
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
@@ -61,7 +59,6 @@ import com.example.ui.screens.MealPlanScreen
 import com.example.ui.screens.OnboardingScreen
 import com.example.ui.screens.ProfileScreen
 import com.example.ui.screens.RecipeDetailScreen
-import com.example.ui.screens.ShoppingListScreen
 import com.example.ui.theme.DiaRecipesTheme
 import com.example.ui.viewmodel.AppScreen
 import com.example.ui.viewmodel.MainViewModel
@@ -173,7 +170,6 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
   BackHandler(enabled = currentScreen != AppScreen.HOME) {
     when (currentScreen) {
       AppScreen.RECIPE_DETAIL -> viewModel.navigateTo(AppScreen.HOME)
-      AppScreen.SHOPPING_LIST -> viewModel.navigateTo(AppScreen.PLAN)
       AppScreen.ONBOARDING -> viewModel.navigateTo(AppScreen.HOME)
       else -> viewModel.navigateTo(AppScreen.HOME)
     }
@@ -234,7 +230,6 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
           AppScreen.FAVORITES -> FavoritesScreen(viewModel = viewModel)
           AppScreen.PROFILE -> ProfileScreen(viewModel = viewModel)
           AppScreen.RECIPE_DETAIL -> RecipeDetailScreen(viewModel = viewModel)
-          AppScreen.SHOPPING_LIST -> ShoppingListScreen(viewModel = viewModel)
           AppScreen.ONBOARDING -> OnboardingScreen(
             viewModel = viewModel,
             language = language,
@@ -263,19 +258,7 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
     )
   }
 
-  // 2. Add Custom Grocery Item Dialog
-  val showAddCustomGrocery by viewModel.showAddCustomGroceryDialog.collectAsState()
-  if (showAddCustomGrocery) {
-    AddCustomGroceryDialog(
-      language = language,
-      onConfirm = { name, cat ->
-        viewModel.addCustomShoppingItem(name, cat)
-      },
-      onDismiss = { viewModel.showAddCustomGroceryDialog.value = false }
-    )
-  }
-
-  // 3. New Collection Dialog
+  // 2. New Collection Dialog
   val showNewCollection by viewModel.showNewCollectionDialog.collectAsState()
   if (showNewCollection) {
     NewCollectionDialog(
@@ -285,7 +268,7 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
     )
   }
 
-  // 4. Medical Disclaimer Dialog
+  // 3. Medical Disclaimer Dialog
   val showDisclaimer by viewModel.showDisclaimerDialog.collectAsState()
   if (showDisclaimer) {
     MedicalDisclaimerDialog(
@@ -294,16 +277,7 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
     )
   }
 
-  // 5. Pro Freemium Sheet
-  val showPro by viewModel.showProSheet.collectAsState()
-  if (showPro) {
-    ProUpgradeSheet(
-      language = language,
-      onDismiss = { viewModel.showProSheet.value = false }
-    )
-  }
-
-  // 6. Filter Bottom Sheet (Explore screen)
+  // 4. Filter Bottom Sheet (Explore screen)
   val showFilters by viewModel.showFilterSheet.collectAsState()
   val currentFilters by viewModel.filterState.collectAsState()
   if (showFilters) {
@@ -317,7 +291,7 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
     )
   }
 
-  // 7. Pick Recipe for Slot Dialog
+  // 5. Pick Recipe for Slot Dialog
   val slotToPick = viewModel.showRecipePickerForPlanSlot.collectAsState().value
   if (slotToPick != null) {
     val (day, slot) = slotToPick
