@@ -1,5 +1,9 @@
 package com.example.ui.screens
 
+import android.net.Uri
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.PickVisualMediaRequest
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -19,21 +23,18 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowForwardIos
+import androidx.compose.material.icons.filled.CameraAlt
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.DarkMode
-import androidx.compose.material.icons.filled.Description
-import androidx.compose.material.icons.filled.HealthAndSafety
-import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Language
 import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.Person
-import androidx.compose.material.icons.filled.Star
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Divider
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
 import androidx.compose.material3.SwitchDefaults
@@ -46,14 +47,17 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.data.model.DiabetesType
-import com.example.ui.components.MedicalDisclaimerBanner
+import coil.compose.AsyncImage
+import coil.request.ImageRequest
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
 import com.example.ui.viewmodel.MainViewModel
@@ -65,6 +69,17 @@ fun ProfileScreen(
 ) {
   val language by viewModel.currentLanguage.collectAsState()
   val userProfile by viewModel.userProfile.collectAsState()
+
+  val context = LocalContext.current
+  var photoUri by remember { mutableStateOf<Uri?>(null) }
+  
+  val photoPickerLauncher = rememberLauncherForActivityResult(
+    contract = ActivityResultContracts.PickVisualMedia()
+  ) { uri ->
+    uri?.let { selectedUri ->
+      viewModel.saveProfilePhoto(context, selectedUri)
+    }
+  }
 
   LazyColumn(
     modifier = modifier
@@ -80,17 +95,53 @@ fun ProfileScreen(
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(14.dp)
       ) {
-        Surface(
-          modifier = Modifier.size(56.dp),
-          shape = CircleShape,
-          color = MaterialTheme.colorScheme.primaryContainer
+        Box(
+          modifier = Modifier
+            .size(56.dp)
+            .clip(CircleShape)
+            .background(MaterialTheme.colorScheme.primaryContainer)
+            .clickable {
+              photoPickerLauncher.launch(
+                PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly)
+              )
+            },
+          contentAlignment = Alignment.Center
         ) {
-          Box(contentAlignment = Alignment.Center) {
+          val photoPath = userProfile.profilePhotoPath
+          if (!photoPath.isNullOrEmpty()) {
+            AsyncImage(
+              model = ImageRequest.Builder(context)
+                .data(photoPath)
+                .crossfade(true)
+                .build(),
+              contentDescription = "Profile photo",
+              modifier = Modifier
+                .size(56.dp)
+                .clip(CircleShape),
+              contentScale = ContentScale.Crop
+            )
+          } else {
             Icon(
               imageVector = Icons.Default.Person,
               contentDescription = null,
               tint = MaterialTheme.colorScheme.primary,
               modifier = Modifier.size(32.dp)
+            )
+          }
+          
+          // Camera icon overlay
+          Surface(
+            modifier = Modifier
+              .align(Alignment.BottomEnd)
+              .size(18.dp),
+            shape = CircleShape,
+            color = MaterialTheme.colorScheme.primary
+          ) {
+            Icon(
+              imageVector = Icons.Default.CameraAlt,
+              contentDescription = "Change photo",
+              tint = MaterialTheme.colorScheme.onPrimary,
+              modifier = Modifier.padding(2.dp)
             )
           }
         }
@@ -101,65 +152,11 @@ fun ProfileScreen(
             style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold),
             color = MaterialTheme.colorScheme.onBackground
           )
-          Text(
-            text = userProfile.diabetesType.localizedName(language),
-            style = MaterialTheme.typography.bodyMedium,
-            color = MaterialTheme.colorScheme.primary,
-            fontWeight = FontWeight.SemiBold
-          )
         }
       }
     }
 
-    // Section 1: Diabetes & Health Profile
-    item {
-      Card(
-        modifier = Modifier.fillMaxWidth(),
-        shape = RoundedCornerShape(20.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
-        border = CardDefaults.outlinedCardBorder()
-      ) {
-        Column(modifier = Modifier.padding(16.dp)) {
-          Text(
-            text = AppStrings.diabetesType(language),
-            fontSize = 14.sp,
-            fontWeight = FontWeight.Bold,
-            color = MaterialTheme.colorScheme.primary
-          )
-
-          Spacer(modifier = Modifier.height(10.dp))
-
-          // Diabetes Type Selection Radio Group
-          listOf(
-            DiabetesType.TYPE_1,
-            DiabetesType.TYPE_2,
-            DiabetesType.GESTATIONAL,
-            DiabetesType.NOT_SPECIFIED
-          ).forEach { type ->
-            Row(
-              modifier = Modifier
-                .fillMaxWidth()
-                .clickable { viewModel.updateDiabetesType(type) }
-                .padding(vertical = 4.dp),
-              verticalAlignment = Alignment.CenterVertically
-            ) {
-              RadioButton(
-                selected = userProfile.diabetesType == type,
-                onClick = { viewModel.updateDiabetesType(type) }
-              )
-              Text(
-                text = type.localizedName(language),
-                fontSize = 14.sp,
-                fontWeight = if (userProfile.diabetesType == type) FontWeight.Bold else FontWeight.Normal,
-                color = MaterialTheme.colorScheme.onSurface
-              )
-            }
-          }
-        }
-      }
-    }
-
-    // Section 2: Preferences & Language
+    // Section 1: Preferences & Language
     item {
       Card(
         modifier = Modifier.fillMaxWidth(),
@@ -284,54 +281,6 @@ fun ProfileScreen(
           }
         }
       }
-    }
-
-    // Section 3: Legal & Medical Notice
-    item {
-      Card(
-        modifier = Modifier.fillMaxWidth(),
-        shape = RoundedCornerShape(20.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
-        border = CardDefaults.outlinedCardBorder()
-      ) {
-        Column(modifier = Modifier.padding(16.dp)) {
-          Text(
-            text = AppStrings.legalAndMedical(language),
-            fontSize = 14.sp,
-            fontWeight = FontWeight.Bold,
-            color = MaterialTheme.colorScheme.primary
-          )
-
-          Spacer(modifier = Modifier.height(10.dp))
-
-          ProfileNavigationRow(
-            icon = Icons.Default.HealthAndSafety,
-            title = AppStrings.medicalNoticeTitle(language),
-            onClick = { viewModel.showDisclaimerDialog.value = true }
-          )
-
-          Divider(color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.4f))
-
-          ProfileNavigationRow(
-            icon = Icons.Default.Description,
-            title = AppStrings.termsPrivacy(language),
-            onClick = { viewModel.showDisclaimerDialog.value = true }
-          )
-
-          Divider(color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.4f))
-
-          ProfileNavigationRow(
-            icon = Icons.Default.Info,
-            title = "${AppStrings.appVersion(language)} 1.0.0 (Build 2026)",
-            onClick = { }
-          )
-        }
-      }
-    }
-
-    // Medical Disclaimer Card
-    item {
-      MedicalDisclaimerBanner(language = language)
     }
   }
 }

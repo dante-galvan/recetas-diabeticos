@@ -37,13 +37,13 @@ data class MealPlanEntity(
 @Entity(tableName = "user_profile")
 data class UserProfileEntity(
   @PrimaryKey val id: Int = 1,
-  val diabetesTypeKey: String,
   val dietaryPrefsCsv: String,
   val allergiesCsv: String,
   val langCode: String,
   val isDarkTheme: Int?, // null = system, 0 = light, 1 = dark
   val mealReminders: Boolean,
-  val onboardingDone: Boolean
+  val onboardingDone: Boolean,
+  val profilePhotoPath: String? = null
 )
 
 @Dao
@@ -99,7 +99,7 @@ interface DiaRecipesDao {
     MealPlanEntity::class,
     UserProfileEntity::class
   ],
-  version = 1,
+  version = 2,
   exportSchema = false
 )
 abstract class DiaRecipesDatabase : RoomDatabase() {

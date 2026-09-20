@@ -55,7 +55,6 @@ import androidx.compose.ui.unit.sp
 import com.example.data.model.MealSlot
 import com.example.data.model.Recipe
 import com.example.data.model.RecipeCategory
-import com.example.ui.components.MedicalDisclaimerBanner
 import com.example.ui.components.RecipeCard
 import com.example.ui.components.RecipeHorizontalCard
 import com.example.ui.i18n.AppStrings
@@ -79,9 +78,7 @@ fun HomeScreen(
   val featuredRecipe = allRecipes.find { it.isFeatured } ?: allRecipes.first()
   val popularRecipes = allRecipes.filter { it.isPopular }
   val newRecipes = allRecipes.filter { it.isNew }
-  val recommendedRecipes = allRecipes.filter { 
-    it.suitableForType1 || it.suitableForType2 
-  }.take(4)
+  val recommendedRecipes = allRecipes.take(4)
 
   // Determine greeting based on current time
   val hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY)
@@ -133,21 +130,6 @@ fun HomeScreen(
               text = AppStrings.homeSubtitle(language),
               style = MaterialTheme.typography.bodyMedium,
               color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
-          }
-
-          // Diabetes Type Badge
-          Surface(
-            shape = RoundedCornerShape(12.dp),
-            color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.6f),
-            modifier = Modifier.clickable { viewModel.navigateTo(AppScreen.PROFILE) }
-          ) {
-            Text(
-              text = userProfile.diabetesType.localizedName(language),
-              fontSize = 11.sp,
-              fontWeight = FontWeight.Bold,
-              color = MaterialTheme.colorScheme.primary,
-              modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp)
             )
           }
         }
@@ -431,13 +413,6 @@ fun HomeScreen(
             onFavoriteClick = { viewModel.toggleFavorite(recipe.id) }
           )
         }
-      }
-    }
-
-    // 8. Discreet Health Notice
-    item {
-      Box(modifier = Modifier.padding(horizontal = 20.dp)) {
-        MedicalDisclaimerBanner(language = language)
       }
     }
   }

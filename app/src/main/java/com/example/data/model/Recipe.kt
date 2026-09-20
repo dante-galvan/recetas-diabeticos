@@ -52,9 +52,7 @@ data class Recipe(
   val imageRes: Int,
   val isFeatured: Boolean = false,
   val isPopular: Boolean = false,
-  val isNew: Boolean = false,
-  val suitableForType1: Boolean = true,
-  val suitableForType2: Boolean = true
+  val isNew: Boolean = false
 ) {
   val totalTimeMinutes: Int get() = prepTimeMinutes + cookTimeMinutes
 
@@ -89,21 +87,12 @@ data class RecipeCollection(
   fun localizedName(lang: Language): String = if (lang == Language.SPANISH) nameEs else nameEn
 }
 
-enum class DiabetesType(val nameEs: String, val nameEn: String) {
-  TYPE_1("Diabetes Tipo 1", "Type 1 Diabetes"),
-  TYPE_2("Diabetes Tipo 2", "Type 2 Diabetes"),
-  GESTATIONAL("Diabetes Gestacional", "Gestational Diabetes"),
-  NOT_SPECIFIED("No especificar", "Not specified");
-
-  fun localizedName(lang: Language): String = if (lang == Language.SPANISH) nameEs else nameEn
-}
-
 data class UserProfile(
-  val diabetesType: DiabetesType = DiabetesType.TYPE_2,
   val dietaryPreferences: Set<String> = setOf("Low Carb", "Bajas en carbohidratos"),
   val allergies: Set<String> = emptySet(),
   val language: Language = Language.SPANISH,
   val isDarkTheme: Boolean? = null, // null = system default
   val mealRemindersEnabled: Boolean = true,
-  val isOnboardingCompleted: Boolean = true
+  val isOnboardingCompleted: Boolean = true,
+  val profilePhotoPath: String? = null
 )

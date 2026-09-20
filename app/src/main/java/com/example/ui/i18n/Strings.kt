@@ -127,16 +127,6 @@ object AppStrings {
     "Recetas saludables, control de carbohidratos y planificación sencilla para tu día a día." 
   else 
     "Healthy recipes, clear carb tracking, and simple meal planning for your everyday life."
-  fun onboardingDiabetesTitle(lang: Language) = if (lang == Language.SPANISH) "¿Qué tipo de diabetes manejas?" else "Which diabetes type applies to you?"
-  fun onboardingDiabetesSub(lang: Language) = if (lang == Language.SPANISH) 
-    "Nos ayuda a personalizar las recomendaciones nutricionales más adecuadas para ti." 
-  else 
-    "This helps us recommend the most appropriate meals for your daily routine."
-  fun diabetesType1(lang: Language) = if (lang == Language.SPANISH) "Diabetes Tipo 1" else "Type 1 Diabetes"
-  fun diabetesType2(lang: Language) = if (lang == Language.SPANISH) "Diabetes Tipo 2" else "Type 2 Diabetes"
-  fun diabetesGestational(lang: Language) = if (lang == Language.SPANISH) "Diabetes Gestacional / Otra" else "Gestational / Other"
-  fun diabetesPreferNot(lang: Language) = if (lang == Language.SPANISH) "Prefiero no indicar" else "Prefer not to say"
-
   fun onboardingDietTitle(lang: Language) = if (lang == Language.SPANISH) "Preferencias alimentarias" else "Dietary preferences"
   fun onboardingDietSub(lang: Language) = if (lang == Language.SPANISH) 
     "Elige los estilos de alimentación que más te gustan." 
@@ -153,7 +143,6 @@ object AppStrings {
 
   // Profile & Settings
   fun userProfile(lang: Language) = if (lang == Language.SPANISH) "Mi Perfil" else "My Profile"
-  fun diabetesSelected(lang: Language) = if (lang == Language.SPANISH) "Condición seleccionada" else "Selected condition"
   fun dietaryGoals(lang: Language) = if (lang == Language.SPANISH) "Preferencias de dieta" else "Dietary preferences"
   fun allergies(lang: Language) = if (lang == Language.SPANISH) "Alergias registradas" else "Registered allergies"
   fun noneRecorded(lang: Language) = if (lang == Language.SPANISH) "Ninguna registrada" else "None specified"
@@ -169,13 +158,6 @@ object AppStrings {
   fun termsOfService(lang: Language) = if (lang == Language.SPANISH) "Términos y Condiciones" else "Terms of Service"
   fun aboutApp(lang: Language) = if (lang == Language.SPANISH) "Acerca de DiaRecipes" else "About DiaRecipes"
   fun appVersion(lang: Language) = if (lang == Language.SPANISH) "Versión 1.0.0 (Build 2026)" else "Version 1.0.0 (Build 2026)"
-
-  // Health Disclaimer
-  fun medicalNoticeTitle(lang: Language) = if (lang == Language.SPANISH) "Aviso Informativo de Salud" else "Health Information Notice"
-  fun medicalNoticeText(lang: Language) = if (lang == Language.SPANISH) 
-    "DiaRecipes es una herramienta de recetas y organización culinaria. Los valores nutricionales son estimaciones referenciales y NO constituyen asesoramiento médico, diagnóstico ni prescripción de dosis de insulina o medicamentos. Consulta siempre a tu médico o nutricionista matriculado." 
-  else 
-    "DiaRecipes is a culinary recipe and meal planning tool. Nutritional values are estimates and DO NOT constitute medical advice, diagnosis, or prescription for insulin or medications. Always consult your certified physician or dietitian."
 
   // Empty & Error states
   fun noSearchResults(lang: Language) = if (lang == Language.SPANISH) "No encontramos recetas para tu búsqueda" else "No recipes found matching your search"
@@ -208,19 +190,15 @@ object AppStrings {
   fun discoverRecipes(lang: Language) = exploreRecipesCta(lang)
 
   fun profile(lang: Language) = userProfile(lang)
-  fun diabetesType(lang: Language) = if (lang == Language.SPANISH) "Tipo de diabetes" else "Diabetes type"
   fun language(lang: Language) = languageSetting(lang)
   fun darkMode(lang: Language) = themeDark(lang)
-  fun legalAndMedical(lang: Language) = if (lang == Language.SPANISH) "Información médica y legal" else "Medical & legal information"
-  fun termsPrivacy(lang: Language) = if (lang == Language.SPANISH) "Términos y Privacidad" else "Terms & Privacy"
   fun confirm(lang: Language) = if (lang == Language.SPANISH) "Confirmar" else "Confirm"
   fun understood(lang: Language) = if (lang == Language.SPANISH) "Entendido" else "Understood"
   fun collectionName(lang: Language) = collectionNamePrompt(lang)
 
   fun onboardingTitle(lang: Language) = onboardingWelcomeTitle(lang)
   fun onboardingSubtitle(lang: Language) = onboardingWelcomeSub(lang)
-  fun onboardingStep1(lang: Language) = onboardingDiabetesTitle(lang)
-  fun onboardingStep2(lang: Language) = onboardingDietTitle(lang)
-  fun onboardingStep3(lang: Language) = onboardingAllergiesTitle(lang)
+  fun onboardingStep1(lang: Language) = onboardingDietTitle(lang)
+  fun onboardingStep2(lang: Language) = onboardingAllergiesTitle(lang)
   fun continueText(lang: Language) = continueBtn(lang)
 }

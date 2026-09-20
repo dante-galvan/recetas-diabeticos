@@ -6,7 +6,6 @@ import com.example.data.local.FavoriteEntity
 import com.example.data.local.MealPlanEntity
 import com.example.data.local.SampleData
 import com.example.data.local.UserProfileEntity
-import com.example.data.model.DiabetesType
 import com.example.data.model.Difficulty
 import com.example.data.model.MealPlanItem
 import com.example.data.model.MealSlot
@@ -220,13 +219,7 @@ class RecipeRepository(private val dao: DiaRecipesDao) {
     if (entity == null) {
       UserProfile()
     } else {
-      val dType = try {
-        DiabetesType.valueOf(entity.diabetesTypeKey)
-      } catch (e: Exception) {
-        DiabetesType.TYPE_2
-      }
       UserProfile(
-        diabetesType = dType,
         dietaryPreferences = if (entity.dietaryPrefsCsv.isBlank()) emptySet() else entity.dietaryPrefsCsv.split(",").toSet(),
         allergies = if (entity.allergiesCsv.isBlank()) emptySet() else entity.allergiesCsv.split(",").toSet(),
         language = Language.fromCode(entity.langCode),
@@ -236,7 +229,8 @@ class RecipeRepository(private val dao: DiaRecipesDao) {
           else -> null
         },
         mealRemindersEnabled = entity.mealReminders,
-        isOnboardingCompleted = entity.onboardingDone
+        isOnboardingCompleted = entity.onboardingDone,
+        profilePhotoPath = entity.profilePhotoPath
       )
     }
   }
@@ -245,7 +239,6 @@ class RecipeRepository(private val dao: DiaRecipesDao) {
     dao.saveUserProfile(
       UserProfileEntity(
         id = 1,
-        diabetesTypeKey = profile.diabetesType.name,
         dietaryPrefsCsv = profile.dietaryPreferences.joinToString(","),
         allergiesCsv = profile.allergies.joinToString(","),
         langCode = profile.language.code,
@@ -255,7 +248,8 @@ class RecipeRepository(private val dao: DiaRecipesDao) {
           null -> null
         },
         mealReminders = profile.mealRemindersEnabled,
-        onboardingDone = profile.isOnboardingCompleted
+        onboardingDone = profile.isOnboardingCompleted,
+        profilePhotoPath = profile.profilePhotoPath
       )
     )
   }

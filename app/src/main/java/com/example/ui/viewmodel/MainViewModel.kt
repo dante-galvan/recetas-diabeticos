@@ -1,11 +1,12 @@
 package com.example.ui.viewmodel
 
 import android.app.Application
+import android.content.Context
+import android.net.Uri
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.room.Room
 import com.example.data.local.DiaRecipesDatabase
-import com.example.data.model.DiabetesType
 import com.example.data.model.Difficulty
 import com.example.data.model.MealPlanItem
 import com.example.data.model.MealSlot
@@ -144,7 +145,6 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
   val showAddToPlanDialog = MutableStateFlow(false)
   val showNewCollectionDialog = MutableStateFlow(false)
   val showFilterSheet = MutableStateFlow(false)
-  val showDisclaimerDialog = MutableStateFlow(false)
   val showRecipePickerForPlanSlot = MutableStateFlow<Pair<Int, MealSlot>?>(null)
 
   // Snackbar Toast Events
@@ -241,27 +241,35 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     }
   }
 
-  fun updateDiabetesType(type: DiabetesType) {
-    viewModelScope.launch {
-      val updated = userProfile.value.copy(diabetesType = type)
-      repository.saveUserProfile(updated)
-    }
-  }
-
   fun completeOnboarding(
-    diabetesType: DiabetesType,
     dietaryPrefs: Set<String>,
     allergies: Set<String>
   ) {
     viewModelScope.launch {
       val updated = userProfile.value.copy(
-        diabetesType = diabetesType,
         dietaryPreferences = dietaryPrefs,
         allergies = allergies,
         isOnboardingCompleted = true
       )
       repository.saveUserProfile(updated)
       _currentScreen.value = AppScreen.HOME
+    }
+  }
+
+  fun saveProfilePhoto(context: Context, uri: Uri) {
+    viewModelScope.launch {
+      try {
+        val inputStream = context.contentResolver.openInputStream(uri) ?: return@launch
+        val photoFile = java.io.File(context.filesDir, "profile_photo.jpg")
+        photoFile.outputStream().use { outputStream ->
+          inputStream.copyTo(outputStream)
+        }
+        inputStream.close()
+        val updated = userProfile.value.copy(profilePhotoPath = photoFile.absolutePath)
+        repository.saveUserProfile(updated)
+      } catch (e: Exception) {
+        e.printStackTrace()
+      }
     }
   }
 

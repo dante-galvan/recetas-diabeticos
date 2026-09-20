@@ -64,7 +64,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.data.model.Difficulty
 import com.example.data.model.Recipe
-import com.example.ui.components.MedicalDisclaimerBanner
 import com.example.ui.components.NutritionGrid
 import com.example.ui.components.ServingsStepper
 import com.example.ui.i18n.AppStrings
@@ -467,13 +466,6 @@ fun RecipeDetailScreen(
               }
             }
           }
-        }
-      }
-
-      // 7. Medical Disclaimer
-      item {
-        Box(modifier = Modifier.padding(horizontal = 20.dp, vertical = 8.dp)) {
-          MedicalDisclaimerBanner(language = language)
         }
       }
     }

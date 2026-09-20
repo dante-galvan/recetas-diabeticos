@@ -45,8 +45,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.data.model.DiabetesType
-import com.example.ui.components.MedicalDisclaimerBanner
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
 import com.example.ui.viewmodel.MainViewModel
@@ -59,7 +57,6 @@ fun OnboardingScreen(
   onComplete: () -> Unit,
   modifier: Modifier = Modifier
 ) {
-  var selectedDiabetesType by remember { mutableStateOf(DiabetesType.TYPE_2) }
   var selectedPreferences by remember { mutableStateOf(setOf("Low Carb", "Mediterranean")) }
   var selectedAllergies by remember { mutableStateOf(emptySet<String>()) }
 
@@ -86,7 +83,7 @@ fun OnboardingScreen(
       horizontalArrangement = Arrangement.End
     ) {
       TextButton(onClick = {
-        viewModel.completeOnboarding(DiabetesType.NOT_SPECIFIED, emptySet(), emptySet())
+        viewModel.completeOnboarding(emptySet(), emptySet())
         onComplete()
       }) {
         Text(
@@ -134,52 +131,7 @@ fun OnboardingScreen(
 
     Spacer(modifier = Modifier.height(24.dp))
 
-    // Step 1: Diabetes Type
-    Card(
-      modifier = Modifier.fillMaxWidth(),
-      shape = RoundedCornerShape(20.dp),
-      colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
-      border = CardDefaults.outlinedCardBorder()
-    ) {
-      Column(modifier = Modifier.padding(16.dp)) {
-        Text(
-          text = AppStrings.onboardingStep1(language),
-          style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-          color = MaterialTheme.colorScheme.primary
-        )
-
-        Spacer(modifier = Modifier.height(10.dp))
-
-        listOf(
-          DiabetesType.TYPE_1,
-          DiabetesType.TYPE_2,
-          DiabetesType.GESTATIONAL,
-          DiabetesType.NOT_SPECIFIED
-        ).forEach { type ->
-          Row(
-            modifier = Modifier
-              .fillMaxWidth()
-              .clickable { selectedDiabetesType = type }
-              .padding(vertical = 4.dp),
-            verticalAlignment = Alignment.CenterVertically
-          ) {
-            RadioButton(
-              selected = selectedDiabetesType == type,
-              onClick = { selectedDiabetesType = type }
-            )
-            Text(
-              text = type.localizedName(language),
-              fontSize = 14.sp,
-              fontWeight = if (selectedDiabetesType == type) FontWeight.Bold else FontWeight.Normal
-            )
-          }
-        }
-      }
-    }
-
-    Spacer(modifier = Modifier.height(16.dp))
-
-    // Step 2: Dietary Preferences
+    // Step 1: Dietary Preferences
     Card(
       modifier = Modifier.fillMaxWidth(),
       shape = RoundedCornerShape(20.dp),
@@ -219,7 +171,7 @@ fun OnboardingScreen(
 
     Spacer(modifier = Modifier.height(16.dp))
 
-    // Step 3: Allergies / to avoid
+    // Step 2: Allergies / to avoid
     Card(
       modifier = Modifier.fillMaxWidth(),
       shape = RoundedCornerShape(20.dp),
@@ -228,7 +180,7 @@ fun OnboardingScreen(
     ) {
       Column(modifier = Modifier.padding(16.dp)) {
         Text(
-          text = AppStrings.onboardingStep3(language),
+          text = AppStrings.onboardingStep2(language),
           style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
           color = MaterialTheme.colorScheme.primary
         )
@@ -257,17 +209,12 @@ fun OnboardingScreen(
       }
     }
 
-    Spacer(modifier = Modifier.height(20.dp))
-
-    // Medical disclaimer reminder
-    MedicalDisclaimerBanner(language = language)
-
     Spacer(modifier = Modifier.height(24.dp))
 
     // Continue CTA Button
     Button(
       onClick = {
-        viewModel.completeOnboarding(selectedDiabetesType, selectedPreferences, selectedAllergies)
+        viewModel.completeOnboarding(selectedPreferences, selectedAllergies)
         onComplete()
       },
       shape = RoundedCornerShape(16.dp),

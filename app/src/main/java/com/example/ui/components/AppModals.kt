@@ -193,54 +193,6 @@ fun NewCollectionDialog(
 }
 
 @Composable
-fun MedicalDisclaimerDialog(
-  language: Language,
-  onDismiss: () -> Unit
-) {
-  AlertDialog(
-    onDismissRequest = onDismiss,
-    shape = RoundedCornerShape(24.dp),
-    title = {
-      Text(
-        text = AppStrings.medicalNoticeTitle(language),
-        style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold)
-      )
-    },
-    text = {
-      Column(
-        modifier = Modifier
-          .fillMaxWidth()
-          .verticalScroll(rememberScrollState())
-      ) {
-        Text(
-          text = AppStrings.medicalNoticeText(language),
-          style = MaterialTheme.typography.bodyMedium,
-          lineHeight = 22.sp
-        )
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        Text(
-          text = if (language == Language.SPANISH) {
-            "Todos los valores nutricionales, carbohidratos totales y cálculos calóricos son estimaciones basadas en ingredientes estándar de preparación culinaria y tablas de referencia nutricional. Cada persona con diabetes (Tipo 1, Tipo 2 o Gestacional) tiene una sensibilidad individual a la insulina y requerimientos específicos."
-          } else {
-            "All nutritional estimates, total carbohydrates, and caloric values are approximations based on standard culinary preparations and reference tables. Every individual with Type 1, Type 2, or Gestational diabetes has unique insulin sensitivity and specific medical requirements."
-          },
-          style = MaterialTheme.typography.bodySmall,
-          color = MaterialTheme.colorScheme.onSurfaceVariant,
-          lineHeight = 18.sp
-        )
-      }
-    },
-    confirmButton = {
-      Button(onClick = onDismiss, shape = RoundedCornerShape(12.dp)) {
-        Text(text = AppStrings.understood(language), fontWeight = FontWeight.Bold)
-      }
-    }
-  )
-}
-
-@Composable
 fun RecipePickerForSlotDialog(
   language: Language,
   recipes: List<Recipe>,

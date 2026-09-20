@@ -47,7 +47,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.ui.components.AddToPlanDialog
 import com.example.ui.components.FilterBottomSheet
-import com.example.ui.components.MedicalDisclaimerDialog
 import com.example.ui.components.NewCollectionDialog
 import com.example.ui.components.RecipePickerForSlotDialog
 import com.example.ui.i18n.AppStrings
@@ -268,16 +267,7 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
     )
   }
 
-  // 3. Medical Disclaimer Dialog
-  val showDisclaimer by viewModel.showDisclaimerDialog.collectAsState()
-  if (showDisclaimer) {
-    MedicalDisclaimerDialog(
-      language = language,
-      onDismiss = { viewModel.showDisclaimerDialog.value = false }
-    )
-  }
-
-  // 4. Filter Bottom Sheet (Explore screen)
+  // 3. Filter Bottom Sheet (Explore screen)
   val showFilters by viewModel.showFilterSheet.collectAsState()
   val currentFilters by viewModel.filterState.collectAsState()
   if (showFilters) {
