@@ -1,0 +1,995 @@
+{
+  "recipes": [
+    {
+      "id": 26,
+      "category": "Almuerzos",
+      "name": "Pechuga de pollo a la plancha con puré rústico de coliflor y judías verdes",
+      "description": "Una alternativa ligera al puré de patata tradicional que utiliza coliflor cocida emulsionada con aceite de oliva virgen extra, acompañada de pechuga magra dorada al limón y judías verdes crujientes. Aporta saciedad prolongada con una carga glucémica excepcionalmente baja.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 18,
+      "total_time_minutes": 30,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 9.4,
+        "calories_kcal": 285,
+        "sugars_g": 3.8,
+        "fiber_g": 5.2,
+        "protein_g": 36.2,
+        "total_fat_g": 11.5,
+        "saturated_fat_g": 2.1,
+        "sodium_mg": 310
+      },
+      "ingredients": [
+        { "name": "Pechuga de pollo limpia en filetes gruesos", "quantity": 300, "unit": "g" },
+        { "name": "Coliflor en ramilletes limpios", "quantity": 350, "unit": "g" },
+        { "name": "Judías verdes redondas despuntadas", "quantity": 180, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 15, "unit": "ml" },
+        { "name": "Diente de ajo picado", "quantity": 1, "unit": "unidad" },
+        { "name": "Zumo de limón fresco", "quantity": 10, "unit": "ml" },
+        { "name": "Nuez moscada molida", "quantity": 1, "unit": "pizca" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Cocer los ramilletes de coliflor en agua hirviendo con una pizca de sal durante 10-12 minutos hasta que estén completamente tiernos al pincharlos con un tenedor; escurrir muy bien.",
+        "Colocar la coliflor en un vaso batidor con 10 ml de aceite de oliva, la nuez moscada y una pizca de pimienta; triturar hasta lograr un puré cremoso y homogéneo.",
+        "Cocer al vapor las judías verdes durante 6 minutos para que queden al dente; en una sartén pequeña, saltearlas 2 minutos con el diente de ajo picado.",
+        "Pintar los filetes de pechuga de pollo con los 5 ml restantes de aceite de oliva y salpimentar al gusto.",
+        "Calentar una plancha a fuego medio-alto y cocinar el pollo durante 3-4 minutos por lado hasta que quede dorado por fuera y jugoso en el centro; rociar con el zumo de limón antes de retirar.",
+        "Servir una cama de puré de coliflor caliente, colocar la pechuga fileteada encima y acompañar a un lado con las judías verdes salteadas."
+      ]
+    },
+    {
+      "id": 27,
+      "category": "Almuerzos",
+      "name": "Salmón al horno con costra de mostaza antigua y lentejas templadas",
+      "description": "Lomo de salmón fresco horneado con una capa aromática de mostaza dijon en grano, dispuesto sobre una cama tibia de lentejas pardinas cocidas con verduras. Combina ácidos grasos omega-3 antiinflamatorios con la fibra soluble y almidón resistente de la legumbre.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "total_time_minutes": 35,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 24.5,
+        "calories_kcal": 410,
+        "sugars_g": 3.1,
+        "fiber_g": 7.8,
+        "protein_g": 34.8,
+        "total_fat_g": 19.4,
+        "saturated_fat_g": 3.2,
+        "sodium_mg": 360
+      },
+      "ingredients": [
+        { "name": "Lomos de salmón fresco sin espinas", "quantity": 280, "unit": "g" },
+        { "name": "Lentejas pardinas cocidas y escurridas", "quantity": 200, "unit": "g" },
+        { "name": "Mostaza de Dijon en grano (antigua)", "quantity": 20, "unit": "g" },
+        { "name": "Zanahoria picada en brunoise fina", "quantity": 60, "unit": "g" },
+        { "name": "Cebolla morada picada", "quantity": 50, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Eneldo fresco picado", "quantity": 4, "unit": "g" },
+        { "name": "Vinagre de manzana sin filtrar", "quantity": 5, "unit": "ml" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 190 °C con calor arriba y abajo.",
+        "Disponer los lomos de salmón en una bandeja de horno con papel vegetal; untar la superficie superior de cada lomo con la mostaza en grano y espolvorear la mitad del eneldo.",
+        "Hornear el salmón durante 12-14 minutos a 190 °C hasta que la lasca se separe fácilmente sin resecarse.",
+        "Mientras tanto, calentar la mitad del aceite en una sartén y pochar la cebolla morada con la zanahoria durante 6 minutos a fuego medio.",
+        "Incorporar las lentejas pardinas cocidas, el vinagre de manzana, el resto del aceite de oliva y el eneldo restante; saltear durante 3 minutos hasta templar el conjunto.",
+        "Distribuir la ensalada templada de lentejas en dos platos y coronar cada ración con un lomo de salmón caliente recién salido del horno."
+      ]
+    },
+    {
+      "id": 28,
+      "category": "Almuerzos",
+      "name": "Salteado wok de lomo de ternera con brócoli, pimientos y sésamo",
+      "description": "Tiras de ternera magra salteadas a fuego vivo con flores de brócoli al dente y pimiento rojo en salsa ligera de soja baja en sodio y jengibre fresco. Proporciona hierro de alta biodisponibilidad y antioxidantes glucosinolatos sin elevar la insulina.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 25,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 8.6,
+        "calories_kcal": 298,
+        "sugars_g": 3.9,
+        "fiber_g": 4.1,
+        "protein_g": 32.5,
+        "total_fat_g": 14.8,
+        "saturated_fat_g": 3.8,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Filete de lomo de ternera magra en tiras finas", "quantity": 260, "unit": "g" },
+        { "name": "Brócoli en ramilletes pequeños", "quantity": 200, "unit": "g" },
+        { "name": "Pimiento rojo en tiras finas", "quantity": 100, "unit": "g" },
+        { "name": "Salsa de soja baja en sodio", "quantity": 15, "unit": "ml" },
+        { "name": "Jengibre fresco rallado", "quantity": 5, "unit": "g" },
+        { "name": "Diente de ajo picado fino", "quantity": 1, "unit": "unidad" },
+        { "name": "Aceite de sésamo virgen", "quantity": 10, "unit": "ml" },
+        { "name": "Semillas de sésamo tostado", "quantity": 5, "unit": "g" }
+      ],
+      "instructions": [
+        "Escaldar los ramilletes de brócoli en agua hirviendo durante 2 minutos; sumergir en agua fría inmediatamente para frenar la cocción y mantener su color verde vivo; escurrir bien.",
+        "Calentar el aceite de sésamo en un wok o sartén amplia a fuego alto hasta que humee levemente.",
+        "Saltear las tiras de ternera durante 2-3 minutos hasta que sellen sus jugos; retirar y reservar en un plato aparte.",
+        "En el mismo wok caliente, añadir el ajo picado, el jengibre rallado y las tiras de pimiento rojo; saltear vigorosamente durante 3 minutos.",
+        "Incorporar el brócoli escurrido, la ternera sellada y la salsa de soja baja en sodio.",
+        "Saltear todo junto a fuego vivo durante 2 minutos para que los sabores se integren.",
+        "Servir inmediatamente espolvoreando las semillas de sésamo tostado por encima."
+      ]
+    },
+    {
+      "id": 29,
+      "category": "Almuerzos",
+      "name": "Lentejas pardinas estofadas con verduras de la huerta y cúrcuma",
+      "description": "Plato de cuchara tradicional elaborado sin carnes grasas ni embutidos, cocinado a fuego lento con puerro, apio, calabacín y un toque de cúrcuma con pimienta. Ofrece una fuente completa de fibra prebiótica con mínimo índice glucémico.",
+      "servings": 3,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 35,
+      "total_time_minutes": 50,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 35.8,
+        "calories_kcal": 268,
+        "sugars_g": 4.2,
+        "fiber_g": 11.2,
+        "protein_g": 15.6,
+        "total_fat_g": 6.8,
+        "saturated_fat_g": 0.9,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Lentejas pardinas secas", "quantity": 180, "unit": "g" },
+        { "name": "Puerro limpio picado", "quantity": 80, "unit": "g" },
+        { "name": "Zanahoria cortada en rodajas finas", "quantity": 80, "unit": "g" },
+        { "name": "Calabacín con piel en cubos", "quantity": 120, "unit": "g" },
+        { "name": "Tallo de apio picado fino", "quantity": 40, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 15, "unit": "ml" },
+        { "name": "Hoja de laurel", "quantity": 1, "unit": "unidad" },
+        { "name": "Cúrcuma en polvo", "quantity": 3, "unit": "g" },
+        { "name": "Pimentón dulce", "quantity": 3, "unit": "g" },
+        { "name": "Agua o caldo de verduras suave", "quantity": 700, "unit": "ml" }
+      ],
+      "instructions": [
+        "En una cazuela mediana, calentar el aceite de oliva a fuego medio y sofreír el puerro, el apio y la zanahoria durante 6 minutos hasta que comiencen a ablandarse.",
+        "Añadir el pimentón dulce y la cúrcuma molida, removiendo durante 20 segundos fuera del fuego directo para evitar que se amarguen.",
+        "Incorporar las lentejas pardinas (lavadas previamente bajo el grifo) y la hoja de laurel.",
+        "Verter el agua o caldo vegetal frío hasta cubrir generosamente las legumbres unos 3 dedos por encima.",
+        "Llevar a ebullición, reducir a fuego lento, tapar la cazuela y cocinar durante 25 minutos.",
+        "Añadir el calabacín en cubos y continuar la cocción destapada a fuego lento durante 10 minutos más, hasta que las lentejas estén tiernas y el caldo adquiera consistencia.",
+        "Retirar la hoja de laurel, ajustar de sal y pimienta con moderación, dejar reposar 5 minutos y servir en platos hondos."
+      ]
+    },
+    {
+      "id": 30,
+      "category": "Almuerzos",
+      "name": "Merluza en papillote con láminas de calabacín y tomate seco",
+      "description": "Pescado blanco cocinado en su propio vapor dentro de un paquete hermético de papel vegetal, conservando la totalidad de sus jugos, minerales y proteínas magras. Acompañado de calabacín y tomate seco que realzan su sabor sin añadir grasas saturadas.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 27,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 5.4,
+        "calories_kcal": 215,
+        "sugars_g": 3.2,
+        "fiber_g": 1.9,
+        "protein_g": 26.8,
+        "total_fat_g": 9.6,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 290
+      },
+      "ingredients": [
+        { "name": "Lomos de merluza fresca limpios", "quantity": 300, "unit": "g" },
+        { "name": "Calabacín en rodajas muy finas", "quantity": 150, "unit": "g" },
+        { "name": "Tomates secos rehidratados y picados", "quantity": 25, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Zumo de limón", "quantity": 8, "unit": "ml" },
+        { "name": "Tomillo fresco", "quantity": 2, "unit": "ramitas" },
+        { "name": "Pimienta blanca", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 200 °C con calor envolvente.",
+        "Cortar dos hojas grandes de papel de horno vegetal (aprox. 35x35 cm) y doblarlas por la mitad marcando el centro.",
+        "Disponer sobre una mitad de cada hoja una cama con las rodajas de calabacín ligeramente solapadas.",
+        "Colocar un lomo de merluza salpimentado sobre el calabacín y repartir los tomates secos picados por encima.",
+        "Rociar cada porción con la mitad del aceite de oliva, el zumo de limón y colocar una ramita de tomillo fresco.",
+        "Plegar el papel sobre los ingredientes y doblar los bordes haciendo pliegues sucesivos y apretados para sellar herméticamente los paquetes.",
+        "Colocar los paquetes en una bandeja y hornear a 200 °C durante 14-15 minutos (el papel se hinchará por la presión del vapor interior).",
+        "Transferir los paquetes a los platos y abrir con unas tijeras con precaución de no quemarse con el vapor caliente."
+      ]
+    },
+    {
+      "id": 31,
+      "category": "Almuerzos",
+      "name": "Guiso aromático de pavo al curry suave con base de arroz integral basmati",
+      "description": "Dados magros de pechuga de pavo cocinados en salsa especiada de cúrcuma, comino y leche de coco ligera, servidos sobre una porción medida de arroz basmati integral cocido al punto. Un plato saciante que estabiliza el gasto calórico diario.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 40,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 28.2,
+        "calories_kcal": 340,
+        "sugars_g": 3.4,
+        "fiber_g": 4.6,
+        "protein_g": 32.4,
+        "total_fat_g": 10.8,
+        "saturated_fat_g": 3.8,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Pechuga de pavo cortada en dados de 2 cm", "quantity": 280, "unit": "g" },
+        { "name": "Arroz basmati integral crudo", "quantity": 60, "unit": "g" },
+        { "name": "Pimiento verde picado", "quantity": 70, "unit": "g" },
+        { "name": "Cebolla picada fina", "quantity": 60, "unit": "g" },
+        { "name": "Leche de coco ligera (en brick)", "quantity": 100, "unit": "ml" },
+        { "name": "Caldo de pollo bajo en sodio", "quantity": 100, "unit": "ml" },
+        { "name": "Curry en polvo suave", "quantity": 6, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Cilantro fresco picado", "quantity": 4, "unit": "g" }
+      ],
+      "instructions": [
+        "Enjuagar el arroz basmati integral en un colador y cocerlo en abundante agua hirviendo durante 22 minutos hasta que quede tierno pero firme; colar y reservar tibio.",
+        "Calentar el aceite de oliva en una cazuela ancha a fuego medio y dorar los dados de pechuga de pavo durante 4 minutos; retirar a un plato.",
+        "En la misma cazuela, pochar la cebolla y el pimiento verde durante 5 minutos hasta que estén translúcidos.",
+        "Añadir el curry en polvo y tostarlo durante 30 segundos removiendo constantemente para liberar sus aceites esenciales.",
+        "Verter el caldo de pollo desgrasado y la leche de coco ligera, raspando el fondo para desglasar.",
+        "Reincorporar los dados de pavo a la cazuela, tapar parcialmente y dejar cocinar a fuego medio-bajo durante 10 minutos para espesar la salsa.",
+        "Dividir el arroz basmati integral en dos platos, verter el pavo al curry por encima y finalizar con cilantro fresco recién picado."
+      ]
+    },
+    {
+      "id": 32,
+      "category": "Almuerzos",
+      "name": "Garbanzos con espinacas y bacalao desmigado",
+      "description": "Receta clásica de inspiración mediterránea que une legumbres cocidas ricas en almidón lentamente digerible con bacalao desalado y espinacas tiernas salteadas al pimentón. Constituye un plato nutricionalmente redondo con mínima repercusión en la curva de glucosa.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 18,
+      "total_time_minutes": 28,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 26.4,
+        "calories_kcal": 278,
+        "sugars_g": 2.6,
+        "fiber_g": 7.9,
+        "protein_g": 24.2,
+        "total_fat_g": 8.1,
+        "saturated_fat_g": 1.2,
+        "sodium_mg": 390
+      },
+      "ingredients": [
+        { "name": "Garbanzos cocidos y escurridos", "quantity": 300, "unit": "g" },
+        { "name": "Bacalao desalado en migas limpias", "quantity": 250, "unit": "g" },
+        { "name": "Espinacas frescas limpias", "quantity": 200, "unit": "g" },
+        { "name": "Dientes de ajo laminados", "quantity": 2, "unit": "unidades" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 15, "unit": "ml" },
+        { "name": "Pimentón dulce de la Vera", "quantity": 4, "unit": "g" },
+        { "name": "Comino molido", "quantity": 1, "unit": "g" },
+        { "name": "Caldo de pescado bajo en sal", "quantity": 150, "unit": "ml" }
+      ],
+      "instructions": [
+        "En una cazuela ancha, calentar el aceite de oliva a fuego medio y dorar las láminas de ajo hasta que adquieran un tono dorado claro.",
+        "Retirar del fuego medio minuto, añadir el pimentón dulce y el comino molido, removiendo con rapidez para que no se quemen.",
+        "Incorporar las espinacas frescas a la cazuela; volver al fuego y rehogar durante 3 minutos hasta que reduzcan totalmente su volumen.",
+        "Verter los garbanzos cocidos escurridos y el caldo de pescado caliente.",
+        "Cocinar a fuego suave durante 6 minutos para que los garbanzos absorban los sabores del sofrito.",
+        "Añadir las migas de bacalao desalado por encima, tapar la cazuela y cocinar a fuego muy bajo durante 4 minutos más (el bacalao se cocina al punto con el calor del vapor sin endurecerse).",
+        "Remover suavemente con vaivén para ligar el caldo y servir en platos llanos hondos."
+      ]
+    },
+    {
+      "id": 33,
+      "category": "Almuerzos",
+      "name": "Pechuga de pollo al limón y romero con ensalada tibia de quinoa y pepino",
+      "description": "Filetes magros macerados en zumo de limón natural, ajo y romero silvestre, sellados a la plancha y emplatados con un tabulé templado de quinoa andina, pepino y menta. Muy refrescante, denso en aminoácidos y de digestión fluida.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 30,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 21.8,
+        "calories_kcal": 315,
+        "sugars_g": 2.1,
+        "fiber_g": 3.8,
+        "protein_g": 33.6,
+        "total_fat_g": 10.4,
+        "saturated_fat_g": 1.6,
+        "sodium_mg": 240
+      },
+      "ingredients": [
+        { "name": "Pechuga de pollo en filetes gruesos", "quantity": 280, "unit": "g" },
+        { "name": "Quinoa en grano cruda", "quantity": 60, "unit": "g" },
+        { "name": "Pepino pelado y picado en cubitos", "quantity": 100, "unit": "g" },
+        { "name": "Tomates cherry partidos en cuartos", "quantity": 80, "unit": "g" },
+        { "name": "Zumo de limón recién exprimido", "quantity": 20, "unit": "ml" },
+        { "name": "Romero fresco picado", "quantity": 4, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Menta fresca picada", "quantity": 3, "unit": "g" }
+      ],
+      "instructions": [
+        "En un cuenco, colocar los filetes de pollo junto con la mitad del zumo de limón, la mitad del aceite de oliva y el romero picado; dejar marinar 10 minutos.",
+        "Lavar la quinoa en un colador fino bajo agua fría y cocerla en 140 ml de agua durante 12 minutos hasta que reviente el grano y absorba el líquido; dejar templar.",
+        "En un bol, mezclar la quinoa cocida con el pepino picado, los cuartos de tomate cherry, la menta fresca, el resto del zumo de limón y 4 ml de aceite de oliva virgen extra.",
+        "Calentar una sartén estriada o plancha a fuego medio-alto y añadir unas gotas del aceite restante.",
+        "Cocinar los filetes de pollo marinados durante 3-4 minutos por lado hasta que queden bien dorados y cocidos en su interior.",
+        "Cortar los filetes en tiras al sesgo y servirlos acompañados de la ensalada templada de quinoa."
+      ]
+    },
+    {
+      "id": 34,
+      "category": "Almuerzos",
+      "name": "Atún fresco a la plancha con pisto manchego casero",
+      "description": "Lomo de atún fresco marcado a fuego vivo con el corazón jugoso, acompañado de un pisto tradicional cocinado lentamente con calabacín, berenjena, pimientos y tomate maduro triturado. Excepcional aporte de ácidos grasos poliinsaturados y fitoquímicos.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 40,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 11.2,
+        "calories_kcal": 312,
+        "sugars_g": 6.8,
+        "fiber_g": 4.5,
+        "protein_g": 35.8,
+        "total_fat_g": 13.6,
+        "saturated_fat_g": 2.4,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Lomos de atún fresco limpios", "quantity": 260, "unit": "g" },
+        { "name": "Calabacín picado en cubos de 1 cm", "quantity": 120, "unit": "g" },
+        { "name": "Berenjena con piel picada en cubos", "quantity": 100, "unit": "g" },
+        { "name": "Pimiento verde picado", "quantity": 70, "unit": "g" },
+        { "name": "Pimiento rojo picado", "quantity": 70, "unit": "g" },
+        { "name": "Cebolla picada", "quantity": 60, "unit": "g" },
+        { "name": "Tomate triturado natural sin azúcar", "quantity": 150, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 15, "unit": "ml" },
+        { "name": "Orégano seco", "quantity": 2, "unit": "g" }
+      ],
+      "instructions": [
+        "En una cazuela ancha, verter 10 ml de aceite de oliva y sofreír la cebolla y los pimientos rojo y verde a fuego medio durante 8 minutos.",
+        "Añadir el calabacín y la berenjena; saltear durante 6 minutos más hasta que la verdura comience a caramelizar en sus propios jugos.",
+        "Verter el tomate triturado natural y el orégano seco; bajar el fuego, tapar y cocinar lentamente durante 15 minutos removiendo periódicamente hasta tener un pisto meloso.",
+        "Secar muy bien los lomos de atún con papel de cocina y salpimentar ligeramente la superficie.",
+        "Pincelar una sartén de hierro o plancha muy caliente con los 5 ml restantes de aceite de oliva virgen extra.",
+        "Marcar los lomos de atún durante 1 minuto y medio por lado a fuego muy vivo, manteniendo el interior sonrosado y tierno.",
+        "Servir una base generosa de pisto manchego caliente y colocar el lomo de atún marcado justo encima."
+      ]
+    },
+    {
+      "id": 35,
+      "category": "Almuerzos",
+      "name": "Albóndigas caseras de pavo en salsa de tomate natural y espaguetis de calabacín",
+      "description": "Albóndigas moldeadas con carne magra de pavo picada y hierbas aromáticas, cocidas dentro de una salsa casera de tomate y servidas sobre tiras finas de calabacín ligeramente salteadas como sustituto de la pasta tradicional.",
+      "servings": 2,
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "total_time_minutes": 40,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 10.4,
+        "calories_kcal": 284,
+        "sugars_g": 5.9,
+        "fiber_g": 3.7,
+        "protein_g": 34.2,
+        "total_fat_g": 11.2,
+        "saturated_fat_g": 2.3,
+        "sodium_mg": 340
+      },
+      "ingredients": [
+        { "name": "Carne picada de pechuga de pavo", "quantity": 280, "unit": "g" },
+        { "name": "Calabacines medianos firmes (para zoodles)", "quantity": 350, "unit": "g" },
+        { "name": "Tomate triturado natural sin azúcar", "quantity": 200, "unit": "g" },
+        { "name": "Huevo batido", "quantity": 0.5, "unit": "unidad" },
+        { "name": "Diente de ajo rallado", "quantity": 1, "unit": "unidad" },
+        { "name": "Perejil fresco picado", "quantity": 5, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Cebolla rallada fina", "quantity": 40, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En un bol, amasar la carne de pavo con el medio huevo batido, el ajo rallado, el perejil fresco picado y pimienta negra.",
+        "Formar 8 albóndigas redondas y compactas con las palmas de las manos humedecidas.",
+        "Calentar la mitad del aceite en una sartén antiadherente a fuego medio y dorar las albóndigas durante 4 minutos haciéndolas rodar; reservar en un plato.",
+        "En la misma sartén, pochar la cebolla rallada durante 4 minutos, añadir el tomate triturado y una pizca de sal, y dejar hervir 5 minutos.",
+        "Introducir las albóndigas en la salsa de tomate hirviendo, tapar y cocinar a fuego lento durante 10 minutos hasta que estén completamente cocidas por dentro.",
+        "Procesar los calabacines con un espiralizador para obtener espaguetis largos (zoodles).",
+        "Saltear los espaguetis de calabacín en una sartén aparte con el resto del aceite durante apenas 2 minutos a fuego vivo para que queden al dente sin soltar agua.",
+        "Colocar los espaguetis de calabacín en la base de los platos y bañar con las albóndigas y la salsa de tomate caliente."
+      ]
+    },
+    {
+      "id": 36,
+      "category": "Almuerzos",
+      "name": "Fajitas de pollo con pimientos tricolores servidas en hojas de cogollo",
+      "description": "Tiras de pechuga salteadas con cebolla morada y pimientos, sazonadas con lima, comino y pimentón ahumado, presentadas sobre hojas cóncavas de lechuga romana crujiente en sustitución de las tortillas de harina de trigo.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 22,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 7.2,
+        "calories_kcal": 248,
+        "sugars_g": 3.8,
+        "fiber_g": 3.1,
+        "protein_g": 31.8,
+        "total_fat_g": 10.4,
+        "saturated_fat_g": 1.8,
+        "sodium_mg": 260
+      },
+      "ingredients": [
+        { "name": "Pechuga de pollo cortada en tiras finas", "quantity": 260, "unit": "g" },
+        { "name": "Pimiento rojo en tiras", "quantity": 80, "unit": "g" },
+        { "name": "Pimiento amarillo en tiras", "quantity": 80, "unit": "g" },
+        { "name": "Cebolla morada en juliana", "quantity": 60, "unit": "g" },
+        { "name": "Hojas enteras de lechuga romana o cogollos limpios", "quantity": 6, "unit": "unidades" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Zumo de lima", "quantity": 10, "unit": "ml" },
+        { "name": "Comino en polvo", "quantity": 2, "unit": "g" },
+        { "name": "Pimentón dulce ahumado", "quantity": 2, "unit": "g" }
+      ],
+      "instructions": [
+        "En un cuenco, sazonar las tiras de pechuga de pollo con el comino, el pimentón ahumado, el zumo de lima y la mitad del aceite de oliva.",
+        "Calentar una sartén amplia a fuego alto con el resto del aceite.",
+        "Saltear la cebolla morada y las tiras de pimientos durante 4 minutos procurando que conserven un punto crocante.",
+        "Añadir el pollo sazonado y saltear todo junto durante 5 minutos a fuego vivo, removiendo constantemente hasta que la carne esté perfectamente dorada y cocida.",
+        "Lavar y secar meticulosamente las hojas de lechuga cuidando que conserven su forma cóncava de barqueta.",
+        "Repartir las fajitas de pollo con verduras humeantes directamente dentro de las hojas de lechuga y servir de inmediato."
+      ]
+    },
+    {
+      "id": 37,
+      "category": "Almuerzos",
+      "name": "Lomo de bacalao al horno sobre lecho de pimientos asados y cebolla confitada",
+      "description": "Lomo de pescado blanco carnoso cocinado al horno a baja temperatura sobre una base de tiras de pimientos rojos asados y cebolla pochada a fuego lento. Una combinación clásica mediterránea de fácil digestión y nulo aporte de azúcares simples.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "total_time_minutes": 30,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 9.8,
+        "calories_kcal": 235,
+        "sugars_g": 5.8,
+        "fiber_g": 3.2,
+        "protein_g": 28.4,
+        "total_fat_g": 8.9,
+        "saturated_fat_g": 1.3,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Lomos de bacalao al punto de sal", "quantity": 300, "unit": "g" },
+        { "name": "Pimientos rojos asados en tiras (en conserva natural)", "quantity": 180, "unit": "g" },
+        { "name": "Cebolla cortada en juliana fina", "quantity": 100, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Dientes de ajo laminados", "quantity": 2, "unit": "unidades" },
+        { "name": "Perejil fresco picado", "quantity": 3, "unit": "g" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 180 °C.",
+        "En una sartén con la mitad del aceite de oliva, pochar la cebolla en juliana a fuego bajo durante 8 minutos hasta que esté blanda y translúcida.",
+        "Añadir las tiras de pimientos rojos asados bien escurridas a la sartén y mezclar durante 2 minutos; trasladar todo el contenido a una fuente apta para horno como base.",
+        "Secar los lomos de bacalao con papel de cocina y acomodarlos sobre el lecho de pimientos y cebolla con la piel hacia abajo.",
+        "Hornear a 180 °C durante 12-14 minutos hasta que los lomos se abran en lascas jugosas al presionar levemente.",
+        "Mientras tanto, dorar los ajos laminados en una sartén pequeña con el resto del aceite virgen extra.",
+        "Sacar la fuente del horno, verter el aceite con los ajos dorados directamente sobre el bacalao, espolvorear el perejil picado y servir."
+      ]
+    },
+    {
+      "id": 38,
+      "category": "Almuerzos",
+      "name": "Salteado oriental de tofu firme con shiitake, tirabeques y jengibre",
+      "description": "Dado de soja fermentada marinada y tostada en wok con setas shiitake carnosas, vainas de tirabeques crujientes y láminas finas de zanahoria. Aporta proteína vegetal completa, polisacáridos inmunoestimulantes y una respuesta insulínica mínima.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "total_time_minutes": 27,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 10.5,
+        "calories_kcal": 224,
+        "sugars_g": 3.8,
+        "fiber_g": 4.6,
+        "protein_g": 17.6,
+        "total_fat_g": 12.8,
+        "saturated_fat_g": 1.9,
+        "sodium_mg": 340
+      },
+      "ingredients": [
+        { "name": "Tofu firme natural", "quantity": 280, "unit": "g" },
+        { "name": "Setas shiitake frescas laminadas", "quantity": 120, "unit": "g" },
+        { "name": "Tirabeques limpios (o judías verdes planas)", "quantity": 100, "unit": "g" },
+        { "name": "Zanahoria en bastones muy finos", "quantity": 50, "unit": "g" },
+        { "name": "Aceite de sésamo virgen", "quantity": 10, "unit": "ml" },
+        { "name": "Salsa de soja baja en sal", "quantity": 15, "unit": "ml" },
+        { "name": "Jengibre fresco en láminas finas", "quantity": 5, "unit": "g" },
+        { "name": "Diente de ajo picado", "quantity": 1, "unit": "unidad" }
+      ],
+      "instructions": [
+        "Prensas el tofu con papel absorbente colocando un peso encima durante 10 minutos para expulsar el exceso de agua; luego cortarlo en dados uniformes de 2 cm.",
+        "Calentar la mitad del aceite en un wok a fuego medio-alto y dorar los dados de tofu por todos sus lados durante 5 minutos; retirar a un plato.",
+        "Añadir el resto del aceite al wok caliente junto con el ajo picado y el jengibre en tiritas; saltear 30 segundos.",
+        "Incorporar las setas shiitake, los tirabeques enteros y los bastones finos de zanahoria.",
+        "Saltear a fuego vivo durante 4 minutos manteniendo las verduras tersas y brillantes.",
+        "Reincorporar el tofu dorado al wok y verter la salsa de soja baja en sal sobre el salteado.",
+        "Mover continuamente durante 1 minuto para glasear todos los ingredientes y servir caliente."
+      ]
+    },
+    {
+      "id": 39,
+      "category": "Almuerzos",
+      "name": "Medallones de solomillo de cerdo con calabaza asada y espárragos trigueros",
+      "description": "Corte de carne magra por excelencia cocinado a la plancha con hierbas aromáticas, maridado con dados dulces de calabaza cacahuete horneada y espárragos verdes al dente. Excelente equilibrio entre carbohidratos complejos y micronutrientes como potasio y tiamina.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 40,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 13.8,
+        "calories_kcal": 288,
+        "sugars_g": 4.5,
+        "fiber_g": 4.2,
+        "protein_g": 31.4,
+        "total_fat_g": 12.1,
+        "saturated_fat_g": 3.4,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Solomillo de cerdo magro cortado en medallones", "quantity": 280, "unit": "g" },
+        { "name": "Calabaza cacahuete pelada y en dados de 2 cm", "quantity": 180, "unit": "g" },
+        { "name": "Espárragos trigueros limpios", "quantity": 140, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Tomillo fresco picado", "quantity": 3, "unit": "g" },
+        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 200 °C.",
+        "Colocar los dados de calabaza en una bandeja de horno, rociar con 6 ml de aceite de oliva, tomillo picado y una pizca de pimienta; mezclar bien.",
+        "Hornear la calabaza durante 20 minutos hasta que sus bordes estén tiernos y ligeramente caramelizados.",
+        "Mientras tanto, despuntar los espárragos verdes y saltearlos en una sartén con 4 ml de aceite de oliva durante 5 minutos a fuego medio hasta que estén flexibles y tostados.",
+        "Pintar los medallones de solomillo con el resto del aceite de oliva virgen extra.",
+        "Calentar fuertemente una plancha de hierro y dorar los medallones durante 2 minutos y medio por lado, procurando conservar el interior sonrosado y jugoso.",
+        "Servir los medallones de solomillo con la calabaza asada y los espárragos trigueros como guarnición."
+      ]
+    },
+    {
+      "id": 40,
+      "category": "Almuerzos",
+      "name": "Boloñesa de ternera magra sobre nido de espaguetis de calabacín",
+      "description": "Una reinvención de la receta boloñesa tradicional donde se sustituye la pasta de trigo por calabacín rallado grueso, coronado por una salsa espesa de carne magra de ternera, mirepoix de verduras y tomate natural con albahaca fresca.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 40,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 11.8,
+        "calories_kcal": 295,
+        "sugars_g": 6.2,
+        "fiber_g": 4.1,
+        "protein_g": 31.6,
+        "total_fat_g": 13.8,
+        "saturated_fat_g": 4.1,
+        "sodium_mg": 310
+      },
+      "ingredients": [
+        { "name": "Carne magra de ternera picada (menos del 5% grasa)", "quantity": 250, "unit": "g" },
+        { "name": "Calabacines medianos firmes", "quantity": 400, "unit": "g" },
+        { "name": "Tomate triturado natural sin azúcar", "quantity": 200, "unit": "g" },
+        { "name": "Zanahoria picada muy fina", "quantity": 40, "unit": "g" },
+        { "name": "Tallo de apio picado muy fino", "quantity": 30, "unit": "g" },
+        { "name": "Cebolla picada fina", "quantity": 50, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Hojas de albahaca fresca", "quantity": 6, "unit": "unidades" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una cazuela, calentar 8 ml de aceite de oliva a fuego medio y sofreír la cebolla, el apio y la zanahoria durante 6 minutos.",
+        "Añadir la carne picada de ternera magra y deshacer los grumos con una cuchara de madera; cocinar durante 5 minutos hasta que pierda el color rojizo.",
+        "Incorporar el tomate triturado natural, pimienta negra molida y la mitad de la albahaca picada.",
+        "Bajar a fuego suave, tapar parcialmente y dejar que la salsa boloñesa reduzca durante 15 minutos hasta que espese y los aromas se concentren.",
+        "Espiralizar los calabacines enteros para obtener tiras largas de espaguetis.",
+        "En una sartén amplia con el resto del aceite, saltear los espaguetis de calabacín durante exactamente 2 minutos a fuego vivo para calentarlos sin que suelten agua ni pierdan firmeza.",
+        "Disponer los espaguetis de calabacín en forma de nido en dos platos hondos, cubrir generosamente con la boloñesa caliente y decorar con las hojas restantes de albahaca fresca."
+      ]
+    },
+    {
+      "id": 41,
+      "category": "Almuerzos",
+      "name": "Dorada a la plancha con ensalada tibia de alubias blancas y canónigos",
+      "description": "Filetes limpios de pescado blanco a la plancha con piel crujiente, emplatados junto a alubias blancas cocidas templadas con aceite de oliva virgen extra virgen, limón y canónigos frescos. Un compendio de carbohidratos lentos y proteínas limpias.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 20,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 20.4,
+        "calories_kcal": 310,
+        "sugars_g": 1.8,
+        "fiber_g": 6.4,
+        "protein_g": 30.2,
+        "total_fat_g": 11.8,
+        "saturated_fat_g": 1.9,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Filetes de dorada limpia con piel y sin espinas", "quantity": 280, "unit": "g" },
+        { "name": "Alubias blancas cocidas y escurridas", "quantity": 180, "unit": "g" },
+        { "name": "Canónigos frescos limpios", "quantity": 50, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Zumo de limón natural", "quantity": 10, "unit": "ml" },
+        { "name": "Cebolla morada en tiritas muy finas", "quantity": 30, "unit": "g" },
+        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una sartén pequeña, templar las alubias blancas cocidas con 6 ml de aceite de oliva, la cebolla morada y el zumo de limón durante 3 minutos a fuego muy bajo.",
+        "Retirar del fuego e incorporar suavemente los canónigos para que se atemperen sin marchitarse por completo; reservar.",
+        "Secar meticulosamente la piel de los filetes de dorada con papel de cocina y practicar dos cortes diagonales superficiales en la piel para que no encoja al cocinarse.",
+        "Calentar una plancha antiadherente a fuego alto con el resto del aceite de oliva virgen extra.",
+        "Colocar los filetes con la piel hacia abajo presionando suavemente con la espátula durante los primeros 30 segundos.",
+        "Cocinar 3 minutos por el lado de la piel hasta que esté dorada y crujiente, voltear con cuidado y cocinar solo 1 minuto más por el lado de la carne.",
+        "Servir los filetes de dorada inmediatamente al lado de la ensalada tibia de alubias blancas."
+      ]
+    },
+    {
+      "id": 42,
+      "category": "Almuerzos",
+      "name": "Pollo marinado al yogur y especias indias con coliflor asada",
+      "description": "Contramuslos o pechuga macerada en yogur natural sin azúcar con jengibre, garam masala y cúrcuma, horneados a alta temperatura junto con floretes de coliflor especiada. Las enzimas del yogur ablandan las fibras proteicas asegurando una textura tierna y un perfil metabólico impecable.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 40,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 8.8,
+        "calories_kcal": 278,
+        "sugars_g": 3.9,
+        "fiber_g": 3.8,
+        "protein_g": 33.5,
+        "total_fat_g": 12.2,
+        "saturated_fat_g": 2.8,
+        "sodium_mg": 290
+      },
+      "ingredients": [
+        { "name": "Pechuga de pollo cortada en trozos grandes", "quantity": 280, "unit": "g" },
+        { "name": "Yogur natural sin azúcar (estilo griego o entero)", "quantity": 80, "unit": "g" },
+        { "name": "Coliflor en ramilletes pequeños", "quantity": 250, "unit": "g" },
+        { "name": "Mezcla de garam masala", "quantity": 4, "unit": "g" },
+        { "name": "Cúrcuma en polvo", "quantity": 2, "unit": "g" },
+        { "name": "Dientes de ajo triturados", "quantity": 2, "unit": "unidades" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Zumo de limón", "quantity": 8, "unit": "ml" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 200 °C.",
+        "En un cuenco grande, mezclar el yogur natural, el garam masala, la cúrcuma, el ajo triturado, el zumo de limón y la mitad del aceite de oliva virgen extra.",
+        "Introducir los trozos de pechuga de pollo en la marinada, asegurando que queden completamente cubiertos; dejar reposar al menos 10 minutos a temperatura ambiente.",
+        "Disponer los ramilletes de coliflor en un lado de una bandeja de horno, rociar con el resto del aceite de oliva y salpimentar ligeramente.",
+        "Colocar el pollo marinado en el otro lado de la bandeja sin amontonar los trozos.",
+        "Hornear a 200 °C durante 22-25 minutos hasta que el pollo esté cocinado por completo con los bordes ligeramente dorados y la coliflor presente un tostado tierno.",
+        "Repartir en platos y acompañar opcionalmente con unas hojas de menta o cilantro."
+      ]
+    },
+    {
+      "id": 43,
+      "category": "Almuerzos",
+      "name": "Salmón a la plancha sobre salteado de espinacas, garbanzos y piñones",
+      "description": "Lomo fresco de pescado azul sobre un lecho salteado de garbanzos cocidos, espinacas tiernas y piñones tostados. Combina grasas mono y poliinsaturadas con fibra soluble de legumbres para maximizar la saciedad y mantener equilibrada la curva glucémica.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "total_time_minutes": 22,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 18.6,
+        "calories_kcal": 425,
+        "sugars_g": 2.2,
+        "fiber_g": 6.2,
+        "protein_g": 34.6,
+        "total_fat_g": 23.8,
+        "saturated_fat_g": 3.6,
+        "sodium_mg": 310
+      },
+      "ingredients": [
+        { "name": "Lomos de salmón fresco", "quantity": 260, "unit": "g" },
+        { "name": "Garbanzos cocidos y escurridos", "quantity": 160, "unit": "g" },
+        { "name": "Espinacas frescas", "quantity": 180, "unit": "g" },
+        { "name": "Piñones tostados", "quantity": 12, "unit": "g" },
+        { "name": "Diente de ajo laminado", "quantity": 1, "unit": "unidad" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Calentar la mitad del aceite de oliva en una sartén amplia a fuego medio y dorar el ajo laminado durante 1 minuto.",
+        "Añadir las espinacas frescas y saltear durante 3 minutos hasta que reduzcan de tamaño.",
+        "Incorporar los garbanzos cocidos bien escurridos y los piñones tostados; saltear durante 3 minutos más para que se impregnen de los aromas y tomen temperatura; reservar al calor.",
+        "En otra sartén o plancha caliente, añadir el resto del aceite y sellar los lomos de salmón previamente salpimentados.",
+        "Cocinar durante 3 minutos por el lado de la piel a fuego medio-alto; voltear con espátula y cocinar 2 minutos más por el lado opuesto para lograr un centro jugoso.",
+        "Servir una base del salteado de espinacas y garbanzos en dos platos y coronar con los lomos de salmón recién hechos."
+      ]
+    },
+    {
+      "id": 44,
+      "category": "Almuerzos",
+      "name": "Hamburguesa casera de ternera magra al plato con portobello y aguacate",
+      "description": "Hamburguesa artesanal elaborada con carne de vacuno magra sin aditivos ni harinas, asada en sartén de hierro y servida al plato con láminas de champiñón portobello a la plancha y abanico de aguacate. Cero panes procesados, máxima densidad nutricional.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 22,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.8,
+        "calories_kcal": 310,
+        "sugars_g": 1.9,
+        "fiber_g": 3.4,
+        "protein_g": 31.2,
+        "total_fat_g": 18.6,
+        "saturated_fat_g": 4.5,
+        "sodium_mg": 270
+      },
+      "ingredients": [
+        { "name": "Carne picada de ternera magra limpia", "quantity": 280, "unit": "g" },
+        { "name": "Champiñones portobello en láminas gruesas", "quantity": 140, "unit": "g" },
+        { "name": "Aguacate maduro laminado", "quantity": 60, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Ajo en polvo", "quantity": 1, "unit": "g" },
+        { "name": "Perejil fresco picado", "quantity": 4, "unit": "g" },
+        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En un cuenco, mezclar la carne picada de ternera con el perejil fresco picado, el ajo en polvo y la pimienta molida.",
+        "Dividir la mezcla en dos porciones iguales y moldear con las manos dos hamburguesas compactas de aproximadamente 2 cm de grosor.",
+        "Calentar la mitad del aceite de oliva en una sartén estriada o plancha a fuego medio-alto.",
+        "Cocinar las hamburguesas durante 3-4 minutos por lado hasta alcanzar el punto de cocción deseado; retirar y dejar reposar 2 minutos.",
+        "En la misma sartén con el resto del aceite, dorar las láminas de portobello a fuego vivo durante 3 minutos hasta que caramelicen.",
+        "Emplatar cada hamburguesa al plato, colocar encima las láminas de portobello calientes y acompañar con el abanico de aguacate fresco."
+      ]
+    },
+    {
+      "id": 45,
+      "category": "Almuerzos",
+      "name": "Calamares a la plancha al ajillo con judías verdes al vapor",
+      "description": "Tubos limpios de calamar marcados en plancha muy caliente con aceite aromatizado con ajo y perejil, acompañados de judías verdes finas cocinadas al vapor para mantener su clorofila y fibra intacta. Excelente aporte de zinc y proteínas magras de bajísima densidad calórica.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 22,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 218,
+        "sugars_g": 2.5,
+        "fiber_g": 3.6,
+        "protein_g": 26.4,
+        "total_fat_g": 9.2,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Calamares limpios enteros o en anillas gruesas", "quantity": 320, "unit": "g" },
+        { "name": "Judías verdes redondas tiernas", "quantity": 250, "unit": "g" },
+        { "name": "Dientes de ajo picados muy finos", "quantity": 2, "unit": "unidades" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Perejil fresco picado", "quantity": 6, "unit": "g" },
+        { "name": "Zumo de limón", "quantity": 10, "unit": "ml" }
+      ],
+      "instructions": [
+        "Despuntar las judías verdes y cocerlas en una vaporera durante 7 minutos hasta que queden al dente; retirar y reservar calientes.",
+        "Secar minuciosamente los calamares con papel de cocina (este paso es fundamental para que se doren y no se cuezan en su propia agua).",
+        "En un cuenco pequeño, mezclar el ajo picado fino, el perejil fresco, el zumo de limón y el aceite de oliva virgen extra formando un aderezo.",
+        "Poner una plancha de asar a fuego muy fuerte hasta que esté intensamente caliente.",
+        "Disponer los calamares sobre la plancha sin amontonar y cocinar durante 1 minuto y medio sin mover para sellarlos.",
+        "Voltear, verter la mitad del aderezo de ajillo sobre ellos y cocinar 1 minuto más; retirar inmediatamente para evitar que endurezcan.",
+        "Servir los calamares calientes acompañados de las judías verdes aliñadas con el resto del aderezo de ajillo."
+      ]
+    },
+    {
+      "id": 46,
+      "category": "Almuerzos",
+      "name": "Ensalada templada de alubias negras con pollo deshebrado y cilantro",
+      "description": "Preparación equilibrada que integra pechuga de pollo cocida y desmigada, alubias negras con abundante fibra y pimientos asados aliñados con lima y aceite de oliva. Brinda una digestión prolongada que evita los descensos bruscos de energía vespertinos.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 15,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 24.2,
+        "calories_kcal": 315,
+        "sugars_g": 2.4,
+        "fiber_g": 7.5,
+        "protein_g": 32.8,
+        "total_fat_g": 9.8,
+        "saturated_fat_g": 1.5,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Pechuga de pollo cocida y deshebrada", "quantity": 200, "unit": "g" },
+        { "name": "Alubias negras cocidas y escurridas", "quantity": 200, "unit": "g" },
+        { "name": "Pimiento rojo asado en tiras", "quantity": 80, "unit": "g" },
+        { "name": "Cebolla morada finamente picada", "quantity": 40, "unit": "g" },
+        { "name": "Cilantro fresco picado", "quantity": 6, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Zumo de lima fresca", "quantity": 15, "unit": "ml" },
+        { "name": "Comino molido", "quantity": 1, "unit": "g" }
+      ],
+      "instructions": [
+        "En un cuenco grande, colocar las alubias negras cocidas bien lavadas y escurridas.",
+        "Añadir la pechuga de pollo cocida deshebrada, las tiras de pimiento rojo asado y la cebolla morada picada.",
+        "En un bol pequeño o taza, batir con un tenedor el aceite de oliva, el zumo de lima, el comino molido y una pizca de sal marina moderada.",
+        "Verter el aliño sobre la ensalada y mezclar con suavidad con dos cucharas para integrar los ingredientes sin romper las alubias.",
+        "Dejar reposar 5 minutos a temperatura ambiente para amalgamar los sabores.",
+        "Incorporar el cilantro fresco picado por encima justo antes de servir en dos boles amplios."
+      ]
+    },
+    {
+      "id": 47,
+      "category": "Almuerzos",
+      "name": "Muslos de pollo deshuesados al horno con verduras asadas provenzales",
+      "description": "Carne jugosa de pollo asada al horno con piel retirada, acompañada de dados de calabacín, berenjena y cebolla morada impregnados de hierbas aromáticas provenzales. Ofrece gran sensación de saciedad con mínimo aporte de hidratos de carbono.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "total_time_minutes": 45,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 9.5,
+        "calories_kcal": 310,
+        "sugars_g": 4.8,
+        "fiber_g": 4.2,
+        "protein_g": 32.1,
+        "total_fat_g": 15.6,
+        "saturated_fat_g": 3.4,
+        "sodium_mg": 290
+      },
+      "ingredients": [
+        { "name": "Contramuslos de pollo deshuesados sin piel ni grasa visible", "quantity": 300, "unit": "g" },
+        { "name": "Calabacín con piel en cubos", "quantity": 150, "unit": "g" },
+        { "name": "Berenjena en cubos", "quantity": 120, "unit": "g" },
+        { "name": "Cebolla morada en gajos medianos", "quantity": 80, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 15, "unit": "ml" },
+        { "name": "Hierbas provenzales secas (tomillo, romero, orégano)", "quantity": 4, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 190 °C con ventilador o calor arriba y abajo.",
+        "En una bandeja amplia de horno, colocar los cubos de calabacín, berenjena y los gajos de cebolla morada.",
+        "Rociar las verduras con dos tercios del aceite de oliva virgen extra y espolvorear la mitad de las hierbas provenzales; masajear con las manos para repartir el aderezo.",
+        "Salpimentar los contramuslos de pollo limpios, untar con el aceite restante y el resto de las hierbas provenzales.",
+        "Hacer hueco entre las verduras y acomodar los contramuslos de pollo directamente sobre la bandeja.",
+        "Hornear a 190 °C durante 28-30 minutos, volteando el pollo a mitad de cocción hasta que esté dorado por fuera y completamente cocinado en su interior.",
+        "Servir una ración generosa de verduras asadas jugosas junto con el pollo en cada plato."
+      ]
+    },
+    {
+      "id": 48,
+      "category": "Almuerzos",
+      "name": "Lubina al horno con costra de hierbas sobre cama de hinojo y tomates",
+      "description": "Lomos tiernos de lubina cocinados al horno con un picadillo fresco de perejil, albahaca y ajo, asentados sobre láminas finas de hinojo dulce y tomates cherry asados. El hinojo aporta un suave sabor anisado y compuestos carminativos muy digestivos.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "total_time_minutes": 33,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 242,
+        "sugars_g": 3.8,
+        "fiber_g": 3.1,
+        "protein_g": 27.5,
+        "total_fat_g": 11.4,
+        "saturated_fat_g": 1.7,
+        "sodium_mg": 270
+      },
+      "ingredients": [
+        { "name": "Lomos de lubina limpios sin espinas", "quantity": 300, "unit": "g" },
+        { "name": "Bulbo de hinojo en láminas muy finas", "quantity": 180, "unit": "g" },
+        { "name": "Tomates cherry partidos a la mitad", "quantity": 120, "unit": "g" },
+        { "name": "Diente de ajo rallado", "quantity": 1, "unit": "unidad" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Perejil fresco picado", "quantity": 5, "unit": "g" },
+        { "name": "Zumo de limón", "quantity": 10, "unit": "ml" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 180 °C.",
+        "Disponer las láminas de hinojo y las mitades de tomates cherry en el fondo de una fuente para horno; rociar con 6 ml de aceite de oliva virgen extra y una pizca ligera de sal.",
+        "Hornear previamente la verdura durante 10 minutos a 180 °C para que el hinojo comience a enternecerse.",
+        "En un cuenco pequeño, mezclar el perejil fresco picado, el ajo rallado, el zumo de limón y el resto del aceite de oliva virgen extra.",
+        "Sacar la fuente del horno y acomodar los lomos de lubina sobre el lecho de hinojo y tomate.",
+        "Extender la costra aromática de hierbas y ajo sobre la parte superior de los lomos de pescado.",
+        "Volver a introducir en el horno a 180 °C y cocinar durante 12-14 minutos adicionales hasta que el pescado esté blanco opaco y jugoso.",
+        "Servir los lomos con la guarnición de hinojo caramelizado y tomates asados."
+      ]
+    },
+    {
+      "id": 49,
+      "category": "Almuerzos",
+      "name": "Guiso tradicional de pavo a la jardinera con alcachofas y guisantes",
+      "description": "Estofado clásico preparado con dados de pechuga magra de pavo, corazones de alcachofa ricos en cinarina y fibra inulina, y guisantes tiernos. Estimula la función hepática y desacelera la absorción de los carbohidratos presentes.",
+      "servings": 3,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 40,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 16.5,
+        "calories_kcal": 265,
+        "sugars_g": 3.8,
+        "fiber_g": 6.8,
+        "protein_g": 31.5,
+        "total_fat_g": 7.4,
+        "saturated_fat_g": 1.2,
+        "sodium_mg": 310
+      },
+      "ingredients": [
+        { "name": "Pechuga de pavo en tacos limpios", "quantity": 350, "unit": "g" },
+        { "name": "Corazones de alcachofa (frescos o en conserva natural escurridos)", "quantity": 200, "unit": "g" },
+        { "name": "Guisantes tiernos congelados", "quantity": 100, "unit": "g" },
+        { "name": "Zanahoria picada en dados finos", "quantity": 70, "unit": "g" },
+        { "name": "Cebolla picada fina", "quantity": 70, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 15, "unit": "ml" },
+        { "name": "Caldo de verduras o ave desgrasado", "quantity": 300, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una cazuela honda, calentar el aceite de oliva a fuego medio y sellar los dados de pavo durante 4 minutos hasta que blanqueen; retirar y reservar.",
+        "En el mismo aceite, pochar la cebolla y la zanahoria durante 6 minutos hasta que comiencen a ablandarse.",
+        "Incorporar los corazones de alcachofa cortados en cuartos y rehogar durante 2 minutos.",
+        "Reincorporar el pavo a la cazuela y verter el caldo caliente desgrasado junto con una pizca de pimienta.",
+        "Llevar a ebullición, tapar parcialmente la cazuela y dejar cocer a fuego lento durante 12 minutos.",
+        "Añadir los guisantes congelados directamente al guiso y continuar la cocción durante 6 minutos más hasta que estén tiernos y el caldo haya reducido ligeramente.",
+        "Servir caliente en platos llanos hondos asegurando un reparto homogéneo de verduras y legumbres."
+      ]
+    },
+    {
+      "id": 50,
+      "category": "Almuerzos",
+      "name": "Filete de caballa a la plancha con puré de garbanzos al pimentón y espinacas",
+      "description": "Pescado azul económico, sostenible y sumamente concentrado en ácidos grasos omega-3 EPA y DHA, asado a la plancha y emplatado con un puré rústico y saciante de garbanzos aromatizado con pimentón de la Vera y espinacas al vapor.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 12,
+      "total_time_minutes": 24,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 19.8,
+        "calories_kcal": 385,
+        "sugars_g": 1.9,
+        "fiber_g": 6.8,
+        "protein_g": 29.8,
+        "total_fat_g": 20.4,
+        "saturated_fat_g": 3.8,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Filetes de caballa limpia sin espinas", "quantity": 280, "unit": "g" },
+        { "name": "Garbanzos cocidos y escurridos", "quantity": 180, "unit": "g" },
+        { "name": "Espinacas frescas", "quantity": 120, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Pimentón dulce ahumado", "quantity": 3, "unit": "g" },
+        { "name": "Diente de ajo pequeño", "quantity": 1, "unit": "unidad" },
+        { "name": "Caldo de verduras o agua caliente", "quantity": 50, "unit": "ml" },
+        { "name": "Zumo de limón", "quantity": 8, "unit": "ml" }
+      ],
+      "instructions": [
+        "Colocar los garbanzos cocidos calientes en el vaso de la batidora junto con el diente de ajo, 8 ml de aceite de oliva, el pimentón ahumado y el caldo caliente; triturar hasta conseguir un puré espeso y suave.",
+        "En una sartén pequeña, saltear las espinacas con unas gotas de aceite durante 2 minutos hasta que colapsen; reservar calientes.",
+        "Salpimentar los filetes de caballa por ambos lados.",
+        "Poner una plancha antiadherente a fuego fuerte con el resto del aceite de oliva virgen extra.",
+        "Colocar los filetes de caballa con la piel hacia abajo durante 3 minutos hasta que la piel quede tostada y crujiente.",
+        "Voltear cuidadosamente con espátula fina y cocinar solo 1 minuto y medio más por el lado de la carne.",
+        "Disponer una base generosa de puré rústico de garbanzos en cada plato, acompañar con las espinacas salteadas y colocar el filete de caballa recién hecho encima, rociado con unas gotas de zumo de limón fresco."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,886 @@
+{
+  "recipes": [
+    {
+      "id": 76,
+      "category": "Snacks",
+      "name": "Garbanzos crujientes especiados al horno con pimentón y comino",
+      "description": "Una alternativa crocante a los snacks ultraprocesados a base de legumbre entera horneada con especias digestivas. Su combinación de almidón resistente y abundante fibra soluble permite un picoteo saciante de lenta absorción.",
+      "servings": 3,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 33,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 16.4,
+        "calories_kcal": 138,
+        "sugars_g": 1.2,
+        "fiber_g": 5.2,
+        "protein_g": 5.6,
+        "total_fat_g": 5.2,
+        "saturated_fat_g": 0.7,
+        "sodium_mg": 180
+      },
+      "ingredients": [
+        { "name": "Garbanzos cocidos y bien escurridos", "quantity": 240, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Pimentón dulce de la Vera", "quantity": 3, "unit": "g" },
+        { "name": "Comino molido", "quantity": 2, "unit": "g" },
+        { "name": "Ajo en polvo", "quantity": 1, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 200 °C con calor arriba y abajo.",
+        "Lavar los garbanzos cocidos y secarlos minuciosamente entre dos paños limpios de cocina para retirar toda la humedad externa (este paso es clave para lograr una textura crujiente).",
+        "En un bol, mezclar los garbanzos secos con el aceite de oliva, el pimentón, el comino, el ajo en polvo y la pimienta.",
+        "Extender los garbanzos en una sola capa sobre una bandeja de horno cubierta con papel vegetal.",
+        "Hornear a 200 °C durante 25 minutos, removiendo la bandeja a mitad de cocción, hasta que estén dorados y secos al tacto.",
+        "Dejar enfriar completamente dentro del horno apagado y entreabierto durante 10 minutos para que terminen de adquirir consistencia crujiente antes de servir."
+      ]
+    },
+    {
+      "id": 77,
+      "category": "Snacks",
+      "name": "Bastones de apio y pepino con dip de requesón y eneldo",
+      "description": "Crutités vegetales frescos altamente hidratantes acompañados de una crema proteica ligera de requesón campesino y hierbas frescas. Ideal para calmar la ansiedad oral entre horas sin incorporar apenas carbohidratos digeribles.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.5,
+        "calories_kcal": 88,
+        "sugars_g": 2.8,
+        "fiber_g": 1.8,
+        "protein_g": 8.4,
+        "total_fat_g": 3.8,
+        "saturated_fat_g": 1.9,
+        "sodium_mg": 190
+      },
+      "ingredients": [
+        { "name": "Requesón o queso cottage bajo en grasa", "quantity": 120, "unit": "g" },
+        { "name": "Tallos de apio limpios cortados en bastones", "quantity": 100, "unit": "g" },
+        { "name": "Pepino pelado y cortado en bastones", "quantity": 120, "unit": "g" },
+        { "name": "Eneldo fresco picado", "quantity": 4, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 5, "unit": "ml" },
+        { "name": "Zumo de limón", "quantity": 5, "unit": "ml" },
+        { "name": "Pimienta blanca molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En un cuenco mediano, batir con un tenedor el requesón junto con el aceite de oliva, el zumo de limón, el eneldo picado y la pimienta blanca hasta obtener una crema homogénea.",
+        "Lavar, secar y cortar el apio y el pepino en bastones homogéneos de aproximadamente 8 cm de largo.",
+        "Colocar el dip de requesón en un cuenco pequeño en el centro de un plato llano.",
+        "Distribuir los bastoncillos vegetales alrededor y consumir mojando los vegetales directamente en la crema."
+      ]
+    },
+    {
+      "id": 78,
+      "category": "Snacks",
+      "name": "Rollitos de pavo braseado rellenos de queso crema ligero y rúcula",
+      "description": "Bocaditos enrollados rápidos y proteicos a base de fiambre magro de pechuga de pavo con alto porcentaje cárnico, queso crema y hojas picantes de rúcula. Excelente opción para consumir fuera de casa manteniendo la insulina en reposo.",
+      "servings": 2,
+      "prep_time_minutes": 7,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 7,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 1.8,
+        "calories_kcal": 115,
+        "sugars_g": 1.2,
+        "fiber_g": 0.4,
+        "protein_g": 13.8,
+        "total_fat_g": 5.8,
+        "saturated_fat_g": 2.9,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Lonchas finas de pechuga de pavo (mínimo 90% carne)", "quantity": 4, "unit": "lonchas" },
+        { "name": "Queso crema para untar bajo en grasa", "quantity": 40, "unit": "g" },
+        { "name": "Hojas de rúcula fresca lavadas", "quantity": 25, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Extender las 4 lonchas de pechuga de pavo sobre una tabla limpia.",
+        "Untar equitativamente 10 gramos de queso crema sobre la superficie de cada loncha.",
+        "Espolvorear una pizca ligera de pimienta negra sobre el queso.",
+        "Colocar un manojo pequeño de hojas de rúcula fresca en un extremo de cada loncha, dejando que las puntas de las hojas asomen ligeramente.",
+        "Enrollar cada loncha firmemente sobre sí misma formando un cilindro compacto.",
+        "Cortar cada rollito por la mitad en diagonal y servir en un plato pequeño."
+      ]
+    },
+    {
+      "id": 79,
+      "category": "Snacks",
+      "name": "Edamames al vapor salteados con sésamo tostado y escamas de sal",
+      "description": "Vainas jóvenes de soja cocinadas al vapor y salteadas fugazmente con aceite de sésamo y semillas tostadas. Aportan proteína vegetal completa, isoflavonas y un perfil de carbohidratos no absorbibles ideal para el control glucémico.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 7,
+      "total_time_minutes": 12,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 7.4,
+        "calories_kcal": 142,
+        "sugars_g": 2.1,
+        "fiber_g": 4.8,
+        "protein_g": 11.2,
+        "total_fat_g": 7.2,
+        "saturated_fat_g": 0.9,
+        "sodium_mg": 190
+      },
+      "ingredients": [
+        { "name": "Vainas de edamame congeladas", "quantity": 200, "unit": "g" },
+        { "name": "Aceite de sésamo virgen", "quantity": 6, "unit": "ml" },
+        { "name": "Semillas de sésamo tostado", "quantity": 6, "unit": "g" },
+        { "name": "Sal en escamas", "quantity": 1, "unit": "g" }
+      ],
+      "instructions": [
+        "Hervir las vainas de edamame en agua con una pizca de sal durante 4 minutos; escurrir muy bien.",
+        "Calentar el aceite de sésamo en una sartén antiadherente a fuego medio-alto.",
+        "Añadir las vainas escurridas y saltearlas vigorosamente durante 2 minutos hasta que tomen calor homogéneo y brillo.",
+        "Incorporar las semillas de sésamo tostado y saltear 30 segundos más.",
+        "Transferir a un cuenco hondo y espolvorear la sal en escamas por encima.",
+        "Consumir extrayendo los granos interiores directamente con los dientes y desechando la vaina exterior."
+      ]
+    },
+    {
+      "id": 80,
+      "category": "Snacks",
+      "name": "Huevos duros rellenos de puré de aguacate y cilantro al limón",
+      "description": "Reinvención saludable de los clásicos huevos rellenos, sustituyendo la mayonesa comercial por pulpa de aguacate maduro emulsionada con zumo de lima y cilantro. Ricos en luteína, colina y grasas monoinsaturadas cardiosaludables.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 20,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 2.4,
+        "calories_kcal": 168,
+        "sugars_g": 0.8,
+        "fiber_g": 1.9,
+        "protein_g": 9.6,
+        "total_fat_g": 13.5,
+        "saturated_fat_g": 2.8,
+        "sodium_mg": 160
+      },
+      "ingredients": [
+        { "name": "Huevos camperos medianos", "quantity": 2, "unit": "unidades" },
+        { "name": "Aguacate maduro", "quantity": 50, "unit": "g" },
+        { "name": "Zumo de lima natural", "quantity": 6, "unit": "ml" },
+        { "name": "Cilantro fresco picado", "quantity": 3, "unit": "g" },
+        { "name": "Copos de chile o pimentón", "quantity": 1, "unit": "pizca" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Cocer los huevos en agua hirviendo durante 9 minutos; sumergir de inmediato en agua con hielo para frenar la cocción y pelar fácilmente.",
+        "Cortar los huevos cocidos por la mitad a lo largo y retirar las yemas con la punta de una cuchara pequeña.",
+        "En un cuenco, machacar con un tenedor el aguacate con una sola de las yemas cocidas (descartar o reservar la otra para otra preparación), el zumo de lima, el cilantro y una pizca de pimienta.",
+        "Trabajar la mezcla hasta lograr un puré cremoso y untuoso.",
+        "Rellenar las cavidades de las 4 claras cocidas con el puré de aguacate utilizando una cuchara o manga pastelera.",
+        "Decorar con los copos de chile o pimentón dulce y servir fríos."
+      ]
+    },
+    {
+      "id": 81,
+      "category": "Snacks",
+      "name": "Brochetas caprese de tomates cherry, perlas de mozzarella y albahaca",
+      "description": "Snack fresco en formato brocheta que ensarta tomates cherry jugosos con bolitas de mozzarella fresca y hojas enteras de albahaca bañadas con aceite de oliva. Aporta calcio biodisponible y licopeno con un impacto glucémico nulo.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 8,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.8,
+        "calories_kcal": 142,
+        "sugars_g": 2.6,
+        "fiber_g": 1.1,
+        "protein_g": 7.4,
+        "total_fat_g": 10.8,
+        "saturated_fat_g": 4.6,
+        "sodium_mg": 140
+      },
+      "ingredients": [
+        { "name": "Perlas de mozzarella fresca de vaca (bocconcini)", "quantity": 70, "unit": "g" },
+        { "name": "Tomates cherry maduros", "quantity": 120, "unit": "g" },
+        { "name": "Hojas frescas de albahaca", "quantity": 8, "unit": "unidades" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Lavar y secar meticulosamente los tomates cherry y las hojas de albahaca fresca.",
+        "Escurrir bien las perlas de mozzarella fresca sobre papel de cocina.",
+        "Tomar 4 brochetas cortas de madera o bambú e intercalar en cada una: un tomate cherry, una hoja de albahaca doblada y una perla de mozzarella, repitiendo la secuencia.",
+        "Disponer las brochetas montadas sobre un plato alargado.",
+        "Rociar las brochetas uniformemente con el aceite de oliva virgen extra.",
+        "Rematar con un giro de molinillo de pimienta negra fresca y degustar al instante."
+      ]
+    },
+    {
+      "id": 82,
+      "category": "Snacks",
+      "name": "Chips crujientes de kale al horno con levadura nutricional",
+      "description": "Hojas de col rizada deshidratadas al calor suave del horno hasta tornarse crujientes como patatas chips, sazonadas con levadura nutricional que aporta un sabor similar al queso. Aportan clorofila, vitamina K y fibra sin carbohidratos netos apreciables.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 25,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.8,
+        "calories_kcal": 82,
+        "sugars_g": 1.1,
+        "fiber_g": 2.6,
+        "protein_g": 3.8,
+        "total_fat_g": 5.1,
+        "saturated_fat_g": 0.7,
+        "sodium_mg": 120
+      },
+      "ingredients": [
+        { "name": "Hojas de kale o col rizada limpia (sin tallos gruesos)", "quantity": 120, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Levadura nutricional", "quantity": 8, "unit": "g" },
+        { "name": "Ajo en polvo", "quantity": 1, "unit": "g" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 140 °C con ventilador (el calor suave evita que las hojas amarguen o se quemen).",
+        "Retirar los tallos gruesos y leñosos del kale con las manos y cortar las hojas en trozos del tamaño de un bocado.",
+        "Secar las hojas de kale con una centrifugadora de verduras y repasarlas con papel de cocina hasta que no quede rastro de agua.",
+        "Colocar las hojas en un bol amplio, verter los 8 ml de aceite de oliva y masajear minuciosamente con las manos para impregnar cada pliegue con una finísima capa de grasa.",
+        "Añadir la levadura nutricional y el ajo en polvo, mezclando para distribuir las especias.",
+        "Extender las hojas en una bandeja de horno sin amontonar y hornear a 140 °C durante 14-16 minutos hasta que estén completamente crujientes al tacto.",
+        "Dejar enfriar 3 minutos en la bandeja y servir."
+      ]
+    },
+    {
+      "id": 83,
+      "category": "Snacks",
+      "name": "Yogur griego espeso con nueces troceadas y canela de Ceilán",
+      "description": "Una merienda clásica lista en un minuto, fundamentada en yogur natural colado rico en caseína y ácido láctico, nueces ricas en ácido alfa-linolénico y canela. La canela de Ceilán contiene polifenoles que ayudan a moderar la glucemia.",
+      "servings": 1,
+      "prep_time_minutes": 4,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 4,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 5.8,
+        "calories_kcal": 182,
+        "sugars_g": 4.1,
+        "fiber_g": 1.2,
+        "protein_g": 12.4,
+        "total_fat_g": 12.5,
+        "saturated_fat_g": 3.6,
+        "sodium_mg": 55
+      },
+      "ingredients": [
+        { "name": "Yogur griego natural entero sin azúcar", "quantity": 120, "unit": "g" },
+        { "name": "Nueces en mitades troceadas", "quantity": 15, "unit": "g" },
+        { "name": "Canela de Ceilán molida", "quantity": 2, "unit": "g" }
+      ],
+      "instructions": [
+        "Verter el yogur griego en un cuenco pequeño de cerámica o vidrio.",
+        "Batir el yogur con una cucharita durante 20 segundos para homogenizar su textura y volverla más sedosa.",
+        "Trocear las nueces con los dedos y colocarlas sobre el yogur para garantizar textura crocante.",
+        "Espolvorear la canela de Ceilán molida cubriendo la superficie antes de consumir."
+      ]
+    },
+    {
+      "id": 84,
+      "category": "Snacks",
+      "name": "Canapés de pepino con pasta cremosa de atún y mostaza",
+      "description": "Rodajas gruesas de pepino fresco utilizadas como base vegetal crujiente coronadas con una mezcla de atún claro al natural, unas gotas de aceite de oliva virgen extra y mostaza Dijon. Aporte magro de proteínas marinas sin necesidad de panes o tostadas.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 8,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 2.8,
+        "calories_kcal": 110,
+        "sugars_g": 1.6,
+        "fiber_g": 1.1,
+        "protein_g": 15.2,
+        "total_fat_g": 4.2,
+        "saturated_fat_g": 0.7,
+        "sodium_mg": 260
+      },
+      "ingredients": [
+        { "name": "Pepino mediano con piel bien lavado", "quantity": 160, "unit": "g" },
+        { "name": "Atún claro al natural escurrido", "quantity": 100, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 6, "unit": "ml" },
+        { "name": "Mostaza de Dijon suave", "quantity": 8, "unit": "g" },
+        { "name": "Cebollino fresco picado", "quantity": 3, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Escurrir totalmente el agua de la lata de atún claro al natural presionando con una cuchara.",
+        "En un cuenco, desmenuzar el atún con un tenedor y mezclarlo con la mostaza de Dijon, el aceite de oliva, el cebollino fresco y una pizca de pimienta.",
+        "Cortar el pepino en rodajas gruesas de aproximadamente 1 cm de espesor para que actúen como base firme.",
+        "Disponer las rodajas de pepino en una bandeja plana.",
+        "Colocar una porción generosa de la pasta de atún sobre cada rodaja de pepino.",
+        "Servir fríos como canapés saludables listos para consumir con los dedos."
+      ]
+    },
+    {
+      "id": 85,
+      "category": "Snacks",
+      "name": "Almendras tostadas a la sartén con romero fresco y sal marina",
+      "description": "Fruto seco tostado suavemente en sartén con una película sutil de aceite de oliva, aromatizado con agujas de romero y cristales de sal marina. Fuente densa de magnesio, fibra prebiótica y vitamina E, nutrientes clave para el equilibrio metabólico.",
+      "servings": 2,
+      "prep_time_minutes": 3,
+      "cook_time_minutes": 6,
+      "total_time_minutes": 9,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.2,
+        "calories_kcal": 165,
+        "sugars_g": 1.1,
+        "fiber_g": 3.1,
+        "protein_g": 5.4,
+        "total_fat_g": 14.8,
+        "saturated_fat_g": 1.2,
+        "sodium_mg": 120
+      },
+      "ingredients": [
+        { "name": "Almendras crudas con piel", "quantity": 50, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 4, "unit": "ml" },
+        { "name": "Romero fresco picado fino", "quantity": 3, "unit": "g" },
+        { "name": "Sal marina fina", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Calentar el aceite de oliva en una sartén antiadherente pequeña a fuego medio.",
+        "Añadir las almendras crudas y remover continuamente con una cuchara de madera durante 4 minutos para lograr un tostado homogéneo sin quemar la piel.",
+        "Incorporar el romero fresco picado en el último minuto de cocción para que libere sus aceites aromáticos sobre las almendras calientes.",
+        "Retirar del fuego y espolvorear la pizca de sal marina fina removiendo bien.",
+        "Volcar las almendras sobre un plato extendido y dejar enfriar completamente antes de consumir para que adquieran máxima crocancia."
+      ]
+    },
+    {
+      "id": 86,
+      "category": "Snacks",
+      "name": "Gajos de manzana verde con crema pura de almendras y semillas de chía",
+      "description": "Láminas crujientes de manzana Granny Smith rica en pectina y baja en fructosa, acompañadas de crema de almendras 100% fruto seco y chía. La grasa vegetal y la fibra soluble forman una barrera gástrica que retarda el paso de azúcares al torrente sanguíneo.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 5,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 14.5,
+        "calories_kcal": 165,
+        "sugars_g": 9.2,
+        "fiber_g": 4.6,
+        "protein_g": 4.5,
+        "total_fat_g": 10.4,
+        "saturated_fat_g": 0.9,
+        "sodium_mg": 8
+      },
+      "ingredients": [
+        { "name": "Manzana verde ácida (Granny Smith)", "quantity": 80, "unit": "g" },
+        { "name": "Crema de almendras 100% natural sin aditivos", "quantity": 16, "unit": "g" },
+        { "name": "Semillas de chía", "quantity": 3, "unit": "g" },
+        { "name": "Canela molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Lavar muy bien la manzana y cortarla en gajos finos conservando la piel para aprovechar toda la quercetina y fibra.",
+        "Disponer los gajos de manzana en forma de abanico sobre un plato.",
+        "Poner la crema de almendras en un recipiente pequeño o verterla en hilos sobre cada gajo.",
+        "Espolvorear las semillas de chía y un toque de canela sobre la crema de almendras y degustar de inmediato."
+      ]
+    },
+    {
+      "id": 87,
+      "category": "Snacks",
+      "name": "Mousse rápida de aguacate con cacao puro desgrasado",
+      "description": "Crema dulce saciante que aprovecha la untuosidad lipídica del aguacate maduro emulsionado con cacao en polvo 100% desgrasado y un toque de eritritol. Proporciona flavonoides amargos estimulantes sin alterar en absoluto la glucosa en sangre.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 8,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 5.4,
+        "calories_kcal": 158,
+        "sugars_g": 0.8,
+        "fiber_g": 4.9,
+        "protein_g": 3.1,
+        "total_fat_g": 13.8,
+        "saturated_fat_g": 2.4,
+        "sodium_mg": 12
+      },
+      "ingredients": [
+        { "name": "Aguacate maduro", "quantity": 120, "unit": "g" },
+        { "name": "Cacao puro 100% desgrasado en polvo", "quantity": 18, "unit": "g" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 40, "unit": "ml" },
+        { "name": "Eritritol o fruto del monje (opcional)", "quantity": 10, "unit": "g" },
+        { "name": "Extracto de vainilla puro", "quantity": 2, "unit": "ml" }
+      ],
+      "instructions": [
+        "Extraer la pulpa del aguacate y colocarla en el vaso de la batidora o procesador de alimentos.",
+        "Añadir el cacao puro en polvo, la bebida de almendras, el extracto de vainilla y el eritritol.",
+        "Triturar a potencia alta durante 1-2 minutos, deteniendo el motor para bajar los restos de las paredes, hasta conseguir una textura de mousse brillante y totalmente sedosa.",
+        "Repartir la preparación en dos vasitos individuales.",
+        "Refrigerar durante 15 minutos antes de consumir para que adquiera una consistencia fresca y firme."
+      ]
+    },
+    {
+      "id": 88,
+      "category": "Snacks",
+      "name": "Dip templado de alcachofa y espinacas con chips de calabacín",
+      "description": "Paté templado elaborado con corazones tiernos de alcachofa y espinacas ligadas con queso cottage, acompañado de rodajas de calabacín horneadas secas como tostadas. Sobresale por su riqueza en fibra inulina protectora de la microbiota intestinal.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 25,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 7.8,
+        "calories_kcal": 118,
+        "sugars_g": 3.2,
+        "fiber_g": 4.8,
+        "protein_g": 8.6,
+        "total_fat_g": 5.4,
+        "saturated_fat_g": 2.1,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Corazones de alcachofa cocidos y escurridos", "quantity": 120, "unit": "g" },
+        { "name": "Espinacas frescas picadas", "quantity": 80, "unit": "g" },
+        { "name": "Queso cottage magro", "quantity": 80, "unit": "g" },
+        { "name": "Calabacín mediano cortado en rodajas muy finas", "quantity": 150, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 6, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 180 °C.",
+        "Disponer las rodajas finas de calabacín en una bandeja con papel de hornear, pintar con la mitad del aceite y hornear durante 12-14 minutos hasta que se deshidraten y queden firmes.",
+        "En un cazo pequeño, saltear las espinacas con el resto del aceite durante 2 minutos hasta colapsar.",
+        "Añadir las alcachofas troceadas y el queso cottage; calentar suavemente durante 3 minutos y triturar ligeramente con un tenedor para mantener una textura rústica.",
+        "Servir el dip templado de alcachofa en un cuenco acompañado de las chips secas de calabacín horneadas."
+      ]
+    },
+    {
+      "id": 89,
+      "category": "Snacks",
+      "name": "Barquitas de endivias con hummus tradicional y semillas de girasol",
+      "description": "Hojas frescas de endivia blanca rellenas de puré cremoso de garbanzos al tahini y pipas de girasol tostadas. La endivia aporta principios amargos (lactucina) que estimulan la secreción de bilis y enzimas digestivas, con cero carbohidratos simples.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 8,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 9.4,
+        "calories_kcal": 135,
+        "sugars_g": 2.1,
+        "fiber_g": 4.6,
+        "protein_g": 5.2,
+        "total_fat_g": 8.6,
+        "saturated_fat_g": 1.1,
+        "sodium_mg": 180
+      },
+      "ingredients": [
+        { "name": "Endivias limpias deshojadas", "quantity": 6, "unit": "hojas" },
+        { "name": "Hummus tradicional de garbanzo", "quantity": 60, "unit": "g" },
+        { "name": "Semillas de girasol tostadas sin sal", "quantity": 10, "unit": "g" },
+        { "name": "Pimentón dulce ahumado", "quantity": 1, "unit": "pizca" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 4, "unit": "ml" }
+      ],
+      "instructions": [
+        "Separar con cuidado 6 hojas enteras de endivia, lavarlas y secarlas perfectamente con un paño limpio.",
+        "Disponer las hojas de endivia en un plato actuando como barquitas alargadas.",
+        "Rellenar cada barquita con una cucharada sopera de hummus repartida a lo largo de la concavidad.",
+        "Distribuir las semillas de girasol crujientes por encima de la crema de garbanzo.",
+        "Decorar con unas gotas de aceite de oliva virgen extra y una pizca de pimentón dulce ahumado antes de servir."
+      ]
+    },
+    {
+      "id": 90,
+      "category": "Snacks",
+      "name": "Bocaditos crujientes de coliflor asada con costra de parmesano",
+      "description": "Pequeños ramilletes de coliflor sazonados con aceite de oliva y rebozados en queso parmesano rallado, tostados al horno a fuego fuerte. Generan una textura externa crujiente y sabrosa sin necesidad de utilizar pan rallado ni harinas.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 18,
+      "total_time_minutes": 26,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 5.2,
+        "calories_kcal": 128,
+        "sugars_g": 2.4,
+        "fiber_g": 2.8,
+        "protein_g": 7.4,
+        "total_fat_g": 8.8,
+        "saturated_fat_g": 3.4,
+        "sodium_mg": 240
+      },
+      "ingredients": [
+        { "name": "Coliflor cortada en bocados pequeños", "quantity": 200, "unit": "g" },
+        { "name": "Queso parmesano rallado fino", "quantity": 30, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Ajo en polvo", "quantity": 1, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 200 °C con calor arriba y abajo.",
+        "En un cuenco, colocar los bocaditos de coliflor seca y rociar con el aceite de oliva, mezclando bien para recubrir todas las superficies.",
+        "Añadir el ajo en polvo, la pimienta negra y el queso parmesano rallado; remover para que el queso se adhiera al aceite formando un rebozado fino.",
+        "Disponer los ramilletes separados sobre una bandeja forrada con papel vegetal.",
+        "Hornear a 200 °C durante 16-18 minutos hasta que la coliflor esté tierna por dentro y el queso parmesano forme una costra dorada crocante.",
+        "Servir templados directamente de la bandeja."
+      ]
+    },
+    {
+      "id": 91,
+      "category": "Snacks",
+      "name": "Carpaccio fino de calabacín con piñones tostados y limón",
+      "description": "Láminas translúcidas de calabacín crudo aliñadas al instante con zumo de limón, aceite de oliva virgen extra virgen y piñones dorados. Un snack crudo refrescante, alto en potasio y agua, ideal para hidratar y nutrir sin calorías vacías.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 2,
+      "total_time_minutes": 12,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.8,
+        "calories_kcal": 105,
+        "sugars_g": 2.2,
+        "fiber_g": 1.4,
+        "protein_g": 2.8,
+        "total_fat_g": 9.2,
+        "saturated_fat_g": 1.2,
+        "sodium_mg": 45
+      },
+      "ingredients": [
+        { "name": "Calabacín mediano muy fresco y firme", "quantity": 180, "unit": "g" },
+        { "name": "Piñones", "quantity": 12, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Zumo de limón fresco", "quantity": 8, "unit": "ml" },
+        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Tostar los piñones en una sartén pequeña sin aceite a fuego medio durante 2 minutos hasta que desprendan aroma y se doren levemente; reservar.",
+        "Lavar el calabacín y cortarlo en láminas ultrafinas con la ayuda de una mandolina de cocina.",
+        "Disponer las láminas de calabacín superpuestas elegantemente en una fuente llana.",
+        "Emulsionar con un tenedor en una taza el zumo de limón con el aceite de oliva virgen extra y una pizca de pimienta negra.",
+        "Pintar o rociar el aliño sobre las láminas de calabacín.",
+        "Repartir los piñones tostados por encima y servir de inmediato para disfrutar de la frescura crocante de la verdura."
+      ]
+    },
+    {
+      "id": 92,
+      "category": "Snacks",
+      "name": "Rollitos de láminas de pepino con salmón ahumado y requesón",
+      "description": "Finas cintas de pepino enrolladas rellenas de queso blanco magro y salmón ahumado rico en ácidos grasos omega-3. Una preparación sofisticada y saciante con contenido insignificante de carbohidratos.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 2.4,
+        "calories_kcal": 118,
+        "sugars_g": 1.6,
+        "fiber_g": 0.8,
+        "protein_g": 12.5,
+        "total_fat_g": 6.4,
+        "saturated_fat_g": 2.2,
+        "sodium_mg": 340
+      },
+      "ingredients": [
+        { "name": "Pepino largo tipo holandés", "quantity": 150, "unit": "g" },
+        { "name": "Salmón ahumado en tiras", "quantity": 70, "unit": "g" },
+        { "name": "Requesón o queso ricotta bajo en grasa", "quantity": 60, "unit": "g" },
+        { "name": "Eneldo picado", "quantity": 3, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Con un pelador de patatas o mandolina, cortar láminas longitudinales largas de pepino descartando la primera capa de piel pura.",
+        "Secar las tiras de pepino sobre papel absorbente.",
+        "En un bol, mezclar el requesón con el eneldo picado y una pizca de pimienta negra.",
+        "Extender las tiras de pepino en una tabla, untar una capa fina de requesón y colocar una tira de salmón ahumado encima de cada una.",
+        "Enrollar cada tira de pepino sobre sí misma formando un pequeño rollito tipo sushi.",
+        "Colocar los rollitos en posición vertical en un plato y servir frescos."
+      ]
+    },
+    {
+      "id": 93,
+      "category": "Snacks",
+      "name": "Pipás de calabaza tostadas al horno con cúrcuma y pimienta negra",
+      "description": "Semillas de calabaza horneadas en seco con cúrcuma y pimienta negra (la piperina multiplica la absorción de la curcumina). Aporte formidable de zinc, magnesio y fitoesteroles reductores del colesterol LDL con una digestión limpia.",
+      "servings": 2,
+      "prep_time_minutes": 4,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 14,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.8,
+        "calories_kcal": 145,
+        "sugars_g": 0.4,
+        "fiber_g": 1.8,
+        "protein_g": 7.2,
+        "total_fat_g": 12.1,
+        "saturated_fat_g": 2.2,
+        "sodium_mg": 90
+      },
+      "ingredients": [
+        { "name": "Semillas de calabaza crudas peladas", "quantity": 50, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 4, "unit": "ml" },
+        { "name": "Cúrcuma en polvo", "quantity": 2, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "g" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 170 °C con calor arriba y abajo.",
+        "En un cuenco pequeño, mezclar las semillas de calabaza con el aceite de oliva, la cúrcuma y la pimienta negra hasta que adquieran un tono dorado uniforme.",
+        "Extender las semillas sobre una bandeja de horno forrada con papel vegetal en una sola capa.",
+        "Hornear a 170 °C durante 9-10 minutos, vigilando que se hinchen y doren sin quemarse.",
+        "Retirar del horno, dejar enfriar completamente en la bandeja para que se vuelvan crujientes y servir en dos pequeños cuencos."
+      ]
+    },
+    {
+      "id": 94,
+      "category": "Snacks",
+      "name": "Bolitas energéticas de harina de almendras, coco y semillas de chía",
+      "description": "Trufas energéticas sin horneado ni dátiles, elaboradas uniendo harina de almendra pura, bebida vegetal sin azúcar, coco rallado y chía. Una dosis portátil de energía lipídica pura que sacia el deseo dulce sin alterar la curva de glucosa.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.4,
+        "calories_kcal": 132,
+        "sugars_g": 0.9,
+        "fiber_g": 2.6,
+        "protein_g": 4.2,
+        "total_fat_g": 11.6,
+        "saturated_fat_g": 3.4,
+        "sodium_mg": 18
+      },
+      "ingredients": [
+        { "name": "Harina de almendras", "quantity": 50, "unit": "g" },
+        { "name": "Coco rallado deshidratado sin azúcar", "quantity": 15, "unit": "g" },
+        { "name": "Semillas de chía", "quantity": 10, "unit": "g" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 25, "unit": "ml" },
+        { "name": "Canela molida", "quantity": 1, "unit": "g" },
+        { "name": "Extracto de vainilla", "quantity": 2, "unit": "ml" }
+      ],
+      "instructions": [
+        "En un cuenco mediano, mezclar la harina de almendras, la mitad del coco rallado, las semillas de chía y la canela molida.",
+        "Añadir el extracto de vainilla y la bebida de almendras sin azúcar poco a poco mientras se amasa con las manos o una cuchara hasta formar una pasta maleable y densa.",
+        "Dividir la masa en 6 porciones iguales y rodar cada una entre las palmas de las manos para formar bolitas redondeadas.",
+        "Pasar las bolitas por el resto del coco rallado para rebozarlas exteriormente.",
+        "Refrigerar durante al menos 15 minutos para que adquieran consistencia compacta antes de consumir (la ración corresponde a 2 bolitas)."
+      ]
+    },
+    {
+      "id": 95,
+      "category": "Snacks",
+      "name": "Vaso individual de chía pudding con bebida de avellanas y canela",
+      "description": "Snack saciante de textura gelatinosa natural proporcionada por las fibras mucilaginosas de la semilla de chía remojada en bebida vegetal sin azúcar. La lenta difusión gástrica asegura energía estable y control del apetito por varias horas.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 5,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.8,
+        "calories_kcal": 115,
+        "sugars_g": 0.6,
+        "fiber_g": 5.4,
+        "protein_g": 3.8,
+        "total_fat_g": 7.6,
+        "saturated_fat_g": 0.8,
+        "sodium_mg": 45
+      },
+      "ingredients": [
+        { "name": "Semillas de chía", "quantity": 16, "unit": "g" },
+        { "name": "Bebida de avellanas o almendras sin azúcar", "quantity": 110, "unit": "ml" },
+        { "name": "Canela de Ceilán en polvo", "quantity": 2, "unit": "g" },
+        { "name": "Extracto de vainilla puro", "quantity": 2, "unit": "ml" }
+      ],
+      "instructions": [
+        "En un vasito de vidrio, verter la bebida vegetal y el extracto de vainilla.",
+        "Añadir las semillas de chía y la canela en polvo.",
+        "Remover con una cuchara de postre enérgicamente durante 1 minuto completo para asegurar que las semillas no se peguen en el fondo.",
+        "Dejar reposar 5 minutos y volver a remover suavemente.",
+        "Llevar al frigorífico durante al menos 1 hora (o dejarlo listo desde la mañana) hasta que espese con consistencia de natilla.",
+        "Consumir frío con cuchara directamente del vaso."
+      ]
+    },
+    {
+      "id": 96,
+      "category": "Snacks",
+      "name": "Bastoncitos de zanahoria y pimiento con tzatziki casero de yogur griego",
+      "description": "Crujientes vegetales crudos ricos en betacarotenos combinados con salsa griega tradicional de pepino rallado y yogur denso. Un tentempié voluminoso, rico en probióticos y agua, con escaso aporte calórico y lenta absorción.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 88,
+        "sugars_g": 4.1,
+        "fiber_g": 2.2,
+        "protein_g": 5.8,
+        "total_fat_g": 4.6,
+        "saturated_fat_g": 1.8,
+        "sodium_mg": 95
+      },
+      "ingredients": [
+        { "name": "Yogur griego natural sin azúcar", "quantity": 100, "unit": "g" },
+        { "name": "Pepino rallado y bien escurrido", "quantity": 50, "unit": "g" },
+        { "name": "Zanahoria en bastoncitos", "quantity": 80, "unit": "g" },
+        { "name": "Pimiento rojo en tiras finas", "quantity": 80, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 5, "unit": "ml" },
+        { "name": "Hierbabuena o menta fresca picada", "quantity": 3, "unit": "g" },
+        { "name": "Zumo de limón", "quantity": 4, "unit": "ml" }
+      ],
+      "instructions": [
+        "Rallar el pepino con rallador grueso y exprimirlo con las manos en un colador para extraer todo el líquido posible.",
+        "En un cuenco, mezclar el yogur griego, el pepino escurrido, el aceite de oliva, el zumo de limón y la hierbabuena picada formando la salsa tzatziki.",
+        "Lavar, pelar y cortar la zanahoria y el pimiento rojo en bastones finos y firmes.",
+        "Disponer el bol con el tzatziki en un plato y acompañar con los bastones vegetales crudos alrededor listos para untar."
+      ]
+    },
+    {
+      "id": 97,
+      "category": "Snacks",
+      "name": "Tejas crujientes horneadas de parmesano con sésamo y orégano",
+      "description": "Crujientes tostadas de ingrediente único horneadas a partir de queso maduro curado con semillas y orégano. Contienen prácticamente cero gramos de carbohidratos netos y un perfil idóneo para momentos de ansiedad por texturas crocantes.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 8,
+      "total_time_minutes": 13,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 1.1,
+        "calories_kcal": 122,
+        "sugars_g": 0.2,
+        "fiber_g": 0.5,
+        "protein_g": 9.4,
+        "total_fat_g": 9.1,
+        "saturated_fat_g": 5.2,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Queso parmesano o grana padano rallado fino", "quantity": 50, "unit": "g" },
+        { "name": "Semillas de sésamo tostado", "quantity": 6, "unit": "g" },
+        { "name": "Orégano seco", "quantity": 2, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 190 °C con calor arriba y abajo.",
+        "En una bandeja forrada con papel de horno vegetal, formar 4 círculos separados depositando montoncitos homogéneos de queso parmesano y aplastándolos ligeramente con el dorso de una cuchara.",
+        "Espolvorear las semillas de sésamo, el orégano seco y una pizca de pimienta sobre los discos de queso.",
+        "Hornear a 190 °C durante 7-8 minutos hasta que el queso se funda, burbujee y los bordes tomen un color dorado acaramelado.",
+        "Retirar la bandeja del horno y dejar enfriar completamente durante 5 minutos en reposo (las tejas se endurecerán al enfriar volviéndose completamente crocantes).",
+        "Despegar con una espátula y servir (2 tejas por ración)."
+      ]
+    },
+    {
+      "id": 98,
+      "category": "Snacks",
+      "name": "Aceitunas aliñadas caseras con romero fresco, tomillo y piel de cítricos",
+      "description": "Aceitunas verdes y negras enteras maceradas en aceite de oliva virgen extra aromatizado con hierbas silvestres y cáscara de naranja. Uno de los alimentos botánicos más saludables del patrón mediterráneo, sin azúcares y repleto de ácido oleico.",
+      "servings": 2,
+      "prep_time_minutes": 6,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 6,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 1.8,
+        "calories_kcal": 95,
+        "sugars_g": 0.2,
+        "fiber_g": 1.6,
+        "protein_g": 0.6,
+        "total_fat_g": 9.8,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Aceitunas variadas enteras con hueso en salmuera escurridas", "quantity": 80, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 6, "unit": "ml" },
+        { "name": "Ramita de romero fresco", "quantity": 1, "unit": "unidad" },
+        { "name": "Tomillo seco", "quantity": 1, "unit": "g" },
+        { "name": "Tira fina de piel de naranja limpia (sin parte blanca)", "quantity": 1, "unit": "trozo" }
+      ],
+      "instructions": [
+        "Enjuagar ligeramente las aceitunas con agua para moderar el contenido de sodio y escurrirlas con cuidado.",
+        "Colocar las aceitunas en un cuenco pequeño.",
+        "Picar las hojas de romero fresco y colocarlas sobre las aceitunas junto con el tomillo seco y la tira de piel de naranja.",
+        "Añadir el aceite de oliva virgen extra virgen y mezclar con una cuchara para que los aromas envuelvan cada aceituna.",
+        "Dejar reposar unos minutos antes de consumir para permitir que se infundan los sabores."
+      ]
+    },
+    {
+      "id": 99,
+      "category": "Snacks",
+      "name": "Tortita integral de arroz con crema pura de cacahuete y nibs de cacao",
+      "description": "Snack rápido y crujiente sobre tortita de cereal integral de grano entero, untada con crema de cacahuete monoingrediente y rematada con nibs amargos de cacao puro. La grasa y fibra atenúan la respuesta almidonosa del cereal.",
+      "servings": 1,
+      "prep_time_minutes": 3,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 3,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 10.8,
+        "calories_kcal": 142,
+        "sugars_g": 1.2,
+        "fiber_g": 2.4,
+        "protein_g": 5.1,
+        "total_fat_g": 9.2,
+        "saturated_fat_g": 1.8,
+        "sodium_mg": 60
+      },
+      "ingredients": [
+        { "name": "Tortita de arroz integral o espelta 100%", "quantity": 1, "unit": "unidad" },
+        { "name": "Crema pura de cacahuete sin azúcar añadido", "quantity": 15, "unit": "g" },
+        { "name": "Nibs de cacao puro 100% amargo", "quantity": 5, "unit": "g" },
+        { "name": "Canela molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Disponer la tortita de arroz integral en un plato seco.",
+        "Untar uniformemente la crema pura de cacahuete con la ayuda de un cuchillo de untar sobre toda la superficie.",
+        "Repartir los trocitos de nibs de cacao puro sobre la crema de cacahuete presionando levemente para que queden adheridos.",
+        "Añadir una pizca sutil de canela molida y degustar crujiente al instante."
+      ]
+    },
+    {
+      "id": 100,
+      "category": "Snacks",
+      "name": "Mix templado de frutos secos al curry suave y sal marina",
+      "description": "Mezcla de almendras, avellanas y nueces tostadas a fuego suave con especias de curry y una pizca de aceite virgen. Suministra energía de lenta combustión, polifenoles y ácidos grasos esenciales sin añadir azúcares ni harinas.",
+      "servings": 2,
+      "prep_time_minutes": 4,
+      "cook_time_minutes": 6,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.5,
+        "calories_kcal": 172,
+        "sugars_g": 1.2,
+        "fiber_g": 3.2,
+        "protein_g": 5.1,
+        "total_fat_g": 15.8,
+        "saturated_fat_g": 1.5,
+        "sodium_mg": 95
+      },
+      "ingredients": [
+        { "name": "Almendras crudas", "quantity": 20, "unit": "g" },
+        { "name": "Avellanas crudas", "quantity": 15, "unit": "g" },
+        { "name": "Nueces en mitades", "quantity": 15, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 4, "unit": "ml" },
+        { "name": "Curry suave en polvo", "quantity": 2, "unit": "g" },
+        { "name": "Sal marina fina", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Calentar el aceite de oliva virgen extra en una sartén antiadherente pequeña a fuego medio.",
+        "Incorporar las almendras, avellanas y nueces a la sartén.",
+        "Tostar los frutos secos a fuego suave durante 4 minutos, moviendo constantemente la sartén para lograr un tostado uniforme.",
+        "Espolvorear el curry suave y la pizca de sal marina; saltear durante 1 minuto adicional para que los frutos secos se impregnen del aroma sin quemar el curry.",
+        "Retirar de la sartén caliente hacia un bol para frenar el calor y disfrutar templado o completamente frío."
+      ]
+    }
+  ]
+}
