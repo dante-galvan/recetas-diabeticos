@@ -165,12 +165,14 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
     AppScreen.PROFILE
   )
 
-  // Handle back navigation
+  // Handle back navigation - always enabled to consume back events.
+  // Only on HOME we let the system handle it (exit app).
   BackHandler(enabled = currentScreen != AppScreen.HOME) {
     when (currentScreen) {
-      AppScreen.RECIPE_DETAIL -> viewModel.navigateTo(AppScreen.HOME)
-      AppScreen.ONBOARDING -> viewModel.navigateTo(AppScreen.HOME)
-      else -> viewModel.navigateTo(AppScreen.HOME)
+      AppScreen.ONBOARDING -> { /* Do nothing - onboarding requires explicit action */ }
+      AppScreen.RECIPE_DETAIL -> viewModel.navigateBack()
+      // For bottom nav tabs: go back to HOME since stack is typically empty
+      else -> viewModel.navigateToTopLevel(AppScreen.HOME)
     }
   }
 
@@ -188,7 +190,7 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
             val isSelected = currentScreen == item.screen
             NavigationBarItem(
               selected = isSelected,
-              onClick = { viewModel.navigateTo(item.screen) },
+              onClick = { viewModel.navigateToTopLevel(item.screen) },
               icon = {
                 Icon(
                   imageVector = if (isSelected) item.selectedIcon else item.unselectedIcon,

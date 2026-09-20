@@ -61,6 +61,9 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
   private val _currentScreen = MutableStateFlow(AppScreen.HOME)
   val currentScreen: StateFlow<AppScreen> = _currentScreen.asStateFlow()
 
+  // Navigation stack for back navigation
+  private val _navigationStack = ArrayList<AppScreen>()
+
   // Selected Recipe Detail
   private val _selectedRecipe = MutableStateFlow<Recipe?>(null)
   val selectedRecipe: StateFlow<Recipe?> = _selectedRecipe.asStateFlow()
@@ -162,13 +165,25 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
   }
 
   fun navigateTo(screen: AppScreen) {
+    _navigationStack.add(_currentScreen.value)
     _currentScreen.value = screen
+  }
+
+  fun navigateToTopLevel(screen: AppScreen) {
+    _navigationStack.clear()
+    _currentScreen.value = screen
+  }
+
+  fun navigateBack() {
+    if (_navigationStack.isNotEmpty()) {
+      _currentScreen.value = _navigationStack.removeAt(_navigationStack.lastIndex)
+    }
   }
 
   fun openRecipeDetail(recipe: Recipe) {
     _selectedRecipe.value = recipe
     _servingsMultiplier.value = 1.0
-    _currentScreen.value = AppScreen.RECIPE_DETAIL
+    navigateTo(AppScreen.RECIPE_DETAIL)
   }
 
   fun setServings(newServings: Int) {
@@ -250,7 +265,6 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         isOnboardingCompleted = true
       )
       repository.saveUserProfile(updated)
-      _currentScreen.value = AppScreen.HOME
     }
   }
 

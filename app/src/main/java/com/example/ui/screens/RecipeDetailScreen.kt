@@ -142,7 +142,7 @@ fun RecipeDetailScreen(
           ) {
             // Back Button
             IconButton(
-              onClick = { viewModel.navigateTo(AppScreen.HOME) },
+              onClick = { viewModel.navigateBack() },
               modifier = Modifier
                 .size(42.dp)
                 .background(Color.Black.copy(alpha = 0.4f), CircleShape)
