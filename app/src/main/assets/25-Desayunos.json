@@ -1,0 +1,940 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "category": "Desayunos",
+      "name": "Revuelto de espinacas baby y queso feta al orégano",
+      "description": "Un desayuno proteico de preparación rápida que combina huevos de campo con espinacas frescas salteadas y un toque cremoso de queso feta mediterráneo. Su bajo contenido en carbohidratos y su riqueza en fibra vegetal y grasas saludables favorecen una respuesta glucémica plana a primera hora del día.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 7,
+      "total_time_minutes": 15,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.4,
+        "calories_kcal": 218,
+        "sugars_g": 1.6,
+        "fiber_g": 1.4,
+        "protein_g": 15.2,
+        "total_fat_g": 15.8,
+        "saturated_fat_g": 5.1,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Huevos grandes", "quantity": 4, "unit": "unidades" },
+        { "name": "Espinacas baby frescas", "quantity": 120, "unit": "g" },
+        { "name": "Queso feta desmenuzado", "quantity": 40, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Ajo en polvo", "quantity": 1, "unit": "g" },
+        { "name": "Orégano seco", "quantity": 1, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Batir los 4 huevos en un cuenco con una pizca de pimienta negra y el orégano seco hasta homogenizar.",
+        "Calentar el aceite de oliva virgen extra en una sartén antiadherente a fuego medio.",
+        "Añadir las espinacas baby a la sartén y saltear durante 2 minutos hasta que reduzcan su volumen.",
+        "Espolvorear el ajo en polvo sobre las espinacas e incorporar inmediatamente los huevos batidos.",
+        "Cocinar a fuego medio-bajo durante 3 minutos, removiendo suavemente con espátula de silicona desde los bordes hacia el centro para lograr una textura cremosa.",
+        "Retirar del fuego cuando el huevo esté cocido pero aún jugoso, incorporar el queso feta por encima y servir caliente."
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Desayunos",
+      "name": "Avena nocturna con semillas de chía, canela y nueces",
+      "description": "Avena integral remojada en frío durante la noche con semillas de chía, bebida vegetal sin azúcar y canela de Ceilán. Su alto aporte de betaglucanos y mucílagos solubles retrasa el vaciamiento gástrico, moderando la absorción de glucosa matutina.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 5,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 31.8,
+        "calories_kcal": 284,
+        "sugars_g": 2.1,
+        "fiber_g": 8.6,
+        "protein_g": 9.8,
+        "total_fat_g": 12.6,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 115
+      },
+      "ingredients": [
+        { "name": "Copos de avena integral", "quantity": 40, "unit": "g" },
+        { "name": "Semillas de chía", "quantity": 10, "unit": "g" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 160, "unit": "ml" },
+        { "name": "Canela de Ceilán molida", "quantity": 2, "unit": "g" },
+        { "name": "Nueces picadas", "quantity": 15, "unit": "g" },
+        { "name": "Extracto de vainilla puro", "quantity": 2, "unit": "ml" }
+      ],
+      "instructions": [
+        "En un frasco o recipiente de vidrio con tapa hermética, mezclar los copos de avena integral, las semillas de chía y la canela molida.",
+        "Verter la bebida de almendras sin azúcar y el extracto de vainilla, removiendo con una cuchara para que todos los granos queden humedecidos sin grumos.",
+        "Tapar el frasco y refrigerar durante al menos 6 horas (preferiblemente toda la noche).",
+        "Por la mañana, retirar del frigorífico, mezclar ligeramente con cuchara y esparcir las nueces picadas sobre la superficie antes de consumir."
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Desayunos",
+      "name": "Tostada integral con aguacate triturado y huevo escalfado",
+      "description": "Una combinación clásica equilibrada sobre pan integral de grano entero con masa madre, grasa monoinsaturada de aguacate y huevo pochado de yema fluida. La presencia de fibra densa y grasas nobles reduce la velocidad de asimilación del almidón del pan.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 6,
+      "total_time_minutes": 11,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 21.5,
+        "calories_kcal": 298,
+        "sugars_g": 1.8,
+        "fiber_g": 6.2,
+        "protein_g": 13.4,
+        "total_fat_g": 17.2,
+        "saturated_fat_g": 3.4,
+        "sodium_mg": 310
+      },
+      "ingredients": [
+        { "name": "Pan integral 100% de centeno o masa madre", "quantity": 50, "unit": "g" },
+        { "name": "Aguacate maduro", "quantity": 50, "unit": "g" },
+        { "name": "Huevo grande", "quantity": 1, "unit": "unidad" },
+        { "name": "Zumo de limón fresco", "quantity": 5, "unit": "ml" },
+        { "name": "Semillas de sésamo tostado", "quantity": 3, "unit": "g" },
+        { "name": "Copos de chile seco", "quantity": 1, "unit": "pizca" },
+        { "name": "Vinagre blanco", "quantity": 10, "unit": "ml" }
+      ],
+      "instructions": [
+        "Tostar la rebanada de pan integral hasta que esté firme y crujiente.",
+        "En un cuenco pequeño, machacar la pulpa de aguacate con un tenedor junto con el zumo de limón y una pizca ligera de sal.",
+        "Llenar un cazo pequeño con agua y llevar a ebullición suave; verter el vinagre blanco y generar un remolino con una cuchara.",
+        "Cascar el huevo en una taza y deslizarlo con suavidad en el centro del remolino de agua.",
+        "Cocinar a fuego lento durante 3 minutos y medio para mantener la yema líquida; retirar con espumadera y escurrir sobre papel de cocina absorbente.",
+        "Untar el aguacate triturado sobre el pan tostado, colocar el huevo escalfado encima y decorar con las semillas de sésamo y los copos de chile."
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Desayunos",
+      "name": "Omelet de champiñones portobello y queso ricotta",
+      "description": "Tortilla francesa tierna rellena de champiñones salteados con hierbas provenzales y motas de ricotta cremosa. Aporta proteína de alto valor biológico con prácticamente nulo aporte de azúcares y un perfil calórico controlado.",
+      "servings": 1,
+      "prep_time_minutes": 7,
+      "cook_time_minutes": 8,
+      "total_time_minutes": 15,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.1,
+        "calories_kcal": 245,
+        "sugars_g": 2.0,
+        "fiber_g": 1.2,
+        "protein_g": 17.8,
+        "total_fat_g": 17.1,
+        "saturated_fat_g": 5.4,
+        "sodium_mg": 290
+      },
+      "ingredients": [
+        { "name": "Huevos medianos", "quantity": 2, "unit": "unidades" },
+        { "name": "Champiñones portobello laminados", "quantity": 80, "unit": "g" },
+        { "name": "Queso ricotta magro", "quantity": 35, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Cebollino fresco picado", "quantity": 5, "unit": "g" },
+        { "name": "Pimienta blanca molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Calentar la mitad del aceite en una sartén a fuego medio y saltear los champiñones durante 4 minutos hasta que doren y evaporen su agua; reservar en un plato.",
+        "Batir los 2 huevos vigorosamente con una pizca de pimienta blanca hasta que espumen ligeramente.",
+        "Añadir el resto del aceite a la sartén a fuego medio-bajo y verter los huevos batidos, extendiéndolos por toda la superficie.",
+        "Cocinar durante 2 minutos hasta que la base esté cuajada pero la superficie se mantenga húmeda.",
+        "Disponer los champiñones salteados y cucharaditas de ricotta sobre una mitad de la tortilla.",
+        "Doblar con cuidado la otra mitad sobre el relleno, apagar el fuego, dejar reposar 30 segundos y servir espolvoreada con cebollino picado."
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Desayunos",
+      "name": "Tazón de yogur griego natural con arándanos y semillas de lino",
+      "description": "Desayuno frío sin cocción a base de yogur colado denso en proteínas, enriquecido con arándanos frescos de bajo índice glucémico y semillas de lino dorado molidas. El aporte de ácido láctico, probióticos y fibra soluble favorece la salud intestinal y la sensibilidad a la insulina.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 5,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 12.8,
+        "calories_kcal": 210,
+        "sugars_g": 7.5,
+        "fiber_g": 4.1,
+        "protein_g": 16.5,
+        "total_fat_g": 10.2,
+        "saturated_fat_g": 3.8,
+        "sodium_mg": 68
+      },
+      "ingredients": [
+        { "name": "Yogur griego natural entero sin azúcar", "quantity": 150, "unit": "g" },
+        { "name": "Arándanos frescos", "quantity": 50, "unit": "g" },
+        { "name": "Semillas de lino dorado molidas", "quantity": 10, "unit": "g" },
+        { "name": "Almendras fileteadas crudas", "quantity": 10, "unit": "g" },
+        { "name": "Canela molida", "quantity": 1, "unit": "g" }
+      ],
+      "instructions": [
+        "Colocar el yogur griego en un tazón hondo.",
+        "Lavar y secar meticulosamente los arándanos frescos.",
+        "Distribuir las semillas de lino dorado molidas sobre la superficie del yogur para asegurar su integración nutricional.",
+        "Añadir los arándanos frescos y las almendras fileteadas crudas.",
+        "Espolvorear un toque de canela molida por encima y servir de inmediato."
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Desayunos",
+      "name": "Panqueques proteicos de avena, clara de huevo y vainilla",
+      "description": "Tortitas esponjosas elaboradas únicamente con harina de avena integral, claras y canela, cocidas al punto en plancha antiadherente. Constituyen una fuente de carbohidratos complejos de absorción lenta con mínima grasa y sin harinas refinadas.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 8,
+      "total_time_minutes": 16,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 18.5,
+        "calories_kcal": 168,
+        "sugars_g": 1.2,
+        "fiber_g": 3.2,
+        "protein_g": 14.1,
+        "total_fat_g": 3.5,
+        "saturated_fat_g": 0.6,
+        "sodium_mg": 185
+      },
+      "ingredients": [
+        { "name": "Harina de avena integral", "quantity": 60, "unit": "g" },
+        { "name": "Claras de huevo pasteurizadas", "quantity": 150, "unit": "ml" },
+        { "name": "Huevo entero", "quantity": 1, "unit": "unidad" },
+        { "name": "Levadura química en polvo", "quantity": 4, "unit": "g" },
+        { "name": "Extracto de vainilla puro", "quantity": 3, "unit": "ml" },
+        { "name": "Canela en polvo", "quantity": 2, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra (para engrasar)", "quantity": 3, "unit": "ml" }
+      ],
+      "instructions": [
+        "Introducir en el vaso de la batidora la harina de avena integral, las claras, el huevo entero, la levadura química, la vainilla y la canela.",
+        "Triturar durante 45 segundos a potencia media hasta obtener una mezcla lisa y sin grumos; dejar reposar 2 minutos para que espese ligeramente.",
+        "Pintar una sartén antiadherente con unas gotas de aceite de oliva y calentar a fuego medio.",
+        "Verter porciones de masa de aproximadamente 3 cucharadas por panqueque.",
+        "Cocinar durante 2 minutos hasta observar burbujas en la superficie; voltear con espátula fina y dorar el otro lado durante 1 minuto y medio adicional.",
+        "Repetir hasta terminar la masa y servir tibio repartido en 2 porciones iguales."
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Desayunos",
+      "name": "Shakshuka rápida de pimientos y huevos al comino",
+      "description": "Guiso magrebí de tomates enteros triturados, pimientos asados, cebolla y comino con huevos escalfados directamente en la salsa hirviendo. Rica en licopeno, antioxidantes y fibra, con un impacto mínimo sobre la glucemia posprandial.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 25,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 9.8,
+        "calories_kcal": 212,
+        "sugars_g": 5.4,
+        "fiber_g": 3.1,
+        "protein_g": 13.6,
+        "total_fat_g": 13.2,
+        "saturated_fat_g": 3.1,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Huevos medianos", "quantity": 4, "unit": "unidades" },
+        { "name": "Tomate triturado natural sin azúcar", "quantity": 250, "unit": "g" },
+        { "name": "Pimiento rojo cortado en tiras", "quantity": 100, "unit": "g" },
+        { "name": "Cebolla picada fina", "quantity": 50, "unit": "g" },
+        { "name": "Diente de ajo picado", "quantity": 1, "unit": "unidad" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Comino molido", "quantity": 2, "unit": "g" },
+        { "name": "Pimentón dulce", "quantity": 2, "unit": "g" },
+        { "name": "Perejil fresco picado", "quantity": 5, "unit": "g" }
+      ],
+      "instructions": [
+        "Calentar el aceite de oliva en una sartén amplia con fondo grueso a fuego medio.",
+        "Sofreír la cebolla y el pimiento rojo durante 6 minutos hasta que comiencen a ablandarse.",
+        "Añadir el ajo picado, el comino y el pimentón dulce; remover rápidamente durante 30 segundos para evitar que se quemen las especias.",
+        "Incorporar el tomate triturado, reducir a fuego bajo y cocinar durante 5 minutos hasta que la salsa reduzca y espese.",
+        "Formar 4 huecos en la salsa con ayuda de una cuchara y cascar un huevo dentro de cada hueco.",
+        "Tapar la sartén y cocinar a fuego bajo durante 4 a 5 minutos, hasta que las claras estén completamente cuajadas y las yemas aún permanezcan fluidas.",
+        "Retirar la tapa, espolvorear perejil fresco picado por encima y servir caliente."
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Desayunos",
+      "name": "Revuelto vegano de tofu a la cúrcuma con tomate y cebollino",
+      "description": "Alternativa 100% vegetal a base de tofu firme desmenuzado, sazonado con cúrcuma antiinflamatoria, sal negra Kala Namak para aportar sabor a huevo y tomates cherry salteados. Aporta proteína limpia sin colesterol ni azúcares simples.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 9,
+      "total_time_minutes": 17,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.6,
+        "calories_kcal": 178,
+        "sugars_g": 2.2,
+        "fiber_g": 2.3,
+        "protein_g": 14.8,
+        "total_fat_g": 10.8,
+        "saturated_fat_g": 1.6,
+        "sodium_mg": 290
+      },
+      "ingredients": [
+        { "name": "Tofu firme natural", "quantity": 250, "unit": "g" },
+        { "name": "Tomates cherry partidos por la mitad", "quantity": 100, "unit": "g" },
+        { "name": "Bebida de soja sin azúcar", "quantity": 30, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Cúrcuma en polvo", "quantity": 2, "unit": "g" },
+        { "name": "Levadura nutricional", "quantity": 6, "unit": "g" },
+        { "name": "Cebollino fresco picado", "quantity": 6, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Escurrir el bloque de tofu y secarlo presionando ligeramente con papel absorbente; luego desmenuzarlo con los dedos en trozos desiguales parecidos al huevo revuelto.",
+        "Calentar el aceite de oliva en una sartén antiadherente a fuego medio y saltear los tomates cherry durante 3 minutos hasta que suelten sus jugos.",
+        "Añadir el tofu desmenuzado, la cúrcuma molida, una pizca de pimienta negra y la levadura nutricional.",
+        "Verter los 30 ml de bebida de soja para dar humedad y remover constantemente durante 4 minutos a fuego medio.",
+        "Cuando adquiera color amarillo uniforme y consistencia jugosa, retirar del fuego.",
+        "Espolvorear el cebollino fresco picado y servir inmediatamente."
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Desayunos",
+      "name": "Muffins salados de huevo, calabacín rallado y parmesano",
+      "description": "Bocados horneados ricos en proteína y fibra hídrica de calabacín, ideales para preparar por lote (batch cooking). Su contenido en hidratos es residual, permitiendo mantener niveles de insulina basales estables durante toda la mañana.",
+      "servings": 3,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 18,
+      "total_time_minutes": 30,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 3.1,
+        "calories_kcal": 188,
+        "sugars_g": 1.7,
+        "fiber_g": 1.1,
+        "protein_g": 14.6,
+        "total_fat_g": 12.8,
+        "saturated_fat_g": 4.2,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Huevos grandes", "quantity": 5, "unit": "unidades" },
+        { "name": "Calabacín rallado", "quantity": 180, "unit": "g" },
+        { "name": "Queso parmesano rallado fino", "quantity": 30, "unit": "g" },
+        { "name": "Pechuga de pavo natural picada", "quantity": 60, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra (para moldes)", "quantity": 5, "unit": "ml" },
+        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" },
+        { "name": "Nuez moscada molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 180 °C (calor arriba y abajo) y engrasar ligeramente 6 huecos de un molde metálico o de silicona para muffins.",
+        "Colocar el calabacín rallado sobre un paño limpio y estrujar con fuerza con las manos para extraer la mayor cantidad posible de líquido.",
+        "En un bol grande, batir los 5 huevos con la nuez moscada, la pimienta y la mitad del queso parmesano.",
+        "Incorporar el calabacín bien escurrido y los dados de pechuga de pavo a la mezcla de huevo, integrando con una espátula.",
+        "Repartir equitativamente en los 6 moldes y espolvorear el resto del parmesano sobre la parte superior de cada muffin.",
+        "Hornear a 180 °C durante 18 minutos hasta que se hinchen, doren y al insertar un palillo en el centro salga limpio.",
+        "Dejar atemperar 5 minutos antes de desmoldar; la ración equivale a 2 muffins por comensal."
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Desayunos",
+      "name": "Gachas de avena cortada con semillas de cáñamo y nuez moscada",
+      "description": "Gachas elaboradas con granos de avena troceados (steel-cut oats), caracterizadas por una digestión notablemente más lenta que la avena procesada. Potenciadas con semillas de cáñamo ricas en ácidos grasos omega-3 y proteína completa.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 20,
+      "total_time_minutes": 25,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 28.6,
+        "calories_kcal": 242,
+        "sugars_g": 1.4,
+        "fiber_g": 5.8,
+        "protein_g": 9.4,
+        "total_fat_g": 10.4,
+        "saturated_fat_g": 1.1,
+        "sodium_mg": 95
+      },
+      "ingredients": [
+        { "name": "Avena cortada integral (steel-cut oats)", "quantity": 60, "unit": "g" },
+        { "name": "Agua", "quantity": 250, "unit": "ml" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 200, "unit": "ml" },
+        { "name": "Semillas de cáñamo peladas", "quantity": 20, "unit": "g" },
+        { "name": "Rama de canela entera", "quantity": 1, "unit": "unidad" },
+        { "name": "Piel de limón limpia (sin parte blanca)", "quantity": 1, "unit": "trozo" },
+        { "name": "Nuez moscada rallada", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En un cazo mediano, calentar el agua con la bebida de almendras, la rama de canela y la piel de limón hasta que comience a hervir.",
+        "Añadir los granos de avena cortada en forma de lluvia, bajando el fuego al mínimo.",
+        "Cocinar a fuego lento durante 18-20 minutos, revolviendo con cuchara de madera periódicamente para liberar el almidón y evitar que se pegue al fondo.",
+        "Cuando adquiera una textura melosa pero con grano al dente, retirar la rama de canela y la piel de limón.",
+        "Servir las gachas calientes en dos tazones, repartir las semillas de cáñamo peladas y espolvorear la pizca de nuez moscada fresca."
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Desayunos",
+      "name": "Tostada nórdica de centeno con requesón, pepino y eneldo",
+      "description": "Desayuno fresco inspirado en la cocina báltica sobre base de pan de centeno puro compacto. La combinación de requesón bajo en grasas saturadas, pepino hidratante y eneldo aporta frescura con un índice de saciedad sumamente elevado.",
+      "servings": 1,
+      "prep_time_minutes": 6,
+      "cook_time_minutes": 2,
+      "total_time_minutes": 8,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 22.1,
+        "calories_kcal": 195,
+        "sugars_g": 3.4,
+        "fiber_g": 4.8,
+        "protein_g": 13.9,
+        "total_fat_g": 5.2,
+        "saturated_fat_g": 2.1,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Pan 100% de centeno integral denso", "quantity": 55, "unit": "g" },
+        { "name": "Requesón o queso cottage bajo en grasa", "quantity": 80, "unit": "g" },
+        { "name": "Pepino mediano laminado fino", "quantity": 50, "unit": "g" },
+        { "name": "Eneldo fresco picado", "quantity": 3, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 4, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Tostar la rebanada de pan de centeno hasta que esté firme y crujiente.",
+        "Untar uniformemente el requesón o queso cottage sobre toda la superficie de la tostada.",
+        "Lavar el pepino y cortarlo en láminas muy finas con mandolina o cuchillo afilado.",
+        "Disponer las láminas de pepino montadas unas sobre otras sobre la capa de requesón.",
+        "Aliñar vertiendo el hilo de aceite de oliva virgen extra, espolvorear el eneldo fresco picado y rematar con pimienta negra recién molida."
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Desayunos",
+      "name": "Frittata al horno con espárragos trigueros y taquitos de pavo",
+      "description": "Preparación al horno de estilo italiano que integra espárragos verdes tiernos ricos en inulina y dados magros de fiambre de pavo bajo en sal. El horneado lento preserva los micronutrientes y asegura una textura jugosa.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "total_time_minutes": 30,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 3.2,
+        "calories_kcal": 192,
+        "sugars_g": 1.5,
+        "fiber_g": 1.5,
+        "protein_g": 17.5,
+        "total_fat_g": 11.8,
+        "saturated_fat_g": 3.2,
+        "sodium_mg": 340
+      },
+      "ingredients": [
+        { "name": "Huevos enteros grandes", "quantity": 5, "unit": "unidades" },
+        { "name": "Espárragos trigueros verdes limpios", "quantity": 120, "unit": "g" },
+        { "name": "Pechuga de pavo en bloque cortada en dados", "quantity": 80, "unit": "g" },
+        { "name": "Cebolla morada finamente picada", "quantity": 40, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 180 °C.",
+        "Desechar la parte leñosa de los espárragos y cortar los tallos en rodajas de 1 cm, reservando las yemas enteras.",
+        "En una sartén apta para horno, calentar el aceite de oliva y saltear la cebolla morada con los espárragos durante 4 minutos.",
+        "Añadir los dados de pavo a la sartén y saltear 1 minuto más a fuego medio.",
+        "En un cuenco, batir los huevos con la pimienta negra y verter uniformemente sobre la sartén caliente con los vegetales.",
+        "Cocinar 1 minuto en la hornilla hasta que los bordes comiencen a cuajar, y transferir la sartén inmediatamente al horno.",
+        "Hornear a 180 °C durante 15 minutos hasta que el huevo haya esponjado por completo y el centro esté consistente al tacto.",
+        "Retirar, dejar reposar 3 minutos y dividir en 3 porciones triangulares para servir."
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Desayunos",
+      "name": "Burrito integral de revuelto de claras, frijol negro y pico de gallo",
+      "description": "Desayuno de inspiración mexicana envuelto en tortilla integral de trigo, relleno de claras esponjosas, frijoles negros ricos en almidón resistente y pico de gallo natural. La combinación de legumbre y cereal integral estabiliza los niveles de energía matutinos.",
+      "servings": 1,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 5,
+      "total_time_minutes": 13,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 31.4,
+        "calories_kcal": 268,
+        "sugars_g": 2.8,
+        "fiber_g": 7.4,
+        "protein_g": 19.8,
+        "total_fat_g": 6.8,
+        "saturated_fat_g": 1.2,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Tortilla de trigo 100% integral (20 cm)", "quantity": 1, "unit": "unidad" },
+        { "name": "Claras de huevo líquidas", "quantity": 120, "unit": "ml" },
+        { "name": "Frijoles negros cocidos y escurridos", "quantity": 50, "unit": "g" },
+        { "name": "Tomate maduro picado fino", "quantity": 40, "unit": "g" },
+        { "name": "Cebolla picada fina", "quantity": 15, "unit": "g" },
+        { "name": "Cilantro fresco picado", "quantity": 3, "unit": "g" },
+        { "name": "Aguacate maduro en láminas", "quantity": 25, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 5, "unit": "ml" }
+      ],
+      "instructions": [
+        "En un cuenco, mezclar el tomate picado, la cebolla y el cilantro para armar el pico de gallo fresco.",
+        "Calentar el aceite de oliva en una sartén antiadherente a fuego medio y verter las claras de huevo con los frijoles negros cocidos.",
+        "Revolver suavemente durante 3 minutos hasta obtener un revuelto húmedo pero bien cuajado.",
+        "Calentar la tortilla integral sobre una plancha seca durante 30 segundos por lado hasta que quede flexible.",
+        "Extender las claras con frijoles a lo largo del centro de la tortilla.",
+        "Añadir el pico de gallo fresco y las láminas de aguacate sobre el revuelto.",
+        "Doblar los extremos laterales hacia adentro y enrollar firmemente en forma de burrito antes de cortar por la mitad en diagonal."
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Desayunos",
+      "name": "Pudín de chía con leche de coco ligera y frambuesas",
+      "description": "Gel hidratado en frío a base de semillas de chía y leche de coco baja en grasa, coronado con frambuesas ácidas frescas. Las semillas forman una red de mucílagos que frena drásticamente la digestión de carbohidratos, asegurando una carga glucémica prácticamente nula.",
+      "servings": 1,
+      "prep_time_minutes": 6,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 6,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 9.2,
+        "calories_kcal": 196,
+        "sugars_g": 3.4,
+        "fiber_g": 7.8,
+        "protein_g": 5.4,
+        "total_fat_g": 14.2,
+        "saturated_fat_g": 4.8,
+        "sodium_mg": 45
+      },
+      "ingredients": [
+        { "name": "Semillas de chía negras", "quantity": 25, "unit": "g" },
+        { "name": "Leche de coco ligera (sin azúcar en brik)", "quantity": 150, "unit": "ml" },
+        { "name": "Frambuesas frescas", "quantity": 40, "unit": "g" },
+        { "name": "Extracto de vainilla puro", "quantity": 2, "unit": "ml" },
+        { "name": "Coco rallado sin azúcar", "quantity": 4, "unit": "g" }
+      ],
+      "instructions": [
+        "En un tarro de vidrio, verter la leche de coco ligera, el extracto de vainilla y las semillas de chía.",
+        "Batir enérgicamente con un tenedor durante 1 minuto completo para asegurar que las semillas no se aglomeren en el fondo.",
+        "Dejar reposar 10 minutos a temperatura ambiente y volver a batir durante 30 segundos.",
+        "Tapar y almacenar en la nevera durante al menos 4 horas o toda la noche para que solidifique en textura pudín.",
+        "Antes de comer, lavar y colocar las frambuesas frescas enteras en la parte superior y espolvorear con el coco rallado deshidratado."
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Desayunos",
+      "name": "Cazuela de huevos al horno con tomate y albahaca",
+      "description": "Huevos horneados en cazuelita de barro individual sobre una reducción rústica de tomate maduro, orégano y hojas de albahaca fresca. Un desayuno caliente tradicional reconfortante, libre de azúcares y alto en colina y proteínas.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 14,
+      "total_time_minutes": 19,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 5.8,
+        "calories_kcal": 210,
+        "sugars_g": 3.8,
+        "fiber_g": 1.7,
+        "protein_g": 14.8,
+        "total_fat_g": 13.9,
+        "saturated_fat_g": 4.1,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Huevos medianos", "quantity": 2, "unit": "unidades" },
+        { "name": "Tomate pelado y picado en cubitos", "quantity": 120, "unit": "g" },
+        { "name": "Queso mozzarella fresco picado", "quantity": 25, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 6, "unit": "ml" },
+        { "name": "Albahaca fresca", "quantity": 4, "unit": "hojas" },
+        { "name": "Ajo en polvo", "quantity": 1, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 190 °C.",
+        "Engrasar una cazuela refractaria individual con la mitad del aceite de oliva virgen extra.",
+        "Rellenar la base con el tomate picado y sazonar con el ajo en polvo y la pimienta negra molida.",
+        "Cascar los 2 huevos con cuidado sobre la cama de tomate para mantener la integridad de las yemas.",
+        "Distribuir los trocitos de mozzarella fresca alrededor de las claras.",
+        "Regar con el resto del aceite de oliva y hornear a 190 °C durante 12-14 minutos, hasta que las claras estén blanqueadas y firmes pero las yemas continúen temblorosas.",
+        "Retirar del horno con manopla de protección, decorar con las hojas frescas de albahaca y degustar recién hecho."
+      ]
+    },
+    {
+      "id": 16,
+      "category": "Desayunos",
+      "name": "Quinoa tibia con canela, nueces pecanas y leche de soja",
+      "description": "Tazón reconfortante de pseudocereal andino hervido, servido tibio con bebida de soja y nueces pecanas crujientes. Brinda un balance idóneo de aminoácidos esenciales y fibra insoluble que evita fluctuaciones energéticas matutinas.",
+      "servings": 2,
+      "prep_time_minutes": 6,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 21,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 27.2,
+        "calories_kcal": 262,
+        "sugars_g": 2.1,
+        "fiber_g": 4.5,
+        "protein_g": 9.8,
+        "total_fat_g": 12.8,
+        "saturated_fat_g": 1.3,
+        "sodium_mg": 85
+      },
+      "ingredients": [
+        { "name": "Quinoa en grano cruda", "quantity": 70, "unit": "g" },
+        { "name": "Agua", "quantity": 150, "unit": "ml" },
+        { "name": "Bebida de soja sin azúcar", "quantity": 200, "unit": "ml" },
+        { "name": "Nueces pecanas picadas", "quantity": 20, "unit": "g" },
+        { "name": "Canela de Ceilán en polvo", "quantity": 3, "unit": "g" },
+        { "name": "Ralladura fina de naranja fresca", "quantity": 2, "unit": "g" }
+      ],
+      "instructions": [
+        "Enjuagar la quinoa bajo el grifo en un colador de malla fina durante 1 minuto para eliminar completamente las saponinas naturales.",
+        "Colocar la quinoa en una olla con el agua y cocinar tapada a fuego medio durante 12 minutos hasta absorber el líquido.",
+        "Verter la bebida de soja y la canela en polvo sobre la quinoa cocida, removiendo a fuego bajo durante 3 minutos más para que emulsione en textura de porridge.",
+        "Retirar del fuego y aromatizar con la ralladura fina de naranja.",
+        "Dividir la mezcla en dos boles hondos y espolvorear las nueces pecanas picadas uniformemente."
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Desayunos",
+      "name": "Huevos rancheros sobre tortilla de maíz y puré de aguacate",
+      "description": "Versión controlada en carbohidratos del clásico desayuno de rancho: una tortilla de maíz nixtamalizado horneada crujiente, base de aguacate y huevo a la plancha bañado en salsa roja casera sin azúcar. El almidón resistente del maíz nixtamalizado reduce el índice glucémico general.",
+      "servings": 1,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 7,
+      "total_time_minutes": 15,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 18.2,
+        "calories_kcal": 275,
+        "sugars_g": 2.4,
+        "fiber_g": 4.9,
+        "protein_g": 12.6,
+        "total_fat_g": 16.4,
+        "saturated_fat_g": 3.1,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Tortilla de maíz nixtamalizado", "quantity": 1, "unit": "unidad" },
+        { "name": "Huevo grande", "quantity": 1, "unit": "unidad" },
+        { "name": "Aguacate maduro", "quantity": 40, "unit": "g" },
+        { "name": "Tomate frito casero con aceite de oliva (sin azúcar)", "quantity": 50, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 5, "unit": "ml" },
+        { "name": "Cilantro picado", "quantity": 3, "unit": "g" },
+        { "name": "Zumo de lima", "quantity": 3, "unit": "ml" }
+      ],
+      "instructions": [
+        "Tostar la tortilla de maíz directamente en una sartén seca a fuego medio durante 2 minutos por lado hasta que quede crujiente y tostada.",
+        "En un plato, aplastar la pulpa de aguacate con el zumo de lima y extenderlo sobre la superficie de la tortilla tostada.",
+        "Calentar la salsa de tomate frito casera en un cazo pequeño.",
+        "En la sartén engrasada con el aceite de oliva virgen extra, cocinar el huevo a la plancha a fuego medio durante 3 minutos, dejando la yema líquida.",
+        "Montar el huevo con espátula sobre la tostada con aguacate.",
+        "Bañar los bordes del huevo con la salsa de tomate caliente y decorar con cilantro recién picado."
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Desayunos",
+      "name": "Waffles proteicos de harina de almendras y semillas de lino",
+      "description": "Gofres crujientes formulados a base de harina de almendra pura y huevo, totalmente desprovistos de cereales. Ricos en vitamina E y grasas cardioprotectoras, garantizan un nulo impacto glucémico con óptima textura alveolar.",
+      "servings": 2,
+      "prep_time_minutes": 7,
+      "cook_time_minutes": 8,
+      "total_time_minutes": 15,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.8,
+        "calories_kcal": 288,
+        "sugars_g": 1.4,
+        "fiber_g": 3.9,
+        "protein_g": 13.8,
+        "total_fat_g": 24.2,
+        "saturated_fat_g": 3.6,
+        "sodium_mg": 180
+      },
+      "ingredients": [
+        { "name": "Harina de almendras", "quantity": 60, "unit": "g" },
+        { "name": "Huevos medianos", "quantity": 2, "unit": "unidades" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 40, "unit": "ml" },
+        { "name": "Levadura química en polvo", "quantity": 4, "unit": "g" },
+        { "name": "Semillas de lino molidas", "quantity": 10, "unit": "g" },
+        { "name": "Aceite de oliva suave para engrasar la gofrera", "quantity": 3, "unit": "ml" },
+        { "name": "Extracto de vainilla", "quantity": 2, "unit": "ml" }
+      ],
+      "instructions": [
+        "Precalentar la gofrera eléctrica y engrasar las placas suavemente con unas gotas de aceite.",
+        "En un cuenco mediano, batir los huevos con la bebida de almendras y la vainilla líquida.",
+        "Incorporar la harina de almendras, las semillas de lino molidas y la levadura química, batiendo hasta conformar una pasta densa y homogénea.",
+        "Verter la mitad de la masa en el centro de la gofrera caliente y cerrar la tapa.",
+        "Hornear durante 3 a 4 minutos hasta que deje de salir vapor y adquiera un tostado dorado uniforme.",
+        "Repetir con la segunda mitad de la masa y servir cada waffle tibio."
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Desayunos",
+      "name": "Tostada de masa madre con crema pura de cacahuete y fresas laminadas",
+      "description": "Una combinación saciante sobre pan rústico con crema de cacahuete de ingrediente único (100% fruto seco tostado) y fresas frescas. El ácido fítico y los polifenoles de las fresas, combinados con las grasas saludables del cacahuete, retardan la absorción intestinal de glucosa.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 2,
+      "total_time_minutes": 7,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 23.4,
+        "calories_kcal": 265,
+        "sugars_g": 4.1,
+        "fiber_g": 5.4,
+        "protein_g": 10.9,
+        "total_fat_g": 14.8,
+        "saturated_fat_g": 2.2,
+        "sodium_mg": 190
+      },
+      "ingredients": [
+        { "name": "Pan de masa madre 100% integral", "quantity": 45, "unit": "g" },
+        { "name": "Crema de cacahuete pura 100% sin aditivos", "quantity": 25, "unit": "g" },
+        { "name": "Fresas frescas laminadas", "quantity": 50, "unit": "g" },
+        { "name": "Semillas de chía", "quantity": 4, "unit": "g" },
+        { "name": "Canela en polvo", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Tostar la rebanada de pan de masa madre en tostadora hasta que quede bien crujiente.",
+        "Untar con espátula la crema de cacahuete de manera regular por toda la rebanada caliente.",
+        "Lavar, desinfectar y laminar las fresas en láminas finas.",
+        "Disponer las láminas de fresa cubriendo la crema de cacahuete en capas superpuestas.",
+        "Rematar espolvoreando las semillas de chía crujientes y la pizca de canela antes de servir."
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Desayunos",
+      "name": "Revuelto campestre de calabacín tierno, cebolla y queso de cabra",
+      "description": "Plato suave donde el calabacín salteado adquiere notas dulces naturales, equilibradas por la acidez de un rulo de queso de cabra fundido al calor de los huevos batidos. Con excelente densidad nutricional y carbohidratos netos muy reducidos.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 9,
+      "total_time_minutes": 17,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.5,
+        "calories_kcal": 218,
+        "sugars_g": 2.8,
+        "fiber_g": 1.4,
+        "protein_g": 13.9,
+        "total_fat_g": 16.2,
+        "saturated_fat_g": 5.2,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Huevos de granja grandes", "quantity": 4, "unit": "unidades" },
+        { "name": "Calabacín cortado en medias lunas finas", "quantity": 150, "unit": "g" },
+        { "name": "Cebolla morada en juliana fina", "quantity": 40, "unit": "g" },
+        { "name": "Rulo de queso de cabra tierno", "quantity": 35, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Tomillo seco", "quantity": 1, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Calentar el aceite de oliva virgen extra en una sartén antiadherente a fuego medio.",
+        "Añadir la cebolla morada y el calabacín; saltear durante 6 minutos removiendo con frecuencia hasta que el calabacín esté tierno y empiece a dorarse.",
+        "Espolvorear el tomillo seco y una pizca de pimienta sobre las verduras.",
+        "Batir los 4 huevos ligeramente en un bol e incorporarlos a la sartén bajando el fuego a intensidad suave.",
+        "Desmenuzar el queso de cabra sobre la sartén mientras se cuaja el huevo, mezclando con movimientos envolventes durante 2 minutos.",
+        "Apagar el fuego cuando el huevo conserve un aspecto jugoso y servir inmediatamente en dos platos."
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Desayunos",
+      "name": "Tazón verde saciante con espinaca, medio kiwi y semillas de girasol",
+      "description": "Bol denso de cuchara elaborado triturando espinacas baby con proteína neutra, bebida de almendra y aguacate para aportar consistencia de helado, cubierto con kiwi rico en vitamina C y semillas crujientes. Brinda volumen y micronutrientes sin picos de glucosa.",
+      "servings": 1,
+      "prep_time_minutes": 7,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 7,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 14.8,
+        "calories_kcal": 248,
+        "sugars_g": 6.8,
+        "fiber_g": 5.6,
+        "protein_g": 18.2,
+        "total_fat_g": 13.1,
+        "saturated_fat_g": 1.7,
+        "sodium_mg": 140
+      },
+      "ingredients": [
+        { "name": "Espinacas frescas baby", "quantity": 60, "unit": "g" },
+        { "name": "Proteína aislada de suero o soja sin sabor", "quantity": 18, "unit": "g" },
+        { "name": "Aguacate maduro", "quantity": 40, "unit": "g" },
+        { "name": "Bebida de almendras sin azúcar fría", "quantity": 100, "unit": "ml" },
+        { "name": "Kiwi mediano pelado y cortado en láminas", "quantity": 45, "unit": "g" },
+        { "name": "Semillas de girasol tostadas sin sal", "quantity": 12, "unit": "g" }
+      ],
+      "instructions": [
+        "Introducir en el vaso de la batidora las espinacas frescas, la proteína aislada, el aguacate y la bebida de almendras muy fría.",
+        "Triturar a velocidad máxima durante 1 minuto completo hasta lograr una crema verde densa, cremosa y aterciopelada.",
+        "Verter la mezcla en un tazón hondo ayudándose con una espátula de goma.",
+        "Distribuir las rodajas de kiwi fresco alineadas sobre la superficie.",
+        "Finalizar coronando con las semillas de girasol para añadir textura crujiente y grasas esenciales."
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Desayunos",
+      "name": "Crepes de trigo sarraceno rellenos de requesón y espinacas salteadas",
+      "description": "Finas galettes bretonas elaboradas con harina de alforfón (trigo sarraceno), libre de gluten y con fagomina, compuesto que contribuye a reducir la absorción de carbohidratos. Su relleno de requesón magro y espinacas aporta ligereza y digestibilidad.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 20,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 20.8,
+        "calories_kcal": 218,
+        "sugars_g": 2.2,
+        "fiber_g": 3.6,
+        "protein_g": 14.5,
+        "total_fat_g": 8.4,
+        "saturated_fat_g": 3.1,
+        "sodium_mg": 295
+      },
+      "ingredients": [
+        { "name": "Harina de trigo sarraceno integral", "quantity": 50, "unit": "g" },
+        { "name": "Agua templada", "quantity": 110, "unit": "ml" },
+        { "name": "Huevo grande", "quantity": 1, "unit": "unidad" },
+        { "name": "Requesón bajo en grasa", "quantity": 90, "unit": "g" },
+        { "name": "Espinacas frescas", "quantity": 100, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Nuez moscada molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En un cuenco, batir la harina de trigo sarraceno con el huevo y el agua hasta obtener una masa líquida; dejar reposar 5 minutos.",
+        "En una sartén con la mitad del aceite, saltear las espinacas durante 2 minutos hasta ablandar; mezclar en un bol con el requesón y una pizca de nuez moscada.",
+        "Engrasar una crepera o sartén ancha con el resto del aceite a fuego medio-alto.",
+        "Verter la mitad de la masa girando la sartén para cubrir el fondo en una capa fina; cocinar 2 minutos por un lado y voltear durante 1 minuto más.",
+        "Repetir con el resto de la masa para obtener 2 crepes.",
+        "Colocar la mezcla de requesón y espinacas en el centro de cada crepe, enrollar en forma de cilindro y servir calientes."
+      ]
+    },
+    {
+      "id": 23,
+      "category": "Desayunos",
+      "name": "Tartine integral con hummus casero y huevo duro",
+      "description": "Rebanada tostada con base de hummus tradicional a base de garbanzos y tahini, combinada con rodajas de huevo duro cocido al punto. Las legumbres aportan fibra prebiótica y el huevo suministra aminoácidos para ralentizar la digestión de la tostada.",
+      "servings": 1,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 15,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 24.2,
+        "calories_kcal": 282,
+        "sugars_g": 1.9,
+        "fiber_g": 5.8,
+        "protein_g": 14.8,
+        "total_fat_g": 14.1,
+        "saturated_fat_g": 2.6,
+        "sodium_mg": 310
+      },
+      "ingredients": [
+        { "name": "Pan integral de centeno o espelta", "quantity": 50, "unit": "g" },
+        { "name": "Hummus tradicional de garbanzo", "quantity": 40, "unit": "g" },
+        { "name": "Huevo mediano", "quantity": 1, "unit": "unidad" },
+        { "name": "Pimentón dulce ahumado", "quantity": 1, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 3, "unit": "ml" },
+        { "name": "Semillas de cáñamo peladas", "quantity": 4, "unit": "g" }
+      ],
+      "instructions": [
+        "Cocer el huevo en agua hirviendo durante 9 minutos para que la yema quede consistente pero sin resecarse; enfriar con agua helada y retirar la cáscara.",
+        "Tostar la rebanada de pan integral hasta que esté crujiente.",
+        "Extender el hummus de manera generosa sobre toda la superficie del pan tostado.",
+        "Cortar el huevo duro en rodajas regulares y acomodarlas sobre el hummus.",
+        "Condimentar con el pimentón dulce ahumado, el hilo de aceite de oliva y las semillas de cáñamo antes de degustar."
+      ]
+    },
+    {
+      "id": 24,
+      "category": "Desayunos",
+      "name": "Cazuelita de claras al vapor con brócoli y levadura nutricional",
+      "description": "Preparación al vapor sumamente digestiva inspirada en las natillas saladas chinas (Chawanmushi), a base de claras batidas en caldo suave con trocitos de brócoli al dente. Ofrece saciedad máxima con casi cero grasas saturadas y un perfil calórico ultraligero.",
+      "servings": 1,
+      "prep_time_minutes": 6,
+      "cook_time_minutes": 11,
+      "total_time_minutes": 17,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 3.8,
+        "calories_kcal": 132,
+        "sugars_g": 1.5,
+        "fiber_g": 2.4,
+        "protein_g": 18.6,
+        "total_fat_g": 4.1,
+        "saturated_fat_g": 0.6,
+        "sodium_mg": 285
+      },
+      "ingredients": [
+        { "name": "Claras de huevo líquidas", "quantity": 150, "unit": "ml" },
+        { "name": "Caldo de verduras bajo en sal", "quantity": 80, "unit": "ml" },
+        { "name": "Arbolitos de brócoli picados muy pequeños", "quantity": 70, "unit": "g" },
+        { "name": "Levadura nutricional", "quantity": 8, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 4, "unit": "ml" },
+        { "name": "Pimienta blanca molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En un cuenco, batir suavemente las claras con el caldo de verduras a temperatura ambiente y la levadura nutricional para que no genere demasiada espuma.",
+        "Añadir los arbolitos diminutos de brócoli y una pizca de pimienta blanca.",
+        "Verter la preparación dentro de una cazuela pequeña o ramequín cerámico apto para cocción al vapor.",
+        "Tapar el ramequín con papel vegetal o una tapa ligera.",
+        "Colocar en una vaporera sobre agua hirviendo a fuego medio durante 10-11 minutos hasta que la superficie esté cuajada y firme al tacto.",
+        "Retirar con cuidado, regar con las gotas de aceite de oliva crudo y disfrutar caliente con cuchara."
+      ]
+    },
+    {
+      "id": 25,
+      "category": "Desayunos",
+      "name": "Arepa fitness de avena y lino rellena de queso fresco campesino y tomate",
+      "description": "Arepa tostada en sartén a base de harina de avena integral molida y linaza, sin harinas de maíz refinadas. Rellena de queso blanco campesino bajo en sal y rodajas de tomate jugoso, aporta almidones lentos y una digestibilidad equilibrada para el amanecer.",
+      "servings": 1,
+      "prep_time_minutes": 7,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 17,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 24.8,
+        "calories_kcal": 272,
+        "sugars_g": 2.6,
+        "fiber_g": 5.4,
+        "protein_g": 14.8,
+        "total_fat_g": 12.4,
+        "saturated_fat_g": 4.1,
+        "sodium_mg": 290
+      },
+      "ingredients": [
+        { "name": "Harina de avena integral", "quantity": 45, "unit": "g" },
+        { "name": "Semillas de lino molidas", "quantity": 10, "unit": "g" },
+        { "name": "Agua tibia", "quantity": 70, "unit": "ml" },
+        { "name": "Queso fresco tipo campesino bajo en sal", "quantity": 45, "unit": "g" },
+        { "name": "Tomate maduro en rodajas", "quantity": 40, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra (para sartén)", "quantity": 4, "unit": "ml" },
+        { "name": "Orégano seco", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En un cuenco, mezclar la harina de avena, las semillas de lino molidas y una pizca de orégano; agregar el agua tibia poco a poco.",
+        "Amasar con las manos durante 2 minutos hasta conseguir una masa elástica, maleable y que no se pegue a los dedos.",
+        "Moldear una bola y aplanarla con las palmas de las manos hasta formar un disco de unos 1.5 cm de grosor.",
+        "Pintar una sartén antiadherente con el aceite de oliva a fuego medio y cocinar la arepa durante 5 minutos por lado hasta que forme una corteza dorada y crocante.",
+        "Abrir la arepa caliente transversalmente por la mitad con un cuchillo de sierra sin separar completamente los dos discos.",
+        "Rellenar con el queso fresco en láminas y las rodajas de tomate, cerrando suavemente antes de servir."
+      ]
+    }
+  ]
+}

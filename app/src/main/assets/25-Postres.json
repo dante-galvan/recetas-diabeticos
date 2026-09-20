@@ -1,0 +1,934 @@
+{
+  "recipes": [
+    {
+      "id": 176,
+      "category": "Postres",
+      "name": "Mousse cremosa de chocolate negro y aguacate al eritritol",
+      "description": "Un postre untuoso donde la textura grasa del aguacate maduro sustituye a la nata o mantequilla, emulsionado con cacao puro desgrasado y eritritol. Proporciona polifenoles antioxidantes y lípidos monoinsaturados que no alteran la curva de glucosa.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 182,
+        "sugars_g": 0.9,
+        "fiber_g": 5.4,
+        "protein_g": 3.4,
+        "total_fat_g": 16.2,
+        "saturated_fat_g": 3.8,
+        "sodium_mg": 15
+      },
+      "ingredients": [
+        { "name": "Aguacate maduro", "quantity": 140, "unit": "g" },
+        { "name": "Cacao puro en polvo 100% desgrasado sin azúcar", "quantity": 25, "unit": "g" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 50, "unit": "ml" },
+        { "name": "Eritritol granulado o en polvo", "quantity": 25, "unit": "g" },
+        { "name": "Extracto de vainilla puro", "quantity": 3, "unit": "ml" },
+        { "name": "Canela de Ceilán molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Extraer la pulpa del aguacate maduro y colocarla en el vaso de la batidora o procesador de alimentos.",
+        "Añadir el cacao puro en polvo, el eritritol, la bebida de almendras, el extracto de vainilla y la pizca de canela.",
+        "Triturar a potencia alta durante 2 minutos continuos deteniéndose para raspar los laterales con una espátula de silicona, hasta obtener una mousse sedosa y brillante.",
+        "Repartir la mousse en dos vasitos de cristal individuales.",
+        "Refrigerar durante al menos 30 minutos antes de degustar para que tome cuerpo y consistencia firme."
+      ]
+    },
+    {
+      "id": 177,
+      "category": "Postres",
+      "name": "Tarta rústica horneada de queso ricotta y limón sin harina",
+      "description": "Pastel esponjoso y aireado horneado a base de queso ricotta magro, huevos frescos y ralladura de limón, completamente libre de bases de galleta o harinas refinadas. Suministra proteínas de alto valor biológico con un porcentaje mínimo de carbohidratos netos.",
+      "servings": 4,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 35,
+      "total_time_minutes": 47,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 4.2,
+        "calories_kcal": 145,
+        "sugars_g": 2.4,
+        "fiber_g": 0.4,
+        "protein_g": 10.8,
+        "total_fat_g": 9.5,
+        "saturated_fat_g": 4.8,
+        "sodium_mg": 130
+      },
+      "ingredients": [
+        { "name": "Queso ricotta o requesón magro bien escurrido", "quantity": 300, "unit": "g" },
+        { "name": "Huevos camperos medianos", "quantity": 3, "unit": "unidades" },
+        { "name": "Eritritol granulado", "quantity": 40, "unit": "g" },
+        { "name": "Ralladura fina de limón limpio", "quantity": 4, "unit": "g" },
+        { "name": "Zumo de limón fresco", "quantity": 15, "unit": "ml" },
+        { "name": "Extracto de vainilla puro", "quantity": 3, "unit": "ml" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 170 °C con calor arriba y abajo y forrar la base de un molde redondo de 18 cm con papel vegetal.",
+        "Separar las claras de las yemas de los tres huevos en dos cuencos limpios.",
+        "En el cuenco de las yemas, añadir el queso ricotta escurrido, el eritritol, la ralladura y zumo de limón y la vainilla; batir con varillas durante 2 minutos hasta integrar.",
+        "Montar las claras a punto de nieve firme con una pizca de sal en el otro cuenco.",
+        "Incorporar las claras montadas a la crema de ricotta en tres tandas, realizando movimientos envolventes suaves de abajo hacia arriba con una espátula para no perder el aire.",
+        "Verter la masa en el molde alisando la superficie y hornear a 170 °C durante 35 minutos hasta que esté dorada y cuajada en el centro.",
+        "Dejar enfriar a temperatura ambiente y luego refrigerar al menos 2 horas antes de desmoldar y dividir en 4 porciones."
+      ]
+    },
+    {
+      "id": 178,
+      "category": "Postres",
+      "name": "Panna cotta ligera de vainilla con coulis casero de frambuesa sin azúcar",
+      "description": "Postre de gelatina tradicional elaborado con bebida vegetal de almendras y queso mascarpone en cantidad moderada para aportar cremosidad láctea, cubierto con frambuesas reducidas al fuego. Los frutos rojos aportan polifenoles protectores sin provocar picos glucémicos.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 6,
+      "total_time_minutes": 16,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 5.4,
+        "calories_kcal": 138,
+        "sugars_g": 2.6,
+        "fiber_g": 2.8,
+        "protein_g": 4.2,
+        "total_fat_g": 11.5,
+        "saturated_fat_g": 6.2,
+        "sodium_mg": 55
+      },
+      "ingredients": [
+        { "name": "Bebida de almendras sin azúcar", "quantity": 180, "unit": "ml" },
+        { "name": "Queso mascarpone", "quantity": 40, "unit": "g" },
+        { "name": "Gelatina neutra en láminas", "quantity": 4, "unit": "g" },
+        { "name": "Eritritol granulado", "quantity": 20, "unit": "g" },
+        { "name": "Frambuesas frescas o congeladas", "quantity": 60, "unit": "g" },
+        { "name": "Extracto de vainilla puro", "quantity": 3, "unit": "ml" },
+        { "name": "Zumo de limón", "quantity": 5, "unit": "ml" }
+      ],
+      "instructions": [
+        "Hidratar las láminas de gelatina neutra en un recipiente con agua muy fría durante 5 minutos.",
+        "En un cazo, calentar la bebida de almendras con el queso mascarpone, la mitad del eritritol y la vainilla a fuego medio sin que llegue a hervir, removiendo para disolver el queso.",
+        "Escurrir bien las láminas de gelatina con las manos e incorporarlas al cazo caliente, batiendo con varillas manuales hasta disolverlas completamente.",
+        "Verter la mezcla en dos vasitos de cristal y refrigerar durante un mínimo de 3 horas para que gelifique.",
+        "Para el coulis, cocinar las frambuesas en un cazo pequeño con el resto del eritritol y el zumo de limón durante 4 minutos aplastándolas con un tenedor; dejar enfriar.",
+        "Coronar cada vasito de panna cotta cuajada con una cucharada del coulis frío de frambuesas antes de servir."
+      ]
+    },
+    {
+      "id": 179,
+      "category": "Postres",
+      "name": "Galletas crujientes de harina de almendras y canela de Ceilán",
+      "description": "Galletas horneadas sin cereales ni harinas de trigo compuestas por almendra molida fina, clara de huevo y canela aromatizante. Aportan ácidos grasos monoinsaturados y vitamina E con un contenido residual de carbohidratos.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "total_time_minutes": 22,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.8,
+        "calories_kcal": 142,
+        "sugars_g": 1.1,
+        "fiber_g": 2.4,
+        "protein_g": 5.4,
+        "total_fat_g": 12.1,
+        "saturated_fat_g": 1.1,
+        "sodium_mg": 45
+      },
+      "ingredients": [
+        { "name": "Harina de almendras fina", "quantity": 70, "unit": "g" },
+        { "name": "Clara de huevo grande", "quantity": 1, "unit": "unidad" },
+        { "name": "Eritritol pulverizado o fino", "quantity": 20, "unit": "g" },
+        { "name": "Canela de Ceilán en polvo", "quantity": 4, "unit": "g" },
+        { "name": "Extracto de vainilla puro", "quantity": 2, "unit": "ml" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 160 °C con calor arriba y abajo y preparar una bandeja con papel vegetal de horno.",
+        "En un cuenco, mezclar la harina de almendras, el eritritol y la canela molida.",
+        "Añadir la clara de huevo y el extracto de vainilla, amasando con espátula o con las manos hasta formar una masa compacta y ligeramente pegajosa.",
+        "Dividir la masa en 6 porciones iguales, formar bolitas y aplanarlas sobre la bandeja con la palma de la mano hasta que tengan 5 mm de grosor.",
+        "Hornear a 160 °C durante 12 minutos hasta que los bordes adquieran un ligero tono dorado.",
+        "Dejar enfriar completamente en la bandeja sin tocarlas (se endurecerán y volverán crujientes al descender la temperatura). La ración es de 2 galletas."
+      ]
+    },
+    {
+      "id": 180,
+      "category": "Postres",
+      "name": "Pudín de chía al chocolate puro con nibs crocantes",
+      "description": "Gel dulce frío formado por semillas de chía hidratadas en bebida vegetal con cacao amargo puro 100% y edulcorante no calórico, coronado con nibs de cacao amargo. Riquísimo en fibra mucilaginosa que retrasa el vaciado estomacal.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 8,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 5.8,
+        "calories_kcal": 138,
+        "sugars_g": 0.8,
+        "fiber_g": 5.9,
+        "protein_g": 4.6,
+        "total_fat_g": 9.8,
+        "saturated_fat_g": 2.4,
+        "sodium_mg": 65
+      },
+      "ingredients": [
+        { "name": "Semillas de chía negras", "quantity": 30, "unit": "g" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 200, "unit": "ml" },
+        { "name": "Cacao puro 100% desgrasado en polvo", "quantity": 16, "unit": "g" },
+        { "name": "Eritritol en polvo", "quantity": 15, "unit": "g" },
+        { "name": "Nibs de cacao puro amargo", "quantity": 6, "unit": "g" },
+        { "name": "Extracto de vainilla", "quantity": 2, "unit": "ml" }
+      ],
+      "instructions": [
+        "En un bol mediano, batir con varillas manuales la bebida de almendras, el cacao en polvo, el eritritol y la vainilla hasta que el cacao esté disuelto sin grumos.",
+        "Incorporar las semillas de chía y mezclar enérgicamente durante 1 minuto completo.",
+        "Dejar reposar 10 minutos a temperatura ambiente y volver a batir para evitar que las semillas se asienten en el fondo.",
+        "Repartir la preparación en dos copas o recipientes de vidrio individuales.",
+        "Tapar y refrigerar durante al menos 3 horas (o toda la noche) hasta que cuaje en textura pudín.",
+        "Espolvorear los nibs crujientes de cacao puro amargo en la superficie al momento de servir."
+      ]
+    },
+    {
+      "id": 181,
+      "category": "Postres",
+      "name": "Bizcochitos esponjosos de avena integral, yogur natural y naranja",
+      "description": "Mini bizcochos individuales horneados a partir de copos de avena integral molidos, yogur colado sin azúcar y aroma cítrico de naranja fresca. Una fuente limpia de betaglucanos saciantes sin un solo gramo de azúcares libres.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 18,
+      "total_time_minutes": 28,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 15.8,
+        "calories_kcal": 142,
+        "sugars_g": 2.1,
+        "fiber_g": 2.8,
+        "protein_g": 6.8,
+        "total_fat_g": 5.8,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 120
+      },
+      "ingredients": [
+        { "name": "Harina de avena integral", "quantity": 70, "unit": "g" },
+        { "name": "Yogur natural entero sin azúcar", "quantity": 90, "unit": "g" },
+        { "name": "Huevos camperos medianos", "quantity": 2, "unit": "unidades" },
+        { "name": "Eritritol granulado", "quantity": 25, "unit": "g" },
+        { "name": "Ralladura fina de naranja fresca", "quantity": 4, "unit": "g" },
+        { "name": "Levadura química en polvo", "quantity": 4, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra suave", "quantity": 8, "unit": "ml" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 180 °C y disponer 3 moldes individuales para muffins o tartaletas de silicona.",
+        "En un cuenco grande, batir los dos huevos con el yogur natural, el eritritol, el aceite de oliva suave y la ralladura de naranja.",
+        "Añadir la harina de avena integral y la levadura química tamizadas, mezclando con espátula hasta formar una masa homogénea.",
+        "Distribuir la mezcla equitativamente en los 3 moldes individuales.",
+        "Hornear a 180 °C durante 16-18 minutos hasta que al pinchar con un palillo en el centro salga limpio y seco.",
+        "Dejar atemperar 5 minutos sobre una rejilla antes de desmoldar y servir tibios o fríos."
+      ]
+    },
+    {
+      "id": 182,
+      "category": "Postres",
+      "name": "Helado cremoso exprés de frutos rojos y yogur griego sin máquina",
+      "description": "Helado de consistencia cremosa instantánea elaborado triturando bayas mixtas congeladas con yogur griego denso y eritritol en procesador. Rápido, rico en bacterias probióticas y antioxidantes antociánicos con bajísima carga glucémica.",
+      "servings": 2,
+      "prep_time_minutes": 6,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 6,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 9.4,
+        "calories_kcal": 118,
+        "sugars_g": 5.4,
+        "fiber_g": 3.8,
+        "protein_g": 7.8,
+        "total_fat_g": 5.2,
+        "saturated_fat_g": 2.8,
+        "sodium_mg": 45
+      },
+      "ingredients": [
+        { "name": "Frutos rojos congelados (frambuesas, moras, arándanos)", "quantity": 140, "unit": "g" },
+        { "name": "Yogur griego natural entero sin azúcar", "quantity": 120, "unit": "g" },
+        { "name": "Eritritol en polvo", "quantity": 15, "unit": "g" },
+        { "name": "Hojas de menta fresca para decorar", "quantity": 4, "unit": "unidades" }
+      ],
+      "instructions": [
+        "Colocar los frutos rojos congelados directamente en el vaso de un procesador de alimentos o batidora potente.",
+        "Añadir el yogur griego natural y el eritritol en polvo.",
+        "Procesar a pulsos inicialmente para romper la fruta y luego triturar a velocidad continua durante 1 minuto, deteniendo para bajar los ingredientes con una espátula, hasta obtener una crema helada densa y homogénea.",
+        "Servir inmediatamente con cuchara de helado en dos copas frías.",
+        "Decorar con hojas de menta fresca y consumir al momento para disfrutar de su textura cremosa sin cristalizaciones."
+      ]
+    },
+    {
+      "id": 183,
+      "category": "Postres",
+      "name": "Manzanas asadas al horno con canela de Ceilán y nueces picadas",
+      "description": "Manzanas cocidas al calor lento del horno en sus propios jugos desprendidos con canela en rama y corazón relleno de nueces crujientes. La pectina gelatinizada en el horneado forma una red que retarda la absorción de los carbohidratos naturales de la fruta.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 33,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 16.8,
+        "calories_kcal": 148,
+        "sugars_g": 12.2,
+        "fiber_g": 4.2,
+        "protein_g": 2.4,
+        "total_fat_g": 8.4,
+        "saturated_fat_g": 0.9,
+        "sodium_mg": 8
+      },
+      "ingredients": [
+        { "name": "Manzanas medianas ácidas tipo Reineta o Granny Smith", "quantity": 2, "unit": "unidades" },
+        { "name": "Nueces picadas en trozos pequeños", "quantity": 20, "unit": "g" },
+        { "name": "Canela de Ceilán en polvo", "quantity": 3, "unit": "g" },
+        { "name": "Agua mineral", "quantity": 40, "unit": "ml" },
+        { "name": "Extracto de vainilla puro", "quantity": 2, "unit": "ml" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 190 °C.",
+        "Lavar las manzanas y retirar el corazón central con un descorazonador con cuidado de no perforar la base de la fruta.",
+        "Practicar un corte circular superficial con la punta del cuchillo alrededor de la piel de cada manzana para evitar que revienten con el vapor.",
+        "En un cuenco, mezclar las nueces picadas con la canela y la vainilla; rellenar la cavidad central de ambas manzanas presionando suavemente.",
+        "Colocar las manzanas en una fuente pequeña apta para horno y verter los 40 ml de agua en el fondo de la bandeja.",
+        "Hornear a 190 °C durante 25 minutos hasta que la pulpa esté completamente tierna y caramelizada.",
+        "Servir templadas con su propio jugo de horneado por encima."
+      ]
+    },
+    {
+      "id": 184,
+      "category": "Postres",
+      "name": "Flan casero de huevo a la vainilla bourbon con bebida de almendras",
+      "description": "Una versión ligera del flan tradicional que sustituye la leche condensada o azucarada por bebida vegetal sin azúcar y eritritol, cuajado suavemente al baño maría. Ofrece colina y proteínas de huevo entero con un aporte calórico muy liviano.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 33,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 2.1,
+        "calories_kcal": 115,
+        "sugars_g": 0.8,
+        "fiber_g": 0.5,
+        "protein_g": 8.4,
+        "total_fat_g": 7.8,
+        "saturated_fat_g": 2.2,
+        "sodium_mg": 95
+      },
+      "ingredients": [
+        { "name": "Huevos camperos medianos", "quantity": 2, "unit": "unidades" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 180, "unit": "ml" },
+        { "name": "Eritritol granulado", "quantity": 20, "unit": "g" },
+        { "name": "Extracto puro de vainilla bourbon", "quantity": 4, "unit": "ml" },
+        { "name": "Canela en polvo", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 160 °C y preparar una fuente honda con 2 dedos de agua caliente para hacer el baño maría.",
+        "En un cuenco, batir los 2 huevos con el eritritol y la vainilla bourbon con varillas de mano hasta homogenizar sin incorporar demasiado aire.",
+        "Templar ligeramente la bebida de almendras en el microondas o un cazo (sin hervir) y verterla en hilo fino sobre los huevos batidos mientras se remueve continuamente.",
+        "Colar la mezcla a través de un colador de malla fina para retirar burbujas e impurezas y verter en dos moldes individuales de flan de cerámica o cristal.",
+        "Colocar los moldes dentro de la fuente de baño maría en el horno.",
+        "Hornear a 160 °C durante 25 minutos hasta que los bordes estén firmes y el centro conserve un ligero temblor gelatinoso.",
+        "Retirar del horno, dejar enfriar a temperatura ambiente y refrigerar al menos 2 horas antes de desmoldar o consumir directamente del molde."
+      ]
+    },
+    {
+      "id": 185,
+      "category": "Postres",
+      "name": "Trufas energéticas de chocolate negro al 85%, almendra y coco",
+      "description": "Bombones densos sin horneado elaborados fundiendo chocolate de muy alta pureza con harina de almendra y bebida vegetal, rebozados en coco deshidratado sin azúcar. Suministran magnesio y grasas saludables con menos de 4 g de carbohidratos netos.",
+      "servings": 3,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 3,
+      "total_time_minutes": 15,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.8,
+        "calories_kcal": 155,
+        "sugars_g": 1.4,
+        "fiber_g": 3.2,
+        "protein_g": 3.9,
+        "total_fat_g": 13.8,
+        "saturated_fat_g": 6.8,
+        "sodium_mg": 18
+      },
+      "ingredients": [
+        { "name": "Chocolate negro mínimo 85% cacao", "quantity": 50, "unit": "g" },
+        { "name": "Harina de almendras fina", "quantity": 40, "unit": "g" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 25, "unit": "ml" },
+        { "name": "Eritritol en polvo", "quantity": 10, "unit": "g" },
+        { "name": "Coco rallado deshidratado sin azúcar (para rebozar)", "quantity": 12, "unit": "g" }
+      ],
+      "instructions": [
+        "Trocear el chocolate negro y fundirlo en un bol apto para microondas en tandas de 30 segundos a potencia media, removiendo entre cada intervalo para no quemarlo.",
+        "Incorporar la bebida de almendras, el eritritol en polvo y la harina de almendras al chocolate fundido; mezclar con una cuchara hasta obtener una masa pastosa compacta.",
+        "Refrigerar la masa durante 20 minutos para que adquiera firmeza suficiente para moldear.",
+        "Dividir la masa en 6 porciones iguales y rodar cada una entre las palmas de las manos para formar bolitas redondeadas.",
+        "Hacer rodar las trufas sobre el coco rallado dispuesto en un plato hondo para cubrirlas uniformemente.",
+        "Conservar en la nevera hasta su consumo (la ración corresponde a 2 trufas por persona)."
+      ]
+    },
+    {
+      "id": 186,
+      "category": "Postres",
+      "name": "Crumble tibio de fresas y harina de almendras crujiente",
+      "description": "Una versión baja en carbohidratos del clásico postre británico, donde fresas frescas cocidas en sus propios jugos quedan cubiertas por una costra arenosa y crujiente de almendra molida y canela. Deliciosa combinación de texturas sin azúcares libres.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 18,
+      "total_time_minutes": 28,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 9.8,
+        "calories_kcal": 168,
+        "sugars_g": 4.8,
+        "fiber_g": 3.9,
+        "protein_g": 4.8,
+        "total_fat_g": 12.4,
+        "saturated_fat_g": 2.4,
+        "sodium_mg": 25
+      },
+      "ingredients": [
+        { "name": "Fresas frescas limpias cortadas en cuartos", "quantity": 180, "unit": "g" },
+        { "name": "Harina de almendras", "quantity": 40, "unit": "g" },
+        { "name": "Aceite de coco virgen o mantequilla fundida", "quantity": 10, "unit": "g" },
+        { "name": "Eritritol granulado", "quantity": 15, "unit": "g" },
+        { "name": "Canela en polvo", "quantity": 2, "unit": "g" },
+        { "name": "Zumo de limón", "quantity": 5, "unit": "ml" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 180 °C.",
+        "En dos cazuelitas individuales de cerámica para horno, repartir las fresas troceadas mezcladas con el zumo de limón y la mitad del eritritol.",
+        "En un bol pequeño, preparar el crumble mezclando con la punta de los dedos la harina de almendras, el aceite de coco fundido, la canela y el resto del eritritol hasta obtener una textura de migas sueltas.",
+        "Repartir las migas de crumble de manera homogénea sobre las fresas sin presionar.",
+        "Hornear a 180 °C durante 16-18 minutos hasta que la cubierta esté dorada y crujiente y los jugos de las fresas burbujeen por los bordes.",
+        "Dejar atemperar 5 minutos y servir tibio con cuchara."
+      ]
+    },
+    {
+      "id": 187,
+      "category": "Postres",
+      "name": "Mini vasitos de cheesecake con queso crema y salsa de arándanos",
+      "description": "Vasitos individuales sin horneado que combinan una base crocante de nueces picadas con crema densa de queso blanco batido con lima, coronados por arándanos enteros reducidos al fuego. Saciante y rica en flavonoides protectores.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 4,
+      "total_time_minutes": 16,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 7.4,
+        "calories_kcal": 178,
+        "sugars_g": 3.8,
+        "fiber_g": 2.4,
+        "protein_g": 5.8,
+        "total_fat_g": 14.2,
+        "saturated_fat_g": 6.4,
+        "sodium_mg": 140
+      },
+      "ingredients": [
+        { "name": "Queso crema para untar bajo en grasa", "quantity": 100, "unit": "g" },
+        { "name": "Yogur griego natural entero sin azúcar", "quantity": 50, "unit": "g" },
+        { "name": "Nueces picadas muy finas", "quantity": 20, "unit": "g" },
+        { "name": "Arándanos frescos", "quantity": 60, "unit": "g" },
+        { "name": "Eritritol granulado", "quantity": 20, "unit": "g" },
+        { "name": "Zumo y ralladura fina de lima", "quantity": 6, "unit": "ml" }
+      ],
+      "instructions": [
+        "Repartir las nueces picadas en el fondo de dos vasitos de cristal presionando levemente con una cucharita para formar la base.",
+        "En un cuenco, batir el queso crema con el yogur griego, la mitad del eritritol y la ralladura de lima hasta lograr una crema homogénea y espesa; verter sobre la base de nueces.",
+        "En un cazo pequeño, calentar los arándanos frescos con el zumo de lima y el resto del eritritol durante 4 minutos a fuego bajo, aplastando algunos con un tenedor hasta formar una salsa brillante con trozos enteros.",
+        "Dejar templar la salsa de arándanos durante 5 minutos.",
+        "Verter la salsa de arándanos sobre la crema de queso en los vasitos.",
+        "Refrigerar al menos 1 hora antes de consumir bien frío."
+      ]
+    },
+    {
+      "id": 188,
+      "category": "Postres",
+      "name": "Natillas caseras a la canela espesadas a fuego lento con yemas de huevo",
+      "description": "Una receta casera clásica adaptada sin almidón de maíz ni azúcar, espesada a la manera tradicional únicamente mediante la coagulación controlada de yemas de huevo con bebida de almendras y canela en rama. Gran riqueza en colina y lípidos saludables.",
+      "servings": 2,
+      "prep_time_minutes": 6,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 16,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 2.4,
+        "calories_kcal": 110,
+        "sugars_g": 0.8,
+        "fiber_g": 0.6,
+        "protein_g": 6.2,
+        "total_fat_g": 8.5,
+        "saturated_fat_g": 2.4,
+        "sodium_mg": 55
+      },
+      "ingredients": [
+        { "name": "Yemas de huevo fresco camperas", "quantity": 3, "unit": "unidades" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 240, "unit": "ml" },
+        { "name": "Eritritol granulado", "quantity": 20, "unit": "g" },
+        { "name": "Rama de canela entera", "quantity": 1, "unit": "unidad" },
+        { "name": "Piel limpia de limón (sin parte blanca)", "quantity": 1, "unit": "trozo" },
+        { "name": "Canela en polvo para espolvorear", "quantity": 1, "unit": "g" }
+      ],
+      "instructions": [
+        "En un cazo mediano, calentar la bebida de almendras con la rama de canela y la piel de limón hasta que casi hierva; apagar el fuego y dejar infusionar 5 minutos tapado.",
+        "En un cuenco, batir las 3 yemas con el eritritol hasta que blanqueen suavemente.",
+        "Retirar la rama de canela y la piel de limón de la bebida de almendras.",
+        "Verter la bebida templada poco a poco sobre las yemas batidas removiendo continuamente con varillas.",
+        "Devolver toda la mezcla al cazo y cocinar a fuego muy bajo sin parar de remover con cuchara de madera o espátula durante 6-7 minutos, hasta que espese y nape el dorso de la cuchara (evitar que hierva para que el huevo no se corte).",
+        "Verter de inmediato en dos cuencos de barro o cristal para frenar la cocción.",
+        "Espolvorear canela molida por encima y dejar enfriar en la nevera antes de servir."
+      ]
+    },
+    {
+      "id": 189,
+      "category": "Postres",
+      "name": "Crepes de trigo sarraceno con compota tibia de manzana sin azúcar",
+      "description": "Finas crepes elaboradas con harina de alforfón puro (grano entero libre de gluten) rellenas de compota casera de manzana aromatizada con clavo y canela. La fagomina presente en el sarraceno contribuye a retrasar la digestión del almidón.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "total_time_minutes": 22,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 19.4,
+        "calories_kcal": 148,
+        "sugars_g": 7.4,
+        "fiber_g": 3.4,
+        "protein_g": 4.8,
+        "total_fat_g": 5.8,
+        "saturated_fat_g": 1.1,
+        "sodium_mg": 65
+      },
+      "ingredients": [
+        { "name": "Harina de trigo sarraceno integral", "quantity": 45, "unit": "g" },
+        { "name": "Agua mineral", "quantity": 100, "unit": "ml" },
+        { "name": "Huevo campero mediano", "quantity": 1, "unit": "unidad" },
+        { "name": "Manzana mediana pelada y cortada en cubitos pequeños", "quantity": 120, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra suave (para engrasar sartén)", "quantity": 4, "unit": "ml" },
+        { "name": "Canela de Ceilán en polvo", "quantity": 2, "unit": "g" },
+        { "name": "Zumo de limón", "quantity": 6, "unit": "ml" }
+      ],
+      "instructions": [
+        "En un cazo pequeño con 2 cucharadas de agua, cocinar los cubitos de manzana con el zumo de limón y la canela a fuego lento durante 8 minutos hasta que estén tiernos; machacar parcialmente con tenedor para formar una compota con textura y reservar tibia.",
+        "En un cuenco, batir la harina de trigo sarraceno con el huevo y los 100 ml de agua hasta lograr una masa líquida y lisa; dejar reposar 3 minutos.",
+        "Engrasar una sartén crepera con unas gotas de aceite y calentar a fuego medio-alto.",
+        "Verter la mitad de la masa inclinando la sartén para repartirla en una lámina fina; cocinar 2 minutos por un lado y 1 minuto por el otro; repetir para la segunda crepe.",
+        "Rellenar cada crepe con la compota tibia de manzana.",
+        "Doblar en triángulos o cilindros y servir de inmediato."
+      ]
+    },
+    {
+      "id": 190,
+      "category": "Postres",
+      "name": "Brownie keto de cacao puro 100%, nueces y harina de almendras",
+      "description": "Bizcocho denso y chocolatoso de textura fudgy en el centro, elaborado con cacao amargo de alta pureza, harina de almendras y tropezones de nueces. Brinda saciedad profunda para amantes del chocolate con un aporte insignificante de azúcares simples.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 16,
+      "total_time_minutes": 26,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.8,
+        "calories_kcal": 185,
+        "sugars_g": 0.8,
+        "fiber_g": 3.8,
+        "protein_g": 6.2,
+        "total_fat_g": 16.2,
+        "saturated_fat_g": 4.2,
+        "sodium_mg": 55
+      },
+      "ingredients": [
+        { "name": "Harina de almendras", "quantity": 50, "unit": "g" },
+        { "name": "Cacao puro 100% desgrasado en polvo", "quantity": 25, "unit": "g" },
+        { "name": "Huevos camperos medianos", "quantity": 2, "unit": "unidades" },
+        { "name": "Nueces troceadas", "quantity": 25, "unit": "g" },
+        { "name": "Eritritol granulado", "quantity": 30, "unit": "g" },
+        { "name": "Aceite de coco virgen o mantequilla fundida", "quantity": 15, "unit": "g" },
+        { "name": "Extracto de vainilla puro", "quantity": 3, "unit": "ml" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 170 °C y forrar un molde cuadrado pequeño (15x15 cm) con papel de hornear.",
+        "En un cuenco, mezclar la harina de almendras, el cacao puro en polvo y el eritritol.",
+        "Añadir los huevos batidos, el aceite de coco fundido y el extracto de vainilla, integrando con una espátula hasta formar una masa espesa y achocolatada.",
+        "Incorporar las nueces troceadas repartiéndolas en la masa.",
+        "Verter la mezcla en el molde alisando con la espátula.",
+        "Hornear a 170 °C durante 14-16 minutos (es crucial no sobrecocinar para que el centro conserve humedad densa).",
+        "Dejar enfriar completamente antes de desmoldar y cortar en 3 porciones rectangulares."
+      ]
+    },
+    {
+      "id": 191,
+      "category": "Postres",
+      "name": "Vasito estilo tiramisú con mascarpone, café espresso y cacao amargo",
+      "description": "Inspiración italiana individual en vasito que sustituye los bizcochos azucarados por una base esponjosa de harina de almendras mojada en café espresso recién hecho, cubierta con crema aireada de mascarpone y cacao. Cero picos de glucosa y sabor intenso.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 12,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.8,
+        "calories_kcal": 195,
+        "sugars_g": 1.4,
+        "fiber_g": 1.8,
+        "protein_g": 4.8,
+        "total_fat_g": 18.2,
+        "saturated_fat_g": 9.8,
+        "sodium_mg": 45
+      },
+      "ingredients": [
+        { "name": "Queso mascarpone", "quantity": 80, "unit": "g" },
+        { "name": "Harina de almendras fina", "quantity": 30, "unit": "g" },
+        { "name": "Café espresso recién preparado sin azúcar", "quantity": 50, "unit": "ml" },
+        { "name": "Eritritol en polvo", "quantity": 20, "unit": "g" },
+        { "name": "Cacao puro 100% en polvo (para espolvorear)", "quantity": 6, "unit": "g" },
+        { "name": "Extracto de vainilla puro", "quantity": 2, "unit": "ml" }
+      ],
+      "instructions": [
+        "En un cuenco, mezclar la harina de almendras con el café espresso caliente y 5 gramos de eritritol hasta conformar una pasta húmeda similar a un bizcocho empapado.",
+        "Dividir la mezcla de almendra y café en el fondo de dos vasitos de cristal.",
+        "En otro cuenco, batir el queso mascarpone con el resto del eritritol en polvo y la vainilla hasta obtener una crema aireada y consistente.",
+        "Disponer la crema de mascarpone sobre la base de café en ambos vasitos.",
+        "Refrigerar durante al menos 30 minutos.",
+        "Espolvorear con un colador fino el cacao puro amargo sobre la superficie justo antes de degustar con cucharilla."
+      ]
+    },
+    {
+      "id": 192,
+      "category": "Postres",
+      "name": "Peras pochadas al anís estrellado y canela con yogur griego",
+      "description": "Peras cocinadas suavemente en infusión aromática de especias calientes hasta quedar tiernas y translúcidas, acompañadas de una cucharada de yogur colado cremoso. La fibra soluble y el yogur amortiguan la liberación de los azúcares naturales del fruto.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 20,
+      "total_time_minutes": 28,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 14.8,
+        "calories_kcal": 135,
+        "sugars_g": 10.4,
+        "fiber_g": 4.1,
+        "protein_g": 4.8,
+        "total_fat_g": 3.8,
+        "saturated_fat_g": 1.9,
+        "sodium_mg": 35
+      },
+      "ingredients": [
+        { "name": "Peras medianas firmes tipo Conferencia peladas enteras", "quantity": 2, "unit": "unidades" },
+        { "name": "Yogur griego natural entero sin azúcar", "quantity": 80, "unit": "g" },
+        { "name": "Agua mineral", "quantity": 300, "unit": "ml" },
+        { "name": "Rama de canela entera", "quantity": 1, "unit": "unidad" },
+        { "name": "Estrellas de anís estrellado", "quantity": 2, "unit": "unidades" },
+        { "name": "Eritritol granulado", "quantity": 15, "unit": "g" },
+        { "name": "Tira de piel de limón", "quantity": 1, "unit": "trozo" }
+      ],
+      "instructions": [
+        "En un cazo hondo estrecho, colocar el agua con la rama de canela, el anís estrellado, la piel de limón y el eritritol; llevar a ebullición.",
+        "Pelar las peras conservando el rabillo superior y recortar ligeramente la base para que se mantengan de pie.",
+        "Introducir las peras de pie en el cazo con el almíbar de especias hirviendo.",
+        "Bajar el fuego al mínimo, tapar y cocer durante 18-20 minutos girando con cuidado a mitad de tiempo hasta que estén tiernas al pincharlas con un palillo.",
+        "Retirar las peras a dos platos hondos de postre.",
+        "Acompañar cada pera con una porción de yogur griego frío a un lado y regar con dos cucharadas del jugo de cocción aromatizado reducido."
+      ]
+    },
+    {
+      "id": 193,
+      "category": "Postres",
+      "name": "Muffins esponjosos de arándanos frescos y harina de almendras",
+      "description": "Bocaditos individuales esponjosos horneados con harina pura de almendras, huevos camperos y arándanos silvestres que estallan en el horneado aportando humedad y frescura. Cero harinas refinadas y carbohidratos netos controlados.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 18,
+      "total_time_minutes": 28,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.2,
+        "calories_kcal": 168,
+        "sugars_g": 2.8,
+        "fiber_g": 2.8,
+        "protein_g": 6.8,
+        "total_fat_g": 13.5,
+        "saturated_fat_g": 1.6,
+        "sodium_mg": 75
+      },
+      "ingredients": [
+        { "name": "Harina de almendras fina", "quantity": 80, "unit": "g" },
+        { "name": "Huevos camperos medianos", "quantity": 2, "unit": "unidades" },
+        { "name": "Arándanos frescos limpios", "quantity": 60, "unit": "g" },
+        { "name": "Eritritol granulado", "quantity": 25, "unit": "g" },
+        { "name": "Levadura química en polvo", "quantity": 4, "unit": "g" },
+        { "name": "Extracto de vainilla puro", "quantity": 3, "unit": "ml" },
+        { "name": "Aceite de oliva suave", "quantity": 6, "unit": "ml" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 180 °C y preparar 3 moldes de silicona para muffins.",
+        "En un bol, batir los dos huevos con el eritritol, el aceite de oliva suave y la vainilla con varillas de mano.",
+        "Incorporar la harina de almendras y la levadura química, mezclando con espátula hasta obtener una masa uniforme.",
+        "Añadir los arándanos frescos y mezclar suavemente para distribuirlos sin romperlos.",
+        "Repartir la masa equitativamente en los 3 moldes.",
+        "Hornear a 180 °C durante 16-18 minutos hasta que se hinchen y doren en la superficie.",
+        "Dejar enfriar en una rejilla antes de desmoldar (1 muffin por ración)."
+      ]
+    },
+    {
+      "id": 194,
+      "category": "Postres",
+      "name": "Polos helados de yogur natural, frambuesas machacadas y menta",
+      "description": "Polos helados refrescantes elaborados alternando capas de yogur natural sin azúcar con puré rústico de frambuesas y hojas de menta picada. Ideales para épocas de calor, ricos en probióticos y polifenoles sin adición de azúcares.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 8,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 78,
+        "sugars_g": 4.1,
+        "fiber_g": 2.8,
+        "protein_g": 5.4,
+        "total_fat_g": 3.4,
+        "saturated_fat_g": 1.9,
+        "sodium_mg": 45
+      },
+      "ingredients": [
+        { "name": "Yogur natural entero sin azúcar", "quantity": 140, "unit": "g" },
+        { "name": "Frambuesas frescas o descongeladas", "quantity": 70, "unit": "g" },
+        { "name": "Eritritol en polvo", "quantity": 15, "unit": "g" },
+        { "name": "Hojas de menta fresca picadas finas", "quantity": 3, "unit": "g" },
+        { "name": "Zumo de limón", "quantity": 4, "unit": "ml" }
+      ],
+      "instructions": [
+        "En un cuenco, machacar las frambuesas con el zumo de limón, la menta picada y la mitad del eritritol usando un tenedor hasta obtener un puré rústico con trozos.",
+        "En otro cuenco, mezclar el yogur natural con el resto del eritritol.",
+        "En dos moldes para polos helados, verter alternativamente cucharadas del yogur y del puré de frambuesas para crear un efecto marmolado.",
+        "Insertar los palitos de polo de madera en el centro.",
+        "Llevar al congelador durante un mínimo de 4 horas hasta que solidifiquen por completo.",
+        "Pasar el molde unos segundos bajo agua tibia del grifo para desmoldar fácilmente y servir inmediatamente."
+      ]
+    },
+    {
+      "id": 195,
+      "category": "Postres",
+      "name": "Crema catalana ligera con leche de almendras y canela quemada",
+      "description": "Una interpretación de la clásica crema quemada que utiliza bebida de almendras infusionada con canela y limón cuajada con yemas, tostada en la superficie con una película fina de eritritol caramelizado con soplete. Cero azúcar quemado nocivo.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 18,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 2.6,
+        "calories_kcal": 118,
+        "sugars_g": 0.8,
+        "fiber_g": 0.6,
+        "protein_g": 6.4,
+        "total_fat_g": 9.2,
+        "saturated_fat_g": 2.5,
+        "sodium_mg": 55
+      },
+      "ingredients": [
+        { "name": "Yemas de huevo fresco camperas", "quantity": 3, "unit": "unidades" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 220, "unit": "ml" },
+        { "name": "Eritritol granulado (para la crema)", "quantity": 18, "unit": "g" },
+        { "name": "Eritritol granulado (para caramelizar la superficie)", "quantity": 10, "unit": "g" },
+        { "name": "Rama de canela", "quantity": 1, "unit": "unidad" },
+        { "name": "Piel limpia de limón (sin parte blanca)", "quantity": 1, "unit": "trozo" }
+      ],
+      "instructions": [
+        "Infusionar la bebida de almendras con la canela y la piel de limón a fuego suave durante 5 minutos; colar.",
+        "Batir las 3 yemas con los 18 gramos de eritritol hasta integrar.",
+        "Verter la leche infusionada templada sobre las yemas sin dejar de remover.",
+        "Cocinar a fuego muy suave en un cazo durante 6-7 minutos removiendo continuamente con cuchara de madera hasta que la crema espese sin hervir.",
+        "Repartir la crema en dos cazuelitas bajas de barro o cerámica refractaria; dejar enfriar y refrigerar 2 horas.",
+        "Antes de servir, espolvorear los 10 gramos de eritritol restante en una capa fina sobre la superficie y quemar suavemente con soplete de cocina hasta dorar."
+      ]
+    },
+    {
+      "id": 196,
+      "category": "Postres",
+      "name": "Bombones helados de mantequilla pura de cacahuete y chocolate negro",
+      "description": "Bocaditos congelados de relleno cremoso a base de crema de cacahuete monoingrediente (sin azúcares ni grasas hidrogenadas), bañados en una fina concha crujiente de chocolate 85% de cacao. Alta densidad de energía lipídica saciante sin carbohidratos netos.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 2,
+      "total_time_minutes": 12,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.4,
+        "calories_kcal": 165,
+        "sugars_g": 1.2,
+        "fiber_g": 2.2,
+        "protein_g": 5.4,
+        "total_fat_g": 14.8,
+        "saturated_fat_g": 4.8,
+        "sodium_mg": 35
+      },
+      "ingredients": [
+        { "name": "Crema pura de cacahuete 100% sin aditivos", "quantity": 60, "unit": "g" },
+        { "name": "Chocolate negro mínimo 85% cacao", "quantity": 30, "unit": "g" },
+        { "name": "Aceite de coco virgen", "quantity": 6, "unit": "g" },
+        { "name": "Eritritol en polvo", "quantity": 10, "unit": "g" }
+      ],
+      "instructions": [
+        "En un cuenco pequeño, mezclar la crema de cacahuete con el eritritol en polvo.",
+        "Con una cucharita, depositar 6 montoncitos de la pasta de cacahuete sobre una tabla cubierta con papel de horno formando discos de 3 cm.",
+        "Llevar la tabla al congelador durante 20 minutos hasta que los discos estén completamente congelados y firmes.",
+        "Fundir el chocolate negro con el aceite de coco en el microondas en tandas de 20 segundos.",
+        "Sacar los discos helados de cacahuete y sumergirlos con ayuda de un tenedor en el chocolate fundido (el chocolate solidificará casi al instante al contacto con el frío).",
+        "Regresar 5 minutos al congelador y servir directamente como bombón helado (2 bombones por persona)."
+      ]
+    },
+    {
+      "id": 197,
+      "category": "Postres",
+      "name": "Tarta suave de calabaza especiada al horno con nuez moscada y jengibre",
+      "description": "Una tarta tibia de otoño inspirada en el pumpkin pie americano que emplea puré de calabaza asada emulsionado con huevos y especias de pan de especias, sin base de masa dulce. Proporciona betacarotenos y dulzor natural con una digestibilidad prolongada.",
+      "servings": 4,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 35,
+      "total_time_minutes": 47,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 7.4,
+        "calories_kcal": 118,
+        "sugars_g": 3.8,
+        "fiber_g": 2.1,
+        "protein_g": 5.8,
+        "total_fat_g": 7.2,
+        "saturated_fat_g": 1.8,
+        "sodium_mg": 85
+      },
+      "ingredients": [
+        { "name": "Puré de calabaza asada al horno bien escurrido", "quantity": 250, "unit": "g" },
+        { "name": "Huevos camperos grandes", "quantity": 2, "unit": "unidades" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 80, "unit": "ml" },
+        { "name": "Eritritol granulado", "quantity": 30, "unit": "g" },
+        { "name": "Canela de Ceilán molida", "quantity": 3, "unit": "g" },
+        { "name": "Jengibre en polvo", "quantity": 1, "unit": "g" },
+        { "name": "Nuez moscada recién molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 175 °C y forrar un molde redondo de 18 cm con papel vegetal.",
+        "En un bol grande, batir los huevos con el eritritol hasta homogenizar.",
+        "Añadir el puré de calabaza asada escurrido, la bebida de almendras, la canela, el jengibre y la nuez moscada; batir con varillas manuales hasta formar una crema suave sin grumos.",
+        "Verter la mezcla en el molde alisando con espátula.",
+        "Hornear a 175 °C durante 35 minutos hasta que la superficie esté cuajada y dorada.",
+        "Dejar enfriar completamente a temperatura ambiente (la textura se volverá más firme y cremosa al reposar) y cortar en 4 raciones triangulares."
+      ]
+    },
+    {
+      "id": 198,
+      "category": "Postres",
+      "name": "Parfait de yogur griego colado, fresas laminadas y linaza tostada",
+      "description": "Elegante postre en copa compuesto por estratos alternos de yogur colado denso en proteínas lácteas, láminas finas de fresas frescas y semillas de lino tostadas que aportan crujiente y ácidos grasos omega-3. Visualmente tentador y muy bajo en carbohidratos.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 8,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 8.2,
+        "calories_kcal": 138,
+        "sugars_g": 4.6,
+        "fiber_g": 3.4,
+        "protein_g": 9.4,
+        "total_fat_g": 7.4,
+        "saturated_fat_g": 2.8,
+        "sodium_mg": 45
+      },
+      "ingredients": [
+        { "name": "Yogur griego natural entero sin azúcar", "quantity": 160, "unit": "g" },
+        { "name": "Fresas frescas laminadas", "quantity": 100, "unit": "g" },
+        { "name": "Semillas de lino tostado", "quantity": 12, "unit": "g" },
+        { "name": "Eritritol en polvo", "quantity": 12, "unit": "g" },
+        { "name": "Extracto de vainilla puro", "quantity": 2, "unit": "ml" }
+      ],
+      "instructions": [
+        "En un cuenco, batir el yogur griego con el eritritol en polvo y la vainilla hasta obtener una textura sedosa.",
+        "Lavar, desinfectar y cortar las fresas en láminas finas regulares.",
+        "En dos copas de cristal transparentes, disponer en la base una capa de fresas laminadas.",
+        "Cubrir con una capa generosa de yogur griego batido.",
+        "Espolvorear una capa de semillas de lino tostado crujientes.",
+        "Repetir las capas terminando con fresas y un toque de semillas de lino en la parte superior antes de servir frío."
+      ]
+    },
+    {
+      "id": 199,
+      "category": "Postres",
+      "name": "Soufflé ligero de claras al cacao puro horneado al momento",
+      "description": "Postre caliente y etéreo que eleva las claras de huevo montadas a punto de nieve con cacao amargo y eritritol, horneadas en ramequines individuales hasta crecer majestuosamente. Aporte proteico magro ultraligero y libre de harinas con virtualmente cero azúcares.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "total_time_minutes": 22,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 2.4,
+        "calories_kcal": 68,
+        "sugars_g": 0.4,
+        "fiber_g": 1.9,
+        "protein_g": 8.6,
+        "total_fat_g": 1.8,
+        "saturated_fat_g": 0.9,
+        "sodium_mg": 120
+      },
+      "ingredients": [
+        { "name": "Claras de huevo frescas", "quantity": 3, "unit": "unidades" },
+        { "name": "Cacao puro 100% desgrasado en polvo", "quantity": 14, "unit": "g" },
+        { "name": "Eritritol en polvo", "quantity": 25, "unit": "g" },
+        { "name": "Zumo de limón fresco", "quantity": 2, "unit": "ml" },
+        { "name": "Aceite de coco virgen (para engrasar ramequines)", "quantity": 3, "unit": "g" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 190 °C con calor arriba y abajo.",
+        "Pintar el interior de dos ramequines de cerámica con el aceite de coco realizando pinceladas de abajo hacia arriba (esto ayuda a que el soufflé suba uniformemente) y espolvorear el fondo con una pizca de cacao.",
+        "En un bol limpio y seco, montar las 3 claras a punto de nieve firme junto con el zumo de limón usando batidora de varillas.",
+        "Añadir el eritritol en polvo poco a poco mientras se sigue batiendo para formar un merengue firme y brillante.",
+        "Tamizar el cacao puro en polvo sobre el merengue e integrarlo con movimientos envolventes muy suaves de espátula para no bajar el volumen de aire.",
+        "Repartir la masa en los dos ramequines alisando la superficie con una espátula y pasando la punta del dedo por el borde interior para despegar la masa.",
+        "Hornear a 190 °C durante 10-12 minutos sin abrir el horno hasta que hayan subido por encima del borde.",
+        "Servir inmediatamente en la mesa antes de que pierda altura."
+      ]
+    },
+    {
+      "id": 200,
+      "category": "Postres",
+      "name": "Tarta fría de coco y lima sin horneado con base crocante de almendra",
+      "description": "Una tarta refrescante de estilo caribeño sin horneado: base de almendra tostada compactada y relleno sedoso cuajado con leche de coco, zumo y ralladura de lima fresca. Un cierre gastronómico repleto de sabor cítrico, grasas saludables y nula alteración glucémica.",
+      "servings": 4,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "total_time_minutes": 20,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 4.8,
+        "calories_kcal": 165,
+        "sugars_g": 1.6,
+        "fiber_g": 2.6,
+        "protein_g": 4.2,
+        "total_fat_g": 15.4,
+        "saturated_fat_g": 8.8,
+        "sodium_mg": 35
+      },
+      "ingredients": [
+        { "name": "Harina de almendras", "quantity": 60, "unit": "g" },
+        { "name": "Leche de coco en lata (crema espesa)", "quantity": 150, "unit": "ml" },
+        { "name": "Gelatina neutra en láminas", "quantity": 4, "unit": "g" },
+        { "name": "Aceite de coco virgen fundido", "quantity": 10, "unit": "g" },
+        { "name": "Zumo de lima fresca", "quantity": 25, "unit": "ml" },
+        { "name": "Ralladura fina de lima limpia", "quantity": 4, "unit": "g" },
+        { "name": "Eritritol en polvo", "quantity": 30, "unit": "g" }
+      ],
+      "instructions": [
+        "En un cuenco, mezclar la harina de almendras con el aceite de coco fundido y 10 gramos de eritritol hasta conformar una textura de arena húmeda.",
+        "Presionar la mezcla firmemente en el fondo de un molde desmontable pequeño (16 cm) forrado con papel vegetal para crear una base compacta; refrigerar mientras se hace el relleno.",
+        "Hidratar las láminas de gelatina en agua muy fría durante 5 minutos.",
+        "En un cazo, calentar la leche de coco con el resto del eritritol, el zumo y la mitad de la ralladura de lima a fuego medio sin que hierva.",
+        "Escurrir la gelatina con las manos, incorporarla al cazo caliente y remover con varillas hasta disolverla por completo.",
+        "Verter el relleno líquido de coco y lima sobre la base de almendra fría en el molde.",
+        "Refrigerar durante un mínimo de 4 horas hasta que esté completamente cuajada y firme.",
+        "Desmoldar con cuidado, decorar la superficie con el resto de la ralladura de lima fresca y cortar en 4 porciones triangulares para servir."
+      ]
+    }
+  ]
+}

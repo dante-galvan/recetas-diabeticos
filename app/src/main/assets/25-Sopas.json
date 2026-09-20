@@ -1,0 +1,956 @@
+{
+  "recipes": [
+    {
+      "id": 151,
+      "category": "Sopas",
+      "name": "Minestrone ligera de verduras de huerta con pesto suave (sin pasta)",
+      "description": "Una versión ligera de la sopa campesina italiana que omite la pasta de trigo y potencia las hortalizas frescas: calabacín, judías verdes, tomate natural y albahaca fresca. Su riqueza en fibra soluble y agua biológica promueve la saciedad con un impacto glucémico mínimo.",
+      "servings": 3,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 40,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 9.4,
+        "calories_kcal": 128,
+        "sugars_g": 4.2,
+        "fiber_g": 3.8,
+        "protein_g": 3.6,
+        "total_fat_g": 8.4,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Calabacín con piel en cubitos", "quantity": 180, "unit": "g" },
+        { "name": "Judías verdes redondas en trozos de 2 cm", "quantity": 120, "unit": "g" },
+        { "name": "Tomate maduro pelado y picado", "quantity": 150, "unit": "g" },
+        { "name": "Tallo de apio en rodajas finas", "quantity": 50, "unit": "g" },
+        { "name": "Puerro limpio picado", "quantity": 80, "unit": "g" },
+        { "name": "Caldo de verduras bajo en sodio", "quantity": 800, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 15, "unit": "ml" },
+        { "name": "Hojas de albahaca fresca", "quantity": 8, "unit": "unidades" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una cazuela amplia, calentar el aceite de oliva a fuego medio y sofreír el puerro y el apio durante 5 minutos hasta que estén translúcidos.",
+        "Añadir el tomate picado y cocinar 3 minutos más hasta que comience a deshacerse.",
+        "Incorporar las judías verdes troceadas, los cubitos de calabacín y el caldo de verduras caliente.",
+        "Llevar a ebullición, reducir a fuego bajo, tapar la cazuela y dejar cocer durante 18 minutos hasta que todas las verduras estén tiernas pero firmes.",
+        "Picar las hojas frescas de albahaca con las manos e incorporarlas en el último minuto de cocción junto con una pizca de pimienta negra recién molida.",
+        "Servir caliente en platos hondos repartiendo equitativamente el caldo y los vegetales."
+      ]
+    },
+    {
+      "id": 152,
+      "category": "Sopas",
+      "name": "Sopa de pollo deshebrado con fideos de konjac y verduras al jengibre",
+      "description": "Caldo de pollo limpio y reconfortante enriquecido con hebras de pechuga magra y fideos shirataki de konjac (fibra glucomanano pura con cero carbohidratos netos). El jengibre y el apio confieren propiedades antiinflamatorias y digestivas excepcionales.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 25,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.8,
+        "calories_kcal": 165,
+        "sugars_g": 1.6,
+        "fiber_g": 3.2,
+        "protein_g": 24.6,
+        "total_fat_g": 5.4,
+        "saturated_fat_g": 1.1,
+        "sodium_mg": 340
+      },
+      "ingredients": [
+        { "name": "Pechuga de pollo cocida y deshebrada", "quantity": 180, "unit": "g" },
+        { "name": "Fideos shirataki de konjac escurridos y enjuagados", "quantity": 150, "unit": "g" },
+        { "name": "Caldo de pollo desgrasado sin sal añadida", "quantity": 600, "unit": "ml" },
+        { "name": "Tallo de apio picado fino", "quantity": 60, "unit": "g" },
+        { "name": "Zanahoria cortada en cerillas muy finas", "quantity": 50, "unit": "g" },
+        { "name": "Jengibre fresco en láminas finas", "quantity": 6, "unit": "g" },
+        { "name": "Aceite de sésamo virgen", "quantity": 6, "unit": "ml" },
+        { "name": "Cebollino fresco picado", "quantity": 5, "unit": "g" }
+      ],
+      "instructions": [
+        "Enjuagar los fideos shirataki de konjac en un colador bajo agua fría abundante durante 1 minuto para neutralizar su aroma característico; escurrir bien.",
+        "En una olla, calentar el caldo de pollo desgrasado con el jengibre fresco, el apio y la zanahoria a fuego medio durante 10 minutos hasta que la zanahoria esté blanda.",
+        "Añadir el pollo deshebrado y los fideos shirataki a la olla.",
+        "Cocinar a fuego suave durante 4 minutos para que los fideos absorban el sabor del caldo aromático.",
+        "Retirar las láminas de jengibre si se prefiere un sabor más suave.",
+        "Servir la sopa muy caliente en dos boles, rociar con unas gotas de aceite de sésamo y espolvorear el cebollino fresco picado."
+      ]
+    },
+    {
+      "id": 153,
+      "category": "Sopas",
+      "name": "Crema de calabaza asada y jengibre con pipas crujientes",
+      "description": "Una crema densa y aterciopelada elaborada a base de calabaza asada previamente al horno para concentrar su sabor natural sin necesidad de añadir patatas. Las semillas de calabaza tostadas aportan grasas monoinsaturadas y zinc, moderando la asimilación del plato.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 35,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 13.8,
+        "calories_kcal": 165,
+        "sugars_g": 5.2,
+        "fiber_g": 4.1,
+        "protein_g": 4.8,
+        "total_fat_g": 10.4,
+        "saturated_fat_g": 1.5,
+        "sodium_mg": 240
+      },
+      "ingredients": [
+        { "name": "Calabaza cacahuete pelada y en dados", "quantity": 300, "unit": "g" },
+        { "name": "Cebolla picada", "quantity": 60, "unit": "g" },
+        { "name": "Jengibre fresco rallado", "quantity": 6, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Caldo de verduras bajo en sodio", "quantity": 400, "unit": "ml" },
+        { "name": "Semillas de calabaza tostadas", "quantity": 14, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 200 °C.",
+        "Disponer los dados de calabaza en una bandeja con la mitad del aceite de oliva y hornear durante 20 minutos hasta que estén tiernos y ligeramente dorados.",
+        "En una cazuela, sofreír la cebolla picada con el resto del aceite durante 4 minutos; añadir el jengibre rallado y remover.",
+        "Incorporar la calabaza asada y el caldo de verduras caliente; hervir suavemente durante 5 minutos para que se integren los sabores.",
+        "Triturar con batidora eléctrica a máxima potencia durante 2 minutos hasta lograr una crema homogénea y sin grumos.",
+        "Servir caliente en dos cuencos y coronar con las semillas de calabaza tostadas crujientes y un giro de pimienta negra."
+      ]
+    },
+    {
+      "id": 154,
+      "category": "Sopas",
+      "name": "Caldo depurativo de alcachofas, apio y limón con tropezones de jamón",
+      "description": "Infusión vegetal de cocción lenta a base de corazones y hojas de alcachofa ricas en cinarina e inulina, combinadas con tallos de apio y un toque cítrico de limón. Ejerce una función diurética y depurativa que apoya el metabolismo glucémico basal.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 35,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 115,
+        "sugars_g": 2.1,
+        "fiber_g": 4.5,
+        "protein_g": 9.4,
+        "total_fat_g": 5.8,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Alcachofas frescas limpias cortadas en cuartos", "quantity": 250, "unit": "g" },
+        { "name": "Tallos de apio limpios en rodajas", "quantity": 100, "unit": "g" },
+        { "name": "Agua mineral", "quantity": 800, "unit": "ml" },
+        { "name": "Taquitos pequeños de jamón curado magro", "quantity": 30, "unit": "g" },
+        { "name": "Zumo de medio limón", "quantity": 15, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una olla mediana, poner el agua, los cuartos de alcachofa, el apio troceado y la mitad del zumo de limón.",
+        "Llevar a ebullición, tapar parcialmente y cocinar a fuego medio-bajo durante 22 minutos hasta que las alcachofas estén completamente tiernas y el caldo haya tomado color dorado.",
+        "En una sartén pequeña, saltear los taquitos de jamón magro con las gotas de aceite de oliva durante 1 minuto para despertar sus aromas.",
+        "Servir el caldo con los trozos de alcachofa y apio en dos platos hondos.",
+        "Repartir los tropezones de jamón crujiente por encima, añadir unas gotas del zumo de limón restante y un toque de pimienta."
+      ]
+    },
+    {
+      "id": 155,
+      "category": "Sopas",
+      "name": "Sopa marinera de merluza, gambas y mejillones al azafrán",
+      "description": "Sopa reconfortante de pescado y marisco cocinada con un caldo limpio desgrasado de pescado de roca, aromatizado con hebras de azafrán y perejil fresco. Una fuente proteica marina pura, ligera, desprovista de harinas y muy fácil de digerir.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 30,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 4.2,
+        "calories_kcal": 210,
+        "sugars_g": 1.8,
+        "fiber_g": 1.2,
+        "protein_g": 29.5,
+        "total_fat_g": 8.4,
+        "saturated_fat_g": 1.3,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Lomo de merluza fresca en dados limpios", "quantity": 200, "unit": "g" },
+        { "name": "Colas de gambas peladas crudas", "quantity": 100, "unit": "g" },
+        { "name": "Carne de mejillón limpia cocida al vapor", "quantity": 80, "unit": "g" },
+        { "name": "Tomate maduro rallado", "quantity": 60, "unit": "g" },
+        { "name": "Caldo casero de pescado desgrasado bajo en sal", "quantity": 650, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Hebras de azafrán natural", "quantity": 6, "unit": "unidades" },
+        { "name": "Perejil fresco picado", "quantity": 5, "unit": "g" }
+      ],
+      "instructions": [
+        "En una cazuela ancha, calentar el aceite de oliva a fuego medio y sofreír el tomate rallado durante 4 minutos.",
+        "Verter el caldo de pescado caliente y añadir las hebras de azafrán previamente machacadas.",
+        "Llevar a hervor suave durante 5 minutos para que el caldo tome el color y aroma del azafrán.",
+        "Incorporar los dados de merluza y las colas de gambas peladas; cocinar a fuego bajo durante 4 minutos.",
+        "Añadir la carne de mejillón cocida en el último minuto para que tome temperatura sin endurecerse.",
+        "Apagar el fuego, espolvorear el perejil fresco picado y servir en cuencos hondos de cerámica."
+      ]
+    },
+    {
+      "id": 156,
+      "category": "Sopas",
+      "name": "Crema sedosa de coliflor y puerro con virutas de almendra tostada",
+      "description": "Una crema reconfortante de color blanco puro que emula a la perfección la textura de una vichyssoise tradicional sustituyendo la patata por coliflor cocida. La coliflor aporta densidad cremosa sin elevar los carbohidratos.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 18,
+      "total_time_minutes": 28,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 8.6,
+        "calories_kcal": 178,
+        "sugars_g": 3.8,
+        "fiber_g": 4.5,
+        "protein_g": 6.8,
+        "total_fat_g": 12.8,
+        "saturated_fat_g": 1.8,
+        "sodium_mg": 240
+      },
+      "ingredients": [
+        { "name": "Coliflor limpia en ramilletes", "quantity": 350, "unit": "g" },
+        { "name": "Puerro limpio en rodajas (solo parte blanca)", "quantity": 120, "unit": "g" },
+        { "name": "Caldo de verduras o ave desgrasado", "quantity": 450, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Almendras fileteadas tostadas", "quantity": 15, "unit": "g" },
+        { "name": "Nuez moscada recién rallada", "quantity": 1, "unit": "pizca" },
+        { "name": "Pimienta blanca molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una olla, calentar la mitad del aceite de oliva y rehogar el puerro a fuego medio-bajo durante 4 minutos sin que se dore.",
+        "Añadir los ramilletes de coliflor y verter el caldo caliente; llevar a ebullición suave.",
+        "Cocer tapado durante 14 minutos hasta que la coliflor esté completamente tierna al pincharla.",
+        "Pasar las verduras con el caldo al vaso de la batidora, añadir el resto del aceite de oliva crudo, la nuez moscada y una pizca de pimienta blanca.",
+        "Triturar a potencia alta durante 2 minutos hasta lograr una textura aterciopelada y brillante.",
+        "Servir la crema caliente en dos cuencos y decorar la superficie con las almendras fileteadas crujientes."
+      ]
+    },
+    {
+      "id": 157,
+      "category": "Sopas",
+      "name": "Sopa castellana ligera de ajo y huevo escalfado (sin pan)",
+      "description": "Una reinterpretación de la sopa de ajo tradicional española que prescinde del pan duro frito, espesando el caldo únicamente con la emulsión del ajo dorado, pimentón de la Vera y un huevo escalfado en el caldo hirviendo.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 23,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.8,
+        "calories_kcal": 175,
+        "sugars_g": 0.8,
+        "fiber_g": 0.9,
+        "protein_g": 9.4,
+        "total_fat_g": 13.6,
+        "saturated_fat_g": 2.8,
+        "sodium_mg": 310
+      },
+      "ingredients": [
+        { "name": "Dientes de ajo pelados y laminados", "quantity": 6, "unit": "unidades" },
+        { "name": "Huevos camperos frescos", "quantity": 2, "unit": "unidades" },
+        { "name": "Caldo de pollo o jamón casero desgrasado", "quantity": 600, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 15, "unit": "ml" },
+        { "name": "Pimentón dulce de la Vera", "quantity": 5, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una cazuela de barro o cazo amplio, calentar el aceite de oliva a fuego medio y dorar los ajos laminados despacio hasta que adquieran tono dorado sin quemarse.",
+        "Retirar del fuego medio minuto para templar el aceite, añadir el pimentón dulce y remover rápidamente con cuchara de madera para que no se queme.",
+        "Verter el caldo desgrasado caliente con cuidado sobre el refrito y volver al fuego.",
+        "Cocinar a fuego lento durante 10 minutos para que el ajo infusione profundamente en el caldo.",
+        "Subir ligeramente el fuego hasta un hervor suave, cascar los dos huevos directamente dentro del caldo separados entre sí y apagar el fuego.",
+        "Tapar la cazuela durante 3-4 minutos para que las claras cuajen con el calor residual manteniendo las yemas líquidas.",
+        "Servir con cuidado en dos platos hondos asegurando un huevo entero por comensal."
+      ]
+    },
+    {
+      "id": 158,
+      "category": "Sopas",
+      "name": "Sopa de miso con dados de tofu, algas wakame y setas enoki",
+      "description": "Sopa tradicional de fermentación natural con pasta de miso no pasteurizada, alga wakame rica en fucoidan y dados tiernos de tofu fresco. Suministra enzimas digestivas activas, probióticos y minerales marinos sin elevar la glucosa en sangre.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 8,
+      "total_time_minutes": 16,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 5.4,
+        "calories_kcal": 110,
+        "sugars_g": 1.8,
+        "fiber_g": 2.2,
+        "protein_g": 9.8,
+        "total_fat_g": 5.4,
+        "saturated_fat_g": 0.8,
+        "sodium_mg": 420
+      },
+      "ingredients": [
+        { "name": "Tofu firme cortado en dados de 1 cm", "quantity": 150, "unit": "g" },
+        { "name": "Alga wakame deshidratada", "quantity": 5, "unit": "g" },
+        { "name": "Pasta de miso blanco natural", "quantity": 25, "unit": "g" },
+        { "name": "Setas enoki o shiitake limpias", "quantity": 60, "unit": "g" },
+        { "name": "Agua o caldo dashi suave", "quantity": 600, "unit": "ml" },
+        { "name": "Cebolleta fresca picada fina", "quantity": 20, "unit": "g" }
+      ],
+      "instructions": [
+        "Hidratar el alga wakame en un cuenco pequeño con agua templada durante 5 minutos; escurrir.",
+        "En un cazo, calentar los 600 ml de agua o caldo junto con las setas a fuego medio durante 5 minutos.",
+        "Añadir los dados de tofu firme y el alga wakame hidratada; calentar a fuego suave durante 2 minutos más.",
+        "Apagar el fuego de la olla para proteger las propiedades probióticas del miso.",
+        "Disolver la pasta de miso en un cucharón con caldo caliente de la olla hasta desleír totalmente los grumos, e incorporarlo a la sopa.",
+        "Servir inmediatamente en dos cuencos y espolvorear la cebolleta fresca picada por encima."
+      ]
+    },
+    {
+      "id": 159,
+      "category": "Sopas",
+      "name": "Crema suave de espárragos verdes con virutas de jamón crujiente",
+      "description": "Crema ligera elaborada aprovechando íntegramente los tallos tiernos de espárragos verdes triturados con puerro y caldo vegetal, coronada con lascas crocantes de jamón serrano. Aporte óptimo de potasio, ácido fólico e inulina saciante.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 25,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 155,
+        "sugars_g": 3.1,
+        "fiber_g": 3.6,
+        "protein_g": 9.2,
+        "total_fat_g": 9.8,
+        "saturated_fat_g": 2.2,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Espárragos verdes limpios (tallos y yemas)", "quantity": 350, "unit": "g" },
+        { "name": "Puerro picado (parte blanca)", "quantity": 80, "unit": "g" },
+        { "name": "Caldo de verduras bajo en sodio", "quantity": 400, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Jamón serrano magro picado", "quantity": 25, "unit": "g" },
+        { "name": "Pimienta blanca molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Cortar las puntas de 4 espárragos y reservarlas enteras para la decoración final.",
+        "En una olla, calentar la mitad del aceite de oliva y rehogar el puerro con los tallos troceados de espárrago durante 4 minutos.",
+        "Verter el caldo de verduras caliente y cocinar a fuego medio durante 10 minutos hasta que los tallos estén muy tiernos.",
+        "En una sartén pequeña con unas gotas de aceite, saltear las puntas de espárrago y los trocitos de jamón durante 2 minutos hasta dorar; reservar.",
+        "Triturar el contenido de la olla con el resto del aceite de oliva crudo y una pizca de pimienta blanca hasta obtener una crema fina; pasar por colador si se desean eliminar restos de hebras.",
+        "Servir la crema verde caliente en dos boles, decorando con las puntas de espárrago salteadas y el jamón crujiente."
+      ]
+    },
+    {
+      "id": 160,
+      "category": "Sopas",
+      "name": "Sopa Tom Kha Gai ligera de pollo, champiñones y leche de coco",
+      "description": "Inspiración tailandesa aromática que fusiona tiras magras de pechuga de pollo con champiñones en un caldo de leche de coco ligera aromatizado con jengibre, limoncillo y zumo de lima. El ácido láurico del coco y los cítricos ofrecen saciedad sin elevar la insulina.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 27,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 5.4,
+        "calories_kcal": 240,
+        "sugars_g": 2.4,
+        "fiber_g": 1.8,
+        "protein_g": 26.5,
+        "total_fat_g": 12.8,
+        "saturated_fat_g": 7.4,
+        "sodium_mg": 360
+      },
+      "ingredients": [
+        { "name": "Pechuga de pollo limpia en tiras finas", "quantity": 220, "unit": "g" },
+        { "name": "Champiñones frescos en cuartos", "quantity": 120, "unit": "g" },
+        { "name": "Leche de coco ligera (en brick bajo en grasa)", "quantity": 180, "unit": "ml" },
+        { "name": "Caldo de pollo desgrasado sin sal añadida", "quantity": 400, "unit": "ml" },
+        { "name": "Jengibre fresco en láminas gruesas", "quantity": 8, "unit": "g" },
+        { "name": "Zumo de lima natural", "quantity": 15, "unit": "ml" },
+        { "name": "Salsa de pescado tailandesa o soja baja en sal", "quantity": 8, "unit": "ml" },
+        { "name": "Cilantro fresco picado", "quantity": 6, "unit": "g" }
+      ],
+      "instructions": [
+        "En una cazuela, combinar el caldo de pollo, la leche de coco ligera y las láminas de jengibre; llevar a ebullición suave a fuego medio durante 5 minutos para que infusione.",
+        "Añadir los champiñones en cuartos y cocinar durante 3 minutos.",
+        "Incorporar las tiras finas de pechuga de pollo a la sopa hirviendo suavemente.",
+        "Cocinar durante 4-5 minutos hasta que el pollo esté tierno y completamente cocido.",
+        "Apagar el fuego, retirar las láminas duras de jengibre y sazonar con el zumo de lima y la salsa de pescado o soja.",
+        "Servir en dos cuencos amplios y repartir abundante cilantro fresco picado por encima."
+      ]
+    },
+    {
+      "id": 161,
+      "category": "Sopas",
+      "name": "Caldo casero de huesos y verduras con cúrcuma y tomillo",
+      "description": "Caldo cocinado a fuego lento durante horas a partir de huesos de ave y ternera con hortalizas y cúrcuma. Riquísimo en colágeno soluble, glutamina protectora de la barrera intestinal y minerales puros, con nulo contenido en carbohidratos.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 60,
+      "total_time_minutes": 70,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 1.8,
+        "calories_kcal": 85,
+        "sugars_g": 0.8,
+        "fiber_g": 0.6,
+        "protein_g": 12.4,
+        "total_fat_g": 3.1,
+        "saturated_fat_g": 0.9,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Carcasa de pollo y hueso de rodilla de ternera limpios", "quantity": 400, "unit": "g" },
+        { "name": "Puerro entero limpio troceado", "quantity": 100, "unit": "g" },
+        { "name": "Tallo de apio troceado", "quantity": 80, "unit": "g" },
+        { "name": "Zanahoria limpia con piel en rodajas", "quantity": 60, "unit": "g" },
+        { "name": "Cúrcuma en polvo", "quantity": 3, "unit": "g" },
+        { "name": "Vinagre de manzana (para extraer minerales del hueso)", "quantity": 10, "unit": "ml" },
+        { "name": "Agua mineral", "quantity": 1200, "unit": "ml" },
+        { "name": "Ramitas de tomillo fresco", "quantity": 2, "unit": "unidades" }
+      ],
+      "instructions": [
+        "Colocar los huesos en una olla grande con el agua mineral y el vinagre de manzana; dejar reposar 10 minutos en frío.",
+        "Llevar a ebullición suave y retirar con una espumadera la espuma superficial que se forme.",
+        "Añadir el puerro, el apio, la zanahoria, el tomillo y la cúrcuma en polvo.",
+        "Bajar el fuego al mínimo, tapar la olla y cocinar a fuego muy suave durante al menos 60 minutos (o hasta 2 horas si se dispone de tiempo).",
+        "Colar el caldo a través de un colador fino de malla retirando todos los sólidos.",
+        "Dejar enfriar en la nevera para retirar la capa superficial sólida de grasa con una cuchara y recalentar el caldo limpio antes de servir en tazas de caldo reconfortantes."
+      ]
+    },
+    {
+      "id": 162,
+      "category": "Sopas",
+      "name": "Crema aterciopelada de portobello al tomillo silvestre",
+      "description": "Una crema de textura sedosa elaborada triturando champiñones portobello dorados con cebolla y caldo vegetal desgrasado, sin harinas de trigo ni nata láctea. Su riqueza en betaglucanos y minerales apoya el sistema inmunológico y el control metabólico.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 18,
+      "total_time_minutes": 28,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 7.4,
+        "calories_kcal": 142,
+        "sugars_g": 3.1,
+        "fiber_g": 3.2,
+        "protein_g": 5.8,
+        "total_fat_g": 10.4,
+        "saturated_fat_g": 1.5,
+        "sodium_mg": 240
+      },
+      "ingredients": [
+        { "name": "Champiñones portobello limpios laminados", "quantity": 350, "unit": "g" },
+        { "name": "Cebolla picada fina", "quantity": 70, "unit": "g" },
+        { "name": "Diente de ajo laminado", "quantity": 1, "unit": "unidad" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Caldo de verduras bajo en sodio", "quantity": 400, "unit": "ml" },
+        { "name": "Tomillo fresco picado", "quantity": 3, "unit": "g" },
+        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una cazuela mediana, calentar la mitad del aceite de oliva y sofreír la cebolla con el ajo durante 4 minutos a fuego medio.",
+        "Añadir los portobellos laminados y saltear durante 6 minutos hasta que se doren y evaporen sus jugos naturales.",
+        "Reservar un par de láminas de portobello dorado para decorar.",
+        "Verter el caldo de verduras caliente y el tomillo fresco; cocer a fuego suave durante 8 minutos.",
+        "Triturar con la batidora incorporando el resto del aceite de oliva virgen extra en crudo y la pimienta negra hasta obtener una textura aterciopelada y homogénea.",
+        "Servir caliente en dos cuencos y colocar las láminas reservadas de portobello por encima."
+      ]
+    },
+    {
+      "id": 163,
+      "category": "Sopas",
+      "name": "Sopa de lentejas rojas coral al comino con espinacas frescas",
+      "description": "Sopa de legumbre pelada de cocción rápida que se deshace de forma natural creando un caldo espeso sin almidones añadidos. Combinada con hojas de espinaca fresca que se añaden al final, aporta hierro vegetal y carbohidratos de absorción pausada.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "total_time_minutes": 30,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 21.4,
+        "calories_kcal": 185,
+        "sugars_g": 2.4,
+        "fiber_g": 6.8,
+        "protein_g": 11.2,
+        "total_fat_g": 5.8,
+        "saturated_fat_g": 0.8,
+        "sodium_mg": 260
+      },
+      "ingredients": [
+        { "name": "Lentejas rojas coral secas", "quantity": 120, "unit": "g" },
+        { "name": "Espinacas frescas", "quantity": 100, "unit": "g" },
+        { "name": "Tomate maduro pelado y en cubitos", "quantity": 80, "unit": "g" },
+        { "name": "Cebolla picada fina", "quantity": 50, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Comino molido", "quantity": 3, "unit": "g" },
+        { "name": "Caldo de verduras o agua", "quantity": 700, "unit": "ml" },
+        { "name": "Zumo de limón", "quantity": 10, "unit": "ml" }
+      ],
+      "instructions": [
+        "Enjuagar las lentejas rojas en un colador fino bajo agua fría.",
+        "En una cazuela, calentar el aceite de oliva a fuego medio y sofreír la cebolla durante 4 minutos; añadir el comino y el tomate en cubitos rehogando 2 minutos más.",
+        "Incorporar las lentejas rojas y cubrir con el caldo de verduras caliente.",
+        "Llevar a ebullición suave, tapar y cocer a fuego lento durante 14 minutos (las lentejas rojas se ablandarán y comenzarán a deshacerse espesando la sopa).",
+        "Añadir las espinacas frescas y el zumo de limón, removiendo durante 2 minutos hasta que las hojas reduzcan su tamaño.",
+        "Servir caliente en tres platos hondos."
+      ]
+    },
+    {
+      "id": 164,
+      "category": "Sopas",
+      "name": "Sopa fría de pepino, yogur griego y eneldo fresco (Tarator)",
+      "description": "Clásica sopa fría de los Balcanes elaborada con pepinos crujientes rallados, yogur natural colado rico en proteínas lácteas, nueces troceadas y eneldo fresco. Excelente hidratación estival con un perfil de carbohidratos prácticamente nulo.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.2,
+        "calories_kcal": 168,
+        "sugars_g": 3.9,
+        "fiber_g": 1.8,
+        "protein_g": 9.4,
+        "total_fat_g": 11.8,
+        "saturated_fat_g": 3.4,
+        "sodium_mg": 95
+      },
+      "ingredients": [
+        { "name": "Pepinos medianos pelados y rallados gruesos", "quantity": 300, "unit": "g" },
+        { "name": "Yogur griego natural entero sin azúcar", "quantity": 180, "unit": "g" },
+        { "name": "Agua muy fría", "quantity": 150, "unit": "ml" },
+        { "name": "Nueces troceadas finas", "quantity": 15, "unit": "g" },
+        { "name": "Diente de ajo pequeño machacado", "quantity": 0.5, "unit": "unidad" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Eneldo fresco picado", "quantity": 6, "unit": "g" },
+        { "name": "Zumo de limón", "quantity": 8, "unit": "ml" }
+      ],
+      "instructions": [
+        "En un cuenco grande, batir el yogur griego con el medio diente de ajo machacado, el zumo de limón y el agua muy fría hasta obtener una consistencia fluida.",
+        "Incorporar el pepino rallado y el eneldo fresco picado; mezclar bien.",
+        "Añadir el aceite de oliva virgen extra y remover para integrar.",
+        "Refrigerar durante 15 minutos para servir bien fría.",
+        "Repartir en dos boles hondos y esparcir las nueces troceadas por encima antes de disfrutar con cuchara."
+      ]
+    },
+    {
+      "id": 165,
+      "category": "Sopas",
+      "name": "Sopa de albóndigas caseras de pavo con espinacas y caldo de ave",
+      "description": "Plato completo que combina un caldo ligero desgrasado con mini albóndigas caseras de carne picada de pavo especiada y hojas tiernas de espinaca baby. Aporta saciedad con proteína magra de alto valor biológico y nulo impacto glucémico.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 30,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 4.1,
+        "calories_kcal": 215,
+        "sugars_g": 1.6,
+        "fiber_g": 2.1,
+        "protein_g": 28.4,
+        "total_fat_g": 9.2,
+        "saturated_fat_g": 2.1,
+        "sodium_mg": 340
+      },
+      "ingredients": [
+        { "name": "Carne picada magra de pechuga de pavo", "quantity": 220, "unit": "g" },
+        { "name": "Espinacas frescas baby", "quantity": 100, "unit": "g" },
+        { "name": "Caldo de pollo casero desgrasado", "quantity": 650, "unit": "ml" },
+        { "name": "Clara de huevo", "quantity": 1, "unit": "unidad" },
+        { "name": "Perejil fresco picado", "quantity": 4, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Ajo en polvo", "quantity": 1, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En un cuenco, mezclar la carne de pavo con la clara de huevo, el perejil picado, el ajo en polvo y la pimienta.",
+        "Moldear con las palmas de las manos 8 mini albóndigas compactas del tamaño de una nuez.",
+        "En una olla, calentar el caldo de pollo desgrasado hasta que rompa a hervir suavemente.",
+        "Introducir las mini albóndigas en el caldo hirviendo una a una.",
+        "Cocinar a fuego medio durante 10 minutos para que las albóndigas queden cocidas y tiernas por dentro.",
+        "Añadir las espinacas baby y el aceite de oliva virgen extra; cocinar 2 minutos más hasta que las hojas colapsen.",
+        "Servir caliente en platos hondos repartiendo 4 albóndigas y abundante caldo por ración."
+      ]
+    },
+    {
+      "id": 166,
+      "category": "Sopas",
+      "name": "Crema de brócoli al vapor y nuez moscada con levadura nutricional",
+      "description": "Una crema verde intensa rica en glucosinolatos y antioxidantes, elaborada cociendo brócoli al vapor para preservar sus micronutrientes y triturándolo con levadura nutricional que aporta un sutil matiz a queso curado sin lácteos.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 12,
+      "total_time_minutes": 20,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 7.4,
+        "calories_kcal": 145,
+        "sugars_g": 2.8,
+        "fiber_g": 4.8,
+        "protein_g": 7.2,
+        "total_fat_g": 9.5,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 210
+      },
+      "ingredients": [
+        { "name": "Brócoli limpio en ramilletes", "quantity": 380, "unit": "g" },
+        { "name": "Caldo de verduras bajo en sodio", "quantity": 350, "unit": "ml" },
+        { "name": "Levadura nutricional", "quantity": 10, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Nuez moscada recién molida", "quantity": 1, "unit": "pizca" },
+        { "name": "Pimienta blanca molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Cocer los ramilletes de brócoli en una vaporera sobre agua hirviendo durante 7 minutos hasta que estén tiernos pero conservando su color verde vivo.",
+        "Colocar el brócoli al vapor en el vaso de la batidora.",
+        "Añadir el caldo de verduras caliente, la levadura nutricional, el aceite de oliva virgen extra, la nuez moscada y la pimienta blanca.",
+        "Triturar a potencia máxima durante 2 minutos hasta lograr una textura cremosa, ligera y completamente uniforme.",
+        "Ajustar de caldo caliente si se prefiere una textura más líquida.",
+        "Servir recién triturada en dos cuencos."
+      ]
+    },
+    {
+      "id": 167,
+      "category": "Sopas",
+      "name": "Sopa stracciatella romana con caldo de ave, huevo y queso curado",
+      "description": "Especialidad tradicional de la región del Lacio consistente en batir huevos frescos con queso parmesano rallado y verterlos en hilo fino sobre caldo de ave hirviendo para formar filamentos proteicos etéreos. Digestión ultrarrápida y cero azúcares.",
+      "servings": 2,
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 8,
+      "total_time_minutes": 13,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 1.4,
+        "calories_kcal": 158,
+        "sugars_g": 0.4,
+        "fiber_g": 0.2,
+        "protein_g": 13.8,
+        "total_fat_g": 10.8,
+        "saturated_fat_g": 4.1,
+        "sodium_mg": 360
+      },
+      "ingredients": [
+        { "name": "Caldo casero de pollo desgrasado", "quantity": 600, "unit": "ml" },
+        { "name": "Huevos camperos medianos", "quantity": 2, "unit": "unidades" },
+        { "name": "Queso parmesano rallado muy fino", "quantity": 25, "unit": "g" },
+        { "name": "Nuez moscada molida", "quantity": 1, "unit": "pizca" },
+        { "name": "Perejil fresco picado", "quantity": 3, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En un cuenco, batir los dos huevos con el queso parmesano rallado, la nuez moscada y una pizca de pimienta negra hasta obtener una mezcla espumosa.",
+        "En una cazuela, calentar el caldo de pollo hasta el punto de ebullición franca.",
+        "Verter la mezcla de huevos en el caldo hirviendo en un hilo continuo mientras se bate vigorosamente con unas varillas de cocina.",
+        "Cocinar a fuego medio durante 1-2 minutos hasta que el huevo cuaje en pequeños copos y filamentos flotantes (stracciatella).",
+        "Apagar el fuego de inmediato para no endurecer el huevo.",
+        "Servir de inmediato en dos platos de sopa decorando con un poco de perejil fresco picado."
+      ]
+    },
+    {
+      "id": 168,
+      "category": "Sopas",
+      "name": "Crema suave de zanahoria asada con cilantro fresco y comino",
+      "description": "Una crema reconfortante preparada con zanahorias asadas previamente al horno que caramelizan suavemente sus azúcares naturales, equilibradas por las notas terrosas del comino y la frescura del cilantro. Gran fuente de betacarotenos cardioprotectores.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 35,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 11.8,
+        "calories_kcal": 142,
+        "sugars_g": 5.4,
+        "fiber_g": 3.9,
+        "protein_g": 2.8,
+        "total_fat_g": 9.4,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 220
+      },
+      "ingredients": [
+        { "name": "Zanahorias medianas peladas y en rodajas gruesas", "quantity": 280, "unit": "g" },
+        { "name": "Cebolla morada en trozos", "quantity": 50, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Caldo de verduras bajo en sodio", "quantity": 400, "unit": "ml" },
+        { "name": "Comino molido", "quantity": 2, "unit": "g" },
+        { "name": "Cilantro fresco picado", "quantity": 5, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 200 °C.",
+        "Disponer las rodajas de zanahoria y la cebolla en una bandeja, rociar con la mitad del aceite de oliva y el comino molido; hornear 20 minutos hasta que estén tiernas y tostadas en los bordes.",
+        "Pasar las verduras asadas a una olla y verter el caldo de verduras caliente.",
+        "Cocinar a fuego suave durante 5 minutos para que se mezclen los aromas.",
+        "Triturar enérgicamente con la batidora junto con el resto del aceite de oliva virgen extra crudo hasta lograr una consistencia fina.",
+        "Servir caliente en dos cuencos hondos y espolvorear abundante cilantro fresco recién picado."
+      ]
+    },
+    {
+      "id": 169,
+      "category": "Sopas",
+      "name": "Sopa de pescado blanco con caldo de roca, hinojo y azafrán",
+      "description": "Guiso caldoso marinero ligero que utiliza lascas de pescado blanco cocidas en un caldo con bulbo de hinojo en juliana fina y azafrán en hebras. El hinojo aporta efectos digestivos y carminativos, reduciendo la hinchazón abdominal.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 16,
+      "total_time_minutes": 28,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.8,
+        "calories_kcal": 195,
+        "sugars_g": 2.2,
+        "fiber_g": 2.1,
+        "protein_g": 26.8,
+        "total_fat_g": 7.8,
+        "saturated_fat_g": 1.2,
+        "sodium_mg": 340
+      },
+      "ingredients": [
+        { "name": "Filetes limpios de pescado blanco (merluza, dorada o bacalao)", "quantity": 260, "unit": "g" },
+        { "name": "Bulbo de hinojo en juliana fina", "quantity": 100, "unit": "g" },
+        { "name": "Caldo de pescado desgrasado casero", "quantity": 650, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Tomate maduro pelado y en cubitos", "quantity": 60, "unit": "g" },
+        { "name": "Hebras de azafrán", "quantity": 6, "unit": "unidades" },
+        { "name": "Pimienta blanca molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una cazuela, calentar el aceite de oliva a fuego medio y rehogar la juliana de hinojo durante 5 minutos hasta que se ablande.",
+        "Añadir los cubitos de tomate y rehogar 2 minutos más.",
+        "Verter el caldo de pescado caliente y añadir las hebras de azafrán machacadas; cocer a fuego suave durante 5 minutos.",
+        "Incorporar los filetes de pescado troceados en bocados regulares.",
+        "Cocinar a fuego bajo durante 4 minutos hasta que el pescado esté blanco opaco y cocido al punto.",
+        "Servir la sopa caliente en dos platos hondos asegurando un reparto generoso de pescado e hinojo."
+      ]
+    },
+    {
+      "id": 170,
+      "category": "Sopas",
+      "name": "Gazpacho andaluz tradicional sin pan con aceite de oliva virgen extra",
+      "description": "Sopa fría cruda de hortalizas maduras emulsionada con aceite de oliva virgen extra virgen y vinagre de Jerez sin miga de pan añadida. Concentrado de licopeno, potasio y antioxidantes con un impacto glucémico nulo gracias a la ausencia de carbohidratos refinados.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 12,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 7.8,
+        "calories_kcal": 155,
+        "sugars_g": 5.1,
+        "fiber_g": 2.8,
+        "protein_g": 2.4,
+        "total_fat_g": 12.8,
+        "saturated_fat_g": 1.8,
+        "sodium_mg": 180
+      },
+      "ingredients": [
+        { "name": "Tomates maduros tipo pera bien rojos", "quantity": 450, "unit": "g" },
+        { "name": "Pepino pelado", "quantity": 70, "unit": "g" },
+        { "name": "Pimiento verde italiano limpio", "quantity": 50, "unit": "g" },
+        { "name": "Diente de ajo pequeño (sin germen)", "quantity": 0.5, "unit": "unidad" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 18, "unit": "ml" },
+        { "name": "Vinagre de Jerez", "quantity": 12, "unit": "ml" },
+        { "name": "Agua muy fría", "quantity": 80, "unit": "ml" }
+      ],
+      "instructions": [
+        "Lavar y trocear los tomates maduros, el pimiento verde y el pepino.",
+        "Colocar todas las hortalizas en el vaso de la batidora junto con el medio diente de ajo y el vinagre de Jerez.",
+        "Triturar a velocidad máxima durante 3 minutos hasta obtener una mezcla completamente líquida y fina.",
+        "Añadir el agua muy fría y, con la batidora funcionando a velocidad baja, verter el aceite de oliva virgen extra en hilo para emulsionar la sopa y aportarle su color anaranjado y textura sedosa característica.",
+        "Pasar por un colador chino si se desea una textura aún más lisa.",
+        "Refrigerar durante al menos 30 minutos y servir muy frío en dos cuencos o vasos anchos."
+      ]
+    },
+    {
+      "id": 171,
+      "category": "Sopas",
+      "name": "Sopa rústica de col verde y ternera magra en dados al laurel",
+      "description": "Sopa campesina caliente que reúne trozos magros de carne de vacuno cocinados lentamente con repollo verde y hoja de laurel. La col aporta fibra glucosinolata y saciedad prolongada sin generar oscilaciones en la glucosa posprandial.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 30,
+      "total_time_minutes": 42,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 225,
+        "sugars_g": 3.2,
+        "fiber_g": 3.4,
+        "protein_g": 26.5,
+        "total_fat_g": 10.4,
+        "saturated_fat_g": 2.9,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Carne magra de ternera en daditos de 1.5 cm", "quantity": 200, "unit": "g" },
+        { "name": "Col verde o repollo en juliana fina", "quantity": 200, "unit": "g" },
+        { "name": "Cebolla picada", "quantity": 50, "unit": "g" },
+        { "name": "Caldo de carne desgrasado bajo en sal", "quantity": 650, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Hoja de laurel", "quantity": 1, "unit": "unidad" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una olla mediana, calentar el aceite de oliva a fuego vivo y dorar los daditos de ternera durante 4 minutos hasta sellar sus jugos.",
+        "Añadir la cebolla picada y saltear durante 3 minutos.",
+        "Incorporar la juliana de col verde, la hoja de laurel y una pizca de pimienta.",
+        "Verter el caldo de carne desgrasado caliente.",
+        "Llevar a ebullición, tapar la olla y cocinar a fuego lento durante 22-25 minutos hasta que la carne esté tierna y la col melosa.",
+        "Retirar la hoja de laurel y servir caliente en platos hondos."
+      ]
+    },
+    {
+      "id": 172,
+      "category": "Sopas",
+      "name": "Crema verde de calabacín y albahaca fresca con ricotta magra",
+      "description": "Una crema de huerta aromática basada en calabacín hervido con piel para retener clorofila y carotenoides, enriquecida con albahaca fresca y una cucharada de ricotta magra que añade suavidad proteica sin grasas saturadas excesivas.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 14,
+      "total_time_minutes": 22,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 148,
+        "sugars_g": 3.6,
+        "fiber_g": 2.6,
+        "protein_g": 6.8,
+        "total_fat_g": 10.2,
+        "saturated_fat_g": 3.1,
+        "sodium_mg": 210
+      },
+      "ingredients": [
+        { "name": "Calabacines medianos con piel en rodajas", "quantity": 380, "unit": "g" },
+        { "name": "Cebolleta tierna picada", "quantity": 60, "unit": "g" },
+        { "name": "Queso ricotta magro", "quantity": 50, "unit": "g" },
+        { "name": "Hojas de albahaca fresca", "quantity": 10, "unit": "unidades" },
+        { "name": "Caldo de verduras bajo en sodio", "quantity": 350, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Pimienta blanca molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una olla, calentar la mitad del aceite y rehogar la cebolleta durante 3 minutos sin que dore.",
+        "Añadir las rodajas de calabacín y el caldo de verduras caliente; cocer tapado a fuego medio durante 10 minutos hasta enternecer.",
+        "Retirar del fuego y colocar el calabacín con su caldo en el vaso batidor.",
+        "Añadir las hojas frescas de albahaca, la mitad de la ricotta magra, el aceite de oliva restante y una pizca de pimienta blanca.",
+        "Triturar durante 1 minuto y medio hasta lograr una emulsión verde brillante y homogénea.",
+        "Servir en dos cuencos y colocar una cucharadita de la ricotta restante en el centro de cada plato."
+      ]
+    },
+    {
+      "id": 173,
+      "category": "Sopas",
+      "name": "Sopa reconfortante de garbanzos, acelgas y caldo de verduras al pimentón",
+      "description": "Plato de cuchara tradicional que combina garbanzos tiernos cocidos con pencas y hojas de acelga verde en caldo aromático al pimentón dulce. Ofrece almidón resistente y fibra espesante vegetal de lenta digestión.",
+      "servings": 3,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "total_time_minutes": 30,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 18.5,
+        "calories_kcal": 175,
+        "sugars_g": 2.4,
+        "fiber_g": 5.9,
+        "protein_g": 7.8,
+        "total_fat_g": 6.8,
+        "saturated_fat_g": 0.9,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Garbanzos cocidos y escurridos", "quantity": 200, "unit": "g" },
+        { "name": "Hojas y pencas de acelga limpias troceadas", "quantity": 250, "unit": "g" },
+        { "name": "Dientes de ajo laminados", "quantity": 2, "unit": "unidades" },
+        { "name": "Caldo de verduras bajo en sodio", "quantity": 750, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Pimentón dulce de la Vera", "quantity": 4, "unit": "g" }
+      ],
+      "instructions": [
+        "En una cazuela, calentar el aceite de oliva a fuego medio y dorar los ajos laminados.",
+        "Apartar un momento del fuego, añadir el pimentón dulce y remover rápidamente para evitar que se queme.",
+        "Incorporar las acelgas troceadas y rehogar durante 2 minutos hasta que reduzcan de volumen.",
+        "Verter el caldo de verduras caliente y llevar a ebullición.",
+        "Añadir los garbanzos cocidos y cocinar a fuego medio durante 15 minutos para que la verdura quede tierna y el caldo tome cuerpo.",
+        "Servir caliente en tres platos hondos."
+      ]
+    },
+    {
+      "id": 174,
+      "category": "Sopas",
+      "name": "Crema de puerros y almendras al aceite de oliva virgen extra",
+      "description": "Una crema suave elaborada a base de puerros pochados despacio y almendras crudas molidas que actúan como emulsionante natural sustituyendo a las natas o mantequillas lácteas. Proporciona vitamina E y lípidos monoinsaturados cardioprotectores.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 18,
+      "total_time_minutes": 28,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 8.4,
+        "calories_kcal": 185,
+        "sugars_g": 3.8,
+        "fiber_g": 3.5,
+        "protein_g": 5.4,
+        "total_fat_g": 14.8,
+        "saturated_fat_g": 1.7,
+        "sodium_mg": 220
+      },
+      "ingredients": [
+        { "name": "Puerros limpios en rodajas (parte blanca y verde clara)", "quantity": 280, "unit": "g" },
+        { "name": "Almendras crudas peladas", "quantity": 25, "unit": "g" },
+        { "name": "Caldo de verduras bajo en sodio", "quantity": 400, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Pimienta blanca molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una olla, calentar la mitad del aceite y pochar los puerros a fuego suave durante 6 minutos sin dejar que tomen color.",
+        "Añadir las almendras crudas y el caldo de verduras caliente.",
+        "Cocer tapado a fuego suave durante 12 minutos hasta que los puerros y las almendras estén muy tiernos.",
+        "Pasar todo al vaso de la batidora y añadir el resto del aceite de oliva crudo y una pizca de pimienta blanca.",
+        "Triturar a máxima velocidad durante 2 minutos continuos hasta obtener una crema muy blanca, brillante y sedosa.",
+        "Servir caliente en dos cuencos."
+      ]
+    },
+    {
+      "id": 175,
+      "category": "Sopas",
+      "name": "Sopa de cebolla francesa ligera con gratén de queso gruyer (sin pan)",
+      "description": "Cebolla caramelizada lentamente en sus propios azúcares naturales con caldo de carne oscuro, servida en cazuelitas individuales y gratinada al horno con queso gruyer suizo sin rebanadas de pan tostado. Muy saciante, reconfortante y baja en carbohidratos netos.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 30,
+      "total_time_minutes": 42,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 9.2,
+        "calories_kcal": 215,
+        "sugars_g": 5.2,
+        "fiber_g": 2.4,
+        "protein_g": 12.8,
+        "total_fat_g": 13.8,
+        "saturated_fat_g": 6.2,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Cebollas dulces cortadas en juliana fina", "quantity": 300, "unit": "g" },
+        { "name": "Queso gruyer o suizo curado rallado", "quantity": 50, "unit": "g" },
+        { "name": "Caldo de carne o vacuno desgrasado de cocción lenta", "quantity": 550, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Tomillo fresco", "quantity": 2, "unit": "ramitas" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una cazuela de fondo grueso, calentar el aceite de oliva a fuego medio-bajo.",
+        "Añadir la juliana de cebolla y cocinar lentamente durante 20 minutos removiendo con frecuencia hasta que esté tierna, translúcida y tome un color dorado acaramelado natural (sin añadir azúcar).",
+        "Verter el caldo de carne caliente y las ramitas de tomillo; cocinar a fuego suave durante 10 minutos más.",
+        "Precalentar el grill del horno a 220 °C.",
+        "Repartir la sopa de cebolla caliente en dos cazuelas individuales aptas para horno.",
+        "Cubrir la superficie de cada cazuela directamente con el queso gruyer rallado.",
+        "Gratinar en el horno durante 4-5 minutos hasta que el queso forme una costra fundida y dorada.",
+        "Retirar con manoplas y servir caliente con precaución."
+      ]
+    }
+  ]
+}

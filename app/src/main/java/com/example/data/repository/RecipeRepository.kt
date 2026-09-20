@@ -1,9 +1,11 @@
 package com.example.data.repository
 
+import android.content.Context
 import com.example.data.local.CollectionEntity
 import com.example.data.local.DiaRecipesDao
 import com.example.data.local.FavoriteEntity
 import com.example.data.local.MealPlanEntity
+import com.example.data.local.RecipeJsonLoader
 import com.example.data.local.SampleData
 import com.example.data.local.UserProfileEntity
 import com.example.data.model.Difficulty
@@ -20,10 +22,20 @@ import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import java.util.Locale
 
-class RecipeRepository(private val dao: DiaRecipesDao) {
+class RecipeRepository(private val dao: DiaRecipesDao, context: Context? = null) {
 
-  // All catalog recipes
-  private val allRecipes: List<Recipe> = SampleData.recipes
+  // All catalog recipes: sample data + JSON-loaded recipes
+  private val allRecipes: List<Recipe> = SampleData.recipes + loadJsonRecipes(context)
+
+  private fun loadJsonRecipes(context: Context?): List<Recipe> {
+    if (context == null) return emptyList()
+    return try {
+      RecipeJsonLoader.loadRecipes(context)
+    } catch (e: Exception) {
+      e.printStackTrace()
+      emptyList()
+    }
+  }
 
   fun getRecipes(): List<Recipe> = allRecipes
 

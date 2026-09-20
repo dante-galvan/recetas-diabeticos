@@ -1,0 +1,926 @@
+{
+  "recipes": [
+    {
+      "id": 126,
+      "category": "Ensaladas",
+      "name": "Ensalada griega tradicional con queso feta y aceitunas kalamata",
+      "description": "Clásico mediterráneo a base de pepino crujiente, tomates maduros, cebolla morada y queso feta aliñado con orégano silvestre. Destaca por su alto contenido en agua biológica, polifenoles y ácido oleico con una carga glucémica insignificante.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 210,
+        "sugars_g": 4.1,
+        "fiber_g": 2.4,
+        "protein_g": 8.2,
+        "total_fat_g": 16.8,
+        "saturated_fat_g": 5.4,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Pepino mediano con piel en rodajas gruesas", "quantity": 180, "unit": "g" },
+        { "name": "Tomates maduros en gajos", "quantity": 200, "unit": "g" },
+        { "name": "Queso feta en cubos o desmenuzado", "quantity": 60, "unit": "g" },
+        { "name": "Aceitunas kalamata enteras", "quantity": 30, "unit": "g" },
+        { "name": "Cebolla morada en plumas finas", "quantity": 40, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Vinagre de vino tinto", "quantity": 8, "unit": "ml" },
+        { "name": "Orégano seco", "quantity": 2, "unit": "g" }
+      ],
+      "instructions": [
+        "Lavar cuidadosamente las verduras; cortar los tomates en gajos regulares y el pepino en medias lunas gruesas conservando la piel.",
+        "En una ensaladera amplia, disponer el pepino, los tomates y la cebolla morada en plumas.",
+        "Añadir las aceitunas kalamata escurridas y los cubos de queso feta por encima.",
+        "En un cuenco pequeño, emulsionar el aceite de oliva virgen extra con el vinagre de vino tinto y el orégano seco.",
+        "Verter el aliño de manera homogénea sobre la ensalada justo antes de servir y mezclar con delicadeza."
+      ]
+    },
+    {
+      "id": 127,
+      "category": "Ensaladas",
+      "name": "Ensalada templada de espinacas baby con pollo a la plancha y champiñones",
+      "description": "Hojas tiernas de espinaca que se atemperan ligeramente con la incorporación de láminas de pollo recién hechas y champiñones salteados al ajillo. Suministra abundante folato, hierro no hemo y proteína magra de alto poder saciante.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 20,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.5,
+        "calories_kcal": 248,
+        "sugars_g": 1.8,
+        "fiber_g": 2.8,
+        "protein_g": 31.2,
+        "total_fat_g": 11.4,
+        "saturated_fat_g": 1.8,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Espinacas baby frescas limpias", "quantity": 160, "unit": "g" },
+        { "name": "Pechuga de pollo en filetes", "quantity": 240, "unit": "g" },
+        { "name": "Champiñones laminados", "quantity": 140, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Diente de ajo picado", "quantity": 1, "unit": "unidad" },
+        { "name": "Vinagre de manzana sin filtrar", "quantity": 10, "unit": "ml" },
+        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Colocar las hojas frescas de espinacas baby en una fuente o repartidas en dos boles hondos.",
+        "Calentar la mitad del aceite en una sartén a fuego medio y saltear los champiñones con el ajo picado durante 4 minutos; reservar calientes.",
+        "Pintar los filetes de pechuga con el resto del aceite y salpimentar al gusto.",
+        "Cocinar el pollo en una plancha bien caliente durante 3 minutos por lado hasta que esté bien dorado; cortar en tiras transversales.",
+        "Distribuir los champiñones salteados calientes y las tiras de pollo sobre el lecho de espinacas para que el calor entibie las hojas.",
+        "Rociar con el vinagre de sidra de manzana y un hilo de aceite residual de la sartén antes de degustar."
+      ]
+    },
+    {
+      "id": 128,
+      "category": "Ensaladas",
+      "name": "Ensalada mediterránea de lentejas con pimientos y vinagreta de limón",
+      "description": "Ensalada fría de legumbre entera mezclada con brunoise crujiente de pimiento verde, pimiento rojo y cebolleta fresca al aderezo cítrico de limón y perejil. El almidón resistente de la lenteja cocida y enfriada modera la curva de glucosa.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 12,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 24.8,
+        "calories_kcal": 210,
+        "sugars_g": 3.1,
+        "fiber_g": 7.4,
+        "protein_g": 10.8,
+        "total_fat_g": 7.8,
+        "saturated_fat_g": 1.1,
+        "sodium_mg": 220
+      },
+      "ingredients": [
+        { "name": "Lentejas pardinas cocidas y escurridas", "quantity": 220, "unit": "g" },
+        { "name": "Pimiento rojo picado en dados finos", "quantity": 60, "unit": "g" },
+        { "name": "Pimiento verde picado en dados finos", "quantity": 60, "unit": "g" },
+        { "name": "Cebolleta tierna picada", "quantity": 40, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Zumo de limón recién exprimido", "quantity": 15, "unit": "ml" },
+        { "name": "Perejil fresco picado", "quantity": 6, "unit": "g" },
+        { "name": "Comino molido", "quantity": 1, "unit": "g" }
+      ],
+      "instructions": [
+        "Enjuagar las lentejas cocidas bajo un chorro suave de agua fría en un colador y escurrir completamente.",
+        "En un bol grande, mezclar las lentejas con los dados de pimiento rojo, pimiento verde y la cebolleta.",
+        "En una taza, batir enérgicamente con un tenedor el zumo de limón, el aceite de oliva, el comino molido y el perejil fresco.",
+        "Verter la vinagreta sobre las lentejas y mezclar cuidadosamente para integrar los sabores.",
+        "Dejar reposar 10 minutos a temperatura ambiente para que la legumbre absorba el aliño antes de servir."
+      ]
+    },
+    {
+      "id": 129,
+      "category": "Ensaladas",
+      "name": "Ensalada de rúcula salvaje, salmón ahumado, aguacate y semillas de calabaza",
+      "description": "Una combinación de hojas de rúcula ligeramente amargas con lonchas de salmón ahumado, abanico de aguacate y pipas crujientes. Aporta ácidos grasos monoinsaturados y poliinsaturados omega-3 que favorecen la salud cardiovascular.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.6,
+        "calories_kcal": 285,
+        "sugars_g": 1.4,
+        "fiber_g": 3.8,
+        "protein_g": 16.4,
+        "total_fat_g": 22.5,
+        "saturated_fat_g": 3.8,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Rúcula fresca limpia", "quantity": 100, "unit": "g" },
+        { "name": "Salmón ahumado cortado en tiras", "quantity": 100, "unit": "g" },
+        { "name": "Aguacate maduro en láminas", "quantity": 80, "unit": "g" },
+        { "name": "Semillas de calabaza tostadas", "quantity": 14, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Zumo de lima", "quantity": 8, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Disponer la rúcula fresca en una ensaladera formando una base esponjosa.",
+        "Distribuir las tiras de salmón ahumado y las láminas de aguacate sobre las hojas de rúcula.",
+        "Esparcir las semillas de calabaza tostadas sobre el conjunto.",
+        "Emulsionar el zumo de lima con el aceite de oliva virgen extra y la pimienta negra molida.",
+        "Aliñar la ensalada justo antes de llevar a la mesa para preservar la tersura de las hojas de rúcula."
+      ]
+    },
+    {
+      "id": 130,
+      "category": "Ensaladas",
+      "name": "Ensalada crujiente de hinojo, canónigos, naranja en gajos vivos y nueces",
+      "description": "Ensalada invernal aromática que asocia láminas translúcidas de bulbo de hinojo con gajos limpios de naranja natural y nueces picadas. El hinojo aporta notas anisadas y fibra carminativa que modulan el impacto de la fructosa natural de la fruta.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 12,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 11.2,
+        "calories_kcal": 175,
+        "sugars_g": 6.8,
+        "fiber_g": 4.1,
+        "protein_g": 3.8,
+        "total_fat_g": 12.8,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 65
+      },
+      "ingredients": [
+        { "name": "Bulbo de hinojo en láminas ultrafinas", "quantity": 160, "unit": "g" },
+        { "name": "Canónigos frescos limpios", "quantity": 60, "unit": "g" },
+        { "name": "Naranja pelada a vivo en gajos (sin hollejos)", "quantity": 90, "unit": "g" },
+        { "name": "Nueces en mitades troceadas", "quantity": 20, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Vinagre de manzana", "quantity": 6, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Cortar el bulbo de hinojo con una mandolina en láminas muy finas para maximizar su textura crujiente.",
+        "Extraer los gajos limpios de naranja con un cuchillo afilado eliminando completamente las membranas blancas amargas.",
+        "En una fuente, mezclar los canónigos con el hinojo laminado.",
+        "Colocar los gajos de naranja y las nueces troceadas por encima.",
+        "Batir el aceite de oliva con el vinagre de manzana y una pizca de pimienta, rociar sobre la ensalada y servir de inmediato."
+      ]
+    },
+    {
+      "id": 131,
+      "category": "Ensaladas",
+      "name": "Ensalada de garbanzos con atún claro al natural, huevo duro y perejil",
+      "description": "Una ensalada campera proteica que reúne garbanzos cocidos con atún sin aceite y cuartos de huevo duro, rociados con aceite de oliva virgen extra virgen. Proporciona aminoácidos completos y almidón de digestión muy lenta.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 20,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 20.4,
+        "calories_kcal": 285,
+        "sugars_g": 1.8,
+        "fiber_g": 6.2,
+        "protein_g": 25.8,
+        "total_fat_g": 10.8,
+        "saturated_fat_g": 2.1,
+        "sodium_mg": 310
+      },
+      "ingredients": [
+        { "name": "Garbanzos cocidos y escurridos", "quantity": 200, "unit": "g" },
+        { "name": "Atún claro al natural escurrido", "quantity": 120, "unit": "g" },
+        { "name": "Huevos camperos cocidos (duros)", "quantity": 2, "unit": "unidades" },
+        { "name": "Tomates cherry partidos en mitades", "quantity": 80, "unit": "g" },
+        { "name": "Cebolleta fresca picada fina", "quantity": 40, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Vinagre de jerez", "quantity": 8, "unit": "ml" },
+        { "name": "Perejil fresco picado", "quantity": 5, "unit": "g" }
+      ],
+      "instructions": [
+        "Cocer los huevos en agua hirviendo durante 9 minutos, enfriar en agua con hielo, pelar y cortar en cuartos.",
+        "En un bol grande, mezclar los garbanzos cocidos escurridos con el atún claro desmigado, los tomates cherry y la cebolleta picada.",
+        "Preparar la vinagreta emulsionando el aceite de oliva virgen extra con el vinagre de jerez y el perejil fresco picado.",
+        "Aliñar la mezcla de garbanzos y atún en el bol, removiendo suavemente.",
+        "Servir en dos platos hondos y coronar cada porción con los cuartos de huevo cocido."
+      ]
+    },
+    {
+      "id": 132,
+      "category": "Ensaladas",
+      "name": "Coleslaw saludable de lombarda con manzana ácida y semillas de girasol",
+      "description": "Versión ligera de la ensalada de col tradicional que prescinde de mayonesas azucaradas, utilizando col lombarda cruda con manzana Granny Smith y aderezo de yogur natural. Muy rica en antocianinas protectoras y fibra espesante.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 12,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 12.8,
+        "calories_kcal": 145,
+        "sugars_g": 6.9,
+        "fiber_g": 4.6,
+        "protein_g": 5.2,
+        "total_fat_g": 7.8,
+        "saturated_fat_g": 1.6,
+        "sodium_mg": 85
+      },
+      "ingredients": [
+        { "name": "Col lombarda cortada en juliana muy fina", "quantity": 180, "unit": "g" },
+        { "name": "Manzana Granny Smith en bastoncitos finos con piel", "quantity": 60, "unit": "g" },
+        { "name": "Zanahoria rallada", "quantity": 50, "unit": "g" },
+        { "name": "Yogur natural entero sin azúcar", "quantity": 60, "unit": "g" },
+        { "name": "Semillas de girasol tostadas sin sal", "quantity": 12, "unit": "g" },
+        { "name": "Mostaza de Dijon suave", "quantity": 6, "unit": "g" },
+        { "name": "Zumo de limón", "quantity": 8, "unit": "ml" }
+      ],
+      "instructions": [
+        "Cortar la col lombarda en tiras muy finas y masajearla 1 minuto con las manos y unas gotas de limón para suavizar su rigidez celular.",
+        "Incorporar los bastoncillos de manzana verde y la zanahoria rallada al cuenco de la col lombarda.",
+        "En un bol pequeño, mezclar el yogur natural, la mostaza de Dijon y el resto del zumo de limón formando una salsa cremosa y homogénea.",
+        "Verter la salsa sobre los vegetales y mezclar con dos cucharas hasta que todo quede uniformemente impregnado.",
+        "Espolvorear las semillas de girasol por encima y refrigerar 10 minutos antes de consumir."
+      ]
+    },
+    {
+      "id": 133,
+      "category": "Ensaladas",
+      "name": "Ensalada de quinoa con pechuga de pavo, pepino y aderezo de yogur y menta",
+      "description": "Tazón refrescante a base de granos de quinoa cocida combinados con dados magros de pechuga de pavo asada, pepino fresco y salsa de yogur con menta fresca. Brinda todos los aminoácidos indispensables con absorción prolongada.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 14,
+      "total_time_minutes": 26,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 19.8,
+        "calories_kcal": 248,
+        "sugars_g": 2.9,
+        "fiber_g": 3.6,
+        "protein_g": 24.5,
+        "total_fat_g": 7.4,
+        "saturated_fat_g": 1.9,
+        "sodium_mg": 260
+      },
+      "ingredients": [
+        { "name": "Quinoa en grano cruda", "quantity": 60, "unit": "g" },
+        { "name": "Pechuga de pavo cocida o a la plancha en dados", "quantity": 160, "unit": "g" },
+        { "name": "Pepino pelado en cubitos", "quantity": 100, "unit": "g" },
+        { "name": "Yogur natural sin azúcar", "quantity": 60, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Menta fresca finamente picada", "quantity": 4, "unit": "g" },
+        { "name": "Zumo de limón", "quantity": 6, "unit": "ml" }
+      ],
+      "instructions": [
+        "Enjuagar la quinoa bajo el grifo y cocerla en 130 ml de agua hirviendo durante 12 minutos hasta que absorba el líquido; dejar enfriar.",
+        "En un cuenco grande, mezclar la quinoa fría con los dados de pechuga de pavo y el pepino picado.",
+        "En un recipiente pequeño, batir el yogur natural con el aceite de oliva, el zumo de limón y la menta picada.",
+        "Incorporar la salsa de yogur sobre la quinoa y remover suavemente.",
+        "Servir en dos boles amplios como plato refrescante de almuerzo o cena ligera."
+      ]
+    },
+    {
+      "id": 134,
+      "category": "Ensaladas",
+      "name": "Ensalada caprese rústica con tomates variados, mozzarella fresca y albahaca",
+      "description": "Una oda a la sencillez mediterránea que combina tomates maduros de distintas variedades, láminas de mozzarella fresca y hojas frescas de albahaca bañadas con aceite virgen extra. Los licopenos y las grasas del queso forman un dúo altamente cardioprotector.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 8,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.2,
+        "calories_kcal": 215,
+        "sugars_g": 4.6,
+        "fiber_g": 1.9,
+        "protein_g": 11.2,
+        "total_fat_g": 15.6,
+        "saturated_fat_g": 6.2,
+        "sodium_mg": 220
+      },
+      "ingredients": [
+        { "name": "Tomates maduros variados en rodajas", "quantity": 250, "unit": "g" },
+        { "name": "Mozzarella fresca de vaca en rodajas", "quantity": 100, "unit": "g" },
+        { "name": "Hojas enteras de albahaca fresca", "quantity": 12, "unit": "unidades" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Cortar los tomates en rodajas de grosor medio con un cuchillo de sierra para no aplastarlos.",
+        "Escurrir la mozzarella fresca y cortarla en rodajas homogéneas similares a las del tomate.",
+        "Disponer en un plato llano alternando una rodaja de tomate, una hoja de albahaca y una rodaja de mozzarella en espiral.",
+        "Rociar uniformemente con el aceite de oliva virgen extra virgen.",
+        "Terminar con un toque de pimienta negra recién molida y servir de inmediato."
+      ]
+    },
+    {
+      "id": 135,
+      "category": "Ensaladas",
+      "name": "Ensalada templada de judías verdes con bacalao desalado y huevo pochado",
+      "description": "Plato templado que asocia judías verdes finas cocinadas al dente con lascas de bacalao salteadas y un huevo pochado central cuya yema ejerce de aderezo cremoso natural. Proteínas marinas de asimilación rápida con nula densidad glucídica.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "total_time_minutes": 22,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 5.8,
+        "calories_kcal": 232,
+        "sugars_g": 2.4,
+        "fiber_g": 3.6,
+        "protein_g": 26.4,
+        "total_fat_g": 11.2,
+        "saturated_fat_g": 2.4,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Judías verdes redondas tiernas despuntadas", "quantity": 250, "unit": "g" },
+        { "name": "Bacalao desalado en migas o lascas limpias", "quantity": 180, "unit": "g" },
+        { "name": "Huevos camperos frescos", "quantity": 2, "unit": "unidades" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Diente de ajo laminado", "quantity": 1, "unit": "unidad" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Cocer las judías verdes al vapor durante 6 minutos hasta que queden tiernas pero firmes; escurrir.",
+        "En una sartén con el aceite de oliva, dorar ligeramente el ajo laminado y saltear el bacalao durante 3 minutos hasta que se abra en lascas jugosas; apartar.",
+        "Escalfar los dos huevos en un cazo con agua a punto de hervir y un chorrito de vinagre durante 3 minutos y medio; escurrir con espumadera.",
+        "Disponer las judías verdes templadas en dos platos llanos y repartir las lascas de bacalao por encima.",
+        "Colocar un huevo pochado en el centro de cada plato y espolvorear con pimienta negra molida.",
+        "Romper la yema en la mesa para que bañe el conjunto."
+      ]
+    },
+    {
+      "id": 136,
+      "category": "Ensaladas",
+      "name": "Ensalada de brotes tiernos con sardinillas en aceite y rabanitos crujientes",
+      "description": "Una combinación marina llena de contrastes entre la frescura crujiente del rabanito y la riqueza en calcio y vitamina D de las sardinas enteras con espina en conserva sobre brotes verdes. Excepcional aporte de micronutrientes metabólicos.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 8,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.4,
+        "calories_kcal": 225,
+        "sugars_g": 1.6,
+        "fiber_g": 2.1,
+        "protein_g": 19.8,
+        "total_fat_g": 14.8,
+        "saturated_fat_g": 2.9,
+        "sodium_mg": 360
+      },
+      "ingredients": [
+        { "name": "Brotes tiernos de ensalada variados", "quantity": 100, "unit": "g" },
+        { "name": "Sardinillas en aceite de oliva escurridas", "quantity": 130, "unit": "g" },
+        { "name": "Rabanitos cortados en rodajas muy finas", "quantity": 80, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Zumo de limón", "quantity": 8, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Lavar y centrifugar los brotes tiernos de ensalada; disponerlos en una ensaladera.",
+        "Lavar los rabanitos y cortarlos en láminas finas crujientes; distribuirlos sobre los brotes.",
+        "Acomodar con delicadeza las sardinillas enteras escurridas sobre la verdura procurando no romperlas.",
+        "En un cuenco, emulsionar el aceite de oliva con el zumo de limón y una pizca de pimienta negra.",
+        "Verter el aliño cítrico sobre la ensalada inmediatamente antes de servir."
+      ]
+    },
+    {
+      "id": 137,
+      "category": "Ensaladas",
+      "name": "Ensalada de tofu marinado al limón con pepino y sésamo tostado",
+      "description": "Propuesta vegetal que combina dados de tofu firme marinados en cítricos con pepino cortado en medias lunas y semillas de sésamo. El aporte proteico vegetal y los ácidos grasos insaturados mantienen estables los niveles de glucosa en ayunas.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "total_time_minutes": 20,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.8,
+        "calories_kcal": 195,
+        "sugars_g": 2.2,
+        "fiber_g": 2.6,
+        "protein_g": 15.2,
+        "total_fat_g": 12.8,
+        "saturated_fat_g": 1.8,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Tofu firme escurrido y prensado en dados", "quantity": 220, "unit": "g" },
+        { "name": "Pepino mediano en rodajas finas", "quantity": 160, "unit": "g" },
+        { "name": "Aceite de sésamo virgen", "quantity": 10, "unit": "ml" },
+        { "name": "Semillas de sésamo tostado", "quantity": 8, "unit": "g" },
+        { "name": "Salsa de soja baja en sodio", "quantity": 10, "unit": "ml" },
+        { "name": "Zumo de lima", "quantity": 10, "unit": "ml" },
+        { "name": "Cebollino fresco picado", "quantity": 4, "unit": "g" }
+      ],
+      "instructions": [
+        "En un cuenco, mezclar el zumo de lima, la salsa de soja baja en sal y la mitad del aceite de sésamo; sumergir los dados de tofu y dejar macerar 10 minutos.",
+        "Dorar los dados de tofu en una sartén antiadherente a fuego medio durante 4 minutos hasta formar una ligera costra dorada; dejar enfriar.",
+        "En una ensaladera, disponer el pepino en rodajas finas.",
+        "Añadir los dados de tofu templados o fríos.",
+        "Rociar con el resto del aceite de sésamo y espolvorear las semillas de sésamo tostado y el cebollino fresco picado antes de servir."
+      ]
+    },
+    {
+      "id": 138,
+      "category": "Ensaladas",
+      "name": "Ensalada tibia de espárragos trigueros a la plancha con lascas de parmesano",
+      "description": "Tallos tiernos de espárragos verdes asados a la plancha hasta caramelizar levemente sus azúcares naturales, emplatados tibios con virutas finas de parmesano curado y aceite virgen. Rica en inulina prebiótica con apenas hidratos asimilables.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 8,
+      "total_time_minutes": 16,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.6,
+        "calories_kcal": 178,
+        "sugars_g": 2.1,
+        "fiber_g": 2.8,
+        "protein_g": 9.4,
+        "total_fat_g": 13.5,
+        "saturated_fat_g": 4.1,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Espárragos trigueros verdes limpios", "quantity": 300, "unit": "g" },
+        { "name": "Queso parmesano en lascas finas", "quantity": 30, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Zumo de limón", "quantity": 8, "unit": "ml" },
+        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Despuntar los espárragos retirando la base fibrosa y lavarlos bien.",
+        "Calentar una plancha o sartén amplia a fuego medio-alto con la mitad del aceite de oliva.",
+        "Cocinar los espárragos durante 6-7 minutos dándoles la vuelta hasta que estén tiernos y marcados en la superficie.",
+        "Disponer los espárragos alineados en una fuente alargada mientras continúen tibios.",
+        "Rociar con el resto del aceite de oliva virgen extra y el zumo de limón fresco.",
+        "Repartir las lascas finas de queso parmesano por encima para que se fundan ligeramente con el calor y añadir un giro de pimienta negra."
+      ]
+    },
+    {
+      "id": 139,
+      "category": "Ensaladas",
+      "name": "Ensalada campera ligera de judías verdes con ventresca de atún y huevo",
+      "description": "Una adaptación baja en carbohidratos de la clásica ensalada campera española, sustituyendo la patata por judías verdes redondas cocidas al dente, acompañadas de ventresca de atún jugosa y huevo duro. Alto nivel de saciedad con mínimo pico posprandial.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 20,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 290,
+        "sugars_g": 2.8,
+        "fiber_g": 3.8,
+        "protein_g": 26.8,
+        "total_fat_g": 17.4,
+        "saturated_fat_g": 3.2,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Judías verdes redondas limpias cortadas en trozos", "quantity": 250, "unit": "g" },
+        { "name": "Ventresca de atún en aceite de oliva escurrida", "quantity": 120, "unit": "g" },
+        { "name": "Huevos camperos medianos cocidos", "quantity": 2, "unit": "unidades" },
+        { "name": "Pimiento rojo en tiras finas", "quantity": 50, "unit": "g" },
+        { "name": "Cebolla dulce picada en juliana fina", "quantity": 30, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Vinagre de manzana", "quantity": 8, "unit": "ml" }
+      ],
+      "instructions": [
+        "Hervir las judías verdes durante 6 minutos en agua con sal hasta que estén al dente; refrescar en agua fría y escurrir.",
+        "Pelar los huevos cocidos y cortarlos en cuartos.",
+        "En una ensaladera, mezclar las judías verdes con las tiras de pimiento rojo y la juliana de cebolla dulce.",
+        "Aliñar con el aceite de oliva virgen extra y el vinagre de manzana, integrando suavemente.",
+        "Disponer por encima las lascas de ventresca de atún y los cuartos de huevo duro antes de servir."
+      ]
+    },
+    {
+      "id": 140,
+      "category": "Ensaladas",
+      "name": "Ensalada de alubias blancas con pimientos asados y filetes de caballa",
+      "description": "Plato único frío que integra alubias blancas ricas en fibra soluble con pimientos rojos asados y lomos de caballa con abundantes ácidos grasos omega-3. Aporta saciedad digestiva de muy lenta liberación glucémica.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 21.8,
+        "calories_kcal": 315,
+        "sugars_g": 3.2,
+        "fiber_g": 6.8,
+        "protein_g": 24.2,
+        "total_fat_g": 13.8,
+        "saturated_fat_g": 2.2,
+        "sodium_mg": 360
+      },
+      "ingredients": [
+        { "name": "Alubias blancas cocidas y escurridas", "quantity": 200, "unit": "g" },
+        { "name": "Pimientos rojos asados en tiras escurridos", "quantity": 100, "unit": "g" },
+        { "name": "Filetes de caballa en conserva escurridos", "quantity": 120, "unit": "g" },
+        { "name": "Cebolla morada finamente picada", "quantity": 30, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Vinagre de jerez", "quantity": 8, "unit": "ml" },
+        { "name": "Perejil picado", "quantity": 4, "unit": "g" }
+      ],
+      "instructions": [
+        "Lavar suavemente las alubias blancas cocidas en un colador y escurrir.",
+        "En un cuenco hondo, mezclar las alubias con las tiras de pimiento rojo asado y la cebolla morada picada.",
+        "Emulsionar el aceite de oliva con el vinagre de jerez y el perejil.",
+        "Aliñar las alubias con la vinagreta y mezclar con suavidad para no desbaratar el grano.",
+        "Repartir en dos platos y colocar los filetes de caballa enteros sobre cada ensalada al servir."
+      ]
+    },
+    {
+      "id": 141,
+      "category": "Ensaladas",
+      "name": "Ensalada César saludable con pechuga asada y aderezo ligero de yogur",
+      "description": "Una interpretación ligera de la clásica César que sustituye los picatostes fritos y la mayonesa por pollo asado a las hierbas, hojas crujientes de cogollo y un aderezo de yogur griego con mostaza y anchoa. Cero harinas y grasas muy moderadas.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 8,
+      "total_time_minutes": 20,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.5,
+        "calories_kcal": 268,
+        "sugars_g": 2.6,
+        "fiber_g": 2.4,
+        "protein_g": 32.4,
+        "total_fat_g": 13.2,
+        "saturated_fat_g": 3.4,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Cogollos de lechuga romana limpios troceados", "quantity": 180, "unit": "g" },
+        { "name": "Pechuga de pollo a la plancha en tiras", "quantity": 240, "unit": "g" },
+        { "name": "Yogur griego natural entero sin azúcar", "quantity": 60, "unit": "g" },
+        { "name": "Queso parmesano rallado", "quantity": 15, "unit": "g" },
+        { "name": "Filetes de anchoa en aceite picados finos", "quantity": 2, "unit": "unidades" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Mostaza de Dijon", "quantity": 5, "unit": "g" },
+        { "name": "Zumo de limón", "quantity": 6, "unit": "ml" }
+      ],
+      "instructions": [
+        "Cocinar los filetes de pechuga en una plancha caliente durante 3 minutos por lado hasta que estén cocidos y dorados; cortar en tiras.",
+        "En un cuenco pequeño, machacar los dos filetes de anchoa con un tenedor y mezclar con el yogur griego, la mostaza de Dijon, el zumo de limón y el aceite de oliva hasta conformar una salsa homogénea.",
+        "Lavar, secar y cortar los cogollos de lechuga romana en trozos de bocado; disponerlos en una ensaladera.",
+        "Añadir las tiras de pollo tibias sobre la lechuga.",
+        "Bañar con el aderezo de yogur y espolvorear el queso parmesano rallado por encima antes de servir."
+      ]
+    },
+    {
+      "id": 142,
+      "category": "Ensaladas",
+      "name": "Tabulé bajo en carbohidratos de coliflor con tomate, hierbabuena y limón",
+      "description": "Una reinvención del tabulé libanés que sustituye el cuscús de trigo por coliflor cruda finamente picada, combinada con abundante perejil fresco, hierbabuena y tomate. Muy hidratante, rica en vitamina C y completamente libre de carbohidratos densos.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 15,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 8.2,
+        "calories_kcal": 138,
+        "sugars_g": 3.8,
+        "fiber_g": 4.1,
+        "protein_g": 4.2,
+        "total_fat_g": 9.8,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 75
+      },
+      "ingredients": [
+        { "name": "Coliflor cruda rallada fina", "quantity": 220, "unit": "g" },
+        { "name": "Tomates maduros firmes en cubitos", "quantity": 100, "unit": "g" },
+        { "name": "Cebolleta fresca picada fina", "quantity": 30, "unit": "g" },
+        { "name": "Perejil fresco finamente picado", "quantity": 20, "unit": "g" },
+        { "name": "Hierbabuena fresca picada", "quantity": 10, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Zumo de limón fresco", "quantity": 18, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Rallar los ramilletes de coliflor cruda con un rallador de caja fino para conseguir un grano parecido a la sémola de trigo.",
+        "En un cuenco amplio, combinar la coliflor rallada con el tomate en cubitos y la cebolleta.",
+        "Añadir el perejil fresco picado y la hierbabuena fresca.",
+        "Aliñar con el zumo de limón fresco, el aceite de oliva virgen extra y la pizca de pimienta.",
+        "Mezclar bien y dejar reposar 15 minutos en refrigeración para que la coliflor se macere con los jugos cítricos antes de servir."
+      ]
+    },
+    {
+      "id": 143,
+      "category": "Ensaladas",
+      "name": "Ensalada de kale masajeado con aguacate, semillas de cáñamo y limón",
+      "description": "Hojas de col rizada frotadas manualmente con aguacate y limón para romper sus fibras duras, convirtiéndolas en una ensalada extraordinariamente tierna. Aporte concentrado de folatos, glucosinolatos y grasas insaturadas con impacto glucémico nulo.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 195,
+        "sugars_g": 1.4,
+        "fiber_g": 4.5,
+        "protein_g": 6.4,
+        "total_fat_g": 15.8,
+        "saturated_fat_g": 2.2,
+        "sodium_mg": 70
+      },
+      "ingredients": [
+        { "name": "Hojas de kale limpias sin tallos leñosos", "quantity": 140, "unit": "g" },
+        { "name": "Aguacate maduro", "quantity": 80, "unit": "g" },
+        { "name": "Semillas de cáñamo peladas", "quantity": 15, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Zumo de limón fresco", "quantity": 12, "unit": "ml" },
+        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Cortar las hojas de kale en trozos medianos y colocarlas en un bol grande.",
+        "Añadir la pulpa de aguacate, el zumo de limón y el aceite de oliva virgen extra directamente sobre las hojas.",
+        "Con las manos limpias, masajear enérgicamente el kale durante 2 minutos hasta que las hojas reduzcan su volumen a la mitad y adquieran un color verde intenso y textura sedosa.",
+        "Disponer el kale masajeado en dos boles.",
+        "Coronar con las semillas de cáñamo peladas y un toque de pimienta negra molida antes de servir."
+      ]
+    },
+    {
+      "id": 144,
+      "category": "Ensaladas",
+      "name": "Ensalada fresca de edamames, tomates cherry, cebolla morada y cilantro",
+      "description": "Vainas desgranadas de soja verde tierna mezcladas con tomates cherry jugosos, cebolla morada y cilantro fresco aliñadas con lima. Gran biodisponibilidad de proteína vegetal, isoflavonas y carbohidratos complejos de muy lenta asimilación.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 4,
+      "total_time_minutes": 12,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 10.4,
+        "calories_kcal": 182,
+        "sugars_g": 3.8,
+        "fiber_g": 5.2,
+        "protein_g": 12.1,
+        "total_fat_g": 9.4,
+        "saturated_fat_g": 1.2,
+        "sodium_mg": 110
+      },
+      "ingredients": [
+        { "name": "Granos de edamame cocidos (desgranados)", "quantity": 180, "unit": "g" },
+        { "name": "Tomates cherry cortados en mitades", "quantity": 120, "unit": "g" },
+        { "name": "Cebolla morada en dados finos", "quantity": 40, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Zumo de lima fresca", "quantity": 12, "unit": "ml" },
+        { "name": "Cilantro fresco picado", "quantity": 6, "unit": "g" }
+      ],
+      "instructions": [
+        "Hervir los edamames en agua hirviendo durante 4 minutos; enfriar bajo el grifo de agua fría y escurrir.",
+        "En un cuenco mediano, mezclar los edamames desgranados con los tomates cherry en mitades y la cebolla morada.",
+        "En un vaso pequeño, batir el zumo de lima con el aceite de oliva virgen extra virgen.",
+        "Verter el aliño sobre la ensalada y mezclar con cuchara.",
+        "Espolvorear con abundante cilantro fresco picado y servir fresca."
+      ]
+    },
+    {
+      "id": 145,
+      "category": "Ensaladas",
+      "name": "Ensalada tibia de setas salteadas sobre escarola amarga y granada",
+      "description": "Hojas de escarola rizada que aportan principios amargos hepatoprotectores, combinadas con setas variadas salteadas al calor de la sartén y granos frescos de granada. Muy baja en calorías con excelente aporte antioxidante de polifenoles.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 6,
+      "total_time_minutes": 16,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 7.4,
+        "calories_kcal": 138,
+        "sugars_g": 3.9,
+        "fiber_g": 3.4,
+        "protein_g": 3.6,
+        "total_fat_g": 10.2,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 95
+      },
+      "ingredients": [
+        { "name": "Escarola rizada limpia y troceada", "quantity": 140, "unit": "g" },
+        { "name": "Setas variadas limpias troceadas", "quantity": 160, "unit": "g" },
+        { "name": "Granos frescos de granada", "quantity": 30, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Diente de ajo laminado", "quantity": 1, "unit": "unidad" },
+        { "name": "Vinagre de manzana", "quantity": 8, "unit": "ml" }
+      ],
+      "instructions": [
+        "Disponer la escarola rizada limpia en una ensaladera amplia.",
+        "Calentar la mitad del aceite en una sartén a fuego medio y dorar el ajo laminado con las setas durante 5 minutos hasta que pierdan su humedad y comiencen a dorarse.",
+        "Verter el vinagre de manzana en la sartén caliente con las setas para desglasar.",
+        "Volcar las setas templadas directamente sobre la cama de escarola.",
+        "Rociar con el resto del aceite de oliva virgen extra y repartir los granos de granada roja por encima antes de servir."
+      ]
+    },
+    {
+      "id": 146,
+      "category": "Ensaladas",
+      "name": "Ensalada de espinacas con queso de cabra templado y nueces",
+      "description": "Hojas de espinaca fresca acompañadas de rodajas de queso de cabra marcadas ligeramente en plancha y nueces troceadas. La combinación de grasa láctea y fruto seco ralentiza la digestión estomacal reduciendo la respuesta insulínica.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 4,
+      "total_time_minutes": 12,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.1,
+        "calories_kcal": 245,
+        "sugars_g": 1.6,
+        "fiber_g": 2.2,
+        "protein_g": 9.8,
+        "total_fat_g": 20.8,
+        "saturated_fat_g": 6.8,
+        "sodium_mg": 240
+      },
+      "ingredients": [
+        { "name": "Espinacas baby frescas", "quantity": 140, "unit": "g" },
+        { "name": "Queso de cabra en rulo tierno (en rodajas)", "quantity": 60, "unit": "g" },
+        { "name": "Nueces en mitades", "quantity": 20, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Vinagre balsámico de Módena (sin caramelo ni azúcar añadido)", "quantity": 6, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Repartir las hojas de espinaca fresca en dos platos hondos.",
+        "Calentar una sartén antiadherente a fuego alto sin aceite.",
+        "Marcar las rodajas de queso de cabra durante 1 minuto por lado hasta que doren ligeramente sin derretirse por completo.",
+        "Colocar las rodajas de queso templado sobre el lecho de espinacas.",
+        "Añadir las nueces troceadas alrededor.",
+        "Aliñar con el aceite de oliva virgen extra, el vinagre balsámico de Módena y una pizca de pimienta recién molida."
+      ]
+    },
+    {
+      "id": 147,
+      "category": "Ensaladas",
+      "name": "Ensalada fresca de pepino en espirales con yogur griego, menta y linaza",
+      "description": "Fideos vegetales de pepino crudo bañados con un aliño espeso de yogur natural desnatado, hierbabuena fresca y linaza dorada molida. Ultra hidratante, densa en probióticos lácteos y fibra soluble mucilaginosa.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.4,
+        "calories_kcal": 118,
+        "sugars_g": 3.8,
+        "fiber_g": 2.8,
+        "protein_g": 6.8,
+        "total_fat_g": 6.8,
+        "saturated_fat_g": 2.2,
+        "sodium_mg": 85
+      },
+      "ingredients": [
+        { "name": "Pepinos medianos firmes", "quantity": 300, "unit": "g" },
+        { "name": "Yogur griego natural sin azúcar", "quantity": 100, "unit": "g" },
+        { "name": "Semillas de lino dorado molidas", "quantity": 10, "unit": "g" },
+        { "name": "Menta fresca picada fina", "quantity": 5, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Zumo de limón", "quantity": 8, "unit": "ml" }
+      ],
+      "instructions": [
+        "Pasar los pepinos lavados por un espiralizador para obtener cintas largas de fideos.",
+        "Colocar los fideos de pepino en un colador durante 5 minutos para eliminar el exceso de líquido vegetal.",
+        "En un cuenco, batir el yogur griego con el aceite de oliva, el zumo de limón y la menta fresca picada.",
+        "Disponer los espirales de pepino en una ensaladera y verter el aderezo de yogur sobre ellos.",
+        "Espolvorear con las semillas de lino dorado molidas y mezclar justo antes de comer."
+      ]
+    },
+    {
+      "id": 148,
+      "category": "Ensaladas",
+      "name": "Ensalada de gambas al vapor con brotes de soja crujientes, apio y sésamo",
+      "description": "Una ensalada de inspiración oriental con gambas jugosas cocinadas al vapor, brotes de soja tiernos y rodajas de apio que garantizan un mordisco crujiente. Sumamente ligera, depurativa y con un impacto prácticamente nulo sobre la curva glucémica.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 4,
+      "total_time_minutes": 14,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.2,
+        "calories_kcal": 165,
+        "sugars_g": 2.1,
+        "fiber_g": 2.2,
+        "protein_g": 21.4,
+        "total_fat_g": 6.8,
+        "saturated_fat_g": 0.9,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Gambas peladas crudas", "quantity": 220, "unit": "g" },
+        { "name": "Brotes de soja frescos limpios", "quantity": 140, "unit": "g" },
+        { "name": "Tallos de apio en rodajitas finas", "quantity": 80, "unit": "g" },
+        { "name": "Aceite de sésamo virgen", "quantity": 10, "unit": "ml" },
+        { "name": "Salsa de soja reducida en sal", "quantity": 10, "unit": "ml" },
+        { "name": "Zumo de lima", "quantity": 10, "unit": "ml" },
+        { "name": "Semillas de sésamo tostado", "quantity": 4, "unit": "g" }
+      ],
+      "instructions": [
+        "Cocer las gambas al vapor durante 3-4 minutos hasta que adquieran tono rosado y consistencia firme; dejar enfriar.",
+        "En un cuenco grande, combinar los brotes de soja limpios con el apio picado y las gambas cocidas frías.",
+        "En una taza, mezclar el aceite de sésamo, la salsa de soja reducida en sal y el zumo de lima.",
+        "Verter el aliño sobre la ensalada y mezclar con cuidado.",
+        "Decorar con las semillas de sésamo tostado por encima y servir de inmediato."
+      ]
+    },
+    {
+      "id": 149,
+      "category": "Ensaladas",
+      "name": "Ensalada de corazones de alcachofa marinados con virutas de jamón y canónigos",
+      "description": "Corazones tiernos de alcachofa aliñados con aceite virgen y limón, servidos sobre una base de canónigos y adornados con virutas magras de jamón ibérico curado. Sobresale por su inulina fermentable que promueve una flora bacteriana equilibrada.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 8,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.2,
+        "calories_kcal": 178,
+        "sugars_g": 1.8,
+        "fiber_g": 5.4,
+        "protein_g": 12.8,
+        "total_fat_g": 10.8,
+        "saturated_fat_g": 2.4,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Corazones de alcachofa cocidos en conserva natural escurridos", "quantity": 200, "unit": "g" },
+        { "name": "Canónigos frescos", "quantity": 80, "unit": "g" },
+        { "name": "Virutas de jamón ibérico magro", "quantity": 35, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Zumo de limón fresco", "quantity": 10, "unit": "ml" },
+        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Escurrir los corazones de alcachofa con cuidado y cortarlos en cuartos.",
+        "Colocar los canónigos limpios como base en una ensaladera plana.",
+        "Disponer los cuartos de alcachofa distribuidos de manera uniforme sobre las hojas de canónigos.",
+        "Repartir las virutas magras de jamón curado por encima.",
+        "Emulsionar el aceite de oliva virgen extra con el zumo de limón y la pimienta, y rociar toda la ensalada antes de degustar."
+      ]
+    },
+    {
+      "id": 150,
+      "category": "Ensaladas",
+      "name": "Ensalada de alubias pintas con pechuga deshebrada, aguacate y lima",
+      "description": "Una ensalada fresca y completa de estilo latino que une alubias pintas cocidas con hebras magras de pollo cocido, cubos de aguacate cremoso y zumo de lima recién exprimido. Gran riqueza en almidón resistente y fibra para un perfil glucémico plano.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 22.5,
+        "calories_kcal": 310,
+        "sugars_g": 2.2,
+        "fiber_g": 7.2,
+        "protein_g": 28.6,
+        "total_fat_g": 11.8,
+        "saturated_fat_g": 1.9,
+        "sodium_mg": 310
+      },
+      "ingredients": [
+        { "name": "Alubias pintas cocidas y escurridas", "quantity": 180, "unit": "g" },
+        { "name": "Pechuga de pollo cocida y deshebrada", "quantity": 160, "unit": "g" },
+        { "name": "Aguacate maduro en dados", "quantity": 60, "unit": "g" },
+        { "name": "Tomate maduro firme en dados", "quantity": 80, "unit": "g" },
+        { "name": "Cilantro fresco picado", "quantity": 5, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Zumo de lima fresca", "quantity": 15, "unit": "ml" }
+      ],
+      "instructions": [
+        "Enjuagar las alubias pintas cocidas bajo un chorro suave de agua fría y escurrirlas con delicadeza.",
+        "En una ensaladera, mezclar las alubias pintas con la pechuga de pollo deshebrada y los dados de tomate.",
+        "Incorporar los dados de aguacate y el cilantro fresco picado.",
+        "Aderezar con el zumo de lima fresca y el aceite de oliva virgen extra virgen.",
+        "Remover con cuidado con dos cucharas para integrar sin deshacer el aguacate y servir a temperatura ambiente."
+      ]
+    }
+  ]
+}

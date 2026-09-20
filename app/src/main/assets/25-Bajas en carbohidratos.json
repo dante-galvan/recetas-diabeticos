@@ -1,0 +1,948 @@
+{
+  "recipes": [
+    {
+      "id": 101,
+      "category": "Bajas en carbohidratos",
+      "name": "Arroz de coliflor salteado con tiras de pollo, verduras y jengibre",
+      "description": "Una versión de inspiración oriental donde los granos de coliflor rallada emulan el arroz frito tradicional. Combinado con pechuga magra y verduras salteadas al dente, proporciona un volumen saciante con una fracción mínima de carbohidratos.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "total_time_minutes": 27,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 7.8,
+        "calories_kcal": 268,
+        "sugars_g": 3.4,
+        "fiber_g": 3.9,
+        "protein_g": 32.5,
+        "total_fat_g": 11.8,
+        "saturated_fat_g": 1.9,
+        "sodium_mg": 360
+      },
+      "ingredients": [
+        { "name": "Pechuga de pollo en tiras finas", "quantity": 260, "unit": "g" },
+        { "name": "Coliflor cruda rallada fina (tamaño grano de arroz)", "quantity": 300, "unit": "g" },
+        { "name": "Pimiento verde en cubitos", "quantity": 60, "unit": "g" },
+        { "name": "Cebolleta tierna picada", "quantity": 40, "unit": "g" },
+        { "name": "Aceite de sésamo virgen", "quantity": 12, "unit": "ml" },
+        { "name": "Salsa de soja reducida en sodio", "quantity": 15, "unit": "ml" },
+        { "name": "Jengibre fresco rallado", "quantity": 5, "unit": "g" },
+        { "name": "Diente de ajo picado", "quantity": 1, "unit": "unidad" }
+      ],
+      "instructions": [
+        "Rallar la coliflor cruda con la parte gruesa del rallador o pulsar en un procesador hasta obtener una textura granulada similar al arroz.",
+        "Calentar la mitad del aceite de sésamo en un wok o sartén amplia a fuego fuerte y dorar las tiras de pollo durante 3-4 minutos; retirar a un plato.",
+        "Añadir el resto del aceite al wok junto con el ajo picado, el jengibre rallado, la cebolleta y el pimiento verde; saltear 2 minutos.",
+        "Incorporar la coliflor rallada y saltear a fuego vivo durante 4 minutos continuos, permitiendo que se cocine sin ablandarse en exceso para conservar textura al dente.",
+        "Reincorporar el pollo cocido y verter la salsa de soja baja en sodio por los bordes de la sartén.",
+        "Mezclar todo vigorosamente durante 1 minuto a fuego vivo y servir bien caliente."
+      ]
+    },
+    {
+      "id": 102,
+      "category": "Bajas en carbohidratos",
+      "name": "Salmón a la plancha sobre espinacas a la crema de almendras",
+      "description": "Lomo jugoso de salmón rico en ácidos grasos omega-3 dispuesto sobre una cama de espinacas salteadas y ligadas con bebida y harina de almendra sin natas lácteas pesadas. Su nulo impacto glucémico lo hace perfecto para dietas muy bajas en hidratos.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "total_time_minutes": 22,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.8,
+        "calories_kcal": 385,
+        "sugars_g": 1.4,
+        "fiber_g": 2.8,
+        "protein_g": 31.4,
+        "total_fat_g": 27.2,
+        "saturated_fat_g": 4.1,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Lomos de salmón fresco con piel", "quantity": 280, "unit": "g" },
+        { "name": "Espinacas frescas", "quantity": 250, "unit": "g" },
+        { "name": "Bebida de almendras sin azúcar", "quantity": 80, "unit": "ml" },
+        { "name": "Harina de almendras fina", "quantity": 15, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Nuez moscada rallada", "quantity": 1, "unit": "pizca" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una sartén, calentar 5 ml de aceite de oliva y saltear las espinacas durante 3 minutos hasta que reduzcan de tamaño.",
+        "Espolvorear la harina de almendras sobre las espinacas y remover durante 30 segundos; verter la bebida de almendras, la nuez moscada y una pizca de pimienta.",
+        "Cocinar a fuego suave durante 3 minutos hasta que la salsa espese formando una crema untuosa verde; reservar caliente.",
+        "Salpimentar los lomos de salmón y cocinarlos en otra sartén con el resto del aceite a fuego medio-alto.",
+        "Cocinar 3 minutos por el lado de la piel hasta dorar y crujir, voltear con espátula y dejar 2 minutos por el lado de la carne para preservar el centro jugoso.",
+        "Disponer la crema espesa de espinacas en dos platos y colocar el lomo de salmón encima."
+      ]
+    },
+    {
+      "id": 103,
+      "category": "Bajas en carbohidratos",
+      "name": "Pizza keto con base de coliflor, pollo y mozzarella gratinada",
+      "description": "Una masa de pizza completamente libre de harinas y gluten elaborada a partir de masa compactada de coliflor horneada, queso y huevo. Cubierta con pechuga de pollo, tomate natural triturado y mozzarella, sacia los antojos clásicos sin elevar el azúcar.",
+      "servings": 2,
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 45,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 6.4,
+        "calories_kcal": 310,
+        "sugars_g": 3.8,
+        "fiber_g": 3.2,
+        "protein_g": 32.8,
+        "total_fat_g": 16.8,
+        "saturated_fat_g": 6.8,
+        "sodium_mg": 390
+      },
+      "ingredients": [
+        { "name": "Coliflor cruda rallada muy fina", "quantity": 300, "unit": "g" },
+        { "name": "Huevo campero grande", "quantity": 1, "unit": "unidad" },
+        { "name": "Queso mozzarella rallado bajo en grasa", "quantity": 80, "unit": "g" },
+        { "name": "Pechuga de pollo cocida y deshilachada", "quantity": 100, "unit": "g" },
+        { "name": "Tomate triturado natural sin azúcar", "quantity": 50, "unit": "g" },
+        { "name": "Orégano seco", "quantity": 3, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 190 °C.",
+        "Cocinar la coliflor rallada en microondas 4 minutos; colocarla sobre un paño limpio y retorcer con fuerza para drenar por completo todo su líquido.",
+        "En un bol, mezclar la coliflor bien seca con el huevo batido, 30 gramos de la mozzarella, orégano y pimienta hasta formar una pasta maleable.",
+        "Extender la masa sobre una bandeja forrada con papel de horno formando un disco plano de 5 mm de espesor.",
+        "Hornear la base durante 15 minutos a 190 °C hasta que los bordes estén dorados y secos.",
+        "Retirar, untar el tomate triturado sobre la base, distribuir el pollo deshilachado y coronar con los 50 gramos restantes de mozzarella y más orégano.",
+        "Volver a hornear durante 8-10 minutos hasta que el queso esté derretido y burbujeante.",
+        "Dejar asentar 3 minutos y cortar en porciones triangulares."
+      ]
+    },
+    {
+      "id": 104,
+      "category": "Bajas en carbohidratos",
+      "name": "Rollitos de calabacín rellenos de carne picada de ternera y albahaca",
+      "description": "Finas láminas de calabacín que envuelven un relleno sabroso de ternera magra aderezada con cebolla y albahaca fresca, horneadas con un toque de tomate natural. Sustituyen a los tradicionales canelones eliminando completamente la pasta de trigo.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "total_time_minutes": 35,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 288,
+        "sugars_g": 3.9,
+        "fiber_g": 2.6,
+        "protein_g": 29.5,
+        "total_fat_g": 15.6,
+        "saturated_fat_g": 4.8,
+        "sodium_mg": 310
+      },
+      "ingredients": [
+        { "name": "Calabacines medianos rectos", "quantity": 300, "unit": "g" },
+        { "name": "Carne de ternera picada magra", "quantity": 220, "unit": "g" },
+        { "name": "Cebolla picada muy fina", "quantity": 40, "unit": "g" },
+        { "name": "Tomate triturado natural", "quantity": 80, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Albahaca fresca picada", "quantity": 5, "unit": "g" },
+        { "name": "Queso parmesano rallado", "quantity": 15, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 180 °C.",
+        "Con un pelador ancho o mandolina, cortar los calabacines a lo largo en láminas finas y flexibles.",
+        "En una sartén con el aceite de oliva, sofreír la cebolla durante 4 minutos; añadir la carne de ternera y dorar 5 minutos desmenuzando con espátula.",
+        "Retirar del fuego y mezclar la carne con la albahaca fresca y la pimienta.",
+        "Disponer las láminas de calabacín de dos en dos solapadas, colocar una porción del relleno en un extremo y enrollar sobre sí mismas.",
+        "Acomodar los rollitos en una fuente de horno, cubrir con el tomate triturado y espolvorear el queso parmesano rallado.",
+        "Hornear a 180 °C durante 18 minutos hasta que el calabacín esté tierno y el queso gratinado."
+      ]
+    },
+    {
+      "id": 105,
+      "category": "Bajas en carbohidratos",
+      "name": "Salteado de gambas al ajillo con espárragos trigueros",
+      "description": "Colas de gambas tiernas salteadas con dientes de ajo laminados, guindilla suave y puntas de espárragos verdes en aceite de oliva virgen extra. Combina proteínas de rápida asimilación con fibra no fermentable sin apenas aportar carbohidratos.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 8,
+      "total_time_minutes": 18,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.9,
+        "calories_kcal": 210,
+        "sugars_g": 1.6,
+        "fiber_g": 2.1,
+        "protein_g": 24.8,
+        "total_fat_g": 10.4,
+        "saturated_fat_g": 1.5,
+        "sodium_mg": 290
+      },
+      "ingredients": [
+        { "name": "Colas de gambas peladas crudas", "quantity": 260, "unit": "g" },
+        { "name": "Espárragos trigueros cortados en trozos de 3 cm", "quantity": 180, "unit": "g" },
+        { "name": "Dientes de ajo laminados", "quantity": 3, "unit": "unidades" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 15, "unit": "ml" },
+        { "name": "Guindilla seca o cayena (opcional)", "quantity": 1, "unit": "unidad" },
+        { "name": "Perejil fresco picado", "quantity": 4, "unit": "g" }
+      ],
+      "instructions": [
+        "Lavar y secar meticulosamente las gambas y los espárragos con papel de cocina absorbente.",
+        "En una sartén amplia, calentar el aceite de oliva a fuego medio-bajo y dorar los ajos laminados junto con la guindilla entera sin que se quemen.",
+        "Añadir los trozos de espárragos verdes a la sartén y cocinar a fuego medio durante 4 minutos hasta que comiencen a ablandarse.",
+        "Subir el fuego a intensidad fuerte, incorporar las gambas y saltear todo junto durante 2-3 minutos hasta que cambien a tono rosado uniforme.",
+        "Retirar del fuego de inmediato para no endurecer el marisco, espolvorear el perejil picado y servir caliente en cazuelitas."
+      ]
+    },
+    {
+      "id": 106,
+      "category": "Bajas en carbohidratos",
+      "name": "Pechuga de pavo rellena de espinacas y queso feta al horno",
+      "description": "Filete grueso de pechuga magra abierto en mariposa, relleno de espinacas frescas salteadas con queso feta griego y asado al punto. Ofrece proteína pura saciante con calcio biodisponible y una carga glucémica prácticamente inexistente.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 22,
+      "total_time_minutes": 37,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 2.8,
+        "calories_kcal": 272,
+        "sugars_g": 1.1,
+        "fiber_g": 1.6,
+        "protein_g": 36.4,
+        "total_fat_g": 12.6,
+        "saturated_fat_g": 4.5,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Pechuga de pavo limpia entera en bloque", "quantity": 300, "unit": "g" },
+        { "name": "Espinacas frescas", "quantity": 120, "unit": "g" },
+        { "name": "Queso feta desmenuzado", "quantity": 45, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Ajo en polvo", "quantity": 1, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 190 °C.",
+        "Saltear las espinacas en una sartén con unas gotas de aceite durante 2 minutos hasta colapsar; escurrir todo el líquido y mezclar con el queso feta desmenuzado.",
+        "Hacer un corte horizontal profundo en la pechuga de pavo para abrirla como un libro sin llegar a separar las mitades.",
+        "Salpimentar el interior y rellenar con la mezcla de espinacas y queso feta; cerrar la pechuga y asegurar los bordes con 2 palillos de madera.",
+        "Pintar el exterior de la pechuga con el resto del aceite de oliva y sazonar con ajo en polvo y pimienta.",
+        "Hornear a 190 °C en una fuente durante 20-22 minutos hasta que la carne esté cocinada y firme al tacto.",
+        "Retirar los palillos, dejar reposar 3 minutos, cortar en medallones gruesos y servir."
+      ]
+    },
+    {
+      "id": 107,
+      "category": "Bajas en carbohidratos",
+      "name": "Hamburguesas de atún fresco y aguacate en hojas de cogollo",
+      "description": "Medallones artesanales preparados con carne fresca de atún picada a cuchillo y ligada con aguacate en cubitos, presentadas dentro de hojas crujientes de lechuga. Aportan lípidos monoinsaturados y omega-3 sin ningún carbohidrato amiláceo.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 6,
+      "total_time_minutes": 18,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.4,
+        "calories_kcal": 275,
+        "sugars_g": 1.2,
+        "fiber_g": 2.4,
+        "protein_g": 31.8,
+        "total_fat_g": 14.8,
+        "saturated_fat_g": 2.6,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Lomo de atún fresco limpio picado a cuchillo", "quantity": 250, "unit": "g" },
+        { "name": "Aguacate maduro en dados diminutos", "quantity": 60, "unit": "g" },
+        { "name": "Hojas enteras de cogollos de lechuga", "quantity": 4, "unit": "unidades" },
+        { "name": "Cebollino fresco picado", "quantity": 4, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Zumo de lima fresca", "quantity": 6, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En un cuenco, mezclar el atún picado, los dados de aguacate, el zumo de lima, el cebollino y la pimienta negra con suavidad.",
+        "Moldear con las manos dos hamburguesas compactas de unos 2 cm de grosor.",
+        "Pintar una sartén antiadherente con el aceite de oliva y calentar a fuego medio-alto.",
+        "Cocinar las hamburguesas durante 2-3 minutos por lado, sellando el exterior pero conservando el centro jugoso.",
+        "Colocar cada hamburguesa sobre dos hojas limpias de cogollos de lechuga a modo de base y sombrero vegetal.",
+        "Servir templadas inmediatamente."
+      ]
+    },
+    {
+      "id": 108,
+      "category": "Bajas en carbohidratos",
+      "name": "Falsos tallarines de calabacín al pesto casero de albahaca y nueces",
+      "description": "Espirales crudas de calabacín tibias vestidas con una emulsión tradicional de hojas de albahaca fresca, nueces, ajo y aceite de oliva virgen extra. Recrea la experiencia culinaria de la pasta italiana sin liberar azúcares en sangre.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 2,
+      "total_time_minutes": 17,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 215,
+        "sugars_g": 3.4,
+        "fiber_g": 2.6,
+        "protein_g": 5.4,
+        "total_fat_g": 19.2,
+        "saturated_fat_g": 2.8,
+        "sodium_mg": 160
+      },
+      "ingredients": [
+        { "name": "Calabacines medianos firmes (para zoodles)", "quantity": 400, "unit": "g" },
+        { "name": "Hojas de albahaca fresca", "quantity": 25, "unit": "g" },
+        { "name": "Nueces peladas", "quantity": 20, "unit": "g" },
+        { "name": "Queso parmesano rallado fino", "quantity": 15, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 20, "unit": "ml" },
+        { "name": "Diente de ajo pequeño", "quantity": 0.5, "unit": "unidad" }
+      ],
+      "instructions": [
+        "En el mortero o vaso procesador, triturar las hojas de albahaca, las nueces, el medio diente de ajo, el queso parmesano y el aceite de oliva virgen extra hasta lograr un pesto rústico brillante.",
+        "Procesar los calabacines enteros con un espiralizador para obtener cintas largas de tallarines (zoodles).",
+        "Saltear los zoodles en una sartén amplia sin nada de aceite durante solo 1 minuto y medio a fuego muy vivo para calentar sin que pierdan el punto crocante.",
+        "Retirar la sartén del fuego para evitar que el calor degrade la albahaca.",
+        "Añadir el pesto casero sobre los zoodles calientes y mezclar suavemente con dos tenedores.",
+        "Servir de inmediato en platos hondos."
+      ]
+    },
+    {
+      "id": 109,
+      "category": "Bajas en carbohidratos",
+      "name": "Tiras de ternera salteadas con portobello y romero fresco",
+      "description": "Tiras tiernas de filete de ternera magra doradas a alta temperatura con champiñones portobello carnosos y romero aromático. Aporta hierro hemínico, zinc y betaglucanos fúngicos sin impacto sobre la curva glucémica.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 20,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.5,
+        "calories_kcal": 265,
+        "sugars_g": 2.1,
+        "fiber_g": 1.8,
+        "protein_g": 31.2,
+        "total_fat_g": 13.8,
+        "saturated_fat_g": 3.6,
+        "sodium_mg": 240
+      },
+      "ingredients": [
+        { "name": "Filete de lomo de ternera magra en tiras", "quantity": 260, "unit": "g" },
+        { "name": "Champiñones portobello en cuartos", "quantity": 180, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Romero fresco picado", "quantity": 3, "unit": "g" },
+        { "name": "Diente de ajo laminado", "quantity": 1, "unit": "unidad" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Calentar la mitad del aceite de oliva en una sartén amplia a fuego muy vivo.",
+        "Saltear las tiras de ternera durante 2 minutos hasta sellarlas por fuera manteniendo el interior sonrosado; retirar a un plato.",
+        "En la misma sartén, verter el resto del aceite y dorar el ajo laminado con los portobellos en cuartos durante 5 minutos hasta que los hongos doren y suelten sus jugos.",
+        "Añadir el romero fresco picado y la pimienta negra molida.",
+        "Reincorporar las tiras de ternera con sus jugos liberados y saltear todo junto durante 1 minuto a fuego medio-alto.",
+        "Servir caliente en dos raciones."
+      ]
+    },
+    {
+      "id": 110,
+      "category": "Bajas en carbohidratos",
+      "name": "Papillote de lubina con hinojo dulce y rodajitas de calabacín",
+      "description": "Filetes limpios de pescado blanco cocinados al vapor dentro de su envoltorio con finas láminas de hinojo anisado y calabacín. Ligero, digestivo y completamente exento de hidratos rápidos, idóneo para planes de control metabólico estricto.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 15,
+      "total_time_minutes": 27,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 4.1,
+        "calories_kcal": 218,
+        "sugars_g": 2.2,
+        "fiber_g": 1.9,
+        "protein_g": 27.4,
+        "total_fat_g": 10.2,
+        "saturated_fat_g": 1.5,
+        "sodium_mg": 260
+      },
+      "ingredients": [
+        { "name": "Lomos de lubina fresca sin espinas", "quantity": 280, "unit": "g" },
+        { "name": "Bulbo de hinojo en láminas finas", "quantity": 120, "unit": "g" },
+        { "name": "Calabacín en rodajas finas", "quantity": 120, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Zumo de limón", "quantity": 8, "unit": "ml" },
+        { "name": "Pimienta blanca molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 200 °C.",
+        "Disponer dos pliegos de papel de horno vegetal y repartir el hinojo y el calabacín en láminas sobre la mitad de cada uno.",
+        "Colocar un lomo de lubina sobre la cama vegetal de cada paquete.",
+        "Rociar cada porción con 6 ml de aceite de oliva, zumo de limón y pimienta blanca.",
+        "Plegar y doblar los bordes herméticamente para atrapar los vapores de la cocción.",
+        "Hornear a 200 °C durante 14 minutos.",
+        "Abrir con tijeras directamente sobre los platos al servir."
+      ]
+    },
+    {
+      "id": 111,
+      "category": "Bajas en carbohidratos",
+      "name": "Pastel horneado de brócoli, huevos de campo y queso cheddar",
+      "description": "Tarta salada horneada sin masa quebrada ni cereales, conformada por huevos batidos, flores de brócoli al vapor y queso cheddar fundente. Suministra abundante colina, sulforafano y grasa saciante sin carbohidratos netos apreciables.",
+      "servings": 3,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 22,
+      "total_time_minutes": 34,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.8,
+        "calories_kcal": 215,
+        "sugars_g": 1.4,
+        "fiber_g": 2.2,
+        "protein_g": 15.6,
+        "total_fat_g": 15.5,
+        "saturated_fat_g": 5.8,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Huevos camperos grandes", "quantity": 5, "unit": "unidades" },
+        { "name": "Brócoli en ramilletes pequeños", "quantity": 250, "unit": "g" },
+        { "name": "Queso cheddar curado rallado", "quantity": 50, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra (para molde)", "quantity": 5, "unit": "ml" },
+        { "name": "Nuez moscada molida", "quantity": 1, "unit": "pizca" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 180 °C y engrasar una fuente redonda de vidrio refractario o cerámica.",
+        "Cocer los ramilletes de brócoli al vapor durante 4 minutos hasta que queden tiernos pero firmes; escurrir muy bien.",
+        "En un cuenco grande, batir los 5 huevos con la nuez moscada, la pimienta y la mitad del queso cheddar rallado.",
+        "Disponer el brócoli en el fondo de la fuente engrasada y verter los huevos batidos por encima asegurando que cubra los espacios.",
+        "Esparcir el resto del queso cheddar sobre la superficie.",
+        "Hornear a 180 °C durante 20-22 minutos hasta que la superficie esté dorada y el centro completamente cuajado.",
+        "Dejar templar 5 minutos y cortar en 3 cuñas iguales."
+      ]
+    },
+    {
+      "id": 112,
+      "category": "Bajas en carbohidratos",
+      "name": "Pechuga de pollo crujiente rebozada en harina de almendra y parmesano",
+      "description": "Filetes magros empanados sin una pizca de harina de trigo ni pan rallado, utilizando una cobertura de harina de almendras y queso seco tostada al horno. Crujiente, proteica y compatible con patrones cetogénicos o de carbohidratos controlados.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 18,
+      "total_time_minutes": 30,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.6,
+        "calories_kcal": 315,
+        "sugars_g": 1.1,
+        "fiber_g": 1.9,
+        "protein_g": 36.8,
+        "total_fat_g": 16.8,
+        "saturated_fat_g": 3.9,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Pechuga de pollo en filetes gruesos", "quantity": 280, "unit": "g" },
+        { "name": "Harina de almendras fina", "quantity": 30, "unit": "g" },
+        { "name": "Queso parmesano rallado fino", "quantity": 20, "unit": "g" },
+        { "name": "Huevo campero batido", "quantity": 1, "unit": "unidad" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Ajo en polvo", "quantity": 1, "unit": "g" },
+        { "name": "Orégano seco", "quantity": 1, "unit": "g" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 200 °C y forrar una bandeja con papel de hornear.",
+        "En un plato hondo, mezclar la harina de almendras, el parmesano rallado, el ajo en polvo y el orégano seco.",
+        "En otro plato hondo, batir el huevo.",
+        "Pasar cada filete de pollo primero por el huevo batido y después por la mezcla de almendra y parmesano, presionando para fijar la costra.",
+        "Colocar los filetes en la bandeja, rociar con un hilo fino de aceite de oliva virgen extra.",
+        "Hornear a 200 °C durante 16-18 minutos hasta que la costra esté dorada y crujiente y el pollo completamente cocido en su interior.",
+        "Servir caliente con rodajas de limón fresco."
+      ]
+    },
+    {
+      "id": 113,
+      "category": "Bajas en carbohidratos",
+      "name": "Medallones de cerdo a la mostaza antigua con judías verdes al ajillo",
+      "description": "Medallones magros de cinta de lomo o solomillo dorados a la sartén con salsa de mostaza de grano y acompañados de judías verdes salteadas al ajo. Aporta tiamina, potasio y fibra soluble sin carbohidratos de rápida asimilación.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 14,
+      "total_time_minutes": 24,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.8,
+        "calories_kcal": 275,
+        "sugars_g": 2.4,
+        "fiber_g": 3.4,
+        "protein_g": 32.4,
+        "total_fat_g": 13.2,
+        "saturated_fat_g": 3.4,
+        "sodium_mg": 310
+      },
+      "ingredients": [
+        { "name": "Medallones de lomo o solomillo de cerdo magro", "quantity": 280, "unit": "g" },
+        { "name": "Judías verdes redondas tiernas", "quantity": 200, "unit": "g" },
+        { "name": "Mostaza de Dijon en grano (antigua)", "quantity": 18, "unit": "g" },
+        { "name": "Caldo de carne bajo en sal", "quantity": 50, "unit": "ml" },
+        { "name": "Dientes de ajo laminados", "quantity": 2, "unit": "unidades" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Hervir las judías verdes durante 5 minutos para dejarlas al dente; colar y escurrir bien.",
+        "En una sartén con la mitad del aceite, dorar los ajos laminados y saltear las judías durante 3 minutos; reservar calientes.",
+        "Pintar los medallones de carne con el resto del aceite y salpimentar.",
+        "En otra sartén caliente, dorar los medallones durante 2 minutos y medio por lado a fuego vivo.",
+        "Añadir la mostaza en grano y el caldo de carne a la sartén de los medallones, reduciendo a fuego medio durante 2 minutos para espesar la salsa alrededor de la carne.",
+        "Servir los medallones bañados con su salsa de mostaza junto con la guarnición de judías verdes al ajillo."
+      ]
+    },
+    {
+      "id": 114,
+      "category": "Bajas en carbohidratos",
+      "name": "Cazuela de bacalao desalado con pisto bajo en carbohidratos",
+      "description": "Lomos desmigados de bacalao cocidos sobre una cama concentrada de calabacín, pimiento verde y tomate triturado aromatizado con orégano y laurel. Receta de cocción lenta que concentra sabores naturales con una respuesta glucémica mínima.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 20,
+      "total_time_minutes": 32,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 7.4,
+        "calories_kcal": 220,
+        "sugars_g": 4.1,
+        "fiber_g": 2.8,
+        "protein_g": 28.5,
+        "total_fat_g": 8.8,
+        "saturated_fat_g": 1.3,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Lomos de bacalao al punto de sal limpios", "quantity": 280, "unit": "g" },
+        { "name": "Calabacín con piel picado en dados", "quantity": 160, "unit": "g" },
+        { "name": "Pimiento verde en trocitos", "quantity": 80, "unit": "g" },
+        { "name": "Tomate triturado natural sin azúcar", "quantity": 120, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Hoja de laurel", "quantity": 1, "unit": "unidad" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una cazuela ancha, calentar el aceite de oliva a fuego medio y sofreír el pimiento verde y el calabacín durante 6 minutos.",
+        "Incorporar el tomate triturado, la hoja de laurel y la pimienta molida; cocinar tapado a fuego lento durante 8 minutos hasta que las verduras estén melosas.",
+        "Acomodar los lomos de bacalao directamente sobre el lecho vegetal en la cazuela.",
+        "Tapar la cazuela y cocinar a fuego suave durante 6 minutos hasta que el bacalao esté blanco opaco y sus lascas comiencen a abrirse.",
+        "Retirar la hoja de laurel y servir de inmediato."
+      ]
+    },
+    {
+      "id": 115,
+      "category": "Bajas en carbohidratos",
+      "name": "Revuelto cremoso de setas de cardo, ajetes y virutas de jamón",
+      "description": "Huevos camperos cuajados lentamente con setas de cardo aromáticas salteadas con ajetes tiernos y motas salinas de jamón curado. Saciante, libre de almidones y de metabolización suave.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 8,
+      "total_time_minutes": 16,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.2,
+        "calories_kcal": 215,
+        "sugars_g": 1.2,
+        "fiber_g": 1.9,
+        "protein_g": 18.2,
+        "total_fat_g": 14.5,
+        "saturated_fat_g": 3.6,
+        "sodium_mg": 380
+      },
+      "ingredients": [
+        { "name": "Huevos camperos medianos", "quantity": 4, "unit": "unidades" },
+        { "name": "Setas de cardo limpias troceadas", "quantity": 160, "unit": "g" },
+        { "name": "Ajetes tiernos picados", "quantity": 50, "unit": "g" },
+        { "name": "Virutas finas de jamón curado magro", "quantity": 30, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Calentar el aceite de oliva en una sartén antiadherente a fuego medio.",
+        "Añadir los ajetes tiernos y las setas troceadas; saltear durante 5 minutos hasta que las setas pierdan su agua y doren.",
+        "Añadir las virutas de jamón y remover 30 segundos fuera del fuego directo para que no se resequen.",
+        "Batir los 4 huevos ligeramente con una pizca de pimienta negra e incorporarlos a la sartén a fuego muy bajo.",
+        "Remover con suavidad desde el exterior hacia el interior durante 2 minutos hasta conseguir una textura cremosa y brillante.",
+        "Retirar antes de que cuaje por completo y servir en platos tibios."
+      ]
+    },
+    {
+      "id": 116,
+      "category": "Bajas en carbohidratos",
+      "name": "Berenjenas gratinadas con carne magra y tomate al orégano",
+      "description": "Capas alternadas de rodajas de berenjena asada y relleno jugoso de ternera picada en salsa de tomate natural, gratinadas con una fina costra de queso manchego. Una versión ligera de la moussaka griega desprovista de bechamel tradicional y harinas.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "total_time_minutes": 40,
+      "difficulty": "Media",
+      "nutrition": {
+        "carbohydrates_g": 7.8,
+        "calories_kcal": 295,
+        "sugars_g": 4.5,
+        "fiber_g": 4.6,
+        "protein_g": 28.6,
+        "total_fat_g": 16.8,
+        "saturated_fat_g": 5.4,
+        "sodium_mg": 310
+      },
+      "ingredients": [
+        { "name": "Berenjena grande en rodajas de 1 cm", "quantity": 300, "unit": "g" },
+        { "name": "Carne picada de ternera magra", "quantity": 200, "unit": "g" },
+        { "name": "Tomate triturado natural sin azúcar", "quantity": 120, "unit": "g" },
+        { "name": "Queso manchego curado rallado", "quantity": 25, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Orégano seco", "quantity": 2, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 200 °C.",
+        "Pintar las rodajas de berenjena con la mitad del aceite y hornear durante 12 minutos hasta que estén blandas.",
+        "En una sartén con el resto del aceite, dorar la ternera picada con pimienta y orégano durante 4 minutos; añadir el tomate triturado y cocinar a fuego medio 6 minutos.",
+        "En una fuente de horno, alternar capas de berenjena horneada y salsa de ternera terminando con una capa de berenjena.",
+        "Espolvorear el queso manchego rallado sobre la parte superior.",
+        "Hornear a 200 °C durante 10 minutos hasta que el queso esté gratinado y dorado.",
+        "Dejar reposar 3 minutos antes de cortar y servir."
+      ]
+    },
+    {
+      "id": 117,
+      "category": "Bajas en carbohidratos",
+      "name": "Sopa fría sedosa de aguacate, pepino y espinacas con semillas de cáñamo",
+      "description": "Crema fría refrescante elaborada sin lácteos triturando aguacate maduro con pepino pelado, espinacas tiernas y caldo vegetal desgrasado, rematada con cáñamo pelado. Fuente de electrolitos y lípidos saludables con bajísimo impacto insulínico.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "total_time_minutes": 10,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 5.4,
+        "calories_kcal": 195,
+        "sugars_g": 2.1,
+        "fiber_g": 4.8,
+        "protein_g": 6.8,
+        "total_fat_g": 16.8,
+        "saturated_fat_g": 2.4,
+        "sodium_mg": 180
+      },
+      "ingredients": [
+        { "name": "Aguacate maduro", "quantity": 120, "unit": "g" },
+        { "name": "Pepino pelado", "quantity": 150, "unit": "g" },
+        { "name": "Espinacas frescas baby", "quantity": 60, "unit": "g" },
+        { "name": "Agua muy fría o caldo vegetal suave", "quantity": 200, "unit": "ml" },
+        { "name": "Zumo de lima", "quantity": 10, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Semillas de cáñamo peladas", "quantity": 15, "unit": "g" }
+      ],
+      "instructions": [
+        "Introducir en el vaso de la batidora el aguacate, el pepino troceado, las espinacas baby, el zumo de lima y el agua muy fría.",
+        "Triturar a velocidad máxima durante 1 minuto y medio hasta conseguir una emulsión verde homogénea y sedosa.",
+        "Añadir el aceite de oliva virgen extra y batir 10 segundos más para integrar.",
+        "Verter en dos cuencos hondos.",
+        "Decorar la superficie de cada cuenco con las semillas de cáñamo peladas crujientes y servir frío."
+      ]
+    },
+    {
+      "id": 118,
+      "category": "Bajas en carbohidratos",
+      "name": "Wok de tofu firme con flores de brócoli y setas shiitake al jengibre",
+      "description": "Salteado asiático bajo en carbohidratos netos que combina cubos crocantes de tofu con shiitake frescas y brócoli al dente sazonados con salsa de soja reducida en sal. Suministra fitoesteroles, proteínas vegetales puras y nulos azúcares simples.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 22,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.4,
+        "calories_kcal": 210,
+        "sugars_g": 2.2,
+        "fiber_g": 4.1,
+        "protein_g": 16.5,
+        "total_fat_g": 13.2,
+        "saturated_fat_g": 1.9,
+        "sodium_mg": 320
+      },
+      "ingredients": [
+        { "name": "Tofu firme prensado y en cubos", "quantity": 260, "unit": "g" },
+        { "name": "Brócoli en ramilletes pequeños", "quantity": 160, "unit": "g" },
+        { "name": "Setas shiitake frescas en láminas", "quantity": 100, "unit": "g" },
+        { "name": "Aceite de sésamo tostado", "quantity": 12, "unit": "ml" },
+        { "name": "Salsa de soja baja en sal", "quantity": 14, "unit": "ml" },
+        { "name": "Jengibre fresco picado fino", "quantity": 4, "unit": "g" }
+      ],
+      "instructions": [
+        "Escaldar el brócoli en agua hirviendo durante 2 minutos y escurrir de inmediato.",
+        "Calentar la mitad del aceite de sésamo en un wok a fuego alto y dorar los cubos de tofu durante 4 minutos hasta formar costra; reservar.",
+        "Añadir el resto del aceite al wok caliente y saltear las shiitake con el jengibre picado durante 3 minutos.",
+        "Incorporar el brócoli escurrido y el tofu dorado al wok.",
+        "Verter la salsa de soja baja en sal sobre el salteado y mezclar continuamente a fuego vivo durante 1 minuto.",
+        "Servir caliente de inmediato."
+      ]
+    },
+    {
+      "id": 119,
+      "category": "Bajas en carbohidratos",
+      "name": "Dorada a la espalda con ajos dorados y vinagre de manzana",
+      "description": "Pieza entera abierta de pescado blanco asada sobre su piel a la plancha y regada con un refrito caliente de aceite de oliva, láminas de ajo y vinagre de sidra. Destaca por su contenido en proteínas magras y la total ausencia de azúcares.",
+      "servings": 2,
+      "prep_time_minutes": 8,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 18,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 1.8,
+        "calories_kcal": 225,
+        "sugars_g": 0.4,
+        "fiber_g": 0.3,
+        "protein_g": 27.8,
+        "total_fat_g": 12.1,
+        "saturated_fat_g": 1.9,
+        "sodium_mg": 240
+      },
+      "ingredients": [
+        { "name": "Dorada fresca abierta en libro sin espina central", "quantity": 320, "unit": "g" },
+        { "name": "Dientes de ajo laminados", "quantity": 3, "unit": "unidades" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 15, "unit": "ml" },
+        { "name": "Vinagre de manzana sin filtrar", "quantity": 12, "unit": "ml" },
+        { "name": "Perejil fresco picado", "quantity": 4, "unit": "g" },
+        { "name": "Guindilla en aros finos", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Calentar fuertemente una plancha amplia untada con unas gotas de aceite.",
+        "Salpimentar la dorada abierta y colocarla primero por el lado de la carne durante 2 minutos; voltear y cocinar 4 minutos por el lado de la piel hasta que esté bien hecha.",
+        "Trasladar la dorada con la carne hacia arriba a una fuente caliente.",
+        "En una sartén pequeña, dorar los ajos laminados y la guindilla en el aceite de oliva a fuego medio.",
+        "Cuando el ajo comience a dorar, retirar del fuego y verter con cuidado el vinagre de manzana, tapando un segundo por las salpicaduras.",
+        "Verter inmediatamente el refrito hirviendo sobre la dorada y espolvorear con el perejil fresco antes de servir."
+      ]
+    },
+    {
+      "id": 120,
+      "category": "Bajas en carbohidratos",
+      "name": "Tacos en hojas de col verde con pollo marinado y guacamole casero",
+      "description": "Hojas crujientes de col rizada escaldadas fugazmente como envolturas naturales de tacos mexicanos, rellenas de pechuga especiada con lima y comino coronada con guacamole fresco. Cero harinas y grasas altamente cardioprotectoras.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "total_time_minutes": 23,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 6.2,
+        "calories_kcal": 285,
+        "sugars_g": 2.4,
+        "fiber_g": 4.1,
+        "protein_g": 29.4,
+        "total_fat_g": 16.2,
+        "saturated_fat_g": 2.8,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Pechuga de pollo en tiras finas", "quantity": 240, "unit": "g" },
+        { "name": "Hojas grandes enteras de col verde o repollo", "quantity": 4, "unit": "hojas" },
+        { "name": "Aguacate maduro", "quantity": 70, "unit": "g" },
+        { "name": "Zumo de lima", "quantity": 10, "unit": "ml" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Cilantro fresco picado", "quantity": 5, "unit": "g" },
+        { "name": "Comino molido", "quantity": 2, "unit": "g" }
+      ],
+      "instructions": [
+        "Escaldar las hojas de col en agua hirviendo durante 1 minuto para volverlas maleables; sumergir en agua fría y secar bien.",
+        "En un cuenco, aplastar el aguacate con el zumo de lima, cilantro y una pizca de sal moderada para formar el guacamole.",
+        "Sazonar el pollo con el comino y salpimentar.",
+        "Calentar el aceite en una sartén a fuego vivo y saltear el pollo durante 4-5 minutos hasta que esté bien cocido y dorado.",
+        "Disponer las hojas de col extendidas sobre una tabla.",
+        "Repartir el pollo caliente en el centro de las 4 hojas y coronar con una cucharada generosa de guacamole en cada taco antes de doblar."
+      ]
+    },
+    {
+      "id": 121,
+      "category": "Bajas en carbohidratos",
+      "name": "Champiñones portobello rellenos de pavo picado y ricotta gratinada",
+      "description": "Sombreros gigantes de hongo portobello asados con relleno aromático de pechuga picada de pavo a las finas hierbas y queso ricotta magro. Confiere textura carnosa vegetal y proteína magra con índice glucémico prácticamente neutro.",
+      "servings": 2,
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "total_time_minutes": 35,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 5.2,
+        "calories_kcal": 235,
+        "sugars_g": 2.6,
+        "fiber_g": 2.4,
+        "protein_g": 29.8,
+        "total_fat_g": 10.5,
+        "saturated_fat_g": 3.4,
+        "sodium_mg": 290
+      },
+      "ingredients": [
+        { "name": "Sombreros limpios de champiñón portobello grande", "quantity": 4, "unit": "unidades" },
+        { "name": "Carne picada de pechuga de pavo", "quantity": 200, "unit": "g" },
+        { "name": "Queso ricotta magro", "quantity": 50, "unit": "g" },
+        { "name": "Cebolla picada fina", "quantity": 30, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 10, "unit": "ml" },
+        { "name": "Tomillo seco", "quantity": 2, "unit": "g" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "Precalentar el horno a 190 °C.",
+        "Retirar los tallos de los portobellos, picarlos fino y reservar los sombreros enteros.",
+        "En una sartén con la mitad del aceite, rehogar la cebolla y los tallos picados durante 3 minutos; añadir la carne de pavo y saltear 4 minutos.",
+        "Retirar del fuego, integrar el queso ricotta y el tomillo seco.",
+        "Pintar los sombreros de portobello con el resto del aceite y rellenar sus cavidades con la mezcla de pavo y ricotta.",
+        "Colocar en una bandeja y hornear a 190 °C durante 18 minutos hasta que los hongos estén tiernos y la superficie dorada.",
+        "Servir 2 portobellos rellenos por persona."
+      ]
+    },
+    {
+      "id": 122,
+      "category": "Bajas en carbohidratos",
+      "name": "Salteado de calamares con tiras de pimiento verde y cebolleta a la plancha",
+      "description": "Tiras de calamar fresco marcadas en plancha muy caliente con pimiento y cebolleta cortados finos, rociadas con zumo de limón y aceite de oliva virgen extra virgen. Proteína marina de densidad calórica muy baja y libre de carbohidratos digeribles.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 8,
+      "total_time_minutes": 18,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 5.8,
+        "calories_kcal": 212,
+        "sugars_g": 2.8,
+        "fiber_g": 1.9,
+        "protein_g": 26.5,
+        "total_fat_g": 9.2,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Calamares limpios cortados en anillas o tiras", "quantity": 300, "unit": "g" },
+        { "name": "Pimiento verde en juliana fina", "quantity": 100, "unit": "g" },
+        { "name": "Cebolleta fresca en juliana", "quantity": 50, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Zumo de limón fresco", "quantity": 10, "unit": "ml" },
+        { "name": "Perejil fresco picado", "quantity": 4, "unit": "g" }
+      ],
+      "instructions": [
+        "Secar completamente las tiras de calamar con papel absorbente.",
+        "Calentar una sartén ancha con 6 ml de aceite a fuego medio y saltear la juliana de pimiento y cebolleta durante 4 minutos; reservar a un lado.",
+        "Subir el fuego al máximo, añadir el aceite restante y verter los calamares escurridos.",
+        "Cocinar a fuego vivo durante 2 minutos sin mover para dorar la superficie.",
+        "Juntar las verduras con los calamares, rociar con el zumo de limón y mezclar durante 1 minuto.",
+        "Servir de inmediato espolvoreado con perejil fresco picado."
+      ]
+    },
+    {
+      "id": 123,
+      "category": "Bajas en carbohidratos",
+      "name": "Omelet esponjosa de queso de cabra, espinacas y nueces picadas",
+      "description": "Tortilla francesa jugosa doblada sobre un corazón cremoso de rulo de queso de cabra fundido, espinacas salteadas y trozos crujientes de nuez. Excelente fuente de proteína y lípidos poliinsaturados con absorción pausada.",
+      "servings": 1,
+      "prep_time_minutes": 6,
+      "cook_time_minutes": 6,
+      "total_time_minutes": 12,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 3.1,
+        "calories_kcal": 265,
+        "sugars_g": 1.2,
+        "fiber_g": 1.8,
+        "protein_g": 16.4,
+        "total_fat_g": 20.8,
+        "saturated_fat_g": 6.2,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Huevos medianos de campo", "quantity": 2, "unit": "unidades" },
+        { "name": "Espinacas frescas baby", "quantity": 50, "unit": "g" },
+        { "name": "Queso de cabra tierno en rodajas", "quantity": 30, "unit": "g" },
+        { "name": "Nueces troceadas", "quantity": 10, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
+        { "name": "Pimienta blanca molida", "quantity": 1, "unit": "pizca" }
+      ],
+      "instructions": [
+        "En una sartén antiadherente pequeña con la mitad del aceite, saltear las espinacas 1 minuto hasta que encojan; retirar.",
+        "Batir los 2 huevos vigorosamente con una pizca de pimienta blanca molida.",
+        "Añadir el aceite restante a la sartén a fuego medio-bajo y verter los huevos batidos extendiendo por toda la superficie.",
+        "Dejar cuajar el fondo durante 1 minuto y medio manteniendo la superficie húmeda.",
+        "Colocar las espinacas, las rodajas de queso de cabra y las nueces picadas sobre una mitad de la tortilla.",
+        "Doblar la tortilla sobre sí misma, apagar el fuego y dejar reposar 30 segundos antes de deslizar al plato."
+      ]
+    },
+    {
+      "id": 124,
+      "category": "Bajas en carbohidratos",
+      "name": "Pollo al ajillo tradicional con dados de calabacín salteados",
+      "description": "Guiso seco tradicional de trozos magros de pollo cocinados a fuego medio con abundantes dientes de ajo dorados y vino blanco seco evaporado, acompañado de dados de calabacín. Clásico de la cocina casera completamente desprovisto de hidratos simples.",
+      "servings": 2,
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "total_time_minutes": 30,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 5.4,
+        "calories_kcal": 290,
+        "sugars_g": 2.8,
+        "fiber_g": 2.1,
+        "protein_g": 33.6,
+        "total_fat_g": 14.5,
+        "saturated_fat_g": 2.8,
+        "sodium_mg": 280
+      },
+      "ingredients": [
+        { "name": "Contramuslos o pechuga de pollo en trozos limpios", "quantity": 300, "unit": "g" },
+        { "name": "Calabacín en dados de 1.5 cm", "quantity": 180, "unit": "g" },
+        { "name": "Dientes de ajo con piel chafados", "quantity": 5, "unit": "unidades" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 14, "unit": "ml" },
+        { "name": "Vino blanco seco (alcohol evaporado al hervir)", "quantity": 30, "unit": "ml" },
+        { "name": "Perejil fresco picado", "quantity": 5, "unit": "g" }
+      ],
+      "instructions": [
+        "En una cazuela, calentar el aceite de oliva a fuego medio y dorar los dientes de ajo enteros aplastados durante 3 minutos hasta que aromaticen el aceite.",
+        "Salpimentar los trozos de pollo e incorporarlos a la cazuela, dorándolos por todos sus lados durante 8 minutos.",
+        "Verter el vino blanco y dejar hervir a fuego vivo durante 2 minutos para evaporar por completo el alcohol.",
+        "Añadir los dados de calabacín, tapar la cazuela y cocinar a fuego medio-bajo durante 8 minutos hasta que el calabacín esté tierno y el pollo completamente hecho.",
+        "Espolvorear perejil picado y servir caliente."
+      ]
+    },
+    {
+      "id": 125,
+      "category": "Bajas en carbohidratos",
+      "name": "Filete de caballa asada con ensalada tibia de repollo y sésamo",
+      "description": "Lomos de caballa con piel crujiente ricos en ácidos grasos poliinsaturados esenciales, acompañados de una cama de repollo blanco finamente cortado y salteado con sésamo tostado. Favorece la función endotelial y la regulación glucémica sostenida.",
+      "servings": 2,
+      "prep_time_minutes": 12,
+      "cook_time_minutes": 10,
+      "total_time_minutes": 22,
+      "difficulty": "Fácil",
+      "nutrition": {
+        "carbohydrates_g": 5.8,
+        "calories_kcal": 345,
+        "sugars_g": 2.8,
+        "fiber_g": 2.9,
+        "protein_g": 28.6,
+        "total_fat_g": 23.4,
+        "saturated_fat_g": 4.1,
+        "sodium_mg": 290
+      },
+      "ingredients": [
+        { "name": "Filetes limpios de caballa fresca con piel", "quantity": 280, "unit": "g" },
+        { "name": "Repollo blanco cortado en juliana muy fina", "quantity": 200, "unit": "g" },
+        { "name": "Aceite de oliva virgen extra", "quantity": 12, "unit": "ml" },
+        { "name": "Aceite de sésamo virgen", "quantity": 5, "unit": "ml" },
+        { "name": "Semillas de sésamo tostado", "quantity": 6, "unit": "g" },
+        { "name": "Vinagre de sidra de manzana", "quantity": 8, "unit": "ml" }
+      ],
+      "instructions": [
+        "En una sartén con el aceite de oliva, saltear la juliana de repollo blanco a fuego vivo durante 4 minutos para que se ablande ligeramente conservando su punto crujiente.",
+        "Añadir el vinagre de manzana, el aceite de sésamo y las semillas de sésamo al repollo; mezclar y reservar templado.",
+        "Secar muy bien los filetes de caballa y salpimentar.",
+        "Poner una plancha estriada a fuego fuerte y cocinar los filetes durante 3 minutos por el lado de la piel hasta que esté bien dorada y crujiente.",
+        "Voltear y cocinar solo 1 minuto por el lado de la carne.",
+        "Colocar el repollo salteado en dos platos llanos y coronar con los filetes de caballa recién asados."
+      ]
+    }
+  ]
+}

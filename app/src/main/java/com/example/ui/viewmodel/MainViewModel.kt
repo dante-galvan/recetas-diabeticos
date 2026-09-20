@@ -55,7 +55,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     "dia_recipes_db"
   ).fallbackToDestructiveMigration().build()
 
-  val repository = RecipeRepository(database.dao())
+  val repository = RecipeRepository(database.dao(), application)
 
   // Navigation & Screen
   private val _currentScreen = MutableStateFlow(AppScreen.HOME)
