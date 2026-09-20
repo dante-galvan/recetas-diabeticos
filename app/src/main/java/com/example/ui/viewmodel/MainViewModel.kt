@@ -1,8 +1,6 @@
 package com.example.ui.viewmodel
 
 import android.app.Application
-import android.content.Context
-import android.net.Uri
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.room.Room
@@ -253,23 +251,6 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
       )
       repository.saveUserProfile(updated)
       _currentScreen.value = AppScreen.HOME
-    }
-  }
-
-  fun saveProfilePhoto(context: Context, uri: Uri) {
-    viewModelScope.launch {
-      try {
-        val inputStream = context.contentResolver.openInputStream(uri) ?: return@launch
-        val photoFile = java.io.File(context.filesDir, "profile_photo.jpg")
-        photoFile.outputStream().use { outputStream ->
-          inputStream.copyTo(outputStream)
-        }
-        inputStream.close()
-        val updated = userProfile.value.copy(profilePhotoPath = photoFile.absolutePath)
-        repository.saveUserProfile(updated)
-      } catch (e: Exception) {
-        e.printStackTrace()
-      }
     }
   }
 

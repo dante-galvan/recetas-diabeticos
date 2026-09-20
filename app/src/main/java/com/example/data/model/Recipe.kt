@@ -93,6 +93,5 @@ data class UserProfile(
   val language: Language = Language.SPANISH,
   val isDarkTheme: Boolean? = null, // null = system default
   val mealRemindersEnabled: Boolean = true,
-  val isOnboardingCompleted: Boolean = true,
-  val profilePhotoPath: String? = null
+  val isOnboardingCompleted: Boolean = true
 )

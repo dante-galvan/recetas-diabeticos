@@ -1,10 +1,5 @@
 package com.example.ui.screens
 
-import android.net.Uri
-import androidx.activity.compose.rememberLauncherForActivityResult
-import androidx.activity.result.PickVisualMediaRequest
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -22,18 +17,13 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowForwardIos
-import androidx.compose.material.icons.filled.CameraAlt
-import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.DarkMode
 import androidx.compose.material.icons.filled.Language
-import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.Divider
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
@@ -42,22 +32,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import coil.compose.AsyncImage
-import coil.request.ImageRequest
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
 import com.example.ui.viewmodel.MainViewModel
@@ -70,23 +50,12 @@ fun ProfileScreen(
   val language by viewModel.currentLanguage.collectAsState()
   val userProfile by viewModel.userProfile.collectAsState()
 
-  val context = LocalContext.current
-  var photoUri by remember { mutableStateOf<Uri?>(null) }
-  
-  val photoPickerLauncher = rememberLauncherForActivityResult(
-    contract = ActivityResultContracts.PickVisualMedia()
-  ) { uri ->
-    uri?.let { selectedUri ->
-      viewModel.saveProfilePhoto(context, selectedUri)
-    }
-  }
-
   LazyColumn(
     modifier = modifier
       .fillMaxSize()
       .testTag("profile_screen"),
-    contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 100.dp),
-    verticalArrangement = Arrangement.spacedBy(18.dp)
+    contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 16.dp, bottom = 100.dp),
+    verticalArrangement = Arrangement.spacedBy(16.dp)
   ) {
     // Header
     item {
@@ -95,53 +64,17 @@ fun ProfileScreen(
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(14.dp)
       ) {
-        Box(
-          modifier = Modifier
-            .size(56.dp)
-            .clip(CircleShape)
-            .background(MaterialTheme.colorScheme.primaryContainer)
-            .clickable {
-              photoPickerLauncher.launch(
-                PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly)
-              )
-            },
-          contentAlignment = Alignment.Center
+        Surface(
+          modifier = Modifier.size(56.dp),
+          shape = CircleShape,
+          color = MaterialTheme.colorScheme.primaryContainer
         ) {
-          val photoPath = userProfile.profilePhotoPath
-          if (!photoPath.isNullOrEmpty()) {
-            AsyncImage(
-              model = ImageRequest.Builder(context)
-                .data(photoPath)
-                .crossfade(true)
-                .build(),
-              contentDescription = "Profile photo",
-              modifier = Modifier
-                .size(56.dp)
-                .clip(CircleShape),
-              contentScale = ContentScale.Crop
-            )
-          } else {
+          Box(contentAlignment = Alignment.Center) {
             Icon(
               imageVector = Icons.Default.Person,
               contentDescription = null,
               tint = MaterialTheme.colorScheme.primary,
               modifier = Modifier.size(32.dp)
-            )
-          }
-          
-          // Camera icon overlay
-          Surface(
-            modifier = Modifier
-              .align(Alignment.BottomEnd)
-              .size(18.dp),
-            shape = CircleShape,
-            color = MaterialTheme.colorScheme.primary
-          ) {
-            Icon(
-              imageVector = Icons.Default.CameraAlt,
-              contentDescription = "Change photo",
-              tint = MaterialTheme.colorScheme.onPrimary,
-              modifier = Modifier.padding(2.dp)
             )
           }
         }
@@ -156,7 +89,7 @@ fun ProfileScreen(
       }
     }
 
-    // Section 1: Preferences & Language
+    // Settings Card
     item {
       Card(
         modifier = Modifier.fillMaxWidth(),
@@ -166,15 +99,24 @@ fun ProfileScreen(
       ) {
         Column(modifier = Modifier.padding(16.dp)) {
           Text(
-            text = AppStrings.language(language),
+            text = AppStrings.settingsTitle(language),
             fontSize = 14.sp,
             fontWeight = FontWeight.Bold,
             color = MaterialTheme.colorScheme.primary
           )
 
-          Spacer(modifier = Modifier.height(12.dp))
+          Spacer(modifier = Modifier.height(8.dp))
 
-          // Bilingual selector
+          // Language Selector
+          Text(
+            text = AppStrings.language(language),
+            fontSize = 13.sp,
+            fontWeight = FontWeight.SemiBold,
+            color = MaterialTheme.colorScheme.onSurface
+          )
+
+          Spacer(modifier = Modifier.height(8.dp))
+
           Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(10.dp)
@@ -194,9 +136,9 @@ fun ProfileScreen(
               ) {
                 if (language == Language.SPANISH) {
                   Icon(
-                    imageVector = Icons.Default.Check,
+                    imageVector = Icons.Default.Language,
                     contentDescription = null,
-                    tint = Color.White,
+                    tint = MaterialTheme.colorScheme.onPrimary,
                     modifier = Modifier.size(16.dp)
                   )
                   Spacer(modifier = Modifier.width(6.dp))
@@ -205,7 +147,7 @@ fun ProfileScreen(
                   text = "Español",
                   fontWeight = FontWeight.Bold,
                   fontSize = 13.sp,
-                  color = if (language == Language.SPANISH) Color.White else MaterialTheme.colorScheme.onSurface
+                  color = if (language == Language.SPANISH) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurface
                 )
               }
             }
@@ -225,9 +167,9 @@ fun ProfileScreen(
               ) {
                 if (language == Language.ENGLISH) {
                   Icon(
-                    imageVector = Icons.Default.Check,
+                    imageVector = Icons.Default.Language,
                     contentDescription = null,
-                    tint = Color.White,
+                    tint = MaterialTheme.colorScheme.onPrimary,
                     modifier = Modifier.size(16.dp)
                   )
                   Spacer(modifier = Modifier.width(6.dp))
@@ -236,14 +178,14 @@ fun ProfileScreen(
                   text = "English",
                   fontWeight = FontWeight.Bold,
                   fontSize = 13.sp,
-                  color = if (language == Language.ENGLISH) Color.White else MaterialTheme.colorScheme.onSurface
+                  color = if (language == Language.ENGLISH) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurface
                 )
               }
             }
           }
 
-          Spacer(modifier = Modifier.height(16.dp))
-          Divider(color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.4f))
+          Spacer(modifier = Modifier.height(14.dp))
+          HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.4f))
           Spacer(modifier = Modifier.height(12.dp))
 
           // Dark Mode Toggle
@@ -263,7 +205,7 @@ fun ProfileScreen(
                 modifier = Modifier.size(20.dp)
               )
               Text(
-                text = AppStrings.darkMode(language),
+                text = AppStrings.themeSetting(language),
                 fontSize = 14.sp,
                 color = MaterialTheme.colorScheme.onSurface
               )
@@ -275,52 +217,16 @@ fun ProfileScreen(
                 viewModel.setThemeMode(isChecked)
               },
               colors = SwitchDefaults.colors(
-                checkedThumbColor = MaterialTheme.colorScheme.primary
+                checkedThumbColor = MaterialTheme.colorScheme.onPrimary,
+                checkedTrackColor = MaterialTheme.colorScheme.primary,
+                uncheckedThumbColor = MaterialTheme.colorScheme.outline,
+                uncheckedTrackColor = MaterialTheme.colorScheme.surfaceVariant,
+                uncheckedBorderColor = MaterialTheme.colorScheme.outline
               )
             )
           }
         }
       }
     }
-  }
-}
-
-@Composable
-private fun ProfileNavigationRow(
-  icon: ImageVector,
-  title: String,
-  onClick: () -> Unit
-) {
-  Row(
-    modifier = Modifier
-      .fillMaxWidth()
-      .clickable(onClick = onClick)
-      .padding(vertical = 12.dp),
-    verticalAlignment = Alignment.CenterVertically,
-    horizontalArrangement = Arrangement.SpaceBetween
-  ) {
-    Row(
-      verticalAlignment = Alignment.CenterVertically,
-      horizontalArrangement = Arrangement.spacedBy(10.dp)
-    ) {
-      Icon(
-        imageVector = icon,
-        contentDescription = null,
-        tint = MaterialTheme.colorScheme.outline,
-        modifier = Modifier.size(20.dp)
-      )
-      Text(
-        text = title,
-        fontSize = 14.sp,
-        color = MaterialTheme.colorScheme.onSurface
-      )
-    }
-
-    Icon(
-      imageVector = Icons.Default.ArrowForwardIos,
-      contentDescription = null,
-      tint = MaterialTheme.colorScheme.outlineVariant,
-      modifier = Modifier.size(14.dp)
-    )
   }
 }

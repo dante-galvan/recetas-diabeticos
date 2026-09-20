@@ -229,8 +229,7 @@ class RecipeRepository(private val dao: DiaRecipesDao) {
           else -> null
         },
         mealRemindersEnabled = entity.mealReminders,
-        isOnboardingCompleted = entity.onboardingDone,
-        profilePhotoPath = entity.profilePhotoPath
+        isOnboardingCompleted = entity.onboardingDone
       )
     }
   }
@@ -248,8 +247,7 @@ class RecipeRepository(private val dao: DiaRecipesDao) {
           null -> null
         },
         mealReminders = profile.mealRemindersEnabled,
-        onboardingDone = profile.isOnboardingCompleted,
-        profilePhotoPath = profile.profilePhotoPath
+        onboardingDone = profile.isOnboardingCompleted
       )
     )
   }

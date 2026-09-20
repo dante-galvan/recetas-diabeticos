@@ -42,8 +42,7 @@ data class UserProfileEntity(
   val langCode: String,
   val isDarkTheme: Int?, // null = system, 0 = light, 1 = dark
   val mealReminders: Boolean,
-  val onboardingDone: Boolean,
-  val profilePhotoPath: String? = null
+  val onboardingDone: Boolean
 )
 
 @Dao
