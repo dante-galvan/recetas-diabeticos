@@ -160,6 +160,7 @@ object RecipeJsonLoader {
     122 to R.drawable.recipe_122,
     123 to R.drawable.recipe_123,
     124 to R.drawable.recipe_124,
+    125 to R.drawable.recipe_125,
     126 to R.drawable.recipe_126,
     127 to R.drawable.recipe_127,
     128 to R.drawable.recipe_128,
