@@ -183,37 +183,39 @@
     {
       "id": 81,
       "category": "Snacks",
-      "name": "Brochetas caprese de tomates cherry, perlas de mozzarella y albahaca",
-      "description": "Snack fresco en formato brocheta que ensarta tomates cherry jugosos con bolitas de mozzarella fresca y hojas enteras de albahaca bañadas con aceite de oliva. Aporta calcio biodisponible y licopeno con un impacto glucémico nulo.",
+      "name": "Boquerones en vinagre con ajo, perejil y limón",
+      "description": "Boquerones frescos curados en vinagre con ajo, perejil y limón, aliñados con aceite de oliva. Snack proteico frío, prácticamente sin carbohidratos.",
       "servings": 2,
-      "prep_time_minutes": 8,
+      "prep_time_minutes": 15,
       "cook_time_minutes": 0,
-      "total_time_minutes": 8,
+      "total_time_minutes": 15,
       "difficulty": "Fácil",
       "nutrition": {
-        "carbohydrates_g": 3.8,
-        "calories_kcal": 142,
-        "sugars_g": 2.6,
-        "fiber_g": 1.1,
-        "protein_g": 7.4,
-        "total_fat_g": 10.8,
-        "saturated_fat_g": 4.6,
-        "sodium_mg": 140
+        "carbohydrates_g": 1.5,
+        "calories_kcal": 136,
+        "sugars_g": 0.2,
+        "fiber_g": 0.2,
+        "protein_g": 13.8,
+        "total_fat_g": 7.2,
+        "saturated_fat_g": 1.4,
+        "sodium_mg": 56
       },
       "ingredients": [
-        { "name": "Perlas de mozzarella fresca de vaca (bocconcini)", "quantity": 70, "unit": "g" },
-        { "name": "Tomates cherry maduros", "quantity": 120, "unit": "g" },
-        { "name": "Hojas frescas de albahaca", "quantity": 8, "unit": "unidades" },
+        { "name": "Boquerones frescos limpios y eviscerados", "quantity": 140, "unit": "g" },
+        { "name": "Vinagre de Jerez", "quantity": 60, "unit": "ml" },
+        { "name": "Agua", "quantity": 60, "unit": "ml" },
+        { "name": "Diente de ajo laminado fino", "quantity": 1, "unit": "unidad" },
+        { "name": "Perejil fresco picado", "quantity": 10, "unit": "g" },
         { "name": "Aceite de oliva virgen extra", "quantity": 8, "unit": "ml" },
-        { "name": "Pimienta negra recién molida", "quantity": 1, "unit": "pizca" }
+        { "name": "Zumo de limón fresco", "quantity": 15, "unit": "ml" },
+        { "name": "Pimienta negra molida", "quantity": 1, "unit": "pizca" }
       ],
       "instructions": [
-        "Lavar y secar meticulosamente los tomates cherry y las hojas de albahaca fresca.",
-        "Escurrir bien las perlas de mozzarella fresca sobre papel de cocina.",
-        "Tomar 4 brochetas cortas de madera o bambú e intercalar en cada una: un tomate cherry, una hoja de albahaca doblada y una perla de mozzarella, repitiendo la secuencia.",
-        "Disponer las brochetas montadas sobre un plato alargado.",
-        "Rociar las brochetas uniformemente con el aceite de oliva virgen extra.",
-        "Rematar con un giro de molinillo de pimienta negra fresca y degustar al instante."
+        "Limpiar los boquerones, retirarles la cabeza y la espina dorsal si se desea, lavarlos con agua fría y secarlos muy bien con papel de cocina.",
+        "Colocarlos en una fuente honda en una sola capa intercalados con las láminas de ajo y el perejil fresco picado.",
+        "Mezclar el vinagre de Jerez con el agua y el zumo de limón fresco y verter la mezcla hasta cubrir por completo los pescados; sazonar con la pizca de pimienta negra.",
+        "Tapar la fuente y conservar en la nevera durante al menos 4 horas, idealmente toda la noche, para que el vinagre cueza el pescado.",
+        "Antes de servir, escurrir ligeramente los boquerones, rociarlos con el aceite de oliva virgen extra y servir bien fríos."
       ]
     },
     {
@@ -391,36 +393,35 @@
     {
       "id": 87,
       "category": "Snacks",
-      "name": "Mousse rápida de aguacate con cacao puro desgrasado",
-      "description": "Crema dulce saciante que aprovecha la untuosidad lipídica del aguacate maduro emulsionado con cacao en polvo 100% desgrasado y un toque de eritritol. Proporciona flavonoides amargos estimulantes sin alterar en absoluto la glucosa en sangre.",
+      "name": "Fresas bañadas en chocolate negro al 85% con sésamo tostado",
+      "description": "Fresas frescas bañadas en chocolate negro al 85% y terminadas con sésamo tostado, ideales para templar después de comer. Snack dulce bajo en carbohidratos netos y sin azúcares añadidos.",
       "servings": 2,
-      "prep_time_minutes": 8,
+      "prep_time_minutes": 10,
       "cook_time_minutes": 0,
-      "total_time_minutes": 8,
+      "total_time_minutes": 10,
       "difficulty": "Fácil",
       "nutrition": {
-        "carbohydrates_g": 5.4,
-        "calories_kcal": 158,
-        "sugars_g": 0.8,
-        "fiber_g": 4.9,
-        "protein_g": 3.1,
-        "total_fat_g": 13.8,
-        "saturated_fat_g": 2.4,
-        "sodium_mg": 12
+        "carbohydrates_g": 7.0,
+        "calories_kcal": 135,
+        "sugars_g": 2.8,
+        "fiber_g": 4.0,
+        "protein_g": 2.7,
+        "total_fat_g": 8.7,
+        "saturated_fat_g": 4.3,
+        "sodium_mg": 65
       },
       "ingredients": [
-        { "name": "Aguacate maduro", "quantity": 120, "unit": "g" },
-        { "name": "Cacao puro 100% desgrasado en polvo", "quantity": 18, "unit": "g" },
-        { "name": "Bebida de almendras sin azúcar", "quantity": 40, "unit": "ml" },
-        { "name": "Eritritol o fruto del monje (opcional)", "quantity": 10, "unit": "g" },
-        { "name": "Extracto de vainilla puro", "quantity": 2, "unit": "ml" }
+        { "name": "Fresas frescas grandes y secas", "quantity": 180, "unit": "g" },
+        { "name": "Chocolate negro 85% cacao sin azúcar añadido", "quantity": 30, "unit": "g" },
+        { "name": "Semillas de sésamo tostado", "quantity": 6, "unit": "g" },
+        { "name": "Pizca de sal marina", "quantity": 1, "unit": "pizca" }
       ],
       "instructions": [
-        "Extraer la pulpa del aguacate y colocarla en el vaso de la batidora o procesador de alimentos.",
-        "Añadir el cacao puro en polvo, la bebida de almendras, el extracto de vainilla y el eritritol.",
-        "Triturar a potencia alta durante 1-2 minutos, deteniendo el motor para bajar los restos de las paredes, hasta conseguir una textura de mousse brillante y totalmente sedosa.",
-        "Repartir la preparación en dos vasitos individuales.",
-        "Refrigerar durante 15 minutos antes de consumir para que adquiera una consistencia fresca y firme."
+        "Lavar las fresas, secarlas muy bien con papel de cocina y retirar los escudetes verdes dejando el tallo corto como asa para poder sumergirlas.",
+        "Trocear el chocolate negro y fundirlo en un bol apto para microondas a potencia media en intervalos de 30 segundos, removiendo entre cada uno hasta que quede liso y brillante.",
+        "Sumergir cada fresa en el chocolate derretido dejando descubierta la mitad superior; retirar con la ayuda de un tenedor y dejar escurrir el exceso.",
+        "Colocarlas sobre una bandeja forrada con papel vegetal sin que se toquen y espolvorear con las semillas de sésamo tostado y la pizca de sal marina.",
+        "Refrigerar 20 minutos hasta que el chocolate solidifique y servir bien frías como snack."
       ]
     },
     {
