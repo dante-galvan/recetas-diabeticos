@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -81,7 +82,7 @@ fun ProfileScreen(
 
         Column {
           Text(
-            text = AppStrings.profile(language),
+            text = AppStrings.userProfile(),
             style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold),
             color = MaterialTheme.colorScheme.onBackground
           )
@@ -99,7 +100,7 @@ fun ProfileScreen(
       ) {
         Column(modifier = Modifier.padding(16.dp)) {
           Text(
-            text = AppStrings.settingsTitle(language),
+            text = AppStrings.settingsTitle(),
             fontSize = 14.sp,
             fontWeight = FontWeight.Bold,
             color = MaterialTheme.colorScheme.primary
@@ -109,7 +110,7 @@ fun ProfileScreen(
 
           // Language Selector
           Text(
-            text = AppStrings.language(language),
+            text = AppStrings.languageSetting(),
             fontSize = 13.sp,
             fontWeight = FontWeight.SemiBold,
             color = MaterialTheme.colorScheme.onSurface
@@ -117,69 +118,42 @@ fun ProfileScreen(
 
           Spacer(modifier = Modifier.height(8.dp))
 
-          Row(
+          LazyRow(
             modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(10.dp)
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
           ) {
-            Surface(
-              modifier = Modifier
-                .weight(1f)
-                .clickable { viewModel.setLanguage(Language.SPANISH) }
-                .testTag("lang_es_btn"),
-              shape = RoundedCornerShape(12.dp),
-              color = if (language == Language.SPANISH) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
-            ) {
-              Row(
-                modifier = Modifier.padding(vertical = 12.dp, horizontal = 12.dp),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.Center
+            val langs = Language.allLanguages.toTypedArray()
+            items(langs.size) { index ->
+              val lang = langs[index]
+              Surface(
+                modifier = Modifier
+                  .weight(1f)
+                  .clickable { viewModel.setLanguage(lang) }
+                  .testTag("lang_${lang.code}_btn"),
+                shape = RoundedCornerShape(12.dp),
+                color = if (language == lang) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
               ) {
-                if (language == Language.SPANISH) {
-                  Icon(
-                    imageVector = Icons.Default.Language,
-                    contentDescription = null,
-                    tint = MaterialTheme.colorScheme.onPrimary,
-                    modifier = Modifier.size(16.dp)
+                Row(
+                  modifier = Modifier.padding(vertical = 12.dp, horizontal = 12.dp),
+                  verticalAlignment = Alignment.CenterVertically,
+                  horizontalArrangement = Arrangement.Center
+                ) {
+                  if (language == lang) {
+                    Icon(
+                      imageVector = Icons.Default.Language,
+                      contentDescription = null,
+                      tint = MaterialTheme.colorScheme.onPrimary,
+                      modifier = Modifier.size(16.dp)
+                    )
+                    Spacer(modifier = Modifier.width(6.dp))
+                  }
+                  Text(
+                    text = lang.displayNameCompose(),
+                    fontWeight = FontWeight.Bold,
+                    fontSize = 13.sp,
+                    color = if (language == lang) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurface
                   )
-                  Spacer(modifier = Modifier.width(6.dp))
                 }
-                Text(
-                  text = "Español",
-                  fontWeight = FontWeight.Bold,
-                  fontSize = 13.sp,
-                  color = if (language == Language.SPANISH) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurface
-                )
-              }
-            }
-
-            Surface(
-              modifier = Modifier
-                .weight(1f)
-                .clickable { viewModel.setLanguage(Language.ENGLISH) }
-                .testTag("lang_en_btn"),
-              shape = RoundedCornerShape(12.dp),
-              color = if (language == Language.ENGLISH) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
-            ) {
-              Row(
-                modifier = Modifier.padding(vertical = 12.dp, horizontal = 12.dp),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.Center
-              ) {
-                if (language == Language.ENGLISH) {
-                  Icon(
-                    imageVector = Icons.Default.Language,
-                    contentDescription = null,
-                    tint = MaterialTheme.colorScheme.onPrimary,
-                    modifier = Modifier.size(16.dp)
-                  )
-                  Spacer(modifier = Modifier.width(6.dp))
-                }
-                Text(
-                  text = "English",
-                  fontWeight = FontWeight.Bold,
-                  fontSize = 13.sp,
-                  color = if (language == Language.ENGLISH) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurface
-                )
               }
             }
           }
@@ -205,7 +179,7 @@ fun ProfileScreen(
                 modifier = Modifier.size(20.dp)
               )
               Text(
-                text = AppStrings.themeSetting(language),
+                text = AppStrings.themeSetting(),
                 fontSize = 14.sp,
                 color = MaterialTheme.colorScheme.onSurface
               )

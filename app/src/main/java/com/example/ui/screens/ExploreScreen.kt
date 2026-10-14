@@ -50,7 +50,9 @@ import com.example.ui.components.EmptyStateView
 import com.example.ui.components.RecipeCard
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
+import com.example.ui.i18n.stringRes
 import com.example.ui.viewmodel.MainViewModel
+import com.app.diabeticos.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -91,7 +93,7 @@ fun ExploreScreen(
         onValueChange = { viewModel.searchQuery.value = it },
         placeholder = {
           Text(
-            text = AppStrings.searchPlaceholder(language),
+            text = AppStrings.searchPlaceholder(),
             fontSize = 14.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant
           )
@@ -139,7 +141,7 @@ fun ExploreScreen(
         Box(contentAlignment = Alignment.Center) {
           Icon(
             imageVector = Icons.Default.FilterList,
-            contentDescription = AppStrings.filters(language),
+            contentDescription = AppStrings.filters(),
             tint = if (hasActiveFilters) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.size(24.dp)
           )
@@ -158,7 +160,7 @@ fun ExploreScreen(
         FilterChip(
           selected = filters.category == null,
           onClick = { viewModel.filterByCategory(null) },
-          label = { Text(AppStrings.filterAll(language)) },
+          label = { Text(AppStrings.filterAll()) },
           shape = RoundedCornerShape(12.dp)
         )
       }
@@ -183,11 +185,7 @@ fun ExploreScreen(
       horizontalArrangement = Arrangement.SpaceBetween,
       verticalAlignment = Alignment.CenterVertically
     ) {
-      val countText = if (language == Language.SPANISH) {
-        "${recipes.size} recetas disponibles"
-      } else {
-        "${recipes.size} recipes available"
-      }
+      val countText = AppStrings.recipesAvailable(recipes.size)
       Text(
         text = countText,
         fontSize = 13.sp,
@@ -197,7 +195,7 @@ fun ExploreScreen(
 
       if (hasActiveFilters || query.isNotEmpty()) {
         Text(
-          text = AppStrings.resetFilters(language),
+          text = AppStrings.resetFilters(),
           fontSize = 12.sp,
           fontWeight = FontWeight.Bold,
           color = MaterialTheme.colorScheme.primary,
@@ -210,9 +208,9 @@ fun ExploreScreen(
     if (recipes.isEmpty()) {
       EmptyStateView(
         icon = Icons.Outlined.SearchOff,
-        title = AppStrings.noSearchResults(language),
-        description = AppStrings.noSearchResultsDesc(language),
-        actionText = AppStrings.clearSearch(language),
+        title = AppStrings.noSearchResults(),
+        description = AppStrings.noSearchResultsDesc(),
+        actionText = AppStrings.clearSearch(),
         onActionClick = { viewModel.resetFilters() }
       )
     } else {

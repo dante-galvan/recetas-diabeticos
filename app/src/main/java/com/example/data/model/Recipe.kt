@@ -90,7 +90,7 @@ data class RecipeCollection(
 data class UserProfile(
   val dietaryPreferences: Set<String> = setOf("Low Carb", "Bajas en carbohidratos"),
   val allergies: Set<String> = emptySet(),
-  val language: Language = Language.SPANISH,
+  val language: Language = Language.ENGLISH,
   val isDarkTheme: Boolean? = null, // null = system default
   val mealRemindersEnabled: Boolean = true,
   val isOnboardingCompleted: Boolean = true

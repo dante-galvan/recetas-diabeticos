@@ -83,9 +83,9 @@ fun HomeScreen(
   // Determine greeting based on current time
   val hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY)
   val greeting = when (hour) {
-    in 5..11 -> AppStrings.greetingMorning(language)
-    in 12..18 -> AppStrings.greetingAfternoon(language)
-    else -> AppStrings.greetingEvening(language)
+    in 5..11 -> AppStrings.greetingMorning()
+    in 12..18 -> AppStrings.greetingAfternoon()
+    else -> AppStrings.greetingEvening()
   }
 
   // Quick categories
@@ -127,7 +127,7 @@ fun HomeScreen(
             )
             Spacer(modifier = Modifier.height(2.dp))
             Text(
-              text = AppStrings.homeSubtitle(language),
+              text = AppStrings.homeSubtitle(),
               style = MaterialTheme.typography.bodyMedium,
               color = MaterialTheme.colorScheme.onSurfaceVariant
             )
@@ -155,7 +155,7 @@ fun HomeScreen(
             modifier = Modifier.size(20.dp)
           )
           Text(
-            text = AppStrings.recipeOfTheDay(language),
+            text = AppStrings.recipeOfTheDay(),
             style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
             color = MaterialTheme.colorScheme.onBackground
           )
@@ -175,7 +175,7 @@ fun HomeScreen(
     item {
       Column(modifier = Modifier.fillMaxWidth()) {
         Text(
-          text = AppStrings.quickCategories(language),
+          text = AppStrings.quickCategories(),
           style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
           color = MaterialTheme.colorScheme.onBackground,
           modifier = Modifier.padding(horizontal = 20.dp, vertical = 4.dp)
@@ -253,7 +253,7 @@ fun HomeScreen(
                 modifier = Modifier.size(20.dp)
               )
               Text(
-                text = AppStrings.todayMealPlan(language),
+                text = AppStrings.todayMealPlan(),
                 style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.Bold),
                 color = MaterialTheme.colorScheme.onPrimaryContainer
               )
@@ -261,7 +261,7 @@ fun HomeScreen(
 
             TextButton(onClick = { viewModel.navigateTo(AppScreen.PLAN) }) {
               Text(
-                text = AppStrings.viewFullPlan(language),
+                text = AppStrings.viewFullPlan(),
                 fontSize = 12.sp,
                 fontWeight = FontWeight.Bold
               )
@@ -270,7 +270,7 @@ fun HomeScreen(
 
           if (todayMeals.isEmpty()) {
             Text(
-              text = AppStrings.emptyDayPlan(language),
+              text = AppStrings.emptyDayPlan(),
               fontSize = 12.sp,
               color = MaterialTheme.colorScheme.onSurfaceVariant,
               modifier = Modifier.padding(vertical = 6.dp)
@@ -304,7 +304,7 @@ fun HomeScreen(
                       overflow = TextOverflow.Ellipsis
                     )
                     Text(
-                      text = "${item.recipe.nutrition.totalCarbsGrams.toInt()}g carb",
+                      text = "${item.recipe.nutrition.totalCarbsGrams.toInt()}g ${AppStrings.totalCarbsShort()}",
                       fontSize = 10.sp,
                       color = CarbAccent,
                       fontWeight = FontWeight.SemiBold
@@ -329,12 +329,12 @@ fun HomeScreen(
           verticalAlignment = Alignment.CenterVertically
         ) {
           Text(
-            text = AppStrings.recommendedForYou(language),
+            text = AppStrings.recommendedForYou(),
             style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
             color = MaterialTheme.colorScheme.onBackground
           )
           TextButton(onClick = { viewModel.navigateTo(AppScreen.EXPLORE) }) {
-            Text(text = AppStrings.viewAll(language), fontSize = 12.sp)
+            Text(text = AppStrings.viewAll(), fontSize = 12.sp)
           }
         }
 
@@ -369,12 +369,12 @@ fun HomeScreen(
           verticalAlignment = Alignment.CenterVertically
         ) {
           Text(
-            text = AppStrings.popularRecipes(language),
+            text = AppStrings.popularRecipes(),
             style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
             color = MaterialTheme.colorScheme.onBackground
           )
           TextButton(onClick = { viewModel.navigateTo(AppScreen.EXPLORE) }) {
-            Text(text = AppStrings.viewAll(language), fontSize = 12.sp)
+            Text(text = AppStrings.viewAll(), fontSize = 12.sp)
           }
         }
 
@@ -399,7 +399,7 @@ fun HomeScreen(
         verticalArrangement = Arrangement.spacedBy(14.dp)
       ) {
         Text(
-          text = AppStrings.newRecipes(language),
+          text = AppStrings.newRecipes(),
           style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
           color = MaterialTheme.colorScheme.onBackground
         )
@@ -470,7 +470,7 @@ private fun FeaturedRecipeCard(
         color = CarbAccent
       ) {
         Text(
-          text = "${recipe.nutrition.totalCarbsGrams.toInt()}g ${AppStrings.totalCarbs(language)}",
+          text = "${recipe.nutrition.totalCarbsGrams.toInt()}g ${AppStrings.totalCarbs()}",
           color = Color.White,
           fontSize = 12.sp,
           fontWeight = FontWeight.Bold,
@@ -525,7 +525,7 @@ private fun FeaturedRecipeCard(
               modifier = Modifier.size(14.dp)
             )
             Text(
-              text = "${recipe.totalTimeMinutes} ${AppStrings.min(language)}",
+              text = "${recipe.totalTimeMinutes} ${AppStrings.min()}",
               color = Color.White.copy(alpha = 0.9f),
               fontSize = 12.sp
             )
@@ -538,7 +538,7 @@ private fun FeaturedRecipeCard(
           )
 
           Text(
-            text = "${recipe.nutrition.calories} ${AppStrings.kcal(language)}",
+            text = "${recipe.nutrition.calories} ${AppStrings.kcal()}",
             color = Color.White.copy(alpha = 0.9f),
             fontSize = 12.sp,
             fontWeight = FontWeight.SemiBold
@@ -551,7 +551,7 @@ private fun FeaturedRecipeCard(
           )
 
           Text(
-            text = "${recipe.nutrition.proteinGrams.toInt()}g ${AppStrings.protein(language)}",
+            text = "${recipe.nutrition.proteinGrams.toInt()}g ${AppStrings.protein()}",
             color = Color.White.copy(alpha = 0.9f),
             fontSize = 12.sp
           )

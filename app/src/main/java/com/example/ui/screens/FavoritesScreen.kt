@@ -79,7 +79,7 @@ fun FavoritesScreen(
         .padding(horizontal = 20.dp, vertical = 12.dp)
     ) {
       Text(
-        text = AppStrings.favorites(language),
+        text = AppStrings.myFavorites(),
         style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold),
         color = MaterialTheme.colorScheme.onBackground
       )
@@ -87,7 +87,7 @@ fun FavoritesScreen(
       Spacer(modifier = Modifier.height(2.dp))
 
       Text(
-        text = AppStrings.favoritesSubtitle(language),
+        text = AppStrings.favoritesSubtitle(),
         style = MaterialTheme.typography.bodyMedium,
         color = MaterialTheme.colorScheme.onSurfaceVariant
       )
@@ -102,7 +102,7 @@ fun FavoritesScreen(
       verticalAlignment = Alignment.CenterVertically
     ) {
       Text(
-        text = AppStrings.myCollections(language),
+        text = AppStrings.collections(),
         style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.Bold),
         color = MaterialTheme.colorScheme.onSurface
       )
@@ -113,7 +113,7 @@ fun FavoritesScreen(
           horizontalArrangement = Arrangement.spacedBy(4.dp)
         ) {
           Icon(imageVector = Icons.Default.Add, contentDescription = null, modifier = Modifier.size(16.dp))
-          Text(text = AppStrings.newCollection(language), fontSize = 12.sp, fontWeight = FontWeight.Bold)
+          Text(text = AppStrings.newCollection(), fontSize = 12.sp, fontWeight = FontWeight.Bold)
         }
       }
     }
@@ -128,7 +128,7 @@ fun FavoritesScreen(
         FilterChip(
           selected = selectedCollectionId == null,
           onClick = { viewModel.selectedCollectionId.value = null },
-          label = { Text(AppStrings.allFavorites(language)) },
+          label = { Text(AppStrings.allFavorites()) },
           shape = RoundedCornerShape(12.dp)
         )
       }
@@ -156,9 +156,9 @@ fun FavoritesScreen(
     if (displayedRecipes.isEmpty()) {
       EmptyStateView(
         icon = Icons.Outlined.FavoriteBorder,
-        title = AppStrings.noFavoritesYet(language),
-        description = AppStrings.noFavoritesDesc(language),
-        actionText = AppStrings.discoverRecipes(language),
+        title = AppStrings.noFavoritesYet(),
+        description = AppStrings.noFavoritesDesc(),
+        actionText = AppStrings.discoverRecipes(),
         onActionClick = { viewModel.navigateTo(AppScreen.EXPLORE) }
       )
     } else {

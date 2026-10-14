@@ -121,7 +121,7 @@ fun RecipeCard(
               fontWeight = FontWeight.Bold
             )
             Text(
-              text = AppStrings.totalCarbsShort(language),
+              text = AppStrings.totalCarbsShort(),
               color = Color.White.copy(alpha = 0.9f),
               fontSize = 11.sp,
               fontWeight = FontWeight.Medium
@@ -182,7 +182,7 @@ fun RecipeCard(
                 modifier = Modifier.size(13.dp)
               )
               Text(
-                text = "${recipe.totalTimeMinutes} ${AppStrings.min(language)}",
+                text = "${recipe.totalTimeMinutes} ${AppStrings.min()}",
                 color = Color.White,
                 fontSize = 11.sp,
                 fontWeight = FontWeight.SemiBold
@@ -195,9 +195,9 @@ fun RecipeCard(
             color = Color.Black.copy(alpha = 0.65f)
           ) {
             val diffText = when (recipe.difficulty) {
-              Difficulty.EASY -> AppStrings.diffEasy(language)
-              Difficulty.MEDIUM -> AppStrings.diffMedium(language)
-              Difficulty.HARD -> AppStrings.diffHard(language)
+              Difficulty.EASY -> AppStrings.diffEasy()
+              Difficulty.MEDIUM -> AppStrings.diffMedium()
+              Difficulty.HARD -> AppStrings.diffHard()
             }
             Text(
               text = diffText,
@@ -234,7 +234,7 @@ fun RecipeCard(
           verticalAlignment = Alignment.CenterVertically
         ) {
           Text(
-            text = "${recipe.nutrition.calories} ${AppStrings.kcal(language)}",
+            text = "${recipe.nutrition.calories} ${AppStrings.kcal()}",
             fontSize = 12.sp,
             fontWeight = FontWeight.SemiBold,
             color = MaterialTheme.colorScheme.secondary
@@ -247,7 +247,7 @@ fun RecipeCard(
           )
 
           Text(
-            text = "${recipe.nutrition.proteinGrams.toInt()}g ${AppStrings.protein(language)}",
+            text = "${recipe.nutrition.proteinGrams.toInt()}g ${AppStrings.protein()}",
             fontSize = 12.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant
           )
@@ -259,7 +259,7 @@ fun RecipeCard(
           )
 
           Text(
-            text = "${recipe.nutrition.fiberGrams.toInt()}g ${AppStrings.fiber(language)}",
+            text = "${recipe.nutrition.fiberGrams.toInt()}g ${AppStrings.fiber()}",
             fontSize = 12.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant
           )
@@ -322,7 +322,7 @@ fun RecipeHorizontalCard(
           color = CarbAccent
         ) {
           Text(
-            text = "${recipe.nutrition.totalCarbsGrams.toInt()}g ${AppStrings.totalCarbsShort(language)}",
+            text = "${recipe.nutrition.totalCarbsGrams.toInt()}g ${AppStrings.totalCarbsShort()}",
             color = Color.White,
             fontSize = 11.sp,
             fontWeight = FontWeight.Bold,
@@ -355,7 +355,7 @@ fun RecipeHorizontalCard(
             .align(Alignment.BottomStart)
         ) {
           Text(
-            text = "${recipe.totalTimeMinutes} ${AppStrings.min(language)}",
+            text = "${recipe.totalTimeMinutes} ${AppStrings.min()}",
             color = Color.White,
             fontSize = 11.sp,
             fontWeight = FontWeight.Medium,
@@ -382,13 +382,13 @@ fun RecipeHorizontalCard(
           verticalAlignment = Alignment.CenterVertically
         ) {
           Text(
-            text = "${recipe.nutrition.calories} ${AppStrings.kcal(language)}",
+            text = "${recipe.nutrition.calories} ${AppStrings.kcal()}",
             fontSize = 11.sp,
             fontWeight = FontWeight.SemiBold,
             color = MaterialTheme.colorScheme.secondary
           )
           Text(
-            text = "• ${recipe.nutrition.proteinGrams.toInt()}g ${AppStrings.protein(language)}",
+            text = "• ${recipe.nutrition.proteinGrams.toInt()}g ${AppStrings.protein()}",
             fontSize = 11.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant
           )

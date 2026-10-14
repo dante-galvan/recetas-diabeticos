@@ -78,7 +78,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
   // Current Language
   val currentLanguage: StateFlow<Language> = userProfile
     .combine(MutableStateFlow(Unit)) { profile, _ -> profile.language }
-    .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), Language.SPANISH)
+    .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), Language.ENGLISH)
 
   // Search & Filters for Explore
   val searchQuery = MutableStateFlow("")
@@ -154,11 +154,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
 
   init {
     // Check initial device locale for default language if first time
-    val defaultDeviceLang = Language.fromCode(java.util.Locale.getDefault().language)
     viewModelScope.launch {
       userProfile.collect { profile ->
-        if (!profile.isOnboardingCompleted && profile.language != defaultDeviceLang) {
-          repository.saveUserProfile(profile.copy(language = defaultDeviceLang))
+        if (!profile.isOnboardingCompleted) {
+          // Default to English on fresh install
+          repository.saveUserProfile(profile.copy(language = Language.ENGLISH))
         }
       }
     }

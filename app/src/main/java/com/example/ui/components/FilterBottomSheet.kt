@@ -75,7 +75,7 @@ fun FilterBottomSheet(
         verticalAlignment = Alignment.CenterVertically
       ) {
         Text(
-          text = AppStrings.filters(language),
+          text = AppStrings.filters(),
           style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
           color = MaterialTheme.colorScheme.onSurface
         )
@@ -92,7 +92,7 @@ fun FilterBottomSheet(
           },
           shape = RoundedCornerShape(8.dp)
         ) {
-          Text(text = AppStrings.resetFilters(language), fontSize = 12.sp)
+          Text(text = AppStrings.resetFilters(), fontSize = 12.sp)
         }
       }
 
@@ -100,7 +100,7 @@ fun FilterBottomSheet(
 
       // Sorting
       Text(
-        text = AppStrings.sortOrder(language),
+        text = AppStrings.sortOrder(),
         style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
         color = MaterialTheme.colorScheme.primary
       )
@@ -117,22 +117,22 @@ fun FilterBottomSheet(
         FilterChip(
           selected = tempSortBy == SortOption.LOWEST_CARBS,
           onClick = { tempSortBy = SortOption.LOWEST_CARBS },
-          label = { Text(AppStrings.sortLowestCarbs(language)) }
+          label = { Text(AppStrings.sortLowestCarbs()) }
         )
         FilterChip(
           selected = tempSortBy == SortOption.QUICKEST,
           onClick = { tempSortBy = SortOption.QUICKEST },
-          label = { Text(AppStrings.sortQuickest(language)) }
+          label = { Text(AppStrings.sortQuickest()) }
         )
         FilterChip(
           selected = tempSortBy == SortOption.LOWEST_CALORIES,
           onClick = { tempSortBy = SortOption.LOWEST_CALORIES },
-          label = { Text(AppStrings.sortLowestCalories(language)) }
+          label = { Text(AppStrings.sortLowestCalories()) }
         )
         FilterChip(
           selected = tempSortBy == SortOption.HIGHEST_PROTEIN,
           onClick = { tempSortBy = SortOption.HIGHEST_PROTEIN },
-          label = { Text(AppStrings.sortHighestProtein(language)) }
+          label = { Text(AppStrings.sortHighestProtein()) }
         )
       }
 
@@ -140,7 +140,7 @@ fun FilterBottomSheet(
 
       // Maximum Total Carbohydrates
       Text(
-        text = AppStrings.filterMaxCarbs(language),
+        text = AppStrings.filterMaxCarbs(),
         style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
         color = MaterialTheme.colorScheme.primary
       )
@@ -150,7 +150,7 @@ fun FilterBottomSheet(
         verticalArrangement = Arrangement.spacedBy(8.dp)
       ) {
         listOf(
-          null to AppStrings.filterAll(language),
+          null to AppStrings.filterAll(),
           10.0 to "≤ 10g",
           15.0 to "≤ 15g",
           25.0 to "≤ 25g",
@@ -168,7 +168,7 @@ fun FilterBottomSheet(
 
       // Max Prep Time
       Text(
-        text = AppStrings.filterMaxTime(language),
+        text = AppStrings.filterMaxTime(),
         style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
         color = MaterialTheme.colorScheme.primary
       )
@@ -178,10 +178,10 @@ fun FilterBottomSheet(
         verticalArrangement = Arrangement.spacedBy(8.dp)
       ) {
         listOf(
-          null to AppStrings.filterAll(language),
-          15 to "≤ 15 ${AppStrings.min(language)}",
-          25 to "≤ 25 ${AppStrings.min(language)}",
-          40 to "≤ 40 ${AppStrings.min(language)}"
+          null to AppStrings.filterAll(),
+          15 to "≤ 15 ${AppStrings.min()}",
+          25 to "≤ 25 ${AppStrings.min()}",
+          40 to "≤ 40 ${AppStrings.min()}"
         ).forEach { (time, label) ->
           FilterChip(
             selected = tempMaxTime == time,
@@ -195,7 +195,7 @@ fun FilterBottomSheet(
 
       // Difficulty
       Text(
-        text = AppStrings.filterDifficulty(language),
+        text = AppStrings.filterDifficulty(),
         style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
         color = MaterialTheme.colorScheme.primary
       )
@@ -204,22 +204,22 @@ fun FilterBottomSheet(
         FilterChip(
           selected = tempDifficulty == null,
           onClick = { tempDifficulty = null },
-          label = { Text(AppStrings.filterAll(language)) }
+          label = { Text(AppStrings.filterAll()) }
         )
         FilterChip(
           selected = tempDifficulty == Difficulty.EASY,
           onClick = { tempDifficulty = Difficulty.EASY },
-          label = { Text(AppStrings.diffEasy(language)) }
+          label = { Text(AppStrings.diffEasy()) }
         )
         FilterChip(
           selected = tempDifficulty == Difficulty.MEDIUM,
           onClick = { tempDifficulty = Difficulty.MEDIUM },
-          label = { Text(AppStrings.diffMedium(language)) }
+          label = { Text(AppStrings.diffMedium()) }
         )
         FilterChip(
           selected = tempDifficulty == Difficulty.HARD,
           onClick = { tempDifficulty = Difficulty.HARD },
-          label = { Text(AppStrings.diffHard(language)) }
+          label = { Text(AppStrings.diffHard()) }
         )
       }
 
@@ -227,7 +227,7 @@ fun FilterBottomSheet(
 
       // Dietary Preferences
       Text(
-        text = AppStrings.filterDietary(language),
+        text = AppStrings.filterDietary(),
         style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
         color = MaterialTheme.colorScheme.primary
       )
@@ -270,7 +270,7 @@ fun FilterBottomSheet(
         shape = RoundedCornerShape(14.dp)
       ) {
         Text(
-          text = AppStrings.applyFilters(language),
+          text = AppStrings.applyFilters(),
           fontWeight = FontWeight.Bold,
           fontSize = 16.sp
         )

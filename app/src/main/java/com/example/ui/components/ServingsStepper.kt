@@ -43,7 +43,7 @@ fun ServingsStepper(
       horizontalArrangement = Arrangement.spacedBy(8.dp)
     ) {
       Text(
-        text = "${AppStrings.servings(language)}:",
+        text = "${AppStrings.servings()}:",
         fontSize = 13.sp,
         fontWeight = FontWeight.Medium,
         color = MaterialTheme.colorScheme.onSurfaceVariant,

@@ -6,6 +6,8 @@ import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.os.LocaleListCompat
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Box
@@ -41,16 +43,20 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.app.diabeticos.R
 import com.example.ui.components.AddToPlanDialog
 import com.example.ui.components.FilterBottomSheet
 import com.example.ui.components.NewCollectionDialog
 import com.example.ui.components.RecipePickerForSlotDialog
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
+import com.example.ui.i18n.getString
 import com.example.ui.screens.ExploreScreen
 import com.example.ui.screens.FavoritesScreen
 import com.example.ui.screens.HomeScreen
@@ -61,20 +67,41 @@ import com.example.ui.screens.RecipeDetailScreen
 import com.example.ui.theme.DiaRecipesTheme
 import com.example.ui.viewmodel.AppScreen
 import com.example.ui.viewmodel.MainViewModel
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
+import java.util.Locale
 
 class MainActivity : ComponentActivity() {
   private val viewModel: MainViewModel by viewModels()
+  private val uiScope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     enableEdgeToEdge()
+    
+    // Initialize locale from saved preference
+    uiScope.launch {
+      val profile = viewModel.userProfile.value
+      val localeList = LocaleListCompat.forLanguageTags(profile.language.code)
+      AppCompatDelegate.setApplicationLocales(localeList)
+    }
+    
     setContent {
       val userProfile by viewModel.userProfile.collectAsState()
       val isDark = when (userProfile.isDarkTheme) {
         true -> true
         false -> false
         null -> isSystemInDarkTheme()
+      }
+
+      // Update locale when language changes
+      val language by viewModel.currentLanguage.collectAsState()
+      LaunchedEffect(language) {
+        val localeList = LocaleListCompat.forLanguageTags(language.code)
+        AppCompatDelegate.setApplicationLocales(localeList)
       }
 
       DiaRecipesTheme(darkTheme = isDark) {
@@ -86,14 +113,14 @@ class MainActivity : ComponentActivity() {
 
 sealed class BottomNavItem(
   val screen: AppScreen,
-  val titleKey: (Language) -> String,
+  val titleRes: Int,
   val selectedIcon: ImageVector,
   val unselectedIcon: ImageVector,
   val testTag: String
 ) {
   object Home : BottomNavItem(
     AppScreen.HOME,
-    { AppStrings.navHome(it) },
+    R.string.nav_home,
     Icons.Filled.Home,
     Icons.Outlined.Home,
     "nav_home"
@@ -101,7 +128,7 @@ sealed class BottomNavItem(
 
   object Explore : BottomNavItem(
     AppScreen.EXPLORE,
-    { AppStrings.navExplore(it) },
+    R.string.nav_explore,
     Icons.Filled.Search,
     Icons.Outlined.Search,
     "nav_explore"
@@ -109,7 +136,7 @@ sealed class BottomNavItem(
 
   object Plan : BottomNavItem(
     AppScreen.PLAN,
-    { AppStrings.navPlan(it) },
+    R.string.nav_plan,
     Icons.Filled.CalendarMonth,
     Icons.Outlined.CalendarMonth,
     "nav_plan"
@@ -117,7 +144,7 @@ sealed class BottomNavItem(
 
   object Favorites : BottomNavItem(
     AppScreen.FAVORITES,
-    { AppStrings.navFavorites(it) },
+    R.string.nav_favorites,
     Icons.Filled.Favorite,
     Icons.Outlined.FavoriteBorder,
     "nav_favorites"
@@ -125,7 +152,7 @@ sealed class BottomNavItem(
 
   object Profile : BottomNavItem(
     AppScreen.PROFILE,
-    { AppStrings.navProfile(it) },
+    R.string.nav_profile,
     Icons.Filled.Person,
     Icons.Outlined.Person,
     "nav_profile"
@@ -194,12 +221,12 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
               icon = {
                 Icon(
                   imageVector = if (isSelected) item.selectedIcon else item.unselectedIcon,
-                  contentDescription = item.titleKey(language)
+                  contentDescription = stringResource(item.titleRes)
                 )
               },
               label = {
                 Text(
-                  text = item.titleKey(language),
+                  text = stringResource(item.titleRes),
                   fontSize = 11.sp,
                   fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium
                 )
@@ -246,13 +273,14 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
   // 1. Add to Meal Plan Dialog
   val showAddToPlan by viewModel.showAddToPlanDialog.collectAsState()
   if (showAddToPlan) {
+    val context = LocalContext.current
     AddToPlanDialog(
       language = language,
       onConfirm = { day, slot ->
         viewModel.addCurrentRecipeToMealPlan(
           day,
           slot,
-          if (language == Language.SPANISH) "Receta añadida al plan semanal" else "Recipe added to weekly plan"
+          getString(context, R.string.added_to_plan_success)
         )
       },
       onDismiss = { viewModel.showAddToPlanDialog.value = false }

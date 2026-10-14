@@ -72,7 +72,7 @@ fun NutritionGrid(
                 .background(CarbAccent, CircleShape)
             )
             Text(
-              text = AppStrings.totalCarbs(language).uppercase(),
+              text = AppStrings.totalCarbs().uppercase(),
               fontSize = 11.sp,
               fontWeight = FontWeight.Bold,
               letterSpacing = 0.5.sp,
@@ -90,7 +90,7 @@ fun NutritionGrid(
           )
 
           Text(
-            text = AppStrings.perServing(language),
+            text = AppStrings.perServing(),
             fontSize = 11.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant
           )
@@ -118,7 +118,7 @@ fun NutritionGrid(
                 .background(CalorieAccent, CircleShape)
             )
             Text(
-              text = AppStrings.calories(language).uppercase(),
+              text = AppStrings.calories().uppercase(),
               fontSize = 11.sp,
               fontWeight = FontWeight.Bold,
               letterSpacing = 0.5.sp,
@@ -136,7 +136,7 @@ fun NutritionGrid(
           )
 
           Text(
-            text = "${AppStrings.kcal(language)} ${AppStrings.perServing(language)}",
+            text = "${AppStrings.kcal()} ${AppStrings.perServing()}",
             fontSize = 11.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant
           )
@@ -151,13 +151,13 @@ fun NutritionGrid(
       horizontalArrangement = Arrangement.spacedBy(10.dp)
     ) {
       NutrientItem(
-        label = AppStrings.sugars(language),
+        label = AppStrings.sugars(),
         value = "${nutrition.sugarsGrams}g",
         accentColor = Color(0xFFD97706),
         modifier = Modifier.weight(1f)
       )
       NutrientItem(
-        label = AppStrings.fiber(language),
+        label = AppStrings.fiber(),
         value = "${nutrition.fiberGrams}g",
         accentColor = FiberAccent,
         modifier = Modifier.weight(1f)
@@ -170,13 +170,13 @@ fun NutritionGrid(
       horizontalArrangement = Arrangement.spacedBy(10.dp)
     ) {
       NutrientItem(
-        label = AppStrings.protein(language),
+        label = AppStrings.protein(),
         value = "${nutrition.proteinGrams}g",
         accentColor = ProteinAccent,
         modifier = Modifier.weight(1f)
       )
       NutrientItem(
-        label = AppStrings.totalFat(language),
+        label = AppStrings.totalFat(),
         value = "${nutrition.fatGrams}g",
         accentColor = Color(0xFF8B5CF6),
         modifier = Modifier.weight(1f)
@@ -189,13 +189,13 @@ fun NutritionGrid(
       horizontalArrangement = Arrangement.spacedBy(10.dp)
     ) {
       NutrientItem(
-        label = AppStrings.saturatedFat(language),
+        label = AppStrings.saturatedFat(),
         value = "${nutrition.saturatedFatGrams}g",
         accentColor = MaterialTheme.colorScheme.outline,
         modifier = Modifier.weight(1f)
       )
       NutrientItem(
-        label = AppStrings.sodium(language),
+        label = AppStrings.sodium(),
         value = "${nutrition.sodiumMg.toInt()}mg",
         accentColor = MaterialTheme.colorScheme.outline,
         modifier = Modifier.weight(1f)

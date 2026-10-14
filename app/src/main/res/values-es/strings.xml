@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">DiaRecipes</string>
+
+    <!-- Navigation tabs -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_explore">Explorar</string>
+    <string name="nav_plan">Plan</string>
+    <string name="nav_favorites">Favoritos</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Home Screen -->
+    <string name="greeting_morning">¡Buenos días!</string>
+    <string name="greeting_afternoon">¡Buenas tardes!</string>
+    <string name="greeting_evening">¡Buenas noches!</string>
+    <string name="home_subtitle">Comida rica, sencilla y saludable para hoy</string>
+    <string name="recipe_of_the_day">Receta del Día</string>
+    <string name="quick_categories">Categorías rápidas</string>
+    <string name="recommended_for_you">Recomendadas para ti</string>
+    <string name="popular_recipes">Recetas populares</string>
+    <string name="new_recipes">Nuevas recetas</string>
+    <string name="today_meal_plan">Tu menú de hoy</string>
+    <string name="view_full_plan">Ver plan semanal</string>
+    <string name="view_all">Ver todas</string>
+
+    <!-- Nutrition labels -->
+    <string name="total_carbs">Carbohidratos Totales</string>
+    <string name="total_carbs_short">Carbos Totales</string>
+    <string name="calories">Calorías</string>
+    <string name="sugars">Azúcares</string>
+    <string name="protein">Proteínas</string>
+    <string name="total_fat">Grasas Totales</string>
+    <string name="saturated_fat">Grasas Saturadas</string>
+    <string name="fiber">Fibra Dietética</string>
+    <string name="sodium">Sodio</string>
+    <string name="per_serving">por porción</string>
+
+    <!-- Recipe detail -->
+    <string name="prep_time">Preparación</string>
+    <string name="cook_time">Cocción</string>
+    <string name="total_time">Tiempo total</string>
+    <string name="difficulty">Dificultad</string>
+    <string name="servings">Porciones</string>
+    <string name="nutritional_info">Información Nutricional</string>
+    <string name="ingredients">Ingredientes</string>
+    <string name="instructions">Preparación Paso a Paso</string>
+    <string name="add_to_plan">Agregar al Plan</string>
+    <string name="share_recipe">Compartir</string>
+    <string name="added_to_plan_success">¡Receta agregada a tu plan semanal!</string>
+    <string name="step">Paso %1$d</string>
+
+    <!-- Explore & Filters -->
+    <string name="search_placeholder">Buscar por nombre, ingrediente...</string>
+    <string name="filters">Filtros</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_categories">Categorías</string>
+    <string name="filter_dietary">Preferencias alimentarias</string>
+    <string name="filter_max_carbs">Carbohidratos máximos</string>
+    <string name="filter_max_calories">Calorías máximas</string>
+    <string name="filter_max_time">Tiempo máximo de preparación</string>
+    <string name="filter_difficulty">Nivel de dificultad</string>
+    <string name="sort_order">Ordenar por</string>
+    <string name="sort_lowest_carbs">Menos carbohidratos</string>
+    <string name="sort_lowest_calories">Menos calorías</string>
+    <string name="sort_quickest">Más rápidas</string>
+    <string name="sort_highest_protein">Más proteínas</string>
+    <string name="reset_filters">Limpiar filtros</string>
+    <string name="apply_filters">Aplicar filtros</string>
+
+    <!-- Weekly Planner -->
+    <string name="weekly_meal_planner">Planificador Semanal</string>
+    <string name="generate_weekly_menu">Generar menú semanal</string>
+    <string name="generate_menu_desc">Arma automáticamente un menú semanal equilibrado y adaptado a tus necesidades.</string>
+    <string name="day_monday">Lunes</string>
+    <string name="day_tuesday">Martes</string>
+    <string name="day_wednesday">Miércoles</string>
+    <string name="day_thursday">Jueves</string>
+    <string name="day_friday">Viernes</string>
+    <string name="day_saturday">Sábado</string>
+    <string name="day_sunday">Domingo</string>
+    <string name="meal_breakfast">Desayuno</string>
+    <string name="meal_lunch">Almuerzo</string>
+    <string name="meal_dinner">Cena</string>
+    <string name="meal_snack">Snack / Merienda</string>
+    <string name="add_recipe_to_slot">+ Agregar receta</string>
+    <string name="change_recipe">Cambiar receta</string>
+    <string name="remove_recipe">Quitar receta</string>
+    <string name="empty_day_plan">No has agregado comidas para este día</string>
+    <string name="select_day_and_slot">Selecciona día y horario</string>
+
+    <!-- Favorites & Collections -->
+    <string name="my_favorites">Mis Favoritos</string>
+    <string name="collections">Colecciones</string>
+    <string name="new_collection">+ Nueva colección</string>
+    <string name="create_collection">Crear colección</string>
+    <string name="collection_name_prompt">Nombre de la colección (ej. Cenas rápidas)</string>
+    <string name="empty_favorites">Aún no tienes recetas favoritas</string>
+    <string name="empty_favorites_desc">Toca el corazón en cualquier receta para guardarla aquí y tenerla siempre a mano.</string>
+    <string name="explore_recipes_cta">Explorar recetas</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Bienvenido a DiaRecipes</string>
+    <string name="onboarding_welcome_sub">Recetas saludables, control de carbohidratos y planificación sencilla para tu día a día.</string>
+    <string name="onboarding_diet_title">Preferencias alimentarias</string>
+    <string name="onboarding_diet_sub">Elige los estilos de alimentación que más te gustan.</string>
+    <string name="onboarding_allergies_title">Alergias o ingredientes a evitar</string>
+    <string name="onboarding_allergies_sub">Ocultaremos o destacaremos avisos en recetas que contengan estos ingredientes.</string>
+    <string name="continue_btn">Continuar</string>
+    <string name="start_cooking">Comenzar</string>
+    <string name="skip">Omitir por ahora</string>
+
+    <!-- Profile & Settings -->
+    <string name="user_profile">Mi Perfil</string>
+    <string name="dietary_goals">Preferencias de dieta</string>
+    <string name="allergies">Alergias registradas</string>
+    <string name="none_recorded">Ninguna registrada</string>
+    <string name="edit_preferences">Editar preferencias</string>
+    <string name="settings_title">Configuración</string>
+    <string name="language_setting">Idioma de la aplicación</string>
+    <string name="theme_setting">Tema de pantalla</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="theme_system">Automático del sistema</string>
+    <string name="notifications">Recordatorios de comida</string>
+    <string name="privacy_policy">Política de Privacidad</string>
+    <string name="terms_of_service">Términos y Condiciones</string>
+    <string name="about_app">Acerca de DiaRecipes</string>
+    <string name="app_version">Versión 1.0.0 (Build 2026)</string>
+
+    <!-- Empty & Error states -->
+    <string name="no_search_results">No encontramos recetas para tu búsqueda</string>
+    <string name="no_search_results_desc">Prueba con otros términos o relaja algunos de los filtros seleccionados.</string>
+    <string name="clear_search">Restablecer búsqueda</string>
+    <string name="close">Cerrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="understood">Entendido</string>
+    <string name="min">min</string>
+    <string name="kcal">kcal</string>
+    <string name="grams">g</string>
+    <string name="mg">mg</string>
+
+    <!-- Difficulties -->
+    <string name="diff_easy">Fácil</string>
+    <string name="diff_medium">Media</string>
+    <string name="diff_hard">Avanzada</string>
+
+    <!-- Additional Screen Strings -->
+    <string name="favorites_subtitle">Tus recetas preferidas organizadas</string>
+    <string name="all_favorites">Todas</string>
+    <string name="no_favorites_yet">Aún no tienes recetas favoritas</string>
+    <string name="no_favorites_desc">Toca el corazón en cualquier receta para guardarla aquí y tenerla siempre a mano.</string>
+    <string name="discover_recipes">Explorar recetas</string>
+
+    <!-- Language names (native) -->
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_portuguese">Português</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_german">Deutsch</string>
+    <string name="lang_italian">Italiano</string>
+
+    <!-- Dialog specific -->
+    <string name="day_of_week">Día de la semana</string>
+    <string name="meal_slot">Momento de comida</string>
+    <string name="recipes_available">%1$d recetas disponibles</string>
+</resources>

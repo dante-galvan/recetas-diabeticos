@@ -1,5 +1,6 @@
 package com.example.ui.screens
 
+import android.content.Context
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -27,6 +28,7 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import com.app.diabeticos.R
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
@@ -41,6 +43,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -52,6 +55,7 @@ import com.example.data.model.MealSlot
 import com.example.data.model.Recipe
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
+import com.example.ui.i18n.getString
 import com.example.ui.theme.CarbAccent
 import com.example.ui.viewmodel.MainViewModel
 
@@ -65,13 +69,13 @@ fun MealPlanScreen(
   val mealPlanItems by viewModel.mealPlanItems.collectAsState()
 
   val days = listOf(
-    1 to AppStrings.dayMonday(language),
-    2 to AppStrings.dayTuesday(language),
-    3 to AppStrings.dayWednesday(language),
-    4 to AppStrings.dayThursday(language),
-    5 to AppStrings.dayFriday(language),
-    6 to AppStrings.daySaturday(language),
-    7 to AppStrings.daySunday(language)
+    1 to AppStrings.dayMonday(),
+    2 to AppStrings.dayTuesday(),
+    3 to AppStrings.dayWednesday(),
+    4 to AppStrings.dayThursday(),
+    5 to AppStrings.dayFriday(),
+    6 to AppStrings.daySaturday(),
+    7 to AppStrings.daySunday()
   )
 
   val dayMeals = mealPlanItems.filter { it.dayOfWeek == selectedDay }
@@ -91,7 +95,7 @@ fun MealPlanScreen(
           .padding(horizontal = 20.dp, vertical = 10.dp)
       ) {
         Text(
-          text = AppStrings.weeklyMealPlanner(language),
+          text = AppStrings.weeklyMealPlanner(),
           style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold),
           color = MaterialTheme.colorScheme.onBackground
         )
@@ -99,7 +103,7 @@ fun MealPlanScreen(
         Spacer(modifier = Modifier.height(4.dp))
 
         Text(
-          text = AppStrings.generateMenuDesc(language),
+          text = AppStrings.generateMenuDesc(),
           style = MaterialTheme.typography.bodyMedium,
           color = MaterialTheme.colorScheme.onSurfaceVariant
         )
@@ -107,10 +111,11 @@ fun MealPlanScreen(
         Spacer(modifier = Modifier.height(14.dp))
 
         // Prominent Friendly Generate Button
+        val context = LocalContext.current
         Button(
           onClick = {
             viewModel.generateWeeklyMenu(
-              if (language == Language.SPANISH) "¡Menú semanal equilibrado generado!" else "Balanced weekly menu generated!"
+              getString(context, R.string.generate_weekly_menu)
             )
           },
           shape = RoundedCornerShape(14.dp),
@@ -127,7 +132,7 @@ fun MealPlanScreen(
           )
           Spacer(modifier = Modifier.width(6.dp))
           Text(
-            text = AppStrings.generateWeeklyMenu(language),
+            text = AppStrings.generateWeeklyMenu(),
             fontSize = 12.sp,
             fontWeight = FontWeight.Bold
           )
@@ -289,7 +294,7 @@ private fun MealSlotCard(
                 color = CarbAccent.copy(alpha = 0.15f)
               ) {
                 Text(
-                  text = "${recipe.nutrition.totalCarbsGrams.toInt()}g ${AppStrings.totalCarbsShort(language)}",
+                  text = "${recipe.nutrition.totalCarbsGrams.toInt()}g ${AppStrings.totalCarbsShort()}",
                   fontSize = 11.sp,
                   fontWeight = FontWeight.Bold,
                   color = CarbAccent,
@@ -298,7 +303,7 @@ private fun MealSlotCard(
               }
 
               Text(
-                text = "${recipe.nutrition.calories} ${AppStrings.kcal(language)}",
+                text = "${recipe.nutrition.calories} ${AppStrings.kcal()}",
                 fontSize = 11.sp,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
               )
@@ -327,7 +332,7 @@ private fun MealSlotCard(
             )
             Spacer(modifier = Modifier.width(6.dp))
             Text(
-              text = AppStrings.addRecipeToSlot(language),
+              text = AppStrings.addRecipeToSlot(),
               fontSize = 13.sp,
               fontWeight = FontWeight.SemiBold,
               color = MaterialTheme.colorScheme.primary

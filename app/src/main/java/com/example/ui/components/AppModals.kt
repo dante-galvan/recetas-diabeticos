@@ -60,13 +60,13 @@ fun AddToPlanDialog(
   var selectedSlot by remember { mutableStateOf(MealSlot.LUNCH) }
 
   val days = listOf(
-    1 to AppStrings.dayMonday(language),
-    2 to AppStrings.dayTuesday(language),
-    3 to AppStrings.dayWednesday(language),
-    4 to AppStrings.dayThursday(language),
-    5 to AppStrings.dayFriday(language),
-    6 to AppStrings.daySaturday(language),
-    7 to AppStrings.daySunday(language)
+    1 to AppStrings.dayMonday(),
+    2 to AppStrings.dayTuesday(),
+    3 to AppStrings.dayWednesday(),
+    4 to AppStrings.dayThursday(),
+    5 to AppStrings.dayFriday(),
+    6 to AppStrings.daySaturday(),
+    7 to AppStrings.daySunday()
   )
 
   AlertDialog(
@@ -74,7 +74,7 @@ fun AddToPlanDialog(
     shape = RoundedCornerShape(24.dp),
     title = {
       Text(
-        text = AppStrings.addToPlan(language),
+        text = AppStrings.addToPlan(),
         style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold)
       )
     },
@@ -87,7 +87,7 @@ fun AddToPlanDialog(
       ) {
         // Day of Week
         Text(
-          text = if (language == Language.SPANISH) "Día de la semana" else "Day of week",
+          text = AppStrings.dayOfWeek(),
           style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
           color = MaterialTheme.colorScheme.primary
         )
@@ -112,7 +112,7 @@ fun AddToPlanDialog(
 
         // Meal Slot
         Text(
-          text = if (language == Language.SPANISH) "Momento de comida" else "Meal slot",
+          text = AppStrings.mealSlot(),
           style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
           color = MaterialTheme.colorScheme.primary
         )
@@ -137,12 +137,12 @@ fun AddToPlanDialog(
         onClick = { onConfirm(selectedDay, selectedSlot) },
         shape = RoundedCornerShape(12.dp)
       ) {
-        Text(text = AppStrings.confirm(language), fontWeight = FontWeight.Bold)
+        Text(text = AppStrings.confirm(), fontWeight = FontWeight.Bold)
       }
     },
     dismissButton = {
       TextButton(onClick = onDismiss) {
-        Text(text = AppStrings.cancel(language))
+        Text(text = AppStrings.cancel())
       }
     }
   )
@@ -161,7 +161,7 @@ fun NewCollectionDialog(
     shape = RoundedCornerShape(24.dp),
     title = {
       Text(
-        text = AppStrings.newCollection(language),
+        text = AppStrings.newCollection(),
         style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold)
       )
     },
@@ -169,7 +169,7 @@ fun NewCollectionDialog(
       OutlinedTextField(
         value = name,
         onValueChange = { name = it },
-        placeholder = { Text(AppStrings.collectionName(language)) },
+        placeholder = { Text(AppStrings.collectionNamePrompt()) },
         singleLine = true,
         shape = RoundedCornerShape(12.dp),
         modifier = Modifier.fillMaxWidth()
@@ -181,12 +181,12 @@ fun NewCollectionDialog(
         enabled = name.isNotBlank(),
         shape = RoundedCornerShape(12.dp)
       ) {
-        Text(text = AppStrings.confirm(language), fontWeight = FontWeight.Bold)
+        Text(text = AppStrings.confirm(), fontWeight = FontWeight.Bold)
       }
     },
     dismissButton = {
       TextButton(onClick = onDismiss) {
-        Text(text = AppStrings.cancel(language))
+        Text(text = AppStrings.cancel())
       }
     }
   )
@@ -218,7 +218,7 @@ fun RecipePickerForSlotDialog(
         verticalAlignment = Alignment.CenterVertically
       ) {
         Text(
-          text = "${AppStrings.addRecipeToSlot(language)} (${slot.localizedName(language)})",
+          text = "${AppStrings.addRecipeToSlot()} (${slot.localizedName(language)})",
           style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold)
         )
         IconButton(onClick = onDismiss, modifier = Modifier.size(32.dp)) {
@@ -235,7 +235,7 @@ fun RecipePickerForSlotDialog(
         OutlinedTextField(
           value = filterQuery,
           onValueChange = { filterQuery = it },
-          placeholder = { Text(AppStrings.searchPlaceholder(language), fontSize = 12.sp) },
+          placeholder = { Text(AppStrings.searchPlaceholder(), fontSize = 12.sp) },
           singleLine = true,
           shape = RoundedCornerShape(12.dp),
           modifier = Modifier
@@ -281,13 +281,13 @@ fun RecipePickerForSlotDialog(
                   )
                   Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     Text(
-                      text = "${recipe.nutrition.totalCarbsGrams.toInt()}g carb",
+                      text = "${recipe.nutrition.totalCarbsGrams.toInt()}g ${AppStrings.totalCarbsShort()}",
                       fontSize = 11.sp,
                       color = CarbAccent,
                       fontWeight = FontWeight.Bold
                     )
                     Text(
-                      text = "${recipe.nutrition.calories} kcal",
+                      text = "${recipe.nutrition.calories} ${AppStrings.kcal()}",
                       fontSize = 11.sp,
                       color = MaterialTheme.colorScheme.outline
                     )

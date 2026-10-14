@@ -87,7 +87,7 @@ fun OnboardingScreen(
         onComplete()
       }) {
         Text(
-          text = AppStrings.skip(language),
+          text = AppStrings.skip(),
           fontWeight = FontWeight.SemiBold,
           color = MaterialTheme.colorScheme.onSurfaceVariant
         )
@@ -113,7 +113,7 @@ fun OnboardingScreen(
     Spacer(modifier = Modifier.height(16.dp))
 
     Text(
-      text = AppStrings.onboardingTitle(language),
+      text = AppStrings.onboardingWelcomeTitle(),
       style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold),
       textAlign = TextAlign.Center,
       color = MaterialTheme.colorScheme.onBackground
@@ -122,7 +122,7 @@ fun OnboardingScreen(
     Spacer(modifier = Modifier.height(6.dp))
 
     Text(
-      text = AppStrings.onboardingSubtitle(language),
+      text = AppStrings.onboardingWelcomeSub(),
       style = MaterialTheme.typography.bodyMedium,
       textAlign = TextAlign.Center,
       color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -140,7 +140,7 @@ fun OnboardingScreen(
     ) {
       Column(modifier = Modifier.padding(16.dp)) {
         Text(
-          text = AppStrings.onboardingStep2(language),
+          text = AppStrings.onboardingDietTitle(),
           style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
           color = MaterialTheme.colorScheme.primary
         )
@@ -180,7 +180,7 @@ fun OnboardingScreen(
     ) {
       Column(modifier = Modifier.padding(16.dp)) {
         Text(
-          text = AppStrings.onboardingStep2(language),
+          text = AppStrings.onboardingAllergiesTitle(),
           style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
           color = MaterialTheme.colorScheme.primary
         )
@@ -224,7 +224,7 @@ fun OnboardingScreen(
         .testTag("onboarding_continue_btn")
     ) {
       Text(
-        text = AppStrings.continueText(language),
+        text = AppStrings.continueBtn(),
         fontSize = 16.sp,
         fontWeight = FontWeight.Bold
       )

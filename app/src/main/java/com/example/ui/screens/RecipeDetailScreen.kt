@@ -66,8 +66,10 @@ import com.example.data.model.Difficulty
 import com.example.data.model.Recipe
 import com.example.ui.components.NutritionGrid
 import com.example.ui.components.ServingsStepper
+import com.app.diabeticos.R
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
+import com.example.ui.i18n.getString
 import com.example.ui.theme.CarbAccent
 import com.example.ui.viewmodel.AppScreen
 import com.example.ui.viewmodel.MainViewModel
@@ -167,7 +169,7 @@ fun RecipeDetailScreen(
                     )
                     type = "text/plain"
                   }
-                  context.startActivity(Intent.createChooser(sendIntent, AppStrings.shareRecipe(language)))
+                  context.startActivity(Intent.createChooser(sendIntent, getString(context, R.string.share_recipe)))
                 },
                 modifier = Modifier
                   .size(42.dp)
@@ -175,7 +177,7 @@ fun RecipeDetailScreen(
               ) {
                 Icon(
                   imageVector = Icons.Default.Share,
-                  contentDescription = AppStrings.shareRecipe(language),
+                  contentDescription = getString(context, R.string.share_recipe),
                   tint = Color.White
                 )
               }
@@ -246,23 +248,23 @@ fun RecipeDetailScreen(
             verticalAlignment = Alignment.CenterVertically
           ) {
             DetailStatItem(
-              label = AppStrings.prepTime(language),
-              value = "${recipe.prepTimeMinutes} ${AppStrings.min(language)}"
+              label = AppStrings.prepTime(),
+              value = "${recipe.prepTimeMinutes} ${AppStrings.min()}"
             )
             DetailStatItem(
-              label = AppStrings.cookTime(language),
-              value = "${recipe.cookTimeMinutes} ${AppStrings.min(language)}"
+              label = AppStrings.cookTime(),
+              value = "${recipe.cookTimeMinutes} ${AppStrings.min()}"
             )
             DetailStatItem(
-              label = AppStrings.totalTime(language),
-              value = "${recipe.totalTimeMinutes} ${AppStrings.min(language)}"
+              label = AppStrings.totalTime(),
+              value = "${recipe.totalTimeMinutes} ${AppStrings.min()}"
             )
             DetailStatItem(
-              label = AppStrings.difficulty(language),
+              label = AppStrings.difficulty(),
               value = when (recipe.difficulty) {
-                Difficulty.EASY -> AppStrings.diffEasy(language)
-                Difficulty.MEDIUM -> AppStrings.diffMedium(language)
-                Difficulty.HARD -> AppStrings.diffHard(language)
+                Difficulty.EASY -> AppStrings.diffEasy()
+                Difficulty.MEDIUM -> AppStrings.diffMedium()
+                Difficulty.HARD -> AppStrings.diffHard()
               }
             )
           }
@@ -293,7 +295,7 @@ fun RecipeDetailScreen(
             .padding(horizontal = 20.dp, vertical = 14.dp)
         ) {
           Text(
-            text = AppStrings.nutritionalInfo(language),
+            text = AppStrings.nutritionalInfo(),
             style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
             color = MaterialTheme.colorScheme.onBackground
           )
@@ -320,7 +322,7 @@ fun RecipeDetailScreen(
             verticalAlignment = Alignment.CenterVertically
           ) {
             Text(
-              text = "${AppStrings.ingredients(language)} (${recipe.ingredients.size})",
+              text = "${AppStrings.ingredients()} (${recipe.ingredients.size})",
               style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
               color = MaterialTheme.colorScheme.onBackground
             )
@@ -388,7 +390,7 @@ fun RecipeDetailScreen(
             .padding(horizontal = 20.dp, vertical = 14.dp)
         ) {
           Text(
-            text = AppStrings.instructions(language),
+            text = AppStrings.instructions(),
             style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
             color = MaterialTheme.colorScheme.onBackground
           )
@@ -447,7 +449,7 @@ fun RecipeDetailScreen(
 
                 Column(modifier = Modifier.weight(1f)) {
                   Text(
-                    text = AppStrings.step(language, stepNumber),
+                    text = AppStrings.step(stepNumber),
                     fontSize = 12.sp,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.primary
@@ -499,7 +501,7 @@ fun RecipeDetailScreen(
           )
           Spacer(modifier = Modifier.width(6.dp))
           Text(
-            text = AppStrings.addToPlan(language),
+            text = AppStrings.addToPlan(),
             fontSize = 13.sp,
             fontWeight = FontWeight.Bold
           )
