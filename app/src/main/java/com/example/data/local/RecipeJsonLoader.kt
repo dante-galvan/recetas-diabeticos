@@ -256,12 +256,39 @@ object RecipeJsonLoader {
     "Avanzada" to Difficulty.HARD
   )
 
-  fun loadRecipes(context: Context): List<Recipe> {
+  // English translation overlays. Mirrors the base JSON structure but only
+  // carries the human-readable fields (name, description, instructions).
+  // Missing overlay files or fields fall back to the Spanish source text.
+  internal data class RecipeTranslationRoot(val recipes: List<RecipeTranslation> = emptyList())
+
+  internal data class RecipeTranslation(
+    val id: Int,
+    val name: String? = null,
+    val description: String? = null,
+    val instructions: List<String>? = null
+  )
+
+  internal data class IngredientGlossary(val ingredients: Map<String, String> = emptyMap())
+
+  internal fun loadRecipes(context: Context): List<Recipe> {
     val moshi = Moshi.Builder()
       .addLast(KotlinJsonAdapterFactory())
       .build()
 
     val adapter = moshi.adapter(RecipeJsonRoot::class.java)
+    val translationAdapter = moshi.adapter(RecipeTranslationRoot::class.java)
+    val glossaryAdapter = moshi.adapter(IngredientGlossary::class.java)
+
+    val translationsById = mutableMapOf<Int, RecipeTranslation>()
+    val glossary = mutableMapOf<String, String>()
+
+    // Best-effort load: a missing translation file simply means "fall back to Spanish".
+    try {
+      val json = context.assets.open("en/ingredients_en.json").bufferedReader().use { it.readText() }
+      glossaryAdapter.fromJson(json)?.ingredients?.let { glossary.putAll(it) }
+    } catch (e: Exception) {
+      e.printStackTrace()
+    }
 
     val allRecipes = mutableListOf<Recipe>()
 
@@ -269,8 +296,19 @@ object RecipeJsonLoader {
       try {
         val json = context.assets.open(fileName).bufferedReader().use { it.readText() }
         val root = adapter.fromJson(json) ?: continue
+
+        try {
+          val translationJson =
+            context.assets.open("en/$fileName").bufferedReader().use { it.readText() }
+          translationAdapter.fromJson(translationJson)?.recipes?.forEach { translation ->
+            translationsById[translation.id] = translation
+          }
+        } catch (e: Exception) {
+          e.printStackTrace()
+        }
+
         val recipes = root.recipes.mapNotNull { jsonRecipe ->
-          mapToRecipe(jsonRecipe)
+          mapToRecipe(jsonRecipe, translationsById[jsonRecipe.id], glossary)
         }
         allRecipes.addAll(recipes)
       } catch (e: Exception) {
@@ -281,7 +319,11 @@ object RecipeJsonLoader {
     return allRecipes
   }
 
-  private fun mapToRecipe(json: RecipeJson): Recipe? {
+  internal fun mapToRecipe(
+    json: RecipeJson,
+    translation: RecipeTranslation? = null,
+    glossary: Map<String, String> = emptyMap()
+  ): Recipe? {
     val categoryEnum = categoryEnumMap[json.category] ?: return null
     val imageRes = recipeImageMap[json.id] ?: categoryImageMap[json.category] ?: R.drawable.img_recipe_parfait
     val difficulty = difficultyMap[json.difficulty] ?: Difficulty.EASY
@@ -291,9 +333,9 @@ object RecipeJsonLoader {
     return Recipe(
       id = "recipe_${json.id}",
       titleEs = json.name,
-      titleEn = json.name,
+      titleEn = translation?.name ?: json.name,
       descriptionEs = json.description,
-      descriptionEn = json.description,
+      descriptionEn = translation?.description ?: json.description,
       category = categoryEnum,
       secondaryCategories = emptyList(),
       prepTimeMinutes = json.prep_time_minutes,
@@ -313,14 +355,16 @@ object RecipeJsonLoader {
       ingredients = json.ingredients.map { ing ->
         Ingredient(
           nameEs = ing.name,
-          nameEn = ing.name,
+          nameEn = glossary[ing.name] ?: ing.name,
           baseAmount = ing.quantity,
           unit = mapUnit(ing.unit),
+          unitEn = mapUnitEn(ing.unit),
           category = GroceryCategory.OTHER
         )
       },
       stepsEs = json.instructions,
-      stepsEn = json.instructions,
+      stepsEn = translation?.instructions?.takeIf { it.size == json.instructions.size }
+        ?: json.instructions,
       tags = tags,
       imageRes = imageRes,
       isFeatured = json.id == 1,
@@ -349,6 +393,22 @@ object RecipeJsonLoader {
       "pizca" -> "pizca"
       "cucharadas" -> "cucharadas"
       "cucharaditas" -> "cucharaditas"
+      else -> unit
+    }
+  }
+
+  private fun mapUnitEn(unit: String): String {
+    return when (unit.lowercase()) {
+      "unidades", "unidad" -> "units"
+      "g" -> "g"
+      "ml" -> "ml"
+      "pizca" -> "pinch"
+      "cucharadas" -> "tablespoons"
+      "cucharaditas" -> "teaspoons"
+      "hojas" -> "leaves"
+      "ramitas" -> "sprigs"
+      "trozo" -> "piece"
+      "lonchas" -> "slices"
       else -> unit
     }
   }

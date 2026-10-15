@@ -33,13 +33,13 @@ object SampleData {
         sodiumMg = 280.0
       ),
       ingredients = listOf(
-        Ingredient("Filetes de salmón fresco", "Fresh wild salmon fillets", 2.0, "unidades", GroceryCategory.MEAT_PROTEIN),
-        Ingredient("Espárragos verdes tiernos", "Tender green asparagus spears", 200.0, "g", GroceryCategory.VEGETABLES),
-        Ingredient("Quinoa tricolor cocida", "Cooked tricolor quinoa", 100.0, "g", GroceryCategory.GRAINS),
-        Ingredient("Aceite de oliva virgen extra", "Extra virgin olive oil", 1.5, "cucharadas", GroceryCategory.PANTRY),
-        Ingredient("Limón fresco (jugo y rodajas)", "Fresh lemon (juice & wedges)", 1.0, "unidad", GroceryCategory.FRUITS),
-        Ingredient("Diente de ajo picado", "Minced garlic clove", 1.0, "diente", GroceryCategory.VEGETABLES),
-        Ingredient("Eneldo fresco picado", "Fresh chopped dill", 1.0, "cucharada", GroceryCategory.PANTRY)
+        Ingredient("Filetes de salmón fresco", "Fresh wild salmon fillets", 2.0, "unidades", "units", GroceryCategory.MEAT_PROTEIN),
+        Ingredient("Espárragos verdes tiernos", "Tender green asparagus spears", 200.0, "g", "g", GroceryCategory.VEGETABLES),
+        Ingredient("Quinoa tricolor cocida", "Cooked tricolor quinoa", 100.0, "g", "g", GroceryCategory.GRAINS),
+        Ingredient("Aceite de oliva virgen extra", "Extra virgin olive oil", 1.5, "cucharadas", "tablespoons", GroceryCategory.PANTRY),
+        Ingredient("Limón fresco (jugo y rodajas)", "Fresh lemon (juice & wedges)", 1.0, "unidad", "unit", GroceryCategory.FRUITS),
+        Ingredient("Diente de ajo picado", "Minced garlic clove", 1.0, "diente", "clove", GroceryCategory.VEGETABLES),
+        Ingredient("Eneldo fresco picado", "Fresh chopped dill", 1.0, "cucharada", "tablespoon", GroceryCategory.PANTRY)
       ),
       stepsEs = listOf(
         "Enjuagar los espárragos y cortar los extremos leñosos. Salpimentar con un toque de aceite de oliva.",
@@ -85,13 +85,13 @@ object SampleData {
         sodiumMg = 320.0
       ),
       ingredients = listOf(
-        Ingredient("Pechuga de pollo en tiras", "Skinless chicken breast strips", 300.0, "g", GroceryCategory.MEAT_PROTEIN),
-        Ingredient("Aguacate maduro en láminas", "Ripe sliced avocado", 1.0, "unidad", GroceryCategory.FRUITS),
-        Ingredient("Espinacas baby frescas", "Fresh baby spinach leaves", 120.0, "g", GroceryCategory.VEGETABLES),
-        Ingredient("Tomates cherry cortados a la mitad", "Halved cherry tomatoes", 150.0, "g", GroceryCategory.VEGETABLES),
-        Ingredient("Pepino en rodajas finas", "Crisp sliced cucumber", 1.0, "unidad", GroceryCategory.VEGETABLES),
-        Ingredient("Aceite de oliva virgen extra", "Extra virgin olive oil", 1.0, "cucharada", GroceryCategory.PANTRY),
-        Ingredient("Orégano seco y zumo de limón", "Dried oregano & fresh lemon juice", 1.0, "cucharadita", GroceryCategory.PANTRY)
+        Ingredient("Pechuga de pollo en tiras", "Skinless chicken breast strips", 300.0, "g", "g", GroceryCategory.MEAT_PROTEIN),
+        Ingredient("Aguacate maduro en láminas", "Ripe sliced avocado", 1.0, "unidad", "unit", GroceryCategory.FRUITS),
+        Ingredient("Espinacas baby frescas", "Fresh baby spinach leaves", 120.0, "g", "g", GroceryCategory.VEGETABLES),
+        Ingredient("Tomates cherry cortados a la mitad", "Halved cherry tomatoes", 150.0, "g", "g", GroceryCategory.VEGETABLES),
+        Ingredient("Pepino en rodajas finas", "Crisp sliced cucumber", 1.0, "unidad", "unit", GroceryCategory.VEGETABLES),
+        Ingredient("Aceite de oliva virgen extra", "Extra virgin olive oil", 1.0, "cucharada", "tablespoon", GroceryCategory.PANTRY),
+        Ingredient("Orégano seco y zumo de limón", "Dried oregano & fresh lemon juice", 1.0, "cucharadita", "teaspoon", GroceryCategory.PANTRY)
       ),
       stepsEs = listOf(
         "Marinar las tiras de pechuga de pollo con limón, orégano, pimienta negra y una cucharadita de aceite de oliva.",
@@ -137,12 +137,12 @@ object SampleData {
         sodiumMg = 65.0
       ),
       ingredients = listOf(
-        Ingredient("Yogur griego natural sin azúcar (0% o 2%)", "Plain unsweetened Greek yogurt", 180.0, "g", GroceryCategory.DAIRY),
-        Ingredient("Arándanos azules frescos", "Fresh wild blueberries", 50.0, "g", GroceryCategory.FRUITS),
-        Ingredient("Frambuesas o moras", "Fresh raspberries or blackberries", 30.0, "g", GroceryCategory.FRUITS),
-        Ingredient("Semillas de chía", "Chia seeds", 1.0, "cucharada", GroceryCategory.GRAINS),
-        Ingredient("Nueces picadas crudas", "Raw chopped walnuts", 15.0, "g", GroceryCategory.PANTRY),
-        Ingredient("Canela de Ceilán en polvo", "Ceylon cinnamon powder", 0.5, "cucharadita", GroceryCategory.PANTRY)
+        Ingredient("Yogur griego natural sin azúcar (0% o 2%)", "Plain unsweetened Greek yogurt", 180.0, "g", "g", GroceryCategory.DAIRY),
+        Ingredient("Arándanos azules frescos", "Fresh wild blueberries", 50.0, "g", "g", GroceryCategory.FRUITS),
+        Ingredient("Frambuesas o moras", "Fresh raspberries or blackberries", 30.0, "g", "g", GroceryCategory.FRUITS),
+        Ingredient("Semillas de chía", "Chia seeds", 1.0, "cucharada", "tablespoon", GroceryCategory.GRAINS),
+        Ingredient("Nueces picadas crudas", "Raw chopped walnuts", 15.0, "g", "g", GroceryCategory.PANTRY),
+        Ingredient("Canela de Ceilán en polvo", "Ceylon cinnamon powder", 0.5, "cucharadita", "teaspoon", GroceryCategory.PANTRY)
       ),
       stepsEs = listOf(
         "Colocar la mitad del yogur griego natural en una copa o tazón de cristal.",
@@ -188,14 +188,14 @@ object SampleData {
         sodiumMg = 290.0
       ),
       ingredients = listOf(
-        Ingredient("Lentejas pardinas secas", "Brown lentils (rinsed)", 200.0, "g", GroceryCategory.GRAINS),
-        Ingredient("Calabacín en cubos pequeños", "Diced green zucchini", 1.0, "unidad", GroceryCategory.VEGETABLES),
-        Ingredient("Zanahoria mediana picada", "Finely diced carrot", 1.0, "unidad", GroceryCategory.VEGETABLES),
-        Ingredient("Tallos de apio en rodajas", "Sliced celery stalks", 2.0, "tallos", GroceryCategory.VEGETABLES),
-        Ingredient("Hojas de espinaca fresca", "Fresh spinach leaves", 100.0, "g", GroceryCategory.VEGETABLES),
-        Ingredient("Caldo de verduras bajo en sodio", "Low-sodium vegetable broth", 800.0, "ml", GroceryCategory.PANTRY),
-        Ingredient("Cúrcuma y laurel", "Ground turmeric & bay leaf", 1.0, "cucharadita", GroceryCategory.PANTRY),
-        Ingredient("Aceite de oliva virgen extra", "Extra virgin olive oil", 1.0, "cucharada", GroceryCategory.PANTRY)
+        Ingredient("Lentejas pardinas secas", "Brown lentils (rinsed)", 200.0, "g", "g", GroceryCategory.GRAINS),
+        Ingredient("Calabacín en cubos pequeños", "Diced green zucchini", 1.0, "unidad", "unit", GroceryCategory.VEGETABLES),
+        Ingredient("Zanahoria mediana picada", "Finely diced carrot", 1.0, "unidad", "unit", GroceryCategory.VEGETABLES),
+        Ingredient("Tallos de apio en rodajas", "Sliced celery stalks", 2.0, "tallos", "sprigs", GroceryCategory.VEGETABLES),
+        Ingredient("Hojas de espinaca fresca", "Fresh spinach leaves", 100.0, "g", "g", GroceryCategory.VEGETABLES),
+        Ingredient("Caldo de verduras bajo en sodio", "Low-sodium vegetable broth", 800.0, "ml", "ml", GroceryCategory.PANTRY),
+        Ingredient("Cúrcuma y laurel", "Ground turmeric & bay leaf", 1.0, "cucharadita", "teaspoon", GroceryCategory.PANTRY),
+        Ingredient("Aceite de oliva virgen extra", "Extra virgin olive oil", 1.0, "cucharada", "tablespoon", GroceryCategory.PANTRY)
       ),
       stepsEs = listOf(
         "En una cazuela honda, calentar el aceite de oliva y sofreír suavemente el apio y la zanahoria durante 5 minutos.",
@@ -241,11 +241,11 @@ object SampleData {
         sodiumMg = 310.0
       ),
       ingredients = listOf(
-        Ingredient("Huevos grandes", "Large fresh eggs", 2.0, "unidades", GroceryCategory.MEAT_PROTEIN),
-        Ingredient("Champiñones laminados", "Sliced button mushrooms", 60.0, "g", GroceryCategory.VEGETABLES),
-        Ingredient("Espinacas frescas", "Fresh spinach leaves", 50.0, "g", GroceryCategory.VEGETABLES),
-        Ingredient("Queso feta desmenuzado", "Crumbled feta cheese", 25.0, "g", GroceryCategory.DAIRY),
-        Ingredient("Aceite de oliva virgen extra", "Extra virgin olive oil", 1.0, "cucharadita", GroceryCategory.PANTRY)
+        Ingredient("Huevos grandes", "Large fresh eggs", 2.0, "unidades", "units", GroceryCategory.MEAT_PROTEIN),
+        Ingredient("Champiñones laminados", "Sliced button mushrooms", 60.0, "g", "g", GroceryCategory.VEGETABLES),
+        Ingredient("Espinacas frescas", "Fresh spinach leaves", 50.0, "g", "g", GroceryCategory.VEGETABLES),
+        Ingredient("Queso feta desmenuzado", "Crumbled feta cheese", 25.0, "g", "g", GroceryCategory.DAIRY),
+        Ingredient("Aceite de oliva virgen extra", "Extra virgin olive oil", 1.0, "cucharadita", "teaspoon", GroceryCategory.PANTRY)
       ),
       stepsEs = listOf(
         "Batir los dos huevos en un cuenco con una pizca de sal marina y pimienta molida.",
@@ -291,12 +291,12 @@ object SampleData {
         sodiumMg = 340.0
       ),
       ingredients = listOf(
-        Ingredient("Carne picada magra de pavo", "Lean ground turkey breast", 250.0, "g", GroceryCategory.MEAT_PROTEIN),
-        Ingredient("Hojas de lechuga romana entera", "Crisp romaine lettuce leaves", 6.0, "hojas", GroceryCategory.VEGETABLES),
-        Ingredient("Tomate maduro en cubitos", "Diced plum tomato", 1.0, "unidad", GroceryCategory.VEGETABLES),
-        Ingredient("Cebolla morada picada", "Finely diced red onion", 0.5, "unidad", GroceryCategory.VEGETABLES),
-        Ingredient("Cilantro fresco y lima", "Fresh cilantro & lime wedges", 1.0, "manojo", GroceryCategory.VEGETABLES),
-        Ingredient("Comino y pimentón dulce", "Ground cumin & smoked paprika", 1.0, "cucharadita", GroceryCategory.PANTRY)
+        Ingredient("Carne picada magra de pavo", "Lean ground turkey breast", 250.0, "g", "g", GroceryCategory.MEAT_PROTEIN),
+        Ingredient("Hojas de lechuga romana entera", "Crisp romaine lettuce leaves", 6.0, "hojas", "leaves", GroceryCategory.VEGETABLES),
+        Ingredient("Tomate maduro en cubitos", "Diced plum tomato", 1.0, "unidad", "unit", GroceryCategory.VEGETABLES),
+        Ingredient("Cebolla morada picada", "Finely diced red onion", 0.5, "unidad", "unit", GroceryCategory.VEGETABLES),
+        Ingredient("Cilantro fresco y lima", "Fresh cilantro & lime wedges", 1.0, "manojo", "bunch", GroceryCategory.VEGETABLES),
+        Ingredient("Comino y pimentón dulce", "Ground cumin & smoked paprika", 1.0, "cucharadita", "teaspoon", GroceryCategory.PANTRY)
       ),
       stepsEs = listOf(
         "En una sartén dorar el pavo con comino, pimentón y sal hasta que esté bien cocido.",
@@ -340,12 +340,12 @@ object SampleData {
         sodiumMg = 210.0
       ),
       ingredients = listOf(
-        Ingredient("Calabacines medianos espiralizados", "Medium fresh green zucchinis", 2.0, "unidades", GroceryCategory.VEGETABLES),
-        Ingredient("Hojas frescas de albahaca", "Fresh basil leaves", 40.0, "g", GroceryCategory.VEGETABLES),
-        Ingredient("Nueces del nogal", "Shelled walnuts", 30.0, "g", GroceryCategory.PANTRY),
-        Ingredient("Queso parmesano rallado", "Grated parmesan cheese", 20.0, "g", GroceryCategory.DAIRY),
-        Ingredient("Aceite de oliva virgen extra", "Extra virgin olive oil", 2.0, "cucharadas", GroceryCategory.PANTRY),
-        Ingredient("Ajo", "Garlic clove", 1.0, "diente", GroceryCategory.VEGETABLES)
+        Ingredient("Calabacines medianos espiralizados", "Medium fresh green zucchinis", 2.0, "unidades", "units", GroceryCategory.VEGETABLES),
+        Ingredient("Hojas frescas de albahaca", "Fresh basil leaves", 40.0, "g", "g", GroceryCategory.VEGETABLES),
+        Ingredient("Nueces del nogal", "Shelled walnuts", 30.0, "g", "g", GroceryCategory.PANTRY),
+        Ingredient("Queso parmesano rallado", "Grated parmesan cheese", 20.0, "g", "g", GroceryCategory.DAIRY),
+        Ingredient("Aceite de oliva virgen extra", "Extra virgin olive oil", 2.0, "cucharadas", "tablespoons", GroceryCategory.PANTRY),
+        Ingredient("Ajo", "Garlic clove", 1.0, "diente", "clove", GroceryCategory.VEGETABLES)
       ),
       stepsEs = listOf(
         "Espiralizar los calabacines para obtener zoodles largos.",
@@ -389,10 +389,10 @@ object SampleData {
         sodiumMg = 80.0
       ),
       ingredients = listOf(
-        Ingredient("Semillas de chía negras", "Black chia seeds", 40.0, "g", GroceryCategory.GRAINS),
-        Ingredient("Bebida de almendras sin azúcar", "Unsweetened almond milk", 300.0, "ml", GroceryCategory.DAIRY),
-        Ingredient("Extracto natural de vainilla", "Pure vanilla extract", 1.0, "cucharadita", GroceryCategory.PANTRY),
-        Ingredient("Frambuesas frescas para decorar", "Fresh raspberries for topping", 30.0, "g", GroceryCategory.FRUITS)
+        Ingredient("Semillas de chía negras", "Black chia seeds", 40.0, "g", "g", GroceryCategory.GRAINS),
+        Ingredient("Bebida de almendras sin azúcar", "Unsweetened almond milk", 300.0, "ml", "ml", GroceryCategory.DAIRY),
+        Ingredient("Extracto natural de vainilla", "Pure vanilla extract", 1.0, "cucharadita", "teaspoon", GroceryCategory.PANTRY),
+        Ingredient("Frambuesas frescas para decorar", "Fresh raspberries for topping", 30.0, "g", "g", GroceryCategory.FRUITS)
       ),
       stepsEs = listOf(
         "Mezclar las semillas de chía, bebida de almendras y extracto de vainilla en un frasco de vidrio.",

@@ -87,7 +87,7 @@ fun RecipeDetailScreen(
 
   if (recipe == null) {
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-      Text("No recipe selected")
+      Text(AppStrings.noRecipeSelected())
     }
     return
   }
@@ -152,7 +152,7 @@ fun RecipeDetailScreen(
             ) {
               Icon(
                 imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                contentDescription = "Back",
+                contentDescription = AppStrings.cdBack(),
                 tint = Color.White
               )
             }
@@ -192,7 +192,7 @@ fun RecipeDetailScreen(
               ) {
                 Icon(
                   imageVector = if (isFavorite) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
-                  contentDescription = "Favorite",
+                  contentDescription = AppStrings.cdFavorite(),
                   tint = if (isFavorite) MaterialTheme.colorScheme.error else Color.White
                 )
               }
@@ -366,7 +366,7 @@ fun RecipeDetailScreen(
                   }
 
                   Text(
-                    text = ingredient.formattedAmount(servingsMultiplier),
+                    text = ingredient.formattedAmount(servingsMultiplier, language),
                     fontSize = 13.sp,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.primary
@@ -432,7 +432,7 @@ fun RecipeDetailScreen(
                     if (isStepDone) {
                       Icon(
                         imageVector = Icons.Default.Check,
-                        contentDescription = "Completed",
+                        contentDescription = AppStrings.cdCompleted(),
                         tint = MaterialTheme.colorScheme.onPrimary,
                         modifier = Modifier.size(18.dp)
                       )

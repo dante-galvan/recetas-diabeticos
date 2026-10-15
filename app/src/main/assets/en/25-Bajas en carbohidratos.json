@@ -1,0 +1,334 @@
+{
+  "recipes": [
+    {
+      "id": 101,
+      "name": "Stir-Fried Cauliflower Rice with Chicken Strips, Vegetables, and Ginger",
+      "description": "An Eastern-inspired version where grated cauliflower grains mimic traditional fried rice. Combined with lean breast and al dente stir-fried vegetables, it provides a satiating volume with a minimal fraction of carbohydrates.",
+      "instructions": [
+        "Grate the raw cauliflower with the coarse side of the grater or pulse in a processor until you get a rice-like granular texture.",
+        "Heat half of the sesame oil in a wok or wide pan over high heat and brown the chicken strips for 3-4 minutes; remove to a plate.",
+        "Add the remaining oil to the wok along with the chopped garlic, grated ginger, scallion, and green pepper; stir-fry for 2 minutes.",
+        "Add the grated cauliflower and stir-fry over high heat for 4 continuous minutes, allowing it to cook without softening too much to keep an al dente texture.",
+        "Return the cooked chicken and pour the low-sodium soy sauce around the edges of the pan.",
+        "Toss everything vigorously for 1 minute over high heat and serve very hot."
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Pan-Seared Salmon over Almond Cream Spinach",
+      "description": "A juicy salmon loin rich in omega-3 fatty acids served over a bed of sautéed spinach bound with almond drink and almond flour, without heavy dairy cream. Its null glycemic impact makes it perfect for very low-carb diets.",
+      "instructions": [
+        "In a pan, heat 5 ml of olive oil and sauté the spinach for 3 minutes until reduced in size.",
+        "Sprinkle the almond flour over the spinach and stir for 30 seconds; pour in the almond drink, nutmeg, and a pinch of pepper.",
+        "Cook over gentle heat for 3 minutes until the sauce thickens into a smooth green cream; keep warm.",
+        "Season the salmon loins and cook them in another pan with the remaining oil over medium-high heat.",
+        "Cook 3 minutes skin-side down until golden and crisp, flip with a spatula, and leave 2 minutes on the flesh side to keep the center juicy.",
+        "Arrange the thick spinach cream on two plates and place the salmon loin on top."
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Keto Pizza with Cauliflower Base, Chicken, and Melted Mozzarella",
+      "description": "A completely flour- and gluten-free pizza dough made from compacted baked cauliflower, cheese, and egg. Topped with chicken breast, crushed natural tomato, and mozzarella, it satisfies classic cravings without raising blood sugar.",
+      "instructions": [
+        "Preheat the oven to 190 °C.",
+        "Microwave the grated cauliflower for 4 minutes; place it on a clean cloth and twist hard to drain all its liquid completely.",
+        "In a bowl, mix the well-dried cauliflower with the beaten egg, 30 grams of the mozzarella, oregano, and pepper until you get a pliable dough.",
+        "Spread the dough on a sheet lined with baking paper, forming a flat disc 5 mm thick.",
+        "Bake the base for 15 minutes at 190 °C until the edges are golden and dry.",
+        "Remove, spread the crushed tomato over the base, distribute the shredded chicken, and crown with the remaining 50 grams of mozzarella and more oregano.",
+        "Bake again for 8-10 minutes until the cheese is melted and bubbling.",
+        "Let rest 3 minutes and cut into triangular portions."
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Zucchini Rolls Stuffed with Ground Beef and Basil",
+      "description": "Thin zucchini slices wrapping a savory filling of lean beef seasoned with onion and fresh basil, baked with a touch of natural tomato. They replace traditional cannelloni by completely eliminating wheat pasta.",
+      "instructions": [
+        "Preheat the oven to 180 °C.",
+        "With a wide peeler or mandoline, cut the zucchini lengthwise into thin, flexible slices.",
+        "In a pan with the olive oil, gently soften the onion for 4 minutes; add the beef and brown for 5 minutes, breaking it up with a spatula.",
+        "Remove from the heat and mix the meat with the fresh basil and pepper.",
+        "Arrange the zucchini slices in overlapping pairs, place a portion of the filling at one end, and roll them up.",
+        "Arrange the rolls in a baking dish, cover with the crushed tomato, and sprinkle the grated Parmesan.",
+        "Bake at 180 °C for 18 minutes until the zucchini is tender and the cheese is gratinéed."
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Garlic Shrimp Stir-Fry with Asparagus Tips",
+      "description": "Tender shrimp tails sautéed with sliced garlic cloves, mild chili, and green asparagus tips in extra virgin olive oil. It combines rapidly assimilated proteins with non-fermentable fiber while contributing almost no carbohydrates.",
+      "instructions": [
+        "Meticulously wash and dry the shrimp and asparagus with absorbent kitchen paper.",
+        "In a wide pan, heat the olive oil over medium-low heat and brown the sliced garlic along with the whole chili without burning them.",
+        "Add the green asparagus pieces to the pan and cook over medium heat for 4 minutes until they begin to soften.",
+        "Raise the heat to high, add the shrimp, and stir-fry everything together for 2-3 minutes until they turn an even rosy tone.",
+        "Remove from the heat immediately so the seafood does not toughen, sprinkle the chopped parsley, and serve hot in small clay dishes."
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Baked Turkey Breast Stuffed with Spinach and Feta Cheese",
+      "description": "A thick lean breast filet butterflied, stuffed with fresh spinach sautéed with Greek feta cheese, and roasted just right. It offers satiating pure protein with bioavailable calcium and a practically nonexistent glycemic load.",
+      "instructions": [
+        "Preheat the oven to 190 °C.",
+        "Sauté the spinach in a pan with a few drops of oil for 2 minutes until wilted; drain all the liquid and mix with the crumbled feta cheese.",
+        "Make a deep horizontal cut in the turkey breast to open it like a book without separating the halves.",
+        "Season the inside and fill with the spinach and feta mixture; close the breast and secure the edges with 2 wooden toothpicks.",
+        "Brush the outside of the breast with the remaining olive oil and season with garlic powder and pepper.",
+        "Bake at 190 °C in a dish for 20-22 minutes until the meat is cooked and firm to the touch.",
+        "Remove the toothpicks, let rest 3 minutes, cut into thick medallions, and serve."
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Fresh Tuna and Avocado Patties in Baby Gem Lettuce Leaves",
+      "description": "Handmade medallions prepared with knife-chopped fresh tuna bound with diced avocado, presented inside crisp lettuce leaves. They provide monounsaturated fats and omega-3 without any starchy carbohydrate.",
+      "instructions": [
+        "In a bowl, gently mix the chopped tuna, avocado dice, lime juice, chives, and black pepper.",
+        "Shape two compact patties about 2 cm thick with your hands.",
+        "Coat a non-stick pan with the olive oil and heat over medium-high heat.",
+        "Cook the patties for 2-3 minutes per side, searing the exterior while keeping the center juicy.",
+        "Place each patty on two clean baby gem lettuce leaves as a base and vegetable lid.",
+        "Serve warm immediately."
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Zucchini Noodles with Homemade Basil and Walnut Pesto",
+      "description": "Warm raw zucchini spirals dressed with a traditional emulsion of fresh basil leaves, walnuts, garlic, and extra virgin olive oil. It recreates the culinary experience of Italian pasta without releasing sugars into the bloodstream.",
+      "instructions": [
+        "In a mortar or processor, blend the basil leaves, walnuts, half a garlic clove, Parmesan, and extra virgin olive oil until you get a rustic, glossy pesto.",
+        "Spiralize the whole zucchini to get long noodle ribbons (zoodles).",
+        "Stir-fry the zoodles in a wide pan with no oil at all for just 1 and a half minutes over very high heat to warm them through without losing their crunch.",
+        "Remove the pan from the heat so the heat does not degrade the basil.",
+        "Add the homemade pesto over the warm zoodles and toss gently with two forks.",
+        "Serve immediately in deep plates."
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Beef Strips Stir-Fried with Portobello and Fresh Rosemary",
+      "description": "Tender strips of lean beef seared at high temperature with meaty portobello mushrooms and aromatic rosemary. It provides heme iron, zinc, and fungal beta-glucans with no impact on the glycemic curve.",
+      "instructions": [
+        "Heat half of the olive oil in a wide pan over very high heat.",
+        "Stir-fry the beef strips for 2 minutes to sear the outside while keeping the inside rosy; remove to a plate.",
+        "In the same pan, pour in the remaining oil and brown the sliced garlic with the quartered portobellos for 5 minutes until the mushrooms brown and release their juices.",
+        "Add the chopped fresh rosemary and ground black pepper.",
+        "Return the beef strips with their released juices and stir-fry everything together for 1 minute over medium-high heat.",
+        "Serve hot in two portions."
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Sea Bass en Papillote with Sweet Fennel and Zucchini Ribbons",
+      "description": "Clean white fish fillets steamed inside their wrapper with thin aniseed fennel and zucchini slices. Light, digestive, and completely free of fast carbs, ideal for strict metabolic control plans.",
+      "instructions": [
+        "Preheat the oven to 200 °C.",
+        "Lay out two sheets of vegetable baking paper and spread the fennel and sliced zucchini over half of each sheet.",
+        "Place a sea bass loin on the vegetable bed of each packet.",
+        "Drizzle each portion with 6 ml of olive oil, lemon juice, and white pepper.",
+        "Fold and crimp the edges hermetically to trap the cooking vapors.",
+        "Bake at 200 °C for 14 minutes.",
+        "Cut open with scissors directly over the plates when serving."
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Baked Broccoli, Farm Egg, and Cheddar Cheese Tart",
+      "description": "A savory baked tart with no pastry crust or cereals, made of beaten eggs, steamed broccoli florets, and melting cheddar cheese. It supplies abundant choline, sulforaphane, and satiating fat with no appreciable net carbohydrates.",
+      "instructions": [
+        "Preheat the oven to 180 °C and grease a round glass or ceramic baking dish.",
+        "Steam the broccoli florets for 4 minutes until tender but firm; drain very well.",
+        "In a large bowl, beat the 5 eggs with the nutmeg, pepper, and half of the grated cheddar.",
+        "Arrange the broccoli in the bottom of the greased dish and pour the beaten eggs over it, making sure it covers the gaps.",
+        "Scatter the remaining cheddar over the surface.",
+        "Bake at 180 °C for 20-22 minutes until the surface is golden and the center completely set.",
+        "Let cool 5 minutes and cut into 3 equal wedges."
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Crispy Chicken Breast Coated in Almond Flour and Parmesan",
+      "description": "Lean filets breaded without a pinch of wheat flour or breadcrumbs, using a coating of almond flour and toasted dry cheese baked in the oven. Crispy, protein-rich, and compatible with ketogenic or controlled-carbohydrate patterns.",
+      "instructions": [
+        "Preheat the oven to 200 °C and line a sheet with baking paper.",
+        "In a deep plate, mix the almond flour, grated Parmesan, garlic powder, and dried oregano.",
+        "In another deep plate, beat the egg.",
+        "Dip each chicken filet first in the beaten egg and then in the almond-Parmesan mixture, pressing to set the crust.",
+        "Place the filets on the sheet and drizzle with a thin stream of extra virgin olive oil.",
+        "Bake at 200 °C for 16-18 minutes until the crust is golden and crisp and the chicken is completely cooked inside.",
+        "Serve hot with slices of fresh lemon."
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Old-Style Mustard Pork Medallions with Garlic Green Beans",
+      "description": "Lean pork tenderloin or sirloin medallions pan-seared with whole-grain mustard sauce and accompanied by garlic sautéed green beans. It provides thiamine, potassium, and soluble fiber without rapidly assimilated carbohydrates.",
+      "instructions": [
+        "Boil the green beans for 5 minutes to leave them al dente; drain and dry well.",
+        "In a pan with half of the oil, brown the sliced garlic and sauté the beans for 3 minutes; keep warm.",
+        "Brush the meat medallions with the remaining oil and season with salt and pepper.",
+        "In another hot pan, brown the medallions for 2 and a half minutes per side over high heat.",
+        "Add the whole-grain mustard and meat broth to the medallion pan, reducing over medium heat for 2 minutes to thicken the sauce around the meat.",
+        "Serve the medallions bathed in their mustard sauce alongside the garlic green beans."
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Desalted Cod Casserole with Low-Carb Ratatouille",
+      "description": "Flaked cod loins cooked over a concentrated bed of zucchini, green pepper, and crushed tomato flavored with oregano and bay leaf. A slow-cooked recipe that concentrates natural flavors with a minimal glycemic response.",
+      "instructions": [
+        "In a wide casserole, heat the olive oil over medium heat and gently soften the green pepper and zucchini for 6 minutes.",
+        "Add the crushed tomato, bay leaf, and ground pepper; cook covered over low heat for 8 minutes until the vegetables are meltingly soft.",
+        "Nestle the cod loins directly onto the vegetable bed in the casserole.",
+        "Cover the casserole and cook over gentle heat for 6 minutes until the cod is opaque white and its flakes begin to open.",
+        "Remove the bay leaf and serve immediately."
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Creamy Scramble with Cardoon Mushrooms, Baby Garlic Shoots, and Ham Shavings",
+      "description": "Farm eggs slowly set with aromatic cardoon mushrooms sautéed with tender garlic shoots and salty bits of cured ham. Satisfying, free of starches, and gently metabolized.",
+      "instructions": [
+        "Heat the olive oil in a non-stick pan over medium heat.",
+        "Add the tender garlic shoots and chopped mushrooms; sauté for 5 minutes until the mushrooms release their water and brown.",
+        "Add the ham shavings and stir for 30 seconds off direct heat so they do not dry out.",
+        "Lightly beat the 4 eggs with a pinch of black pepper and add them to the pan over very low heat.",
+        "Stir gently from the outside inward for 2 minutes until you get a creamy, glossy texture.",
+        "Remove before they set completely and serve on warm plates."
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Baked Eggplant with Lean Meat and Oregano Tomato",
+      "description": "Alternating layers of roasted eggplant slices and a juicy ground beef filling in natural tomato sauce, gratinéed with a thin crust of Manchego cheese. A lighter version of Greek moussaka without traditional béchamel and flours.",
+      "instructions": [
+        "Preheat the oven to 200 °C.",
+        "Brush the eggplant slices with half of the oil and bake for 12 minutes until soft.",
+        "In a pan with the remaining oil, brown the ground beef with pepper and oregano for 4 minutes; add the crushed tomato and cook over medium heat for 6 minutes.",
+        "In a baking dish, alternate layers of baked eggplant and beef sauce, finishing with a layer of eggplant.",
+        "Sprinkle the grated Manchego over the top.",
+        "Bake at 200 °C for 10 minutes until the cheese is gratinéed and golden.",
+        "Let rest 3 minutes before cutting and serving."
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Silky Cold Avocado, Cucumber, and Spinach Soup with Hemp Seeds",
+      "description": "A refreshing cold cream made without dairy by blending ripe avocado with peeled cucumber, tender spinach, and defatted vegetable broth, finished with hulled hemp. A source of electrolytes and healthy lipids with a very low insulin impact.",
+      "instructions": [
+        "Place the avocado, chopped cucumber, baby spinach, lime juice, and very cold water in the blender cup.",
+        "Blend at maximum speed for 1 and a half minutes until you get a uniform, silky green emulsion.",
+        "Add the extra virgin olive oil and blend 10 more seconds to integrate.",
+        "Pour into two deep bowls.",
+        "Decorate the surface of each bowl with the crunchy hulled hemp seeds and serve cold."
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Firm Tofu Wok with Broccoli Florets and Ginger Shiitake Mushrooms",
+      "description": "A low-net-carb Asian stir-fry that combines crispy tofu cubes with fresh shiitake and al dente broccoli seasoned with reduced-salt soy sauce. It supplies phytosterols, pure plant proteins, and no simple sugars.",
+      "instructions": [
+        "Blanch the broccoli in boiling water for 2 minutes and drain immediately.",
+        "Heat half of the sesame oil in a wok over high heat and brown the tofu cubes for 4 minutes until a crust forms; set aside.",
+        "Add the remaining oil to the hot wok and stir-fry the shiitake with the chopped ginger for 3 minutes.",
+        "Add the drained broccoli and browned tofu to the wok.",
+        "Pour the low-salt soy sauce over the stir-fry and toss continuously over high heat for 1 minute.",
+        "Serve hot immediately."
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Gilt-Head Bream with Golden Garlic and Apple Cider Vinegar",
+      "description": "A whole opened white fish roasted on its skin on a griddle and bathed with a hot refrito of olive oil, garlic slices, and cider vinegar. Stands out for its lean protein content and complete absence of sugars.",
+      "instructions": [
+        "Heat a wide griddle strongly, lightly greased with a few drops of oil.",
+        "Season the opened bream and place it flesh-side down for 2 minutes; flip and cook 4 minutes on the skin side until well done.",
+        "Transfer the bream flesh-side up to a hot dish.",
+        "In a small pan, brown the sliced garlic and chili in the olive oil over medium heat.",
+        "When the garlic begins to brown, remove from the heat and carefully pour in the apple cider vinegar, covering for a second against splashes.",
+        "Immediately pour the boiling refrito over the bream and sprinkle with fresh parsley before serving."
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Green Cabbage Tacos with Marinated Chicken and Homemade Guacamole",
+      "description": "Crisp kale leaves briefly blanched as natural wrappers for Mexican tacos, filled with lime- and cumin-spiced chicken breast crowned with fresh guacamole. Zero flours and highly cardioprotective fats.",
+      "instructions": [
+        "Blanch the cabbage leaves in boiling water for 1 minute to make them pliable; plunge into cold water and dry well.",
+        "In a bowl, mash the avocado with the lime juice, cilantro, and a moderate pinch of salt to form the guacamole.",
+        "Season the chicken with the cumin and salt and pepper.",
+        "Heat the oil in a pan over high heat and stir-fry the chicken for 4-5 minutes until well cooked and golden.",
+        "Lay the cabbage leaves flat on a board.",
+        "Distribute the hot chicken in the center of the 4 leaves and crown each taco with a generous spoonful of guacamole before folding."
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Portobello Mushrooms Stuffed with Ground Turkey and Gratinéed Ricotta",
+      "description": "Giant portobello caps roasted with an aromatic filling of fine-herb spiced ground turkey breast and low-fat ricotta cheese. It confers meaty vegetable texture and lean protein with a practically neutral glycemic index.",
+      "instructions": [
+        "Preheat the oven to 190 °C.",
+        "Remove the stems from the portobellos, chop them finely, and reserve the whole caps.",
+        "In a pan with half of the oil, sauté the onion and chopped stems for 3 minutes; add the turkey and stir-fry 4 minutes.",
+        "Remove from the heat, incorporate the ricotta and dried thyme.",
+        "Brush the portobello caps with the remaining oil and fill their cavities with the turkey and ricotta mixture.",
+        "Place on a sheet and bake at 190 °C for 18 minutes until the mushrooms are tender and the surface golden.",
+        "Serve 2 stuffed portobellos per person."
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Squid Strips Stir-Fried with Green Pepper and Griddled Scallion",
+      "description": "Fresh squid strips seared on a very hot griddle with finely cut pepper and scallion, drizzled with lemon juice and extra virgin olive oil. Marine protein of very low caloric density and free of digestible carbohydrates.",
+      "instructions": [
+        "Dry the squid strips completely with absorbent paper.",
+        "Heat a wide pan with 6 ml of oil over medium heat and stir-fry the julienned pepper and scallion for 4 minutes; reserve to one side.",
+        "Raise the heat to maximum, add the remaining oil, and add the drained squid.",
+        "Cook over high heat for 2 minutes without moving to brown the surface.",
+        "Combine the vegetables with the squid, drizzle with the lemon juice, and toss for 1 minute.",
+        "Serve immediately, sprinkled with chopped fresh parsley."
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Fluffy Goat Cheese, Spinach, and Chopped Walnut Omelet",
+      "description": "A juicy French-style omelet folded over a creamy heart of melted goat cheese roll, sautéed spinach, and crunchy walnut pieces. An excellent source of protein and slowly absorbed polyunsaturated lipids.",
+      "instructions": [
+        "In a small non-stick pan with half of the oil, sauté the spinach for 1 minute until wilted; remove.",
+        "Beat the 2 eggs vigorously with a pinch of ground white pepper.",
+        "Add the remaining oil to the pan over medium-low heat and pour in the beaten eggs, spreading them over the entire surface.",
+        "Let the bottom set for 1 and a half minutes while keeping the surface moist.",
+        "Place the spinach, goat cheese slices, and chopped walnuts over one half of the omelet.",
+        "Fold the omelet over itself, turn off the heat, and let rest 30 seconds before sliding onto the plate."
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Traditional Garlic Chicken with Sautéed Zucchini Dice",
+      "description": "A traditional dry stew of lean chicken pieces cooked over medium heat with abundant golden garlic cloves and evaporated dry white wine, accompanied by zucchini dice. A home-cooking classic completely free of simple carbs.",
+      "instructions": [
+        "In a casserole, heat the olive oil over medium heat and brown the whole crushed garlic cloves for 3 minutes until they perfume the oil.",
+        "Season the chicken pieces and add them to the casserole, browning them on all sides for 8 minutes.",
+        "Pour in the white wine and let boil over high heat for 2 minutes to completely evaporate the alcohol.",
+        "Add the zucchini dice, cover the casserole, and cook over medium-low heat for 8 minutes until the zucchini is tender and the chicken is completely done.",
+        "Sprinkle with chopped parsley and serve hot."
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Roasted Mackerel Fillets with Warm Cabbage and Sesame Salad",
+      "description": "Mackerel loins with crispy skin rich in essential polyunsaturated fatty acids, accompanied by a bed of finely cut white cabbage sautéed with toasted sesame. It supports endothelial function and sustained glycemic regulation.",
+      "instructions": [
+        "In a pan with the olive oil, stir-fry the julienned white cabbage over high heat for 4 minutes so it softens slightly while keeping its crunch.",
+        "Add the apple cider vinegar, sesame oil, and sesame seeds to the cabbage; mix and keep warm.",
+        "Dry the mackerel fillets very well and season with salt and pepper.",
+        "Heat a ridged griddle over high heat and cook the fillets for 3 minutes skin-side down until the skin is well browned and crisp.",
+        "Flip and cook only 1 minute on the flesh side.",
+        "Arrange the sautéed cabbage on two flat plates and crown with the freshly roasted mackerel fillets."
+      ]
+    }
+  ]
+}

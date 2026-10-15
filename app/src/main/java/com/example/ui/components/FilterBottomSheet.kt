@@ -112,7 +112,7 @@ fun FilterBottomSheet(
         FilterChip(
           selected = tempSortBy == SortOption.RELEVANCE,
           onClick = { tempSortBy = SortOption.RELEVANCE },
-          label = { Text("Normal / Top") }
+          label = { Text(AppStrings.sortRelevance()) }
         )
         FilterChip(
           selected = tempSortBy == SortOption.LOWEST_CARBS,
@@ -242,7 +242,7 @@ fun FilterBottomSheet(
           FilterChip(
             selected = tempDietary == pref,
             onClick = { tempDietary = if (tempDietary == pref) null else pref },
-            label = { Text(pref) }
+            label = { Text(AppStrings.dietaryLabel(pref)) }
           )
         }
       }

@@ -165,4 +165,37 @@
     <string name="day_of_week">Día de la semana</string>
     <string name="meal_slot">Momento de comida</string>
     <string name="recipes_available">%1$d recetas disponibles</string>
+    <!-- Content descriptions & misc -->
+    <string name="no_recipe_selected">Ninguna receta seleccionada</string>
+    <string name="sort_relevance">Relevancia</string>
+    <string name="cd_favorite">Favorito</string>
+    <string name="cd_remove_favorite">Quitar de favoritos</string>
+    <string name="cd_add_favorite">Añadir a favoritos</string>
+    <string name="cd_close">Cerrar</string>
+    <string name="cd_back">Atrás</string>
+    <string name="cd_search">Buscar</string>
+    <string name="cd_clear_search">Borrar búsqueda</string>
+    <string name="cd_decrease_servings">Reducir porciones</string>
+    <string name="cd_increase_servings">Aumentar porciones</string>
+    <string name="cd_change">Cambiar</string>
+    <string name="cd_remove">Eliminar</string>
+    <string name="cd_completed">Completado</string>
+
+    <!-- Dietary preference labels (display only; filter values stay stable) -->
+    <string name="diet_low_carb">Bajo en carbohidratos</string>
+    <string name="diet_mediterranean">Mediterránea</string>
+    <string name="diet_balanced">Equilibrada</string>
+    <string name="diet_vegetarian">Vegetariana</string>
+    <string name="diet_vegan">Vegana</string>
+    <string name="diet_high_fiber">Alta en fibra</string>
+    <string name="diet_gluten_free">Sin gluten</string>
+    <string name="diet_high_protein">Alta en proteína</string>
+
+    <!-- Allergen labels (display only; filter values stay stable) -->
+    <string name="allergen_gluten">Gluten</string>
+    <string name="allergen_lactose">Lactosa</string>
+    <string name="allergen_nuts">Frutos secos</string>
+    <string name="allergen_shellfish">Crustáceos</string>
+    <string name="allergen_eggs">Huevos</string>
+    <string name="allergen_soy">Soja</string>
 </resources>

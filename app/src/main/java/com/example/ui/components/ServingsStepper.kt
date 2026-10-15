@@ -62,7 +62,7 @@ fun ServingsStepper(
       ) {
         Icon(
           imageVector = Icons.Default.Remove,
-          contentDescription = "Decrease servings",
+          contentDescription = AppStrings.cdDecreaseServings(),
           tint = if (servings > 1) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.outline,
           modifier = Modifier.size(16.dp)
         )
@@ -88,7 +88,7 @@ fun ServingsStepper(
       ) {
         Icon(
           imageVector = Icons.Default.Add,
-          contentDescription = "Increase servings",
+          contentDescription = AppStrings.cdIncreaseServings(),
           tint = if (servings < 12) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.outline,
           modifier = Modifier.size(16.dp)
         )

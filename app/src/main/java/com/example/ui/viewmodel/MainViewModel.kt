@@ -23,6 +23,8 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import java.util.Calendar
@@ -71,14 +73,26 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
   private val _servingsMultiplier = MutableStateFlow(1.0)
   val servingsMultiplier: StateFlow<Double> = _servingsMultiplier.asStateFlow()
 
-  // User Profile & Settings
-  val userProfile: StateFlow<UserProfile> = repository.userProfile
-    .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), UserProfile())
+  // User Profile & Settings (null until Room emits the persisted profile).
+  // SharingStarted.Eagerly so the real language is known as early as possible.
+  val userProfile: StateFlow<UserProfile?> = repository.userProfile
+    .stateIn(viewModelScope, SharingStarted.Eagerly, null)
 
   // Current Language
   val currentLanguage: StateFlow<Language> = userProfile
-    .combine(MutableStateFlow(Unit)) { profile, _ -> profile.language }
-    .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), Language.ENGLISH)
+    .map { profile -> profile?.language ?: Language.ENGLISH }
+    .stateIn(viewModelScope, SharingStarted.Eagerly, Language.ENGLISH)
+
+  init {
+    // Seed the default profile (language = ENGLISH) on first launch. Without a
+    // persisted row, MainActivity's LaunchedEffect never receives a language
+    // and the app silently stays in the system locale on fresh installs.
+    viewModelScope.launch {
+      if (repository.userProfile.first() == null) {
+        repository.saveUserProfile(UserProfile())
+      }
+    }
+  }
 
   // Search & Filters for Explore
   val searchQuery = MutableStateFlow("")
@@ -151,18 +165,6 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
   // Snackbar Toast Events
   private val _toastMessage = MutableSharedFlow<String>()
   val toastMessage: SharedFlow<String> = _toastMessage.asSharedFlow()
-
-  init {
-    // Check initial device locale for default language if first time
-    viewModelScope.launch {
-      userProfile.collect { profile ->
-        if (!profile.isOnboardingCompleted) {
-          // Default to English on fresh install
-          repository.saveUserProfile(profile.copy(language = Language.ENGLISH))
-        }
-      }
-    }
-  }
 
   fun navigateTo(screen: AppScreen) {
     _navigationStack.add(_currentScreen.value)
@@ -242,14 +244,14 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
   // Language & Theme & Profile Settings
   fun setLanguage(lang: Language) {
     viewModelScope.launch {
-      val updated = userProfile.value.copy(language = lang)
+      val updated = (userProfile.value ?: UserProfile()).copy(language = lang)
       repository.saveUserProfile(updated)
     }
   }
 
   fun setThemeMode(isDark: Boolean?) {
     viewModelScope.launch {
-      val updated = userProfile.value.copy(isDarkTheme = isDark)
+      val updated = (userProfile.value ?: UserProfile()).copy(isDarkTheme = isDark)
       repository.saveUserProfile(updated)
     }
   }
@@ -259,7 +261,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     allergies: Set<String>
   ) {
     viewModelScope.launch {
-      val updated = userProfile.value.copy(
+      val updated = (userProfile.value ?: UserProfile()).copy(
         dietaryPreferences = dietaryPrefs,
         allergies = allergies,
         isOnboardingCompleted = true

@@ -1,22 +1,27 @@
 package com.example.data.model
 
 import com.example.ui.i18n.Language
+import java.util.Locale
 
 data class Ingredient(
   val nameEs: String,
   val nameEn: String,
   val baseAmount: Double,
   val unit: String,
+  val unitEn: String,
   val category: GroceryCategory
 ) {
   fun localizedName(lang: Language): String = if (lang == Language.SPANISH) nameEs else nameEn
 
-  fun formattedAmount(servingsMultiplier: Double): String {
+  fun localizedUnit(lang: Language): String = if (lang == Language.SPANISH) unit else unitEn
+
+  fun formattedAmount(servingsMultiplier: Double, lang: Language = Language.SPANISH): String {
     val adjusted = baseAmount * servingsMultiplier
+    val unitText = localizedUnit(lang)
     return if (adjusted == adjusted.toLong().toDouble()) {
-      "${adjusted.toLong()} $unit".trim()
+      "${adjusted.toLong()} $unitText".trim()
     } else {
-      String.format("%.1f %s", adjusted, unit).trim()
+      String.format(Locale.ROOT, "%.1f %s", adjusted, unitText).trim()
     }
   }
 }

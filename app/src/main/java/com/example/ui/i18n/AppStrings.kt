@@ -413,4 +413,72 @@ object AppStrings {
 
   @Composable
   fun recipesAvailable(count: Int) = stringResource(R.string.recipes_available, count)
+
+  // Content descriptions & misc
+  @Composable
+  fun noRecipeSelected() = stringResource(R.string.no_recipe_selected)
+
+  @Composable
+  fun sortRelevance() = stringResource(R.string.sort_relevance)
+
+  @Composable
+  fun cdFavorite() = stringResource(R.string.cd_favorite)
+
+  @Composable
+  fun cdRemoveFavorite() = stringResource(R.string.cd_remove_favorite)
+
+  @Composable
+  fun cdAddFavorite() = stringResource(R.string.cd_add_favorite)
+
+  @Composable
+  fun cdClose() = stringResource(R.string.cd_close)
+
+  @Composable
+  fun cdBack() = stringResource(R.string.cd_back)
+
+  @Composable
+  fun cdSearch() = stringResource(R.string.cd_search)
+
+  @Composable
+  fun cdClearSearch() = stringResource(R.string.cd_clear_search)
+
+  @Composable
+  fun cdDecreaseServings() = stringResource(R.string.cd_decrease_servings)
+
+  @Composable
+  fun cdIncreaseServings() = stringResource(R.string.cd_increase_servings)
+
+  @Composable
+  fun cdChange() = stringResource(R.string.cd_change)
+
+  @Composable
+  fun cdRemove() = stringResource(R.string.cd_remove)
+
+  @Composable
+  fun cdCompleted() = stringResource(R.string.cd_completed)
+
+  // Dietary / allergen display labels (values stay stable English keys)
+  @Composable
+  fun dietaryLabel(value: String): String = when (value) {
+    "Low Carb" -> stringResource(R.string.diet_low_carb)
+    "Mediterranean" -> stringResource(R.string.diet_mediterranean)
+    "Balanced" -> stringResource(R.string.diet_balanced)
+    "Vegetarian" -> stringResource(R.string.diet_vegetarian)
+    "Vegan" -> stringResource(R.string.diet_vegan)
+    "High Fiber" -> stringResource(R.string.diet_high_fiber)
+    "Gluten Free" -> stringResource(R.string.diet_gluten_free)
+    "High Protein" -> stringResource(R.string.diet_high_protein)
+    else -> value
+  }
+
+  @Composable
+  fun allergenLabel(value: String): String = when (value) {
+    "Gluten" -> stringResource(R.string.allergen_gluten)
+    "Lactose" -> stringResource(R.string.allergen_lactose)
+    "Nuts" -> stringResource(R.string.allergen_nuts)
+    "Shellfish" -> stringResource(R.string.allergen_shellfish)
+    "Eggs" -> stringResource(R.string.allergen_eggs)
+    "Soy" -> stringResource(R.string.allergen_soy)
+    else -> value
+  }
 }

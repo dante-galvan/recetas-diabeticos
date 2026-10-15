@@ -222,7 +222,7 @@ fun RecipePickerForSlotDialog(
           style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold)
         )
         IconButton(onClick = onDismiss, modifier = Modifier.size(32.dp)) {
-          Icon(imageVector = Icons.Default.Close, contentDescription = "Close")
+          Icon(imageVector = Icons.Default.Close, contentDescription = AppStrings.cdClose())
         }
       }
     },

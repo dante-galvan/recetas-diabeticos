@@ -70,7 +70,6 @@ fun HomeScreen(
   modifier: Modifier = Modifier
 ) {
   val language by viewModel.currentLanguage.collectAsState()
-  val userProfile by viewModel.userProfile.collectAsState()
   val favoriteIds by viewModel.favoriteRecipeIds.collectAsState()
   val allRecipes = viewModel.repository.getRecipes()
   val mealPlanItems by viewModel.mealPlanItems.collectAsState()
@@ -488,7 +487,7 @@ private fun FeaturedRecipeCard(
       ) {
         Icon(
           imageVector = if (isFavorite) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
-          contentDescription = "Favorite",
+          contentDescription = AppStrings.cdFavorite(),
           tint = if (isFavorite) MaterialTheme.colorScheme.error else Color.White
         )
       }

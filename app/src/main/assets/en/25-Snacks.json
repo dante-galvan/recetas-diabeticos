@@ -1,0 +1,311 @@
+{
+  "recipes": [
+    {
+      "id": 76,
+      "name": "Spiced Crispy Oven-Roasted Chickpeas with Paprika and Cumin",
+      "description": "A crunchy alternative to ultra-processed snacks based on whole baked legumes with digestive spices. Its combination of resistant starch and abundant soluble fiber allows for a satisfying, slow-absorbing snack.",
+      "instructions": [
+        "Preheat the oven to 200 °C with top and bottom heat.",
+        "Rinse the cooked chickpeas and dry them meticulously between two clean kitchen towels to remove all surface moisture (this step is key to achieving a crunchy texture).",
+        "In a bowl, mix the dry chickpeas with the olive oil, paprika, cumin, garlic powder, and pepper.",
+        "Spread the chickpeas in a single layer on a baking sheet lined with parchment paper.",
+        "Bake at 200 °C for 25 minutes, shaking the sheet halfway through, until golden and dry to the touch.",
+        "Let cool completely inside the turned-off, slightly open oven for 10 minutes so they finish acquiring a crunchy consistency before serving."
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Celery and Cucumber Sticks with Cottage Cheese and Dill Dip",
+      "description": "Fresh, highly hydrating vegetable crudités accompanied by a light protein cream of farmer's cottage cheese and fresh herbs. Ideal for curbing between-meal oral cravings without adding digestible carbohydrates.",
+      "instructions": [
+        "In a medium bowl, whisk the cottage cheese with a fork along with the olive oil, lemon juice, chopped dill, and white pepper until you get a smooth cream.",
+        "Wash, dry, and cut the celery and cucumber into even sticks about 8 cm long.",
+        "Place the cottage cheese dip in a small bowl in the center of a flat plate.",
+        "Arrange the vegetable sticks around it and eat by dipping the vegetables directly into the cream."
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Roasted Turkey Rolls with Light Cream Cheese and Arugula",
+      "description": "Quick, protein-rich bite-sized rolls made with lean high-meat-percentage turkey breast slices, cream cheese, and peppery arugula leaves. An excellent option to eat on the go while keeping insulin at rest.",
+      "instructions": [
+        "Lay the 4 turkey breast slices flat on a clean board.",
+        "Spread 10 grams of cream cheese evenly over the surface of each slice.",
+        "Sprinkle a light pinch of black pepper over the cheese.",
+        "Place a small bunch of fresh arugula leaves at one end of each slice, letting the leaf tips peek out slightly.",
+        "Roll each slice up firmly into a compact cylinder.",
+        "Cut each roll in half on the diagonal and serve on a small plate."
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Steamed Edamame Sautéed with Toasted Sesame and Salt Flakes",
+      "description": "Young soybean pods steamed and briefly sautéed with sesame oil and toasted seeds. They provide complete plant protein, isoflavones, and a non-absorbable carbohydrate profile ideal for glycemic control.",
+      "instructions": [
+        "Boil the edamame pods in salted water for 4 minutes; drain very well.",
+        "Heat the sesame oil in a non-stick pan over medium-high heat.",
+        "Add the drained pods and sauté vigorously for 2 minutes until evenly heated and glossy.",
+        "Stir in the toasted sesame seeds and sauté 30 seconds more.",
+        "Transfer to a deep bowl and sprinkle the salt flakes over the top.",
+        "Eat by shelling the inner beans directly with your teeth and discarding the outer pod."
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Hard-Boiled Eggs Stuffed with Avocado Purée and Lemon Cilantro",
+      "description": "A healthy reinvention of classic deviled eggs, replacing commercial mayonnaise with ripe avocado flesh emulsified with lime juice and cilantro. Rich in lutein, choline, and heart-healthy monounsaturated fats.",
+      "instructions": [
+        "Boil the eggs in boiling water for 9 minutes; plunge immediately into ice water to stop the cooking and peel easily.",
+        "Cut the cooked eggs in half lengthwise and remove the yolks with the tip of a small spoon.",
+        "In a bowl, mash the avocado with a fork along with only one of the cooked yolks (discard or reserve the other for another preparation), the lime juice, cilantro, and a pinch of pepper.",
+        "Work the mixture until you get a creamy, unctuous purée.",
+        "Fill the cavities of the 4 cooked whites with the avocado purée using a spoon or piping bag.",
+        "Decorate with the chili flakes or sweet paprika and serve chilled."
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Vinegar-Cured Boquerones with Garlic, Parsley, and Lemon",
+      "description": "Fresh anchovy fillets cured in vinegar with garlic, parsley, and lemon, dressed with olive oil. A cold protein snack with practically no carbohydrates.",
+      "instructions": [
+        "Clean the boquerones, remove the heads and backbone if desired, rinse under cold water, and dry very well with kitchen paper.",
+        "Arrange them in a single layer in a deep dish, interspersed with the garlic slices and chopped fresh parsley.",
+        "Mix the sherry vinegar with the water and fresh lemon juice and pour the mixture over the fish to cover completely; season with the pinch of black pepper.",
+        "Cover the dish and refrigerate for at least 4 hours, ideally overnight, so the vinegar cures the fish.",
+        "Before serving, lightly drain the boquerones, drizzle with extra virgin olive oil, and serve well chilled."
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Crispy Oven-Baked Kale Chips with Nutritional Yeast",
+      "description": "Curly kale leaves dehydrated over the gentle heat of the oven until crisp like potato chips, seasoned with nutritional yeast that brings a cheese-like flavor. They provide chlorophyll, vitamin K, and fiber with no appreciable net carbohydrates.",
+      "instructions": [
+        "Preheat the oven to 140 °C with fan (gentle heat keeps the leaves from turning bitter or burning).",
+        "Remove the thick, woody kale stems by hand and cut the leaves into bite-sized pieces.",
+        "Dry the kale leaves in a salad spinner and pat them with kitchen paper until no trace of water remains.",
+        "Place the leaves in a large bowl, pour in the 8 ml of olive oil, and massage thoroughly with your hands so every fold is coated with a very fine layer of fat.",
+        "Add the nutritional yeast and garlic powder, mixing to distribute the spices.",
+        "Spread the leaves on a baking sheet without crowding and bake at 140 °C for 14-16 minutes until completely crisp to the touch.",
+        "Let cool 3 minutes on the sheet and serve."
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Thick Greek Yogurt with Chopped Walnuts and Ceylon Cinnamon",
+      "description": "A classic snack ready in a minute, built on strained plain yogurt rich in casein and lactic acid, walnuts rich in alpha-linolenic acid, and cinnamon. Ceylon cinnamon contains polyphenols that help moderate blood sugar.",
+      "instructions": [
+        "Pour the Greek yogurt into a small ceramic or glass bowl.",
+        "Stir the yogurt with a teaspoon for 20 seconds to even out its texture and make it silkier.",
+        "Chop the walnuts with your fingers and place them over the yogurt to guarantee a crunchy texture.",
+        "Dust the ground Ceylon cinnamon over the surface before eating."
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Cucumber Canapés with Creamy Tuna and Mustard",
+      "description": "Thick slices of fresh cucumber used as a crisp vegetable base, crowned with a mixture of light canned tuna, a few drops of extra virgin olive oil, and Dijon mustard. A lean supply of seafood protein with no need for bread or toast.",
+      "instructions": [
+        "Drain all the water from the can of light canned tuna by pressing with a spoon.",
+        "In a bowl, flake the tuna with a fork and mix it with the Dijon mustard, olive oil, fresh chives, and a pinch of pepper.",
+        "Cut the cucumber into thick slices about 1 cm thick so they act as a firm base.",
+        "Arrange the cucumber slices on a flat tray.",
+        "Place a generous portion of the tuna mixture on each cucumber slice.",
+        "Serve chilled as healthy canapés ready to eat with your fingers."
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Pan-Toasted Almonds with Fresh Rosemary and Sea Salt",
+      "description": "Nuts gently toasted in a pan with a subtle film of olive oil, flavored with rosemary needles and sea salt crystals. A dense source of magnesium, prebiotic fiber, and vitamin E, key nutrients for metabolic balance.",
+      "instructions": [
+        "Heat the olive oil in a small non-stick pan over medium heat.",
+        "Add the raw almonds and stir continuously with a wooden spoon for 4 minutes to achieve an even toast without burning the skins.",
+        "Stir in the chopped fresh rosemary in the last minute of cooking so it releases its aromatic oils over the hot almonds.",
+        "Remove from the heat and sprinkle the pinch of fine sea salt, mixing well.",
+        "Tip the almonds onto a flat plate and let cool completely before eating so they reach maximum crunchiness."
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Green Apple Slices with Pure Almond Butter and Chia Seeds",
+      "description": "Crisp Granny Smith apple slices rich in pectin and low in fructose, accompanied by 100% nut almond butter and chia. The plant fat and soluble fiber form a gastric barrier that delays sugars from reaching the bloodstream.",
+      "instructions": [
+        "Wash the apple very well and cut it into thin wedges, keeping the skin to make the most of all the quercetin and fiber.",
+        "Arrange the apple wedges in a fan shape on a plate.",
+        "Place the almond butter in a small container or drizzle it in threads over each wedge.",
+        "Sprinkle the chia seeds and a touch of cinnamon over the almond butter and enjoy immediately."
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Strawberries Dipped in 85% Dark Chocolate with Toasted Sesame",
+      "description": "Fresh strawberries dipped in 85% dark chocolate and finished with toasted sesame, ideal for a treat after a meal. A sweet snack low in net carbohydrates and with no added sugars.",
+      "instructions": [
+        "Wash the strawberries, dry them very well with kitchen paper, and remove the green calyxes, leaving a short stem as a handle for dipping.",
+        "Chop the dark chocolate and melt it in a microwave-safe bowl at medium power in 30-second intervals, stirring between each until smooth and glossy.",
+        "Dip each strawberry in the melted chocolate, leaving the top half uncovered; remove with the help of a fork and let the excess drip off.",
+        "Place them on a tray lined with parchment paper without touching each other and sprinkle with the toasted sesame seeds and the pinch of sea salt.",
+        "Refrigerate 20 minutes until the chocolate solidifies and serve well chilled as a snack."
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Warm Artichoke and Spinach Dip with Zucchini Chips",
+      "description": "A warm pâté made with tender artichoke hearts and spinach bound with cottage cheese, served with dry baked zucchini slices as crisps. It stands out for its richness in prebiotic inulin fiber that protects the gut microbiota.",
+      "instructions": [
+        "Preheat the oven to 180 °C.",
+        "Arrange the thin zucchini slices on a sheet with baking paper, brush with half of the oil, and bake for 12-14 minutes until dehydrated and firm.",
+        "In a small saucepan, sauté the spinach with the remaining oil for 2 minutes until wilted.",
+        "Add the chopped artichokes and cottage cheese; warm gently for 3 minutes and mash lightly with a fork to keep a rustic texture.",
+        "Serve the warm artichoke dip in a bowl accompanied by the dry baked zucchini chips."
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Endive Boats with Traditional Hummus and Sunflower Seeds",
+      "description": "Fresh white endive leaves filled with a creamy tahini chickpea purée and toasted sunflower seeds. The endive provides bitter principles (lactucin) that stimulate bile and digestive enzyme secretion, with zero simple carbohydrates.",
+      "instructions": [
+        "Carefully separate 6 whole endive leaves, wash them, and dry them perfectly with a clean cloth.",
+        "Arrange the endive leaves on a plate acting as elongated boats.",
+        "Fill each boat with a tablespoon of hummus spread along the concavity.",
+        "Distribute the crunchy sunflower seeds over the chickpea cream.",
+        "Decorate with a few drops of extra virgin olive oil and a pinch of smoked sweet paprika before serving."
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Crispy Roasted Cauliflower Bites with Parmesan Crust",
+      "description": "Small cauliflower florets seasoned with olive oil and coated in grated Parmesan cheese, toasted in a hot oven. They create a crisp, savory exterior with no need for breadcrumbs or flours.",
+      "instructions": [
+        "Preheat the oven to 200 °C with top and bottom heat.",
+        "In a bowl, place the dry cauliflower bites and drizzle with the olive oil, mixing well to coat all surfaces.",
+        "Add the garlic powder, black pepper, and grated Parmesan; stir so the cheese adheres to the oil, forming a thin coating.",
+        "Arrange the separated florets on a sheet lined with parchment paper.",
+        "Bake at 200 °C for 16-18 minutes until the cauliflower is tender inside and the Parmesan forms a golden, crisp crust.",
+        "Serve warm directly from the sheet."
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Thin Zucchini Carpaccio with Toasted Pine Nuts and Lemon",
+      "description": "Translucent slices of raw zucchini dressed instantly with lemon juice, extra virgin olive oil, and golden pine nuts. A refreshing raw snack, high in potassium and water, ideal for hydrating and nourishing without empty calories.",
+      "instructions": [
+        "Toast the pine nuts in a small dry pan over medium heat for 2 minutes until fragrant and lightly golden; set aside.",
+        "Wash the zucchini and cut it into ultra-thin slices with the help of a kitchen mandoline.",
+        "Arrange the overlapping zucchini slices elegantly on a flat dish.",
+        "Emulsify the lemon juice with the extra virgin olive oil and a pinch of black pepper in a cup with a fork.",
+        "Brush or drizzle the dressing over the zucchini slices.",
+        "Scatter the toasted pine nuts over the top and serve immediately to enjoy the crunchy freshness of the vegetable."
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Cucumber Ribbon Rolls with Smoked Salmon and Cottage Cheese",
+      "description": "Thin cucumber ribbons rolled and filled with lean white cheese and omega-3-rich smoked salmon. A sophisticated, satisfying preparation with negligible carbohydrate content.",
+      "instructions": [
+        "With a potato peeler or mandoline, cut long longitudinal cucumber ribbons, discarding the first pure skin layer.",
+        "Dry the cucumber strips on absorbent paper.",
+        "In a bowl, mix the cottage cheese with the chopped dill and a pinch of black pepper.",
+        "Lay the cucumber strips on a board, spread a thin layer of cottage cheese, and place a strip of smoked salmon on each.",
+        "Roll each cucumber strip up into a small sushi-like roll.",
+        "Stand the rolls upright on a plate and serve fresh."
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Oven-Roasted Pumpkin Seeds with Turmeric and Black Pepper",
+      "description": "Pumpkin seeds dry-roasted with turmeric and black pepper (piperine multiplies curcumin absorption). A formidable supply of zinc, magnesium, and phytosterols that lower LDL cholesterol, with clean digestion.",
+      "instructions": [
+        "Preheat the oven to 170 °C with top and bottom heat.",
+        "In a small bowl, mix the pumpkin seeds with the olive oil, turmeric, and black pepper until evenly golden.",
+        "Spread the seeds in a single layer on a baking sheet lined with parchment paper.",
+        "Bake at 170 °C for 9-10 minutes, watching that they puff and brown without burning.",
+        "Remove from the oven and let cool completely on the sheet so they turn crunchy, then serve in two small bowls."
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Almond Flour, Coconut, and Chia Energy Balls",
+      "description": "No-bake energy truffles made with no dates, binding pure almond flour, unsweetened plant milk, shredded coconut, and chia. A portable dose of pure lipid energy that satisfies the sweet tooth without altering the glucose curve.",
+      "instructions": [
+        "In a medium bowl, mix the almond flour, half of the shredded coconut, chia seeds, and ground cinnamon.",
+        "Add the vanilla extract and the unsweetened almond milk gradually while kneading with your hands or a spoon to form a pliable, dense paste.",
+        "Divide the dough into 6 equal portions and roll each between your palms to form rounded balls.",
+        "Roll the balls in the remaining shredded coconut to coat them on the outside.",
+        "Refrigerate for at least 15 minutes so they acquire a compact consistency before eating (one serving equals 2 balls)."
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Individual Chia Pudding Cup with Hazelnut Milk and Cinnamon",
+      "description": "A satisfying snack with a natural gelatinous texture provided by the mucilaginous fibers of chia seeds soaked in unsweetened plant milk. The slow gastric diffusion ensures stable energy and appetite control for several hours.",
+      "instructions": [
+        "In a small glass, pour the plant milk and vanilla extract.",
+        "Add the chia seeds and ground cinnamon.",
+        "Stir vigorously with a dessert spoon for a full minute to ensure the seeds do not stick to the bottom.",
+        "Let rest 5 minutes and stir gently again.",
+        "Refrigerate for at least 1 hour (or prepare it in the morning) until it thickens to a custard-like consistency.",
+        "Eat chilled with a spoon directly from the glass."
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Carrot and Pepper Sticks with Homemade Greek Yogurt Tzatziki",
+      "description": "Crunchy raw vegetables rich in beta-carotene combined with traditional Greek sauce of grated cucumber and thick yogurt. A voluminous snack, rich in probiotics and water, with low calorie content and slow absorption.",
+      "instructions": [
+        "Grate the cucumber on the large holes of a grater and squeeze it with your hands in a strainer to extract all the liquid possible.",
+        "In a bowl, mix the Greek yogurt, drained cucumber, olive oil, lemon juice, and chopped spearmint to form the tzatziki sauce.",
+        "Wash, peel, and cut the carrot and red pepper into thin, firm sticks.",
+        "Place the bowl of tzatziki on a plate and surround it with the raw vegetable sticks, ready for dipping."
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Baked Crispy Parmesan Chips with Sesame and Oregano",
+      "description": "Single-ingredient crunchy crisps baked from aged cured cheese with seeds and oregano. They contain practically zero grams of net carbohydrates and an ideal profile for moments of crunchy-texture cravings.",
+      "instructions": [
+        "Preheat the oven to 190 °C with top and bottom heat.",
+        "On a sheet lined with parchment paper, form 4 separate circles by depositing even mounds of Parmesan and flattening them slightly with the back of a spoon.",
+        "Sprinkle the sesame seeds, dried oregano, and a pinch of pepper over the cheese discs.",
+        "Bake at 190 °C for 7-8 minutes until the cheese melts, bubbles, and the edges take on a caramelized golden color.",
+        "Remove the sheet from the oven and let cool completely for 5 minutes at rest (the chips will harden as they cool, becoming completely crisp).",
+        "Lift with a spatula and serve (2 chips per serving)."
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Homemade Marinated Olives with Fresh Rosemary, Thyme, and Citrus Zest",
+      "description": "Whole green and black olives marinated in extra virgin olive oil flavored with wild herbs and orange peel. One of the healthiest botanical foods of the Mediterranean pattern, sugar-free and full of oleic acid.",
+      "instructions": [
+        "Rinse the olives lightly with water to moderate the sodium content and drain carefully.",
+        "Place the olives in a small bowl.",
+        "Chop the fresh rosemary leaves and place them over the olives along with the dried thyme and the strip of orange zest.",
+        "Add the extra virgin olive oil and mix with a spoon so the aromas envelop each olive.",
+        "Let rest a few minutes before eating to allow the flavors to infuse."
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Whole-Grain Rice Cake with Pure Peanut Butter and Cacao Nibs",
+      "description": "A quick, crunchy snack on a whole-grain cereal cake, spread with single-ingredient peanut butter and finished with bitter pure cacao nibs. The fat and fiber soften the starchy response of the cereal.",
+      "instructions": [
+        "Place the whole-grain rice cake on a dry plate.",
+        "Spread the pure peanut butter evenly over the entire surface with a spreading knife.",
+        "Distribute the pieces of pure cacao nibs over the peanut butter, pressing lightly so they stick.",
+        "Add a subtle pinch of ground cinnamon and enjoy crunchy immediately."
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Warm Mild Curry Nut Mix with Sea Salt",
+      "description": "A blend of almonds, hazelnuts, and walnuts toasted over gentle heat with curry spices and a touch of virgin oil. It supplies slow-burning energy, polyphenols, and essential fatty acids with no added sugars or flours.",
+      "instructions": [
+        "Heat the extra virgin olive oil in a small non-stick pan over medium heat.",
+        "Add the almonds, hazelnuts, and walnuts to the pan.",
+        "Toast the nuts over gentle heat for 4 minutes, moving the pan constantly for an even toast.",
+        "Sprinkle the mild curry and the pinch of sea salt; sauté 1 more minute so the nuts absorb the aroma without burning the curry.",
+        "Remove from the hot pan into a bowl to stop the cooking and enjoy warm or completely cold."
+      ]
+    }
+  ]
+}

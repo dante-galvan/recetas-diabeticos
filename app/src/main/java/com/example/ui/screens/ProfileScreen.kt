@@ -186,7 +186,7 @@ fun ProfileScreen(
             }
 
             Switch(
-              checked = userProfile.isDarkTheme == true,
+              checked = userProfile?.isDarkTheme == true,
               onCheckedChange = { isChecked ->
                 viewModel.setThemeMode(isChecked)
               },

@@ -1,0 +1,325 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Baby Spinach and Feta Scramble with Oregano",
+      "description": "A quick, protein-packed breakfast that pairs free-range eggs with sautéed fresh spinach and a creamy touch of Mediterranean feta. Its low carbohydrate content, along with its plant fiber and healthy fats, promotes a flat glycemic response first thing in the morning.",
+      "instructions": [
+        "Beat the 4 eggs in a bowl with a pinch of black pepper and the dried oregano until smooth.",
+        "Heat the extra virgin olive oil in a non-stick pan over medium heat.",
+        "Add the baby spinach to the pan and sauté for 2 minutes until it reduces in volume.",
+        "Sprinkle the garlic powder over the spinach and immediately stir in the beaten eggs.",
+        "Cook over medium-low heat for 3 minutes, gently stirring with a silicone spatula from the edges toward the center to achieve a creamy texture.",
+        "Remove from the heat when the egg is cooked but still juicy, sprinkle the feta on top, and serve hot."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Overnight Oats with Chia Seeds, Cinnamon, and Walnuts",
+      "description": "Whole-grain oats soaked overnight with chia seeds, unsweetened plant milk, and Ceylon cinnamon. Its high beta-glucan and soluble mucilage content slows gastric emptying, moderating morning glucose absorption.",
+      "instructions": [
+        "In a jar or glass container with an airtight lid, mix the whole-grain oats, chia seeds, and ground cinnamon.",
+        "Pour in the unsweetened almond milk and vanilla extract, stirring with a spoon until all the grains are moistened with no lumps.",
+        "Cover the jar and refrigerate for at least 6 hours (preferably overnight).",
+        "In the morning, remove from the fridge, stir briefly with a spoon, and scatter the chopped walnuts over the surface before eating."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Whole-Grain Toast with Mashed Avocado and Poached Egg",
+      "description": "A classic, balanced combination on whole-grain sourdough bread with monounsaturated avocado fat and a poached egg with a runny yolk. The dense fiber and good fats slow the absorption of the bread's starch.",
+      "instructions": [
+        "Toast the slice of whole-grain bread until firm and crisp.",
+        "In a small bowl, mash the avocado flesh with a fork along with the lemon juice and a light pinch of salt.",
+        "Fill a small saucepan with water and bring to a gentle boil; add the white vinegar and create a whirlpool with a spoon.",
+        "Crack the egg into a cup and gently slide it into the center of the water whirlpool.",
+        "Cook over low heat for 3 and a half minutes to keep the yolk runny; lift with a slotted spoon and drain on absorbent kitchen paper.",
+        "Spread the mashed avocado over the toasted bread, place the poached egg on top, and garnish with the sesame seeds and chili flakes."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Portobello Mushroom and Ricotta Omelet",
+      "description": "A tender French-style omelet filled with mushrooms sautéed with herbes de Provence and dollops of creamy ricotta. It delivers high biological-value protein with practically no sugars and a controlled calorie profile.",
+      "instructions": [
+        "Heat half of the oil in a pan over medium heat and sauté the mushrooms for 4 minutes until golden and their water has evaporated; set aside on a plate.",
+        "Beat the 2 eggs vigorously with a pinch of white pepper until lightly foamy.",
+        "Add the remaining oil to the pan over medium-low heat and pour in the beaten eggs, spreading them across the surface.",
+        "Cook for 2 minutes until the base is set but the surface stays moist.",
+        "Arrange the sautéed mushrooms and teaspoons of ricotta over one half of the omelet.",
+        "Carefully fold the other half over the filling, turn off the heat, let rest for 30 seconds, and serve sprinkled with chopped chives."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Greek Yogurt Bowl with Blueberries and Flax Seeds",
+      "description": "A no-cook, cold breakfast built on thick protein-rich strained yogurt, enriched with low-glycemic fresh blueberries and ground golden flax seeds. The lactic acid, probiotics, and soluble fiber support gut health and insulin sensitivity.",
+      "instructions": [
+        "Place the Greek yogurt in a deep bowl.",
+        "Wash and carefully dry the fresh blueberries.",
+        "Scatter the ground golden flax seeds over the surface of the yogurt to ensure even nutritional distribution.",
+        "Add the fresh blueberries and the raw slivered almonds.",
+        "Dust a touch of ground cinnamon over the top and serve immediately."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Oat, Egg-White, and Vanilla Protein Pancakes",
+      "description": "Fluffy pancakes made only with whole-grain oat flour, egg whites, and cinnamon, cooked just right on a non-stick griddle. They provide slow-absorbing complex carbohydrates with minimal fat and no refined flours.",
+      "instructions": [
+        "Add the whole-grain oat flour, egg whites, whole egg, baking powder, vanilla, and cinnamon to the blender cup.",
+        "Blend for 45 seconds on medium power until you get a smooth, lump-free batter; let rest 2 minutes so it thickens slightly.",
+        "Lightly grease a non-stick pan with a few drops of olive oil and heat over medium heat.",
+        "Pour portions of about 3 tablespoons of batter per pancake.",
+        "Cook for 2 minutes until bubbles appear on the surface; flip with a thin spatula and brown the other side for 1 and a half more minutes.",
+        "Repeat until the batter is used up and serve warm, divided into 2 equal portions."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Quick Shakshuka with Peppers and Cumin Eggs",
+      "description": "A Maghreb stew of whole crushed tomatoes, roasted peppers, onion, and cumin with eggs poached directly in the simmering sauce. Rich in lycopene, antioxidants, and fiber, with minimal impact on postprandial blood sugar.",
+      "instructions": [
+        "Heat the olive oil in a wide, thick-bottomed pan over medium heat.",
+        "Soften the onion and red pepper over 6 minutes until they begin to soften.",
+        "Add the chopped garlic, cumin, and sweet paprika; stir quickly for 30 seconds so the spices do not burn.",
+        "Stir in the crushed tomato, reduce to low heat, and cook for 5 minutes until the sauce reduces and thickens.",
+        "Make 4 wells in the sauce with a spoon and crack an egg into each well.",
+        "Cover the pan and cook over low heat for 4 to 5 minutes, until the whites are fully set but the yolks stay runny.",
+        "Remove the lid, sprinkle chopped fresh parsley over the top, and serve hot."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Turmeric Tofu Scramble with Tomato and Chives",
+      "description": "A 100% plant-based alternative made with crumbled firm tofu, seasoned with anti-inflammatory turmeric, black Kala Namak salt for an eggy flavor, and sautéed cherry tomatoes. It offers clean protein with no cholesterol and no simple sugars.",
+      "instructions": [
+        "Drain the tofu block and dry it by pressing lightly with paper towels; then crumble it by hand into uneven pieces resembling scrambled egg.",
+        "Heat the olive oil in a non-stick pan over medium heat and sauté the cherry tomatoes for 3 minutes until they release their juices.",
+        "Add the crumbled tofu, ground turmeric, a pinch of black pepper, and the nutritional yeast.",
+        "Pour in the 30 ml of soy milk for moisture and stir constantly for 4 minutes over medium heat.",
+        "When it takes on an even yellow color and a juicy consistency, remove from the heat.",
+        "Sprinkle the fresh chopped chives over the top and serve immediately."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Savory Egg, Zucchini, and Parmesan Muffins",
+      "description": "Baked bites rich in protein and hydrating zucchini fiber, ideal for batch cooking. Their carbohydrate content is minimal, helping keep basal insulin levels stable all morning.",
+      "instructions": [
+        "Preheat the oven to 180 °C (top and bottom heat) and lightly grease 6 cups of a metal or silicone muffin tin.",
+        "Place the grated zucchini on a clean cloth and squeeze firmly with your hands to extract as much liquid as possible.",
+        "In a large bowl, beat the 5 eggs with the nutmeg, pepper, and half of the Parmesan.",
+        "Fold the well-drained zucchini and the diced turkey breast into the egg mixture with a spatula.",
+        "Divide evenly among the 6 cups and sprinkle the remaining Parmesan over the top of each muffin.",
+        "Bake at 180 °C for 18 minutes until they rise, turn golden, and a toothpick inserted in the center comes out clean.",
+        "Let cool 5 minutes before unmolding; each serving equals 2 muffins per person."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Steel-Cut Oat Porridge with Hemp Seeds and Nutmeg",
+      "description": "Porridge made from chopped oat groats (steel-cut oats), notably slower to digest than processed oats. Boosted with hemp seeds rich in omega-3 fatty acids and complete protein.",
+      "instructions": [
+        "In a medium saucepan, heat the water with the almond milk, cinnamon stick, and lemon zest until it begins to boil.",
+        "Add the steel-cut oats in a steady stream, lowering the heat to the minimum.",
+        "Cook over low heat for 18-20 minutes, stirring occasionally with a wooden spoon to release the starch and prevent sticking.",
+        "When it reaches a creamy texture with an al dente grain, remove the cinnamon stick and lemon zest.",
+        "Serve the hot porridge in two bowls, distribute the hulled hemp seeds, and dust with the pinch of fresh nutmeg."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Nordic Rye Toast with Cottage Cheese, Cucumber, and Dill",
+      "description": "A fresh breakfast inspired by Baltic cuisine on a base of dense pure rye bread. The combination of low-saturated-fat cottage cheese, hydrating cucumber, and dill brings freshness with an extremely high satiety index.",
+      "instructions": [
+        "Toast the slice of rye bread until firm and crisp.",
+        "Spread the cottage cheese evenly over the entire surface of the toast.",
+        "Wash the cucumber and slice it very thinly with a mandoline or sharp knife.",
+        "Arrange the cucumber slices, overlapping them, over the layer of cottage cheese.",
+        "Dress by drizzling the extra virgin olive oil, sprinkle the chopped fresh dill, and finish with freshly ground black pepper."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Oven-Baked Asparagus and Turkey Frittata",
+      "description": "An Italian-style baked dish that brings together tender green asparagus rich in inulin with lean, low-salt diced turkey. Slow baking preserves the micronutrients and ensures a juicy texture.",
+      "instructions": [
+        "Preheat the oven to 180 °C.",
+        "Trim the woody ends of the asparagus and slice the stalks into 1 cm rounds, reserving the tips whole.",
+        "In an oven-safe pan, heat the olive oil and sauté the red onion with the asparagus for 4 minutes.",
+        "Add the diced turkey to the pan and sauté 1 more minute over medium heat.",
+        "In a bowl, beat the eggs with the black pepper and pour evenly over the hot pan with the vegetables.",
+        "Cook 1 minute on the burner until the edges begin to set, then immediately transfer the pan to the oven.",
+        "Bake at 180 °C for 15 minutes until the egg has puffed up completely and the center feels firm to the touch.",
+        "Remove, let rest 3 minutes, and divide into 3 triangular portions to serve."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Whole-Grain Egg-White, Black Bean, and Pico de Gallo Burrito",
+      "description": "A Mexican-inspired breakfast wrapped in a whole-wheat tortilla, filled with fluffy egg whites, fiber-rich black beans, and fresh pico de gallo. The combination of legume and whole grain stabilizes morning energy levels.",
+      "instructions": [
+        "In a bowl, mix the chopped tomato, onion, and cilantro to assemble the fresh pico de gallo.",
+        "Heat the olive oil in a non-stick pan over medium heat and pour in the egg whites with the cooked black beans.",
+        "Stir gently for 3 minutes until you get a moist but well-set scramble.",
+        "Warm the whole-wheat tortilla on a dry griddle for 30 seconds per side until pliable.",
+        "Spread the egg whites with beans along the center of the tortilla.",
+        "Add the fresh pico de gallo and the avocado slices over the scramble.",
+        "Fold the side edges inward and roll up firmly into a burrito before cutting in half on the diagonal."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Chia Pudding with Light Coconut Milk and Raspberries",
+      "description": "A cold-set gel made with chia seeds and low-fat coconut milk, crowned with tart fresh raspberries. The seeds form a mucilage network that dramatically slows carbohydrate digestion, ensuring a virtually null glycemic load.",
+      "instructions": [
+        "In a glass jar, pour the light coconut milk, vanilla extract, and chia seeds.",
+        "Whisk vigorously with a fork for a full minute to ensure the seeds do not clump at the bottom.",
+        "Let rest 10 minutes at room temperature and whisk again for 30 seconds.",
+        "Cover and store in the fridge for at least 4 hours or overnight until it sets into a pudding texture.",
+        "Before eating, wash and place the whole fresh raspberries on top and sprinkle with the desiccated coconut."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Baked Eggs with Tomato and Basil",
+      "description": "Eggs baked in an individual clay dish over a rustic reduction of ripe tomato, oregano, and fresh basil leaves. A comforting traditional hot breakfast, free of sugars and high in choline and protein.",
+      "instructions": [
+        "Preheat the oven to 190 °C.",
+        "Grease an individual earthenware dish with half of the extra virgin olive oil.",
+        "Fill the base with the chopped tomato and season with the garlic powder and ground black pepper.",
+        "Carefully crack the 2 eggs over the bed of tomato, keeping the yolks intact.",
+        "Distribute the mozzarella pieces around the whites.",
+        "Drizzle with the remaining olive oil and bake at 190 °C for 12-14 minutes, until the whites are opaque and firm but the yolks remain wobbly.",
+        "Remove from the oven with an oven mitt, garnish with the fresh basil leaves, and enjoy freshly made."
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Warm Quinoa with Cinnamon, Pecans, and Soy Milk",
+      "description": "A comforting bowl of boiled Andean pseudocereal, served warm with soy milk and crunchy pecans. It offers an ideal balance of essential amino acids and insoluble fiber that avoids morning energy swings.",
+      "instructions": [
+        "Rinse the quinoa under the tap in a fine-mesh strainer for 1 minute to fully remove the natural saponins.",
+        "Place the quinoa in a pot with the water and cook covered over medium heat for 12 minutes until the liquid is absorbed.",
+        "Pour the soy milk and ground cinnamon over the cooked quinoa, stirring over low heat for 3 more minutes until it emulsifies into a porridge-like texture.",
+        "Remove from the heat and flavor with the fine orange zest.",
+        "Divide the mixture between two deep bowls and scatter the chopped pecans evenly."
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Ranch-Style Eggs on Corn Tortilla with Avocado Purée",
+      "description": "A carbohydrate-controlled version of the classic ranch breakfast: a crispy baked nixtamalized corn tortilla, a base of avocado, and a griddled egg bathed in sugar-free homemade red sauce. The resistant starch of nixtamalized corn lowers the overall glycemic index.",
+      "instructions": [
+        "Toast the corn tortilla directly in a dry pan over medium heat for 2 minutes per side until crisp and toasted.",
+        "On a plate, mash the avocado flesh with the lime juice and spread it over the surface of the toasted tortilla.",
+        "Warm the homemade tomato sauce in a small saucepan.",
+        "In the pan greased with the extra virgin olive oil, cook the griddled egg over medium heat for 3 minutes, leaving the yolk runny.",
+        "Spatula the egg onto the avocado toast.",
+        "Bathe the edges of the egg with the hot tomato sauce and garnish with freshly chopped cilantro."
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Almond Flour and Flax Protein Waffles",
+      "description": "Crisp waffles formulated with pure almond flour and egg, completely free of grains. Rich in vitamin E and heart-protective fats, they guarantee a null glycemic impact with excellent rise.",
+      "instructions": [
+        "Preheat the electric waffle iron and lightly grease the plates with a few drops of oil.",
+        "In a medium bowl, beat the eggs with the almond milk and liquid vanilla.",
+        "Add the almond flour, ground flax seeds, and baking powder, beating until you form a dense, uniform batter.",
+        "Pour half the batter into the center of the hot waffle iron and close the lid.",
+        "Bake for 3 to 4 minutes until the steam stops and it takes on an even golden brown color.",
+        "Repeat with the second half of the batter and serve each waffle warm."
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Sourdough Toast with Pure Peanut Butter and Sliced Strawberries",
+      "description": "A satisfying combination on rustic bread with single-ingredient peanut butter (100% roasted nut) and fresh strawberries. The phytic acid and polyphenols of the strawberries, combined with the healthy fats of the peanut, delay intestinal glucose absorption.",
+      "instructions": [
+        "Toast the slice of sourdough bread in a toaster until nicely crisp.",
+        "Spread the peanut butter evenly over the whole warm slice with a spatula.",
+        "Wash, sanitize, and thinly slice the strawberries.",
+        "Arrange the strawberry slices over the peanut butter in overlapping layers.",
+        "Finish by sprinkling the crunchy chia seeds and the pinch of cinnamon before serving."
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Country Scramble with Zucchini, Onion, and Goat Cheese",
+      "description": "A mild dish where the sautéed zucchini develops natural sweet notes, balanced by the acidity of a goat cheese log melted in the heat of the beaten eggs. Excellent nutritional density with very low net carbs.",
+      "instructions": [
+        "Heat the extra virgin olive oil in a non-stick pan over medium heat.",
+        "Add the red onion and zucchini; sauté for 6 minutes, stirring often, until the zucchini is tender and begins to brown.",
+        "Sprinkle the dried thyme and a pinch of pepper over the vegetables.",
+        "Lightly beat the 4 eggs in a bowl and add them to the pan, lowering the heat to low.",
+        "Crumble the goat cheese over the pan as the egg sets, folding gently for 2 minutes.",
+        "Turn off the heat when the egg still looks juicy and serve immediately on two plates."
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Green Bowl with Spinach, Half Kiwi, and Sunflower Seeds",
+      "description": "A dense spoonable bowl made by blending baby spinach with neutral protein, almond milk, and avocado for an ice-cream-like consistency, topped with vitamin-C-rich kiwi and crunchy seeds. It delivers volume and micronutrients without glucose spikes.",
+      "instructions": [
+        "Add the fresh spinach, protein isolate, avocado, and very cold almond milk to the blender cup.",
+        "Blend on maximum speed for a full minute until you get a dense, creamy, velvety green cream.",
+        "Pour the mixture into a deep bowl with the help of a rubber spatula.",
+        "Arrange the fresh kiwi slices in a row over the surface.",
+        "Finish by crowning with the sunflower seeds to add crunchy texture and essential fats."
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Buckwheat Crêpes Stuffed with Cottage Cheese and Sautéed Spinach",
+      "description": "Thin Breton-style galettes made with buckwheat (sarracen) flour, gluten-free and containing fagomine, a compound that helps reduce carbohydrate absorption. The filling of low-fat cottage cheese and spinach brings lightness and digestibility.",
+      "instructions": [
+        "In a bowl, whisk the buckwheat flour with the egg and water until you get a thin batter; let rest 5 minutes.",
+        "In a pan with half of the oil, sauté the spinach for 2 minutes until softened; mix in a bowl with the cottage cheese and a pinch of nutmeg.",
+        "Grease a crepe pan or wide skillet with the remaining oil over medium-high heat.",
+        "Pour half the batter, tilting the pan to coat the bottom in a thin layer; cook 2 minutes on one side and flip for 1 more minute.",
+        "Repeat with the remaining batter to make 2 crêpes.",
+        "Place the cottage cheese and spinach mixture in the center of each crêpe, roll into a cylinder, and serve hot."
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Whole-Grain Tartine with Homemade Hummus and Hard-Boiled Egg",
+      "description": "A toasted slice with a base of traditional chickpea-and-tahini hummus, combined with slices of perfectly hard-boiled egg. The legumes provide prebiotic fiber and the egg supplies amino acids to slow the digestion of the toast.",
+      "instructions": [
+        "Boil the egg in boiling water for 9 minutes so the yolk is set but not dry; cool in ice water and peel.",
+        "Toast the slice of whole-grain bread until crisp.",
+        "Spread the hummus generously over the entire surface of the toasted bread.",
+        "Cut the hard-boiled egg into even slices and arrange them over the hummus.",
+        "Season with the smoked sweet paprika, the drizzle of olive oil, and the hemp seeds before enjoying."
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Steamed Egg-White Custard with Broccoli and Nutritional Yeast",
+      "description": "A highly digestible steamed dish inspired by Chinese savory egg custard (Chawanmushi), made with egg whites beaten in a mild broth with al dente broccoli florets. It offers maximum satiety with almost zero saturated fats and an ultra-light calorie profile.",
+      "instructions": [
+        "In a bowl, gently beat the whites with the room-temperature vegetable broth and the nutritional yeast so it does not create too much foam.",
+        "Add the tiny broccoli pieces and a pinch of white pepper.",
+        "Pour the mixture into a small dish or ceramic ramekin suitable for steaming.",
+        "Cover the ramekin with parchment paper or a light lid.",
+        "Place in a steamer over boiling water over medium heat for 10-11 minutes until the surface is set and firm to the touch.",
+        "Carefully remove, drizzle with the drops of raw olive oil, and enjoy hot with a spoon."
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Oat and Flax Fitness Arepa Stuffed with Farmer's Cheese and Tomato",
+      "description": "A pan-toasted arepa made with ground whole-grain oat flour and flaxseed, free of refined corn flours. Stuffed with low-salt white farmer's cheese and slices of juicy tomato, it provides slow starches and balanced digestibility for the morning.",
+      "instructions": [
+        "In a bowl, mix the oat flour, ground flax seeds, and a pinch of oregano; gradually add the warm water.",
+        "Knead with your hands for 2 minutes until you get an elastic, pliable dough that does not stick to your fingers.",
+        "Shape a ball and flatten it with your palms to form a disc about 1.5 cm thick.",
+        "Lightly grease a non-stick pan with the olive oil over medium heat and cook the arepa for 5 minutes per side until it forms a golden, crisp crust.",
+        "Open the hot arepa crosswise in half with a serrated knife without fully separating the two discs.",
+        "Stuff with the sliced fresh cheese and the tomato slices, closing gently before serving."
+      ]
+    }
+  ]
+}

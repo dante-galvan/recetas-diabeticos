@@ -150,7 +150,7 @@ fun RecipeCard(
         ) {
           Icon(
             imageVector = if (isFavorite) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
-            contentDescription = if (isFavorite) "Remove from favorites" else "Add to favorites",
+            contentDescription = if (isFavorite) AppStrings.cdRemoveFavorite() else AppStrings.cdAddFavorite(),
             tint = favColor,
             modifier = Modifier
               .size(22.dp)
@@ -340,7 +340,7 @@ fun RecipeHorizontalCard(
         ) {
           Icon(
             imageVector = if (isFavorite) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
-            contentDescription = "Favorite",
+                contentDescription = AppStrings.cdFavorite(),
             tint = if (isFavorite) MaterialTheme.colorScheme.error else Color.White,
             modifier = Modifier.size(20.dp)
           )

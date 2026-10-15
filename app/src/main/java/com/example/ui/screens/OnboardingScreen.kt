@@ -162,7 +162,7 @@ fun OnboardingScreen(
                   selectedPreferences + opt
                 }
               },
-              label = { Text(opt) }
+              label = { Text(AppStrings.dietaryLabel(opt)) }
             )
           }
         }
@@ -202,7 +202,7 @@ fun OnboardingScreen(
                   selectedAllergies + allergy
                 }
               },
-              label = { Text(allergy) }
+              label = { Text(AppStrings.allergenLabel(allergy)) }
             )
           }
         }

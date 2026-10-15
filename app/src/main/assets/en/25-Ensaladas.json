@@ -1,0 +1,308 @@
+{
+  "recipes": [
+    {
+      "id": 126,
+      "name": "Traditional Greek Salad with Feta and Kalamata Olives",
+      "description": "A Mediterranean classic of crisp cucumber, ripe tomatoes, red onion, and feta dressed with wild oregano. It stands out for its high content of biological water, polyphenols, and oleic acid with a negligible glycemic load.",
+      "instructions": [
+        "Wash the vegetables carefully; cut the tomatoes into even wedges and the cucumber into thick half-moons, keeping the skin.",
+        "In a large salad bowl, arrange the cucumber, tomatoes, and feathered red onion.",
+        "Add the drained kalamata olives and feta cubes on top.",
+        "In a small bowl, emulsify the extra virgin olive oil with the red wine vinegar and dried oregano.",
+        "Pour the dressing evenly over the salad just before serving and mix gently."
+      ]
+    },
+    {
+      "id": 127,
+      "name": "Warm Baby Spinach Salad with Grilled Chicken and Mushrooms",
+      "description": "Tender spinach leaves warmed slightly by freshly cooked chicken slices and garlic-sautéed mushrooms. It supplies abundant folate, non-heme iron, and lean protein with high satiating power.",
+      "instructions": [
+        "Place the fresh baby spinach leaves on a platter or divide between two deep bowls.",
+        "Heat half of the oil in a pan over medium heat and sauté the mushrooms with the chopped garlic for 4 minutes; keep warm.",
+        "Brush the breast fillets with the remaining oil and season to taste.",
+        "Cook the chicken on a very hot griddle for 3 minutes per side until well browned; cut into crosswise strips.",
+        "Distribute the hot sautéed mushrooms and chicken strips over the bed of spinach so the heat warms the leaves.",
+        "Drizzle with the apple cider vinegar and a thread of the residual pan juices before tasting."
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Mediterranean Lentil Salad with Peppers and Lemon Vinaigrette",
+      "description": "A cold whole-legume salad mixed with a crunchy brunoise of green pepper, red pepper, and fresh scallion in a citrusy lemon-and-parsley dressing. The resistant starch of cooked and cooled lentils moderates the glucose curve.",
+      "instructions": [
+        "Rinse the cooked lentils under a gentle stream of cold water in a strainer and drain completely.",
+        "In a large bowl, mix the lentils with the diced red pepper, green pepper, and scallion.",
+        "In a cup, whisk vigorously with a fork the lemon juice, olive oil, ground cumin, and fresh parsley.",
+        "Pour the vinaigrette over the lentils and mix carefully to integrate the flavors.",
+        "Let rest 10 minutes at room temperature so the legume absorbs the dressing before serving."
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Wild Arugula, Smoked Salmon, Avocado, and Pumpkin Seed Salad",
+      "description": "A combination of slightly bitter arugula leaves with smoked salmon strips, an avocado fan, and crunchy pumpkin seeds. It supplies monounsaturated and omega-3 polyunsaturated fatty acids that support cardiovascular health.",
+      "instructions": [
+        "Arrange the fresh arugula in a salad bowl, forming a fluffy base.",
+        "Distribute the smoked salmon strips and avocado slices over the arugula leaves.",
+        "Scatter the toasted pumpkin seeds over everything.",
+        "Emulsify the lime juice with the extra virgin olive oil and ground black pepper.",
+        "Dress the salad just before bringing it to the table to preserve the tenderness of the arugula leaves."
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Crisp Fennel, Lamb's Lettuce, Fresh Orange, and Walnut Salad",
+      "description": "An aromatic winter salad that pairs translucent slices of fennel bulb with clean segments of natural orange and chopped walnuts. Fennel brings anise notes and carminative fiber that modulate the impact of the fruit's natural fructose.",
+      "instructions": [
+        "Cut the fennel bulb with a mandoline into very thin slices to maximize its crisp texture.",
+        "Extract the clean orange segments with a sharp knife, completely removing the bitter white membranes.",
+        "In a dish, mix the lamb's lettuce with the sliced fennel.",
+        "Place the orange segments and chopped walnuts on top.",
+        "Whisk the olive oil with the apple cider vinegar and a pinch of pepper, drizzle over the salad, and serve immediately."
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Chickpea Salad with Light Canned Tuna, Hard-Boiled Egg, and Parsley",
+      "description": "A rustic protein salad that brings together cooked chickpeas with oil-free tuna and hard-boiled egg quarters, drizzled with extra virgin olive oil. It provides complete amino acids and very slow-digesting starch.",
+      "instructions": [
+        "Boil the eggs in boiling water for 9 minutes, cool in ice water, peel, and cut into quarters.",
+        "In a large bowl, mix the drained cooked chickpeas with the flaked light tuna, cherry tomatoes, and chopped scallion.",
+        "Prepare the vinaigrette by emulsifying the extra virgin olive oil with the sherry vinegar and chopped fresh parsley.",
+        "Dress the chickpea and tuna mixture in the bowl, stirring gently.",
+        "Serve in two deep plates and crown each portion with the cooked egg quarters."
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Healthy Red Cabbage Coleslaw with Tart Apple and Sunflower Seeds",
+      "description": "A lighter version of traditional coleslaw that skips sugared mayonnaise, using raw red cabbage with Granny Smith apple and a plain yogurt dressing. Very rich in protective anthocyanins and thickening fiber.",
+      "instructions": [
+        "Cut the red cabbage into very thin strips and massage it for 1 minute with your hands and a few drops of lemon to soften its cell structure.",
+        "Add the green apple sticks and grated carrot to the red cabbage bowl.",
+        "In a small bowl, mix the plain yogurt, Dijon mustard, and the remaining lemon juice to form a smooth, uniform sauce.",
+        "Pour the sauce over the vegetables and mix with two spoons until everything is evenly coated.",
+        "Sprinkle the sunflower seeds over the top and refrigerate 10 minutes before eating."
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Quinoa Salad with Turkey Breast, Cucumber, and Yogurt-Mint Dressing",
+      "description": "A refreshing bowl of cooked quinoa grains combined with lean roasted turkey breast dice, fresh cucumber, and a yogurt sauce with fresh mint. It provides all the indispensable amino acids with prolonged absorption.",
+      "instructions": [
+        "Rinse the quinoa under the tap and boil it in 130 ml of boiling water for 12 minutes until it absorbs the liquid; let cool.",
+        "In a large bowl, mix the cold quinoa with the diced turkey breast and chopped cucumber.",
+        "In a small container, whisk the plain yogurt with the olive oil, lemon juice, and chopped mint.",
+        "Add the yogurt sauce to the quinoa and stir gently.",
+        "Serve in two wide bowls as a refreshing lunch or light dinner dish."
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Rustic Caprese Salad with Assorted Tomatoes, Fresh Mozzarella, and Basil",
+      "description": "An ode to Mediterranean simplicity that combines ripe tomatoes of different varieties, slices of fresh mozzarella, and fresh basil leaves bathed in virgin extra oil. The lycopene and the cheese fats form a highly cardioprotective duo.",
+      "instructions": [
+        "Cut the tomatoes into medium-thick slices with a serrated knife so as not to crush them.",
+        "Drain the fresh mozzarella and cut it into even slices similar to the tomato.",
+        "Arrange on a flat plate, alternating a tomato slice, a basil leaf, and a mozzarella slice in a spiral.",
+        "Drizzle evenly with the extra virgin olive oil.",
+        "Finish with a touch of freshly ground black pepper and serve immediately."
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Warm Green Bean Salad with Desalted Cod and Poached Egg",
+      "description": "A warm dish that pairs al dente thin green beans with sautéed cod flakes and a central poached egg whose yolk acts as a natural creamy dressing. Rapidly assimilated seafood proteins with null carbohydrate density.",
+      "instructions": [
+        "Steam the green beans for 6 minutes until tender but firm; drain.",
+        "In a pan with the olive oil, lightly brown the sliced garlic and sauté the cod for 3 minutes until it opens into juicy flakes; set aside.",
+        "Poach the two eggs in a saucepan of water at the point of boiling with a splash of vinegar for 3 and a half minutes; drain with a slotted spoon.",
+        "Arrange the warm green beans on two flat plates and distribute the cod flakes over the top.",
+        "Place a poached egg in the center of each plate and sprinkle with ground black pepper.",
+        "Break the yolk at the table so it bathes everything."
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Tender Sprout Salad with Canned Sardines and Crisp Radishes",
+      "description": "A maritime combination full of contrasts between the crisp freshness of radish and the calcium and vitamin D richness of whole canned bone-in sardines over green sprouts. An exceptional supply of metabolic micronutrients.",
+      "instructions": [
+        "Wash and spin the tender salad sprouts; arrange them in a salad bowl.",
+        "Wash the radishes and cut them into thin crisp slices; distribute them over the sprouts.",
+        "Carefully arrange the drained whole sardines over the vegetables, taking care not to break them.",
+        "In a bowl, emulsify the olive oil with the lemon juice and a pinch of black pepper.",
+        "Pour the citrus dressing over the salad immediately before serving."
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Lemon-Marinated Tofu Salad with Cucumber and Toasted Sesame",
+      "description": "A plant-based proposal that combines citrus-marinated firm tofu dice with half-moon cucumber and sesame seeds. The plant protein supply and unsaturated fatty acids keep fasting glucose levels stable.",
+      "instructions": [
+        "In a bowl, mix the lime juice, low-salt soy sauce, and half of the sesame oil; submerge the tofu dice and let marinate 10 minutes.",
+        "Brown the tofu dice in a non-stick pan over medium heat for 4 minutes until a light golden crust forms; let cool.",
+        "In a salad bowl, arrange the thinly sliced cucumber.",
+        "Add the warm or cooled tofu dice.",
+        "Drizzle with the remaining sesame oil and sprinkle the toasted sesame seeds and fresh chopped chives before serving."
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Warm Grilled Asparagus Salad with Parmesan Shavings",
+      "description": "Tender green asparagus stalks grilled until their natural sugars slightly caramelize, plated warm with fine shavings of aged Parmesan and virgin oil. Rich in prebiotic inulin with barely any assimilable carbs.",
+      "instructions": [
+        "Trim the asparagus, removing the fibrous base, and wash them well.",
+        "Heat a griddle or wide pan over medium-high heat with half of the olive oil.",
+        "Cook the asparagus for 6-7 minutes, turning, until tender and marked on the surface.",
+        "Arrange the asparagus in a row on an elongated dish while still warm.",
+        "Drizzle with the remaining extra virgin olive oil and fresh lemon juice.",
+        "Distribute the fine Parmesan shavings over the top so they melt slightly with the heat and add a twist of black pepper."
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Light Country Green Bean Salad with Tuna Belly and Egg",
+      "description": "A low-carbohydrate adaptation of the classic Spanish country salad, replacing potato with al dente round green beans, served with juicy tuna belly and hard-boiled egg. High satiety with minimal postprandial spike.",
+      "instructions": [
+        "Boil the green beans for 6 minutes in salted water until al dente; refresh under cold water and drain.",
+        "Peel the cooked eggs and cut them into quarters.",
+        "In a salad bowl, mix the green beans with the red pepper strips and sweet onion julienne.",
+        "Dress with the extra virgin olive oil and apple cider vinegar, integrating gently.",
+        "Arrange the tuna belly flakes and hard-boiled egg quarters on top before serving."
+      ]
+    },
+    {
+      "id": 140,
+      "name": "White Bean Salad with Roasted Peppers and Mackerel Fillets",
+      "description": "A cold one-plate dish that integrates fiber-rich white beans with roasted red peppers and mackerel loins high in omega-3 fatty acids. It provides digestive satiety with very slow glycemic release.",
+      "instructions": [
+        "Gently rinse the cooked white beans in a strainer and drain.",
+        "In a deep bowl, mix the beans with the roasted red pepper strips and chopped red onion.",
+        "Emulsify the olive oil with the sherry vinegar and parsley.",
+        "Dress the beans with the vinaigrette and mix gently so as not to break the beans.",
+        "Divide between two plates and place the whole mackerel fillets on each salad when serving."
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Healthy Caesar Salad with Roasted Breast and Light Yogurt Dressing",
+      "description": "A lighter interpretation of the classic Caesar that replaces fried croutons and mayonnaise with herb-roasted chicken, crisp little gem leaves, and a Greek yogurt dressing with mustard and anchovy. Zero flours and very moderate fats.",
+      "instructions": [
+        "Cook the breast fillets on a hot griddle for 3 minutes per side until cooked and golden; cut into strips.",
+        "In a small bowl, mash the two anchovy fillets with a fork and mix with the Greek yogurt, Dijon mustard, lemon juice, and olive oil to form a smooth sauce.",
+        "Wash, dry, and cut the romaine little gems into bite-sized pieces; arrange them in a salad bowl.",
+        "Add the warm chicken strips over the lettuce.",
+        "Bathe with the yogurt dressing and sprinkle the grated Parmesan over the top before serving."
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Low-Carb Cauliflower Tabbouleh with Tomato, Spearmint, and Lemon",
+      "description": "A reinvention of Lebanese tabbouleh that replaces wheat couscous with finely chopped raw cauliflower, combined with abundant fresh parsley, spearmint, and tomato. Very hydrating, rich in vitamin C, and completely free of dense carbohydrates.",
+      "instructions": [
+        "Grate the raw cauliflower florets on the fine holes of a box grater to get a semolina-like grain.",
+        "In a wide bowl, combine the grated cauliflower with the diced tomato and scallion.",
+        "Add the chopped fresh parsley and fresh spearmint.",
+        "Dress with the fresh lemon juice, extra virgin olive oil, and the pinch of pepper.",
+        "Mix well and let rest 15 minutes in the refrigerator so the cauliflower marinates in the citrus juices before serving."
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Massaged Kale Salad with Avocado, Hemp Seeds, and Lemon",
+      "description": "Curly kale leaves rubbed manually with avocado and lemon to break their tough fibers, turning them into an extraordinarily tender salad. A concentrated supply of folates, glucosinolates, and unsaturated fats with null glycemic impact.",
+      "instructions": [
+        "Cut the kale leaves into medium pieces and place them in a large bowl.",
+        "Add the avocado flesh, lemon juice, and extra virgin olive oil directly over the leaves.",
+        "With clean hands, massage the kale vigorously for 2 minutes until the leaves reduce their volume by half and take on an intense green color and silky texture.",
+        "Arrange the massaged kale in two bowls.",
+        "Crown with the hulled hemp seeds and a touch of ground black pepper before serving."
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Fresh Edamame, Cherry Tomato, Red Onion, and Cilantro Salad",
+      "description": "Shelled tender young soybeans mixed with juicy cherry tomatoes, red onion, and fresh cilantro dressed with lime. Great bioavailability of plant protein, isoflavones, and very slow-assimilating complex carbohydrates.",
+      "instructions": [
+        "Boil the edamame in boiling water for 4 minutes; cool under cold running water and drain.",
+        "In a medium bowl, mix the shelled edamame with halved cherry tomatoes and red onion.",
+        "In a small glass, whisk the lime juice with the extra virgin olive oil.",
+        "Pour the dressing over the salad and mix with a spoon.",
+        "Sprinkle with abundant chopped fresh cilantro and serve fresh."
+      ]
+    },
+    {
+      "id": 145,
+      "name": "Warm Sautéed Mushroom Salad over Bitter Escarole and Pomegranate",
+      "description": "Curly escarole leaves that provide hepatoprotective bitter principles, combined with mixed mushrooms sautéed in the pan and fresh pomegranate seeds. Very low in calories with an excellent antioxidant polyphenol supply.",
+      "instructions": [
+        "Arrange the clean curly escarole in a large salad bowl.",
+        "Heat half of the oil in a pan over medium heat and brown the sliced garlic with the mushrooms for 5 minutes until they lose their moisture and begin to brown.",
+        "Pour the apple cider vinegar into the hot pan with the mushrooms to deglaze.",
+        "Tip the warm mushrooms directly over the bed of escarole.",
+        "Drizzle with the remaining extra virgin olive oil and distribute the red pomegranate seeds over the top before serving."
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Spinach Salad with Warm Goat Cheese and Walnuts",
+      "description": "Fresh spinach leaves accompanied by goat cheese slices lightly marked on the griddle and chopped walnuts. The combination of dairy fat and nuts slows gastric digestion, reducing the insulin response.",
+      "instructions": [
+        "Distribute the fresh spinach leaves on two deep plates.",
+        "Heat a non-stick pan over high heat without oil.",
+        "Mark the goat cheese slices for 1 minute per side until lightly golden without melting completely.",
+        "Place the warm cheese slices over the bed of spinach.",
+        "Add the chopped walnuts around.",
+        "Dress with the extra virgin olive oil, Modena balsamic vinegar, and a pinch of freshly ground pepper."
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Fresh Cucumber Noodle Salad with Greek Yogurt, Mint, and Flax",
+      "description": "Raw cucumber vegetable noodles bathed in a thick dressing of fat-free plain yogurt, fresh spearmint, and ground golden flaxseed. Ultra-hydrating, dense in dairy probiotics and mucilaginous soluble fiber.",
+      "instructions": [
+        "Run the washed cucumbers through a spiralizer to get long noodle ribbons.",
+        "Place the cucumber noodles in a strainer for 5 minutes to remove excess vegetable liquid.",
+        "In a bowl, whisk the Greek yogurt with the olive oil, lemon juice, and chopped fresh mint.",
+        "Arrange the cucumber spirals in a salad bowl and pour the yogurt dressing over them.",
+        "Sprinkle with the ground golden flax seeds and mix just before eating."
+      ]
+    },
+    {
+      "id": 148,
+      "name": "Steamed Shrimp Salad with Crisp Soybean Sprouts, Celery, and Sesame",
+      "description": "An oriental-inspired salad with juicy steamed shrimp, tender soybean sprouts, and celery slices that guarantee a crunchy bite. Extremely light, cleansing, and with a practically null impact on the glycemic curve.",
+      "instructions": [
+        "Steam the shrimp for 3-4 minutes until they take on a pink tone and firm consistency; let cool.",
+        "In a large bowl, combine the cleaned soybean sprouts with the chopped celery and cold cooked shrimp.",
+        "In a cup, mix the sesame oil, reduced-salt soy sauce, and lime juice.",
+        "Pour the dressing over the salad and mix carefully.",
+        "Decorate with the toasted sesame seeds on top and serve immediately."
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Marinated Artichoke Heart Salad with Ham Shavings and Lamb's Lettuce",
+      "description": "Tender artichoke hearts dressed with virgin oil and lemon, served over a bed of lamb's lettuce and adorned with lean shavings of cured Iberian ham. It stands out for its fermentable inulin that promotes a balanced bacterial flora.",
+      "instructions": [
+        "Drain the artichoke hearts carefully and cut them into quarters.",
+        "Arrange the clean lamb's lettuce as a base in a flat salad bowl.",
+        "Distribute the artichoke quarters evenly over the lettuce leaves.",
+        "Scatter the lean cured ham shavings over the top.",
+        "Emulsify the extra virgin olive oil with the lemon juice and pepper, and drizzle over the whole salad before tasting."
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Pinto Bean Salad with Shredded Chicken, Avocado, and Lime",
+      "description": "A fresh, complete Latin-style salad that unites cooked pinto beans with lean strands of cooked chicken, creamy avocado dice, and freshly squeezed lime juice. Great richness in resistant starch and fiber for a flat glycemic profile.",
+      "instructions": [
+        "Rinse the cooked pinto beans under a gentle stream of cold water and drain them gently.",
+        "In a salad bowl, mix the pinto beans with the shredded chicken breast and tomato dice.",
+        "Add the avocado dice and chopped fresh cilantro.",
+        "Dress with the fresh lime juice and the extra virgin olive oil.",
+        "Stir carefully with two spoons to integrate without mashing the avocado and serve at room temperature."
+      ]
+    }
+  ]
+}

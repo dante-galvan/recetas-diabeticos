@@ -1,0 +1,339 @@
+{
+  "recipes": [
+    {
+      "id": 51,
+      "name": "Grilled Octopus with La Vera Paprika, Chives, and Olive Oil",
+      "description": "Sliced cooked octopus seared on the griddle and bathed in olive oil with La Vera paprika and fresh chives. A very light seafood dinner, ready in minutes and almost carbohydrate-free.",
+      "instructions": [
+        "Pat the cooked octopus tentacles dry with kitchen paper so they brown properly on the griddle.",
+        "In a bowl, mix the extra virgin olive oil with the La Vera paprika, fresh lemon juice, and ground black pepper.",
+        "Brush the octopus with half of the paprika mixture and marinate for 5 minutes at room temperature.",
+        "Heat a cast-iron griddle over very high heat and sear the octopus for 2 minutes per side without moving it until it develops golden marks.",
+        "Remove from the heat, dress with the remaining paprika mixture, and sprinkle with the fresh chopped chives and sea salt flakes.",
+        "Serve immediately as a light dinner, accompanied by an arugula and cherry tomato salad."
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Fine-Herb Turkey Breast with Steamed Broccoli and Lemon",
+      "description": "Lean turkey breast fillets seared with thyme, rosemary, and citrus zest, served with al dente broccoli florets. A satisfying, high-protein dinner free of refined carbohydrates that supports overnight muscle repair.",
+      "instructions": [
+        "Cook the broccoli florets in a steamer for 6-7 minutes until tender but firm to the bite (al dente).",
+        "On a deep plate, brush the turkey fillets with half of the olive oil, lemon zest, herbes de Provence, and pepper.",
+        "Heat a ridged grill pan or griddle over medium-high heat.",
+        "Cook the turkey fillets for 3 minutes per side until completely cooked and golden outside.",
+        "Serve the turkey fillets alongside the steamed broccoli.",
+        "Dress the broccoli and turkey with the remaining extra virgin olive oil and freshly squeezed lemon juice."
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Salmon en Papillote with Asparagus and Fresh Dill",
+      "description": "Salmon loin steamed in its own sealed wrapper over a bed of young green asparagus flavored with dill. The omega-3 fats and the prebiotic fiber of the asparagus modulate peripheral insulin sensitivity.",
+      "instructions": [
+        "Preheat the oven to 200 °C.",
+        "Cut two 30x30 cm sheets of parchment baking paper.",
+        "Trim the green asparagus, discarding the woody base, and arrange half in the center of each sheet.",
+        "Place a salmon loin over the asparagus, drizzle each with 5 ml of oil, add a pinch of pepper, the fresh dill, and two lemon slices per portion.",
+        "Fold and seal the paper edges by folding several times to form completely airtight packets.",
+        "Place the packets on a baking sheet and bake at 200 °C for 14 minutes.",
+        "Bring the packets to the plates and open them at the table to retain the natural aromas."
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Baby Spinach and Mushroom Omelet with Lamb's Lettuce",
+      "description": "A comforting classic quick dinner made with fresh eggs, sautéed mushrooms, and tender spinach, served with fresh lamb's lettuce leaves. Very low in carbs, extremely satisfying, and rich in micronutrients such as folic acid and magnesium.",
+      "instructions": [
+        "Heat half of the oil in a non-stick pan and sauté the mushrooms for 3 minutes.",
+        "Add the baby spinach and sauté 1 more minute until wilted; remove the vegetables to a plate.",
+        "Beat the eggs vigorously with a pinch of ground white pepper.",
+        "Add the remaining oil to the pan over medium heat, pour in the beaten eggs, and let the base set gently for 1 minute.",
+        "Arrange the mushrooms and spinach in the center, fold the omelet over itself, and cook 30 seconds more to keep the inside juicy.",
+        "Serve hot on the plate with the fresh lamb's lettuce as a crisp accompaniment."
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Steamed Sea Bass over Fine Green Beans and Green Garlic",
+      "description": "Tender white fish loins steamed alongside round green beans and young green garlic. It stands out for its high digestibility and null glycemic carbohydrate content, ideal for keeping fasting glucose levels stable.",
+      "instructions": [
+        "Arrange the green beans and green garlic in the steamer basket over boiling water.",
+        "Steam the vegetables for 6 minutes.",
+        "Season the sea bass loins and place them skin-side down over the bed of green beans.",
+        "Cover the steamer and continue cooking for 7-8 minutes until the fish is opaque white and tender.",
+        "Transfer the vegetables and sea bass loins to the plates with a wide spatula.",
+        "Emulsify the extra virgin olive oil with the lemon juice in a glass and drizzle over the fish and vegetables before eating."
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Night Tofu Stir-Fry with Zucchini, Mushrooms, and Toasted Sesame",
+      "description": "A quick vegetarian dinner rich in isoflavones and phytochemicals, made with golden firm tofu dice, zucchini, and oyster mushrooms with a touch of sesame. It provides a feeling of fullness without heaviness.",
+      "instructions": [
+        "Heat half of the sesame oil in a large pan over medium-high heat.",
+        "Brown the tofu dice for 5 minutes, turning occasionally, until they form a crisp crust; set aside.",
+        "Add the remaining sesame oil and sauté the oyster mushrooms and zucchini with the grated ginger for 4 minutes over high heat.",
+        "Return the browned tofu to the pan and pour in the low-salt soy sauce.",
+        "Stir-fry everything together for 2 minutes until the liquids are evenly absorbed.",
+        "Serve hot, sprinkling the sesame seeds over the top."
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Light Bilbao-Style Monkfish with Garlic, Chili, and Cider Vinegar",
+      "description": "Golden monkfish loins bathed in a Bilbao-style sauce of sliced garlic, chili, and cider vinegar. An elegant dinner, high in protein and very low in net carbs.",
+      "instructions": [
+        "Season the monkfish loins with a moderate pinch of sea salt and ground black pepper.",
+        "Heat 10 ml of extra virgin olive oil in a wide pan over medium-high heat and brown the monkfish for 2 minutes per side; remove and keep covered.",
+        "Lower the heat and brown the sliced garlic cloves with the dried chili in the same pan for 1 minute without burning.",
+        "Pour in the cider vinegar and low-sodium fish stock, raise the heat, and let the sauce reduce for 2 minutes.",
+        "Return the monkfish to the pan, bathe it with the Bilbao sauce over gentle heat for 1 minute, and remove the chili.",
+        "Drizzle with the remaining raw extra virgin olive oil, sprinkle the chopped fresh parsley, and serve with steamed green beans."
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Pan-Seared Sole with Light Rosemary Cauliflower Purée",
+      "description": "Delicate fresh sole fillets cooked on the griddle, served with a creamy cauliflower purée flavored with fresh rosemary that mimics the texture of mashed potato without dense starches. An optimal dinner to keep nighttime blood sugar flat.",
+      "instructions": [
+        "Boil or steam the cauliflower florets for 10 minutes until completely tender.",
+        "Drain the cauliflower rigorously and blend it hot in a processor with half of the olive oil, chopped rosemary, and a pinch of white pepper until you get a thick cream.",
+        "Pat the sole fillets dry with paper and season very lightly.",
+        "Heat a non-stick pan or griddle over medium-high heat with the remaining olive oil.",
+        "Cook the sole fillets for 2 minutes per side, taking care when flipping not to break the delicate flesh.",
+        "Serve a base of the hot cauliflower purée, place the sole fillets on top, and drizzle with fresh lemon juice."
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Braised Little Gems with Canned Mackerel and Apple Vinaigrette",
+      "description": "Lettuce hearts marked on a hot griddle to concentrate their natural sweetness, crowned with omega-3-rich mackerel loins and an apple cider vinegar dressing that improves insulin sensitivity.",
+      "instructions": [
+        "Cut the 4 little gems in half lengthwise, making sure the base keeps the leaves attached.",
+        "Brush the halves with a thin film of olive oil.",
+        "Heat a ridged griddle over high heat and place the little gems cut-side down for 2-3 minutes until marked and lightly caramelized while keeping the interior crisp.",
+        "Arrange the braised little gem halves on a flat serving dish.",
+        "Distribute the drained mackerel loins and quartered cherry tomatoes over the little gems.",
+        "Whisk the remaining olive oil with the apple cider vinegar and ground pepper; drizzle over the dish just before serving warm."
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Homemade Hake and Shrimp Burgers with Sautéed Cherry Tomatoes",
+      "description": "Mini homemade burgers made with hand-chopped white fish and peeled shrimp tails, pan-browned with roasted cherry tomatoes. A seafood protein proposal free of flours and commercial breadcrumbs.",
+      "instructions": [
+        "Finely chop the raw hake and shrimp with a knife into very small pieces to form a uniform mince.",
+        "In a bowl, mix the fish and shrimp with the egg white, chopped chives, and a pinch of white pepper.",
+        "With lightly oiled hands, shape 4 compact burgers.",
+        "Heat the olive oil in a non-stick pan over medium heat.",
+        "Cook the seafood burgers for 3-4 minutes per side until firm and golden.",
+        "In the last 4 minutes of cooking, add the whole cherry tomatoes to the free spaces in the pan so they roast and burst.",
+        "Serve two burgers per person accompanied by the juicy sautéed tomatoes."
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Light Green Asparagus, Mushroom, and Egg-White Casserole",
+      "description": "An oven-baked individual casserole with a base of sautéed vegetables (tender asparagus and mushrooms) crowned with beaten egg whites baked into a rustic soufflé. Lean protein with minimal calories.",
+      "instructions": [
+        "Preheat the oven to 190 °C.",
+        "In a pan, heat the oil and sauté the asparagus and mushrooms for 5 minutes over medium heat; season with the garlic powder and pepper.",
+        "Distribute the sautéed vegetables in the bottom of two clay dishes or individual ovenproof containers.",
+        "Beat the egg whites with a fork along with the nutritional yeast until they form abundant foam but do not reach stiff peaks.",
+        "Pour the foamed whites evenly over the vegetables in the two dishes.",
+        "Bake at 190 °C for 10-12 minutes until the whites have risen, are set, and gently browned.",
+        "Serve immediately in the same baking dish."
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Fresh Salmon Tartare with Crisp Cucumber and Avocado Dice",
+      "description": "Previously frozen raw salmon cut into millimeter dice and marinated in lime, emulsified with avocado and fresh cucumber dice that bring freshness and hydrating fiber. A satisfying, refreshing dinner full of heart-protective fatty acids.",
+      "instructions": [
+        "Cut the salmon into very fine, even cubes of about 5 mm with a very sharp knife.",
+        "In a bowl, combine the salmon with the low-salt soy sauce, sesame oil, half of the lime juice, and chopped chives; stir and marinate 5 minutes.",
+        "In another container, mix the avocado and cucumber cubes with the remaining lime juice to prevent oxidation.",
+        "Gently fold the salmon mixture into the avocado and cucumber with a spoon so as not to break up the avocado.",
+        "Place a plating ring in the center of two flat plates and fill with the preparation, pressing gently.",
+        "Carefully remove the ring and serve cold immediately."
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Grilled Chicken Breast with Oregano-Roasted Eggplant",
+      "description": "A simple, nutritious dinner that combines golden lean chicken breast fillets with tender eggplant slices baked with aromatic herbs. The eggplant provides anthocyanins and abundant soluble fiber that slows nighttime digestion.",
+      "instructions": [
+        "Preheat the oven to 200 °C.",
+        "Arrange the eggplant slices on a baking sheet lined with parchment paper; brush with 8 ml of olive oil and sprinkle with the oregano, garlic powder, and pepper.",
+        "Roast the eggplant at 200 °C for 18 minutes, turning halfway through, until tender and golden.",
+        "Season the chicken breast fillets and brush with the remaining olive oil.",
+        "Heat a ridged grill pan or grill very hot and brown the chicken for 3-4 minutes per side until well cooked.",
+        "Serve the freshly grilled chicken alongside the hot roasted eggplant slices."
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Gentle Green Garlic, Shrimp, and Sweet Paprika Scramble",
+      "description": "A quick traditional dish cooked over gentle heat where fresh green garlic, spinach, and peeled shrimp are sautéed and bound with creamy egg and a pinch of La Vera paprika. Pure protein with no residual glycemic load.",
+      "instructions": [
+        "In a non-stick pan, heat the oil over medium heat and gently soften the tender green garlic for 3 minutes.",
+        "Add the peeled shrimp and fresh spinach; sauté for 2 minutes until the spinach wilts and the shrimp take on color.",
+        "Remove from the heat for a moment and stir in the sweet paprika, mixing well to incorporate without burning the spice.",
+        "Beat the 3 eggs in a bowl with the pinch of black pepper.",
+        "Pour the eggs into the pan over very low heat and stir constantly with a silicone spatula for 2 minutes.",
+        "Remove from the heat while the egg is still juicy and glossy; serve immediately on hot plates."
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Oven-Baked Lamb Chops with Garlic, Thyme, and Lemon",
+      "description": "Sliced lamb chops baked with crushed garlic, fresh thyme, and a touch of lemon right out of the oven. A high-protein dinner with no flours, juicy inside and crisp outside.",
+      "instructions": [
+        "Preheat the oven to 200 °C with top and bottom heat.",
+        "Arrange the sliced lamb chops on a baking sheet, season with moderate sea salt and ground black pepper.",
+        "Drizzle with the extra virgin olive oil and distribute the crushed garlic cloves and fresh thyme among the chops.",
+        "Bake for 18-20 minutes at mid-height until the meat is golden outside and juicy inside.",
+        "Drizzle with fresh lemon juice right out of the oven and let rest 3 minutes on the sheet.",
+        "Serve hot with a salad of baby spinach, cherry tomatoes, and a drizzle of extra virgin olive oil."
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Piquillo Peppers Stuffed with Ground Beef, Leek, and Goat Cheese",
+      "description": "Piquillo peppers stuffed with ground beef, leek, and goat cheese, gratinéed in the oven. A satisfying dinner with no breadcrumbs or frying.",
+      "instructions": [
+        "Preheat the oven to 190 °C with top and bottom heat; drain the piquillo peppers well and pat them gently with kitchen paper.",
+        "Heat the olive oil in a non-stick pan and gently soften the leek and garlic over medium heat for 5 minutes without coloring.",
+        "Raise the heat, add the ground beef, and cook for 6-7 minutes, breaking it up with a spoon, until browned and its juices have evaporated.",
+        "Add the fresh spinach and cook 1 more minute until wilted; stir in the sweet paprika and oregano, turn off the heat, and let the mixture cool slightly.",
+        "Stuff each pepper with the meat mixture, arrange them in an ovenproof dish, and sprinkle the grated goat cheese over the top.",
+        "Bake at 190 °C for 8-10 minutes until the cheese is golden and gratinéed; let cool 2 minutes and serve."
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Hake in Light Green Sauce with Clams and Fresh Parsley",
+      "description": "A traditional maritime stew adapted with no added flours for thickening, using the fish's natural gelatin and a reduced broth flavored with abundant parsley and garlic. A cleansing, very lean dinner with null impact on nighttime sugar spikes.",
+      "instructions": [
+        "In a wide, shallow casserole, heat the olive oil over medium heat and gently soften the sliced garlic without browning.",
+        "Add the chopped fresh parsley and stir for 15 seconds to release the aromas.",
+        "Pour in the hot fish stock and place the seasoned hake loins skin-side down.",
+        "Distribute the purged clams around the hake.",
+        "Cover the casserole and cook over gentle heat for 6-7 minutes, shaking the casserole back and forth so the broth emulsifies naturally.",
+        "Check that all the clams have opened (discard any that do not) and that the fish is opaque white and cooked.",
+        "Serve the hake loins with the clams and green sauce directly on deep flat plates."
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Grilled Zucchini, Ripe Tomato, and Goat Cheese Timbale",
+      "description": "A baked vegetable tower of alternating layers of griddled zucchini slices, natural tomato slices, and goat cheese rounds gratinéed with oregano. Visually appealing, rich in lycopene, and very low in carbohydrates.",
+      "instructions": [
+        "Preheat the oven to 200 °C with the grill function.",
+        "Mark the zucchini slices in a hot pan with half of the oil for 1 minute per side; remove.",
+        "On a baking sheet, assemble two timbales by layering: zucchini slice, tomato slice, and goat cheese round, repeating to form three stories per timbale.",
+        "Drizzle with the remaining olive oil and sprinkle the dried oregano and black pepper over the towers.",
+        "Bake at 200 °C for 10 minutes until the goat cheese melts and begins to brown gently.",
+        "Transfer with a wide spatula to individual plates and serve hot."
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Shredded Chicken over Nutmeg Spinach Purée",
+      "description": "Tender, lean cooked and shredded breast meat presented over a soft bed of thick spinach purée seasoned with nutmeg and raw olive oil. A light dish with a high concentration of non-heme iron, potassium, and fiber.",
+      "instructions": [
+        "Boil the chicken breast in boiling water for 12 minutes until well cooked; drain, cool, and shred with two forks into fine strands.",
+        "In a wide saucepan, cook the spinach in its own residual moisture over medium heat for 3 minutes until reduced; drain very well, pressing with a strainer to remove excess water.",
+        "Blend the drained spinach with the almond milk, olive oil, nutmeg, and a pinch of white pepper until you get a fine, intensely green purée.",
+        "Warm the spinach purée slightly if necessary.",
+        "Arrange an even bed of spinach purée on two flat plates and crown with the warm strands of shredded chicken.",
+        "Finish with a few drops of raw olive oil over the top before serving."
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Quick Baby Squash Sauté with Baby Green Beans and Cherry Tomatoes",
+      "description": "Clean small squid sautéed over high heat with cooked tender baby green beans and cherry tomato halves caramelized in the pan. A seafood source of protein and minerals paired with a tender legume of very moderate glycemic index.",
+      "instructions": [
+        "Pat the clean baby squid dry with absorbent paper so they do not release water while cooking.",
+        "Heat half of the olive oil in a large pan over very high heat.",
+        "Sauté the baby squid for 2 minutes until golden; remove to a plate.",
+        "Add the remaining oil to the pan along with the chopped garlic, cherry tomatoes, and cooked baby green beans.",
+        "Sauté over medium-high heat for 3 minutes until the cherry tomatoes soften and caramelize.",
+        "Return the sautéed baby squid to the pan, season, and mix for 1 minute to even out the temperatures.",
+        "Sprinkle with chopped fresh parsley and serve immediately."
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Open Frittata with Roasted Squash, Fresh Ricotta, and Arugula",
+      "description": "An open baked omelet, not flipped, set with beaten eggs, previously roasted sweet squash dice, and spoonfuls of creamy ricotta, topped with fresh arugula. Balanced, colorful, and slow to digest thanks to the protein of the egg and ricotta.",
+      "instructions": [
+        "Preheat the oven on the grill setting to 200 °C.",
+        "In a bowl, beat the 4 eggs with a pinch of ground black pepper.",
+        "Heat the olive oil in an oven-safe non-stick pan over medium heat.",
+        "Pour in the beaten eggs and immediately scatter the roasted squash dice over the entire surface.",
+        "Distribute small portions of fresh ricotta with a teaspoon over the egg mixture.",
+        "Cook on the burner for 3 minutes until the base is set.",
+        "Transfer the pan to the oven for 5-6 minutes until the surface is golden and firm.",
+        "Remove from the oven, cover with the freshly washed arugula leaves, and serve warm, cut in half."
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Baked Sea Bream over Confit Leek Slices and Lemon",
+      "description": "Clean sea bream fillets cooked in the oven's enveloping heat over chopped leek slowly softened in a film of olive oil and lemon slices. A lean white fish rich in phosphorus and selenium that supports nighttime rest without heaviness.",
+      "instructions": [
+        "Preheat the oven to 190 °C.",
+        "In an ovenproof dish, arrange the leek slices mixed with half of the olive oil, thyme, and a pinch of pepper.",
+        "Roast the leek at 190 °C for 8 minutes so it begins to confit and soften.",
+        "Remove the dish from the oven and arrange the sea bream fillets over the bed of leek, skin-side down.",
+        "Place the lemon slices over the fillets and drizzle with the remaining extra virgin olive oil.",
+        "Bake at 190 °C for 10 minutes until the sea bream is juicy and tender.",
+        "Serve each fish fillet accompanied by the aromatic roasted leek garnish."
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Thyme-Roasted Vegetable Dish with a Plated Egg",
+      "description": "A rustic roast of zucchini, red pepper, and red onion flavored with wild thyme, over which a fresh egg is cracked and finishes setting in the oven. Abundant in dietary fiber with a moderate calorie content.",
+      "instructions": [
+        "Preheat the oven to 190 °C.",
+        "In an individual ceramic or clay dish, mix the zucchini, red pepper, and red onion with the olive oil, thyme, and pepper.",
+        "Roast the vegetables at 190 °C for 14 minutes until tender and slightly toasted at the tips.",
+        "Remove the dish with an oven mitt and make a well in the center of the vegetables with a spoon.",
+        "Crack the egg directly into the central well.",
+        "Return to the oven at 190 °C for 5-6 minutes until the white is set and the yolk keeps a liquid consistency.",
+        "Remove and enjoy hot with a fork or spoon directly from the dish."
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Crisp Lettuce Boats with Gentle Cod and Scallion Scramble",
+      "description": "Firm, concave little gem lettuce leaves used as natural boats filled with a juicy scramble of desalted cod, tender scallion, and egg. Zero gluten, zero refined carbohydrates, and high nighttime digestibility.",
+      "instructions": [
+        "Wash and carefully dry the 6 little gem lettuce leaves, keeping them whole; arrange them as boats on a serving dish.",
+        "In a non-stick pan, heat the olive oil over medium heat and gently soften the chopped tender scallion for 3 minutes without browning.",
+        "Add the flaked desalted cod and sauté for 2 minutes over medium heat.",
+        "Beat the eggs in a bowl with a pinch of white pepper and the chopped fresh parsley.",
+        "Lower the heat to the minimum, pour the eggs over the cod, and stir slowly with a silicone spatula for 2 minutes until you get a moist, creamy scramble.",
+        "Remove from the heat immediately so it does not dry out from the residual heat.",
+        "Fill the 6 lettuce boats with the warm cod scramble and serve freshly assembled."
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Slow-Braised Beef Cheeks with Confit Onion, Red Wine, and Bay",
+      "description": "Beef cheeks cooked low and slow until they fall apart, with confit onion, red wine, and bay leaf. A high-protein dinner with no flours and low in net carbs.",
+      "instructions": [
+        "Pat the cheek pieces dry with kitchen paper and let them come to room temperature while you prepare the remaining ingredients.",
+        "Heat the olive oil in a heavy casserole over medium-high heat and brown the meat on all sides for 6-7 minutes without moving it so it forms a crust and seals in the juices.",
+        "Add the diced red onion and carrot; sauté 5 minutes over medium heat until the onion begins to turn translucent; stir in the garlic and bay leaf and cook 1 more minute.",
+        "Drizzle with the sherry vinegar, let evaporate 30 seconds, and add the red wine; cook 3 minutes so the alcohol evaporates completely.",
+        "Pour in the hot meat stock to partially cover the meat, cover the casserole, and cook over very low heat for 45-50 minutes, stirring now and then, until the meat begins to fall apart.",
+        "Remove the bay leaves, let the sauce reduce 2 minutes over medium heat, season with black pepper to taste, and serve in deep bowls with the meat and sauce on top."
+      ]
+    }
+  ]
+}

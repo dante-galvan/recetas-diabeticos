@@ -235,7 +235,7 @@ private fun MealSlotCard(
             IconButton(onClick = onChangeClick, modifier = Modifier.size(32.dp)) {
               Icon(
                 imageVector = Icons.Default.Edit,
-                contentDescription = "Change",
+                contentDescription = AppStrings.cdChange(),
                 tint = MaterialTheme.colorScheme.outline,
                 modifier = Modifier.size(16.dp)
               )
@@ -243,7 +243,7 @@ private fun MealSlotCard(
             IconButton(onClick = onRemoveClick, modifier = Modifier.size(32.dp)) {
               Icon(
                 imageVector = Icons.Default.Close,
-                contentDescription = "Remove",
+                contentDescription = AppStrings.cdRemove(),
                 tint = MaterialTheme.colorScheme.error,
                 modifier = Modifier.size(16.dp)
               )

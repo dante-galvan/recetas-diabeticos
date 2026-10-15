@@ -225,10 +225,10 @@ class RecipeRepository(private val dao: DiaRecipesDao, context: Context? = null)
     }
   }
 
-  // User Profile
-  val userProfile: Flow<UserProfile> = dao.getUserProfile().map { entity ->
+  // User Profile (null when no profile row has been persisted yet)
+  val userProfile: Flow<UserProfile?> = dao.getUserProfile().map { entity ->
     if (entity == null) {
-      UserProfile()
+      null
     } else {
       UserProfile(
         dietaryPreferences = if (entity.dietaryPrefsCsv.isBlank()) emptySet() else entity.dietaryPrefsCsv.split(",").toSet(),

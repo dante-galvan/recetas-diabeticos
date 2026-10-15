@@ -101,7 +101,7 @@ fun ExploreScreen(
         leadingIcon = {
           Icon(
             imageVector = Icons.Default.Search,
-            contentDescription = "Search",
+            contentDescription = AppStrings.cdSearch(),
             tint = MaterialTheme.colorScheme.primary
           )
         },
@@ -110,7 +110,7 @@ fun ExploreScreen(
             IconButton(onClick = { viewModel.searchQuery.value = "" }) {
               Icon(
                 imageVector = Icons.Default.Clear,
-                contentDescription = "Clear search",
+                contentDescription = AppStrings.cdClearSearch(),
                 tint = MaterialTheme.colorScheme.outline
               )
             }

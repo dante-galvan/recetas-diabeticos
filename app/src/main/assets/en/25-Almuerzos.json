@@ -1,0 +1,349 @@
+{
+  "recipes": [
+    {
+      "id": 26,
+      "name": "Grilled Chicken Breast with Rustic Cauliflower Purée and Green Beans",
+      "description": "A lighter alternative to traditional mashed potato that uses cauliflower cooked and emulsified with extra virgin olive oil, served with lemon-browned lean breast and crisp green beans. It provides prolonged satiety with an exceptionally low glycemic load.",
+      "instructions": [
+        "Boil the cauliflower florets in salted boiling water for 10-12 minutes until completely tender when pierced with a fork; drain very well.",
+        "Place the cauliflower in a blender cup with 10 ml of olive oil, the nutmeg, and a pinch of pepper; blend until you get a smooth, uniform purée.",
+        "Steam the green beans for 6 minutes until al dente; in a small pan, sauté them for 2 minutes with the chopped garlic clove.",
+        "Brush the chicken breast fillets with the remaining 5 ml of olive oil and season to taste.",
+        "Heat a griddle over medium-high heat and cook the chicken for 3-4 minutes per side until golden outside and juicy in the center; squeeze with lemon juice before removing.",
+        "Serve a bed of hot cauliflower purée, place the sliced breast on top, and accompany with the sautéed green beans on the side."
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Oven-Baked Salmon with Whole-Grain Mustard Crust and Warm Lentils",
+      "description": "Fresh salmon loin baked with an aromatic layer of whole-grain Dijon mustard, served over a warm bed of cooked brown lentils with vegetables. It combines anti-inflammatory omega-3 fatty acids with the soluble fiber and resistant starch of the legume.",
+      "instructions": [
+        "Preheat the oven to 190 °C with top and bottom heat.",
+        "Arrange the salmon loins on a baking sheet lined with parchment paper; spread the top of each loin with the whole-grain mustard and sprinkle half of the dill.",
+        "Bake the salmon for 12-14 minutes at 190 °C until the flesh flakes easily without drying out.",
+        "Meanwhile, heat half of the oil in a pan and gently soften the red onion with the carrot over 6 minutes over medium heat.",
+        "Add the cooked brown lentils, apple cider vinegar, the remaining olive oil, and the rest of the dill; sauté for 3 minutes to warm everything through.",
+        "Distribute the warm lentil salad between two plates and crown each serving with a hot salmon loin fresh from the oven."
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Wok Beef Tenderloin Stir-Fry with Broccoli, Peppers, and Sesame",
+      "description": "Lean beef strips stir-fried over high heat with al dente broccoli florets and red pepper in a light low-sodium soy sauce and fresh ginger sauce. It provides highly bioavailable iron and glucosinolate antioxidants without raising insulin.",
+      "instructions": [
+        "Blanch the broccoli florets in boiling water for 2 minutes; plunge into ice water immediately to stop the cooking and keep their bright green color; drain well.",
+        "Heat the sesame oil in a wok or large pan over high heat until it just begins to smoke.",
+        "Stir-fry the beef strips for 2-3 minutes until their juices sear; remove and set aside on a plate.",
+        "In the same hot wok, add the chopped garlic, grated ginger, and red pepper strips; stir-fry vigorously for 3 minutes.",
+        "Add the drained broccoli, the seared beef, and the low-sodium soy sauce.",
+        "Stir-fry everything together over high heat for 2 minutes so the flavors meld.",
+        "Serve immediately, sprinkling the toasted sesame seeds over the top."
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Stewed Brown Lentils with Garden Vegetables and Turmeric",
+      "description": "A traditional hearty dish made without fatty meats or sausages, slow-cooked with leek, celery, zucchini, and a touch of turmeric with pepper. It offers a complete source of prebiotic fiber with a minimal glycemic index.",
+      "instructions": [
+        "In a medium casserole, heat the olive oil over medium heat and gently soften the leek, celery, and carrot for 6 minutes until they begin to soften.",
+        "Add the sweet paprika and ground turmeric, stirring for 20 seconds away from direct heat so they do not turn bitter.",
+        "Add the brown lentils (previously rinsed under the tap) and the bay leaf.",
+        "Pour in the cold water or vegetable stock until the legumes are generously covered by about 3 fingers.",
+        "Bring to a boil, reduce to low heat, cover the casserole, and cook for 25 minutes.",
+        "Add the diced zucchini and continue cooking uncovered over low heat for 10 more minutes, until the lentils are tender and the broth has thickened.",
+        "Remove the bay leaf, adjust salt and pepper with moderation, let rest 5 minutes, and serve in deep bowls."
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Baked Hake en Papillote with Zucchini Slices and Sun-Dried Tomato",
+      "description": "White fish cooked in its own steam inside a sealed parchment-paper packet, retaining all of its juices, minerals, and lean proteins. Accompanied by zucchini and sun-dried tomato that enhance its flavor without adding saturated fats.",
+      "instructions": [
+        "Preheat the oven to 200 °C with fan/conventional heat.",
+        "Cut two large sheets of parchment baking paper (approx. 35x35 cm) and fold them in half to mark the center.",
+        "On one half of each sheet, arrange a bed of the slightly overlapping zucchini slices.",
+        "Place a seasoned hake loin over the zucchini and distribute the chopped sun-dried tomatoes on top.",
+        "Drizzle each portion with half of the olive oil and lemon juice, and place a sprig of fresh thyme.",
+        "Fold the paper over the ingredients and crimp the edges with successive tight folds to seal the packets hermetically.",
+        "Place the packets on a baking sheet and bake at 200 °C for 14-15 minutes (the paper will puff up from the internal steam pressure).",
+        "Transfer the packets to the plates and open with scissors, taking care not to burn yourself with the hot steam."
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Mild Curry Turkey Stew over Basmati Brown Rice",
+      "description": "Lean diced turkey breast cooked in a spiced sauce of turmeric, cumin, and light coconut milk, served over a measured portion of perfectly cooked basmati brown rice. A satisfying dish that stabilizes daily calorie expenditure.",
+      "instructions": [
+        "Rinse the basmati brown rice in a strainer and boil it in plenty of water for 22 minutes until tender but firm; drain and keep warm.",
+        "Heat the olive oil in a wide casserole over medium heat and brown the diced turkey breast for 4 minutes; remove to a plate.",
+        "In the same casserole, gently soften the onion and green pepper for 5 minutes until translucent.",
+        "Add the curry powder and toast it for 30 seconds, stirring constantly to release its essential oils.",
+        "Pour in the defatted chicken stock and light coconut milk, scraping the bottom to deglaze.",
+        "Return the diced turkey to the casserole, partially cover, and cook over medium-low heat for 10 minutes to thicken the sauce.",
+        "Divide the basmati brown rice between two plates, spoon the curry turkey over the top, and finish with freshly chopped cilantro."
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Chickpeas with Spinach and Flaked Cod",
+      "description": "A classic Mediterranean-inspired recipe that unites slowly digestible cooked legumes with desalted cod and tender spinach sautéed with paprika. It is a nutritionally complete dish with minimal impact on the glucose curve.",
+      "instructions": [
+        "In a wide casserole, heat the olive oil over medium heat and brown the garlic slices until light golden.",
+        "Remove from the heat for half a minute, add the sweet paprika and ground cumin, and stir quickly so they do not burn.",
+        "Add the fresh spinach to the casserole; return to the heat and cook for 3 minutes until fully wilted.",
+        "Pour in the drained cooked chickpeas and the hot fish stock.",
+        "Cook over gentle heat for 6 minutes so the chickpeas absorb the flavors of the sofrito.",
+        "Add the desalted cod flakes over the top, cover the casserole, and cook over very low heat for 4 more minutes (the cod cooks gently in the steam without toughening).",
+        "Stir gently to combine the broth and serve on deep flat plates."
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Lemon and Rosemary Chicken with Warm Quinoa and Cucumber Salad",
+      "description": "Lean fillets marinated in natural lemon juice, garlic, and wild rosemary, pan-seared and plated with a warm Andean quinoa tabbouleh with cucumber and mint. Very refreshing, dense in amino acids, and easy to digest.",
+      "instructions": [
+        "In a bowl, combine the chicken fillets with half of the lemon juice, half of the olive oil, and the chopped rosemary; let marinate 10 minutes.",
+        "Rinse the quinoa in a fine strainer under cold water and boil it in 140 ml of water for 12 minutes until the grains pop and absorb the liquid; let cool slightly.",
+        "In a bowl, mix the cooked quinoa with the chopped cucumber, quartered cherry tomatoes, fresh mint, the remaining lemon juice, and 4 ml of extra virgin olive oil.",
+        "Heat a ridged grill pan or griddle over medium-high heat and add a few drops of the remaining oil.",
+        "Cook the marinated chicken fillets for 3-4 minutes per side until nicely browned and cooked through.",
+        "Cut the fillets on the bias into strips and serve them alongside the warm quinoa salad."
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Seared Fresh Tuna with Homemade Manchego Pistos",
+      "description": "Fresh tuna loin seared over high heat with a juicy center, served alongside a traditional pisto slowly cooked with zucchini, eggplant, peppers, and crushed ripe tomato. Exceptional supply of polyunsaturated fatty acids and phytochemicals.",
+      "instructions": [
+        "In a wide casserole, pour 10 ml of olive oil and gently soften the onion with the red and green peppers over medium heat for 8 minutes.",
+        "Add the zucchini and eggplant; sauté for 6 more minutes until the vegetables begin to caramelize in their own juices.",
+        "Pour in the natural crushed tomato and dried oregano; lower the heat, cover, and cook slowly for 15 minutes, stirring periodically until you have a meltingly soft pisto.",
+        "Pat the tuna loins very dry with kitchen paper and lightly season the surface.",
+        "Brush a very hot cast-iron pan or griddle with the remaining 5 ml of extra virgin olive oil.",
+        "Sear the tuna loins for 1 and a half minutes per side over very high heat, keeping the interior pink and tender.",
+        "Serve a generous base of hot Manchego pisto and place the seared tuna loin right on top."
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Homemade Turkey Meatballs in Natural Tomato Sauce with Zucchini Spaghetti",
+      "description": "Meatballs shaped with lean ground turkey and aromatic herbs, cooked in a homemade tomato sauce and served over thinly sliced zucchini lightly sautéed as a substitute for traditional pasta.",
+      "instructions": [
+        "In a bowl, knead the turkey meat with the beaten half egg, grated garlic, chopped fresh parsley, and black pepper.",
+        "Form 8 round, compact meatballs with dampened palms.",
+        "Heat half of the oil in a non-stick pan over medium heat and brown the meatballs for 4 minutes, turning them; set aside on a plate.",
+        "In the same pan, gently soften the grated onion for 4 minutes, add the crushed tomato and a pinch of salt, and let simmer for 5 minutes.",
+        "Drop the meatballs into the simmering tomato sauce, cover, and cook over low heat for 10 minutes until completely cooked through.",
+        "Spiralize the zucchini to get long spaghetti (zoodles).",
+        "Sauté the zucchini spaghetti in a separate pan with the remaining oil for just 2 minutes over high heat so they stay al dente without releasing water.",
+        "Place the zucchini spaghetti at the base of the plates and bathe with the meatballs and hot tomato sauce."
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Chicken Fajitas with Tricolor Peppers in Little Gem Lettuce Leaves",
+      "description": "Breast strips sautéed with red onion and peppers, seasoned with lime, cumin, and smoked paprika, presented on concave leaves of crisp romaine lettuce in place of wheat flour tortillas.",
+      "instructions": [
+        "In a bowl, season the chicken breast strips with the cumin, smoked paprika, lime juice, and half of the olive oil.",
+        "Heat a large pan over high heat with the remaining oil.",
+        "Sauté the red onion and pepper strips for 4 minutes, keeping them slightly crisp.",
+        "Add the seasoned chicken and stir-fry everything together for 5 minutes over high heat, stirring constantly until the meat is perfectly browned and cooked.",
+        "Wash and carefully dry the lettuce leaves, keeping their concave boat shape.",
+        "Distribute the steaming chicken fajitas directly inside the lettuce leaves and serve immediately."
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Baked Cod Loin over Roasted Peppers and Confit Onion",
+      "description": "A meaty white fish loin baked at low temperature over a base of roasted red pepper strips and slowly softened onion. A classic Mediterranean combination that is easy to digest with no simple sugars.",
+      "instructions": [
+        "Preheat the oven to 180 °C.",
+        "In a pan with half of the olive oil, gently soften the julienned onion over low heat for 8 minutes until soft and translucent.",
+        "Add the well-drained roasted red pepper strips to the pan and mix for 2 minutes; transfer everything to an ovenproof dish as a base.",
+        "Pat the cod loins dry with kitchen paper and arrange them over the bed of peppers and onion, skin-side down.",
+        "Bake at 180 °C for 12-14 minutes until the loins flake into juicy pieces when gently pressed.",
+        "Meanwhile, brown the sliced garlic in a small pan with the remaining extra virgin olive oil.",
+        "Remove the dish from the oven, pour the oil with the golden garlic directly over the cod, sprinkle the chopped parsley, and serve."
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Light Chilindrón-Style Rabbit with Tomato, Pepper, and Bay",
+      "description": "Rabbit pieces stewed in a sauce of tomato, red pepper, and La Vera paprika with bay leaf. A traditional high-protein, low-net-carb stew with no potatoes or flours.",
+      "instructions": [
+        "Pat the rabbit pieces dry with kitchen paper and brown them in a wide casserole with the extra virgin olive oil over medium-high heat for 4 minutes per side until evenly golden.",
+        "Add the chopped red onion and garlic; cook for 4 minutes over medium heat without letting the garlic color.",
+        "Add the red pepper strips and cook for 5 minutes until they begin to soften.",
+        "Sprinkle the La Vera sweet paprika, stir quickly for 30 seconds so it does not burn, and pour in the natural crushed tomato along with the bay leaves.",
+        "Cover the casserole and cook over gentle heat for 25 minutes, stirring twice, until the meat is tender and the sauce has thickened.",
+        "Remove the bay leaf, season with ground black pepper and a moderate pinch of sea salt, and serve the rabbit hot with its chilindrón sauce alongside a green salad."
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Pork Tenderloin Medallions with Roasted Squash and Asparagus",
+      "description": "The quintessential lean meat cut, pan-cooked with aromatic herbs and paired with sweet roasted kabocha squash dice and al dente green asparagus. An excellent balance of complex carbohydrates and micronutrients such as potassium and thiamine.",
+      "instructions": [
+        "Preheat the oven to 200 °C.",
+        "Place the squash dice on a baking sheet, drizzle with 6 ml of olive oil, chopped thyme, and a pinch of pepper; mix well.",
+        "Roast the squash for 20 minutes until the edges are tender and lightly caramelized.",
+        "Meanwhile, trim the green asparagus and sauté them in a pan with 4 ml of olive oil for 5 minutes over medium heat until flexible and toasted.",
+        "Brush the tenderloin medallions with the remaining extra virgin olive oil.",
+        "Heat a cast-iron griddle very hot and brown the medallions for 2 and a half minutes per side, keeping the interior pink and juicy.",
+        "Serve the tenderloin medallions with the roasted squash and asparagus as a garnish."
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Lean Beef Bolognese over Zucchini Spaghetti Nest",
+      "description": "A reinvention of the traditional Bolognese where wheat pasta is replaced by coarsely grated zucchini, crowned by a thick sauce of lean ground beef, vegetable mirepoix, and natural tomato with fresh basil.",
+      "instructions": [
+        "In a casserole, heat 8 ml of olive oil over medium heat and gently soften the onion, celery, and carrot for 6 minutes.",
+        "Add the lean ground beef and break up the lumps with a wooden spoon; cook for 5 minutes until the red color fades.",
+        "Stir in the natural crushed tomato, ground black pepper, and half of the chopped basil.",
+        "Lower to gentle heat, partially cover, and let the Bolognese sauce reduce for 15 minutes until it thickens and the aromas concentrate.",
+        "Spiralize the whole zucchini to get long spaghetti strands.",
+        "In a large pan with the remaining oil, sauté the zucchini spaghetti for exactly 2 minutes over high heat to warm them through without releasing water or losing firmness.",
+        "Arrange the zucchini spaghetti in a nest shape in two deep bowls, cover generously with the hot Bolognese, and decorate with the remaining fresh basil leaves."
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Pan-Seared Sea Bream with Warm White Bean and Lamb's Lettuce Salad",
+      "description": "Clean white fish fillets pan-seared with crispy skin, plated alongside warm cooked white beans with extra virgin olive oil, lemon, and fresh lamb's lettuce. A compendium of slow carbohydrates and clean proteins.",
+      "instructions": [
+        "In a small pan, warm the cooked white beans with 6 ml of olive oil, the red onion, and the lemon juice over very low heat for 3 minutes.",
+        "Remove from the heat and gently fold in the lamb's lettuce so they temper without wilting completely; set aside.",
+        "Meticulously dry the skin of the sea bream fillets with kitchen paper and make two shallow diagonal cuts in the skin so it does not shrink while cooking.",
+        "Heat a non-stick griddle over high heat with the remaining extra virgin olive oil.",
+        "Place the fillets skin-side down, pressing gently with the spatula for the first 30 seconds.",
+        "Cook 3 minutes on the skin side until golden and crisp, flip carefully, and cook only 1 more minute on the flesh side.",
+        "Serve the sea bream fillets immediately alongside the warm white bean salad."
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Yogurt and Indian-Spice Marinated Chicken with Roasted Cauliflower",
+      "description": "Thigh or breast marinated in unsweetened plain yogurt with ginger, garam masala, and turmeric, baked at high temperature alongside spiced cauliflower florets. The yogurt enzymes soften the protein fibers, ensuring a tender texture and an impeccable metabolic profile.",
+      "instructions": [
+        "Preheat the oven to 200 °C.",
+        "In a large bowl, mix the plain yogurt, garam masala, turmeric, crushed garlic, lemon juice, and half of the extra virgin olive oil.",
+        "Add the chicken breast pieces to the marinade, making sure they are completely coated; let rest at least 10 minutes at room temperature.",
+        "Arrange the cauliflower florets on one side of a baking sheet, drizzle with the remaining olive oil, and season lightly.",
+        "Place the marinated chicken on the other side of the sheet without crowding the pieces.",
+        "Bake at 200 °C for 22-25 minutes until the chicken is fully cooked with slightly golden edges and the cauliflower has a tender roast.",
+        "Plate and optionally accompany with a few mint or cilantro leaves."
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Seared Salmon over Spinach, Chickpea, and Pine Nut Sauté",
+      "description": "Fresh fatty-fish loin over a bed of sautéed cooked chickpeas, tender spinach, and toasted pine nuts. It combines mono- and polyunsaturated fats with the soluble fiber of legumes to maximize satiety and keep the glycemic curve balanced.",
+      "instructions": [
+        "Heat half of the olive oil in a large pan over medium heat and brown the sliced garlic for 1 minute.",
+        "Add the fresh spinach and sauté for 3 minutes until reduced in size.",
+        "Add the well-drained cooked chickpeas and the toasted pine nuts; sauté for 3 more minutes so they absorb the aromas and heat through; keep warm.",
+        "In another hot pan or griddle, add the remaining oil and sear the seasoned salmon loins.",
+        "Cook for 3 minutes on the skin side over medium-high heat; flip with a spatula and cook 2 minutes more on the other side for a juicy center.",
+        "Serve a base of the spinach and chickpea sauté in two plates and crown with the freshly cooked salmon loins."
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Lean Beef Hamburger Platter with Portobello and Avocado",
+      "description": "An artisanal burger made with lean beef, no additives or flours, grilled in a cast-iron pan and plated with pan-seared portobello mushroom slices and a fan of avocado. No processed breads, maximum nutritional density.",
+      "instructions": [
+        "In a bowl, mix the ground beef with the chopped fresh parsley, garlic powder, and ground pepper.",
+        "Divide the mixture into two equal portions and shape two compact burgers about 2 cm thick with your hands.",
+        "Heat half of the olive oil in a ridged grill pan or griddle over medium-high heat.",
+        "Cook the burgers for 3-4 minutes per side until they reach the desired doneness; remove and let rest 2 minutes.",
+        "In the same pan with the remaining oil, brown the portobello slices over high heat for 3 minutes until caramelized.",
+        "Plate each burger, top with the hot portobello slices, and accompany with the fresh avocado fan."
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Garlic Grilled Squash with Steamed Green Beans",
+      "description": "Clean squid tubes seared on a very hot griddle with garlic-and-parsley-flavored oil, served with thin green beans steamed to keep their chlorophyll and fiber intact. An excellent source of zinc and lean proteins with very low calorie density.",
+      "instructions": [
+        "Trim the green beans and steam them for 7 minutes until al dente; remove and keep warm.",
+        "Meticulously dry the squid with kitchen paper (this step is essential so they brown rather than stew in their own water).",
+        "In a small bowl, mix the finely chopped garlic, fresh parsley, lemon juice, and extra virgin olive oil to form a dressing.",
+        "Heat a griddle over very strong heat until intensely hot.",
+        "Arrange the squid on the griddle without crowding and cook for 1 and a half minutes without moving to sear them.",
+        "Flip, pour half of the garlic dressing over them, and cook 1 minute more; remove immediately to prevent toughening.",
+        "Serve the hot squid alongside the green beans dressed with the remaining garlic sauce."
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Chicken in Toasted Almond and Saffron Pepitoria",
+      "description": "Chicken pieces cooked in a classic pepitoria of toasted almonds, saffron, and hard-boiled egg yolk. A thick, aromatic Spanish sauce, high in protein and gluten-free.",
+      "instructions": [
+        "Toast the marcona almonds in a dry pan over medium heat for 3 minutes, stirring constantly; set aside and coarsely grind with a mortar.",
+        "Brown the chicken pieces in a casserole with the extra virgin olive oil over medium-high heat for 3 minutes per side; remove to a plate.",
+        "Gently soften the chopped onion and sliced garlic in the same casserole for 4 minutes over medium heat until translucent.",
+        "Pour in the low-sodium chicken stock, add the saffron threads, and return the browned chicken; cook covered over gentle heat for 15 minutes.",
+        "Stir in the ground almonds and the grated hard-boiled egg yolk, mix well, and cook uncovered for 5 minutes so the sauce thickens and coats the chicken.",
+        "Sprinkle the chopped fresh parsley, season with ground black pepper and a moderate pinch of sea salt, and serve hot."
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Oven-Baked Boneless Chicken Thighs with Provençal Roasted Vegetables",
+      "description": "Juicy oven-roasted chicken with the skin removed, served with dice of zucchini, eggplant, and red onion infused with Provençal aromatic herbs. It offers a great sensation of satiety with minimal carbohydrate content.",
+      "instructions": [
+        "Preheat the oven to 190 °C with fan or top and bottom heat.",
+        "On a large baking sheet, arrange the zucchini cubes, eggplant, and red onion wedges.",
+        "Drizzle the vegetables with two thirds of the extra virgin olive oil and sprinkle half of the herbes de Provence; massage with your hands to distribute the dressing.",
+        "Season the clean chicken thighs, rub with the remaining oil and the rest of the herbes de Provence.",
+        "Make a space among the vegetables and arrange the chicken thighs directly on the sheet.",
+        "Roast at 190 °C for 28-30 minutes, turning the chicken halfway through, until golden outside and completely cooked through.",
+        "Serve a generous portion of juicy roasted vegetables alongside the chicken on each plate."
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Oven-Baked Sea Bass with Herb Crust over Fennel and Tomato",
+      "description": "Tender sea bass loins baked with a fresh mince of parsley, basil, and garlic, resting over thin slices of sweet fennel and roasted cherry tomatoes. Fennel brings a mild anise flavor and highly digestive carminative compounds.",
+      "instructions": [
+        "Preheat the oven to 180 °C.",
+        "Arrange the fennel slices and cherry tomato halves in the bottom of an ovenproof dish; drizzle with 6 ml of extra virgin olive oil and a light pinch of salt.",
+        "Pre-roast the vegetables for 10 minutes at 180 °C so the fennel begins to soften.",
+        "In a small bowl, mix the chopped fresh parsley, grated garlic, lemon juice, and the remaining extra virgin olive oil.",
+        "Remove the dish from the oven and arrange the sea bass loins over the bed of fennel and tomato.",
+        "Spread the aromatic herb-and-garlic crust over the top of the fish loins.",
+        "Return to the oven at 180 °C and cook for 12-14 more minutes until the fish is opaque white and juicy.",
+        "Serve the loins with the caramelized fennel and roasted tomato garnish."
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Traditional Garden-Style Turkey Stew with Artichokes and Peas",
+      "description": "A classic stew made with diced lean turkey breast, artichoke hearts rich in cynarin and inulin fiber, and tender peas. It stimulates liver function and slows the absorption of the carbohydrates present.",
+      "instructions": [
+        "In a deep casserole, heat the olive oil over medium heat and sear the turkey dice for 4 minutes until pale; remove and set aside.",
+        "In the same oil, gently soften the onion and carrot for 6 minutes until they begin to soften.",
+        "Add the quartered artichoke hearts and sauté for 2 minutes.",
+        "Return the turkey to the casserole and pour in the hot defatted stock along with a pinch of pepper.",
+        "Bring to a boil, partially cover the casserole, and let simmer over low heat for 12 minutes.",
+        "Add the frozen peas directly to the stew and continue cooking for 6 more minutes until tender and the broth has reduced slightly.",
+        "Serve hot on deep flat plates, ensuring an even distribution of vegetables and legumes."
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Seared Mackerel with Paprika Chickpea Purée and Spinach",
+      "description": "An affordable, sustainable fatty fish extremely concentrated in omega-3 EPA and DHA fatty acids, pan-grilled and plated with a rustic, satisfying chickpea purée flavored with La Vera paprika and steamed spinach.",
+      "instructions": [
+        "Place the hot cooked chickpeas in the blender cup with the garlic clove, 8 ml of olive oil, smoked paprika, and hot stock; blend until you get a thick, smooth purée.",
+        "In a small pan, sauté the spinach with a few drops of oil for 2 minutes until wilted; keep warm.",
+        "Season the mackerel fillets on both sides.",
+        "Heat a non-stick griddle over strong heat with the remaining extra virgin olive oil.",
+        "Place the mackerel fillets skin-side down for 3 minutes until the skin is toasted and crisp.",
+        "Flip carefully with a thin spatula and cook only 1 and a half minutes more on the flesh side.",
+        "Arrange a generous base of rustic chickpea purée on each plate, accompany with the sautéed spinach, and place the freshly cooked mackerel fillet on top, drizzled with a few drops of fresh lemon juice."
+      ]
+    }
+  ]
+}

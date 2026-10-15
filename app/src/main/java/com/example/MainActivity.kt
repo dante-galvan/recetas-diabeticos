@@ -1,7 +1,7 @@
 package com.example
 
 import android.os.Bundle
-import androidx.activity.ComponentActivity
+import androidx.appcompat.app.AppCompatActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -40,7 +40,6 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
@@ -67,41 +66,32 @@ import com.example.ui.screens.RecipeDetailScreen
 import com.example.ui.theme.DiaRecipesTheme
 import com.example.ui.viewmodel.AppScreen
 import com.example.ui.viewmodel.MainViewModel
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.SupervisorJob
-import kotlinx.coroutines.flow.first
-import kotlinx.coroutines.launch
-import java.util.Locale
 
-class MainActivity : ComponentActivity() {
+class MainActivity : AppCompatActivity() {
   private val viewModel: MainViewModel by viewModels()
-  private val uiScope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     enableEdgeToEdge()
-    
-    // Initialize locale from saved preference
-    uiScope.launch {
-      val profile = viewModel.userProfile.value
-      val localeList = LocaleListCompat.forLanguageTags(profile.language.code)
-      AppCompatDelegate.setApplicationLocales(localeList)
-    }
-    
+
     setContent {
       val userProfile by viewModel.userProfile.collectAsState()
-      val isDark = when (userProfile.isDarkTheme) {
+      val isDark = when (userProfile?.isDarkTheme) {
         true -> true
         false -> false
         null -> isSystemInDarkTheme()
       }
 
-      // Update locale when language changes
-      val language by viewModel.currentLanguage.collectAsState()
+      // Apply the persisted language exactly once per language value.
+      // The profile is null until Room emits; we wait for it so the placeholder
+      // value never overrides the locale AppCompat already restored from disk.
+      val language = userProfile?.language
       LaunchedEffect(language) {
-        val localeList = LocaleListCompat.forLanguageTags(language.code)
-        AppCompatDelegate.setApplicationLocales(localeList)
+        val lang = language ?: return@LaunchedEffect
+        val desired = LocaleListCompat.forLanguageTags(lang.code)
+        if (AppCompatDelegate.getApplicationLocales() != desired) {
+          AppCompatDelegate.setApplicationLocales(desired)
+        }
       }
 
       DiaRecipesTheme(darkTheme = isDark) {
@@ -167,7 +157,6 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
   val userProfile by viewModel.userProfile.collectAsState()
   val filterSheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
   val snackbarHostState = remember { SnackbarHostState() }
-  val scope = rememberCoroutineScope()
 
   // Listen for ViewModel toast/snackbar messages
   LaunchedEffect(Unit) {

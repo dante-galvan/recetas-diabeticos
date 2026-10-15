@@ -1,0 +1,331 @@
+{
+  "recipes": [
+    {
+      "id": 151,
+      "name": "Light Garden Vegetable Minestrone with Mild Pesto (No Pasta)",
+      "description": "A lighter version of the Italian peasant soup that skips wheat pasta and boosts fresh vegetables: zucchini, green beans, natural tomato, and fresh basil. Its richness in soluble fiber and biological water promotes satiety with minimal glycemic impact.",
+      "instructions": [
+        "In a wide casserole, heat the olive oil over medium heat and gently soften the leek and celery for 5 minutes until translucent.",
+        "Add the chopped tomato and cook 3 more minutes until it begins to break down.",
+        "Add the chopped green beans, zucchini cubes, and hot vegetable broth.",
+        "Bring to a boil, reduce to low heat, cover the casserole, and simmer for 18 minutes until all the vegetables are tender but firm.",
+        "Tear the fresh basil leaves by hand and add them in the last minute of cooking along with a pinch of freshly ground black pepper.",
+        "Serve hot in deep bowls, distributing the broth and vegetables evenly."
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Shredded Chicken Soup with Konjac Noodles and Ginger Vegetables",
+      "description": "A clean, comforting chicken broth enriched with lean breast strands and shirataki konjac noodles (pure glucomannan fiber with zero net carbohydrates). Ginger and celery confer exceptional anti-inflammatory and digestive properties.",
+      "instructions": [
+        "Rinse the shirataki konjac noodles in a strainer under abundant cold water for 1 minute to neutralize their characteristic aroma; drain well.",
+        "In a pot, heat the defatted chicken broth with the fresh ginger, celery, and carrot over medium heat for 10 minutes until the carrot is soft.",
+        "Add the shredded chicken and shirataki noodles to the pot.",
+        "Cook over gentle heat for 4 minutes so the noodles absorb the flavor of the aromatic broth.",
+        "Remove the ginger slices if a milder flavor is preferred.",
+        "Serve the soup very hot in two bowls, drizzle with a few drops of sesame oil, and sprinkle the fresh chopped chives."
+      ]
+    },
+    {
+      "id": 153,
+      "name": "Roasted Pumpkin and Ginger Cream with Crunchy Seeds",
+      "description": "A dense, velvety cream made from pumpkin previously roasted in the oven to concentrate its natural flavor without needing to add potato. The toasted pumpkin seeds provide monounsaturated fats and zinc, moderating the dish's assimilation.",
+      "instructions": [
+        "Preheat the oven to 200 °C.",
+        "Arrange the pumpkin dice on a sheet with half of the olive oil and roast for 20 minutes until tender and lightly golden.",
+        "In a casserole, gently soften the chopped onion with the remaining oil for 4 minutes; add the grated ginger and stir.",
+        "Add the roasted pumpkin and hot vegetable broth; simmer gently for 5 minutes so the flavors integrate.",
+        "Blend with an electric mixer at maximum power for 2 minutes until you get a smooth, lump-free cream.",
+        "Serve hot in two bowls and crown with the crunchy toasted pumpkin seeds and a twist of black pepper."
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Artichoke, Celery, and Lemon Cleansing Broth with Ham Bits",
+      "description": "A slow-cooked vegetable infusion of artichoke hearts and leaves rich in cynarin and inulin, combined with celery stalks and a citrusy touch of lemon. It exerts a diuretic and cleansing function that supports basal glycemic metabolism.",
+      "instructions": [
+        "In a medium pot, combine the water, quartered artichokes, chopped celery, and half of the lemon juice.",
+        "Bring to a boil, partially cover, and cook over medium-low heat for 22 minutes until the artichokes are completely tender and the broth has taken on a golden color.",
+        "In a small pan, sauté the lean ham dice with the drops of olive oil for 1 minute to awaken their aromas.",
+        "Serve the broth with the artichoke and celery pieces in two deep bowls.",
+        "Scatter the crispy ham bits over the top, add a few drops of the remaining lemon juice, and a touch of pepper."
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Saffron Hake, Shrimp, and Mussel Seafood Soup",
+      "description": "A comforting fish-and-seafood soup cooked with a clean defatted rockfish broth, flavored with saffron threads and fresh parsley. A pure, light seafood protein source, free of flours and very easy to digest.",
+      "instructions": [
+        "In a wide casserole, heat the olive oil over medium heat and gently soften the grated tomato for 4 minutes.",
+        "Pour in the hot fish stock and add the previously crushed saffron threads.",
+        "Simmer gently for 5 minutes so the broth takes on the saffron's color and aroma.",
+        "Add the diced hake and peeled shrimp tails; cook over low heat for 4 minutes.",
+        "Add the cooked mussel meat in the last minute so it heats through without toughening.",
+        "Turn off the heat, sprinkle the chopped fresh parsley, and serve in deep ceramic bowls."
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Silky Cauliflower and Leek Cream with Toasted Almond Shavings",
+      "description": "A comforting pure-white cream that perfectly mimics the texture of a traditional vichyssoise by replacing potato with cooked cauliflower. The cauliflower brings creamy density without raising carbohydrates.",
+      "instructions": [
+        "In a pot, heat half of the olive oil and gently soften the leek over medium-low heat for 4 minutes without browning.",
+        "Add the cauliflower florets and pour in the hot broth; bring to a gentle boil.",
+        "Cook covered for 14 minutes until the cauliflower is completely tender when pierced.",
+        "Transfer the vegetables with the broth to the blender cup, add the remaining raw olive oil, nutmeg, and a pinch of white pepper.",
+        "Blend on high power for 2 minutes until you get a velvety, glossy texture.",
+        "Serve the hot cream in two bowls and decorate the surface with the crunchy slivered almonds."
+      ]
+    },
+    {
+      "id": 157,
+      "name": "Light Castilian Garlic and Poached Egg Soup (No Bread)",
+      "description": "A reinterpretation of the traditional Spanish garlic soup that skips the fried stale bread, thickening the broth solely with the emulsion of golden garlic, La Vera paprika, and a poached egg in the simmering broth.",
+      "instructions": [
+        "In a clay casserole or wide saucepan, heat the olive oil over medium heat and slowly brown the sliced garlic until golden without burning.",
+        "Remove from the heat for half a minute to cool the oil, add the sweet paprika, and stir quickly with a wooden spoon so it does not burn.",
+        "Carefully pour the hot defatted broth over the sofrito and return to the heat.",
+        "Cook over low heat for 10 minutes so the garlic infuses deeply into the broth.",
+        "Raise the heat slightly to a gentle boil, crack the two eggs directly into the broth, spaced apart, and turn off the heat.",
+        "Cover the casserole for 3-4 minutes so the whites set with the residual heat while keeping the yolks liquid.",
+        "Serve carefully into two deep plates, making sure each diner gets a whole egg."
+      ]
+    },
+    {
+      "id": 158,
+      "name": "Miso Soup with Tofu Dice, Wakame Seaweed, and Enoki Mushrooms",
+      "description": "A traditional naturally fermented soup with unpasteurized miso paste, fucoidan-rich wakame seaweed, and tender fresh tofu dice. It supplies active digestive enzymes, probiotics, and marine minerals without raising blood glucose.",
+      "instructions": [
+        "Hydrate the wakame seaweed in a small bowl with lukewarm water for 5 minutes; drain.",
+        "In a saucepan, heat the 600 ml of water or broth along with the mushrooms over medium heat for 5 minutes.",
+        "Add the firm tofu dice and the hydrated wakame; heat over gentle heat for 2 more minutes.",
+        "Turn off the heat of the pot to protect the probiotic properties of the miso.",
+        "Dissolve the miso paste in a ladle with hot broth from the pot until the lumps are completely dissolved, and incorporate it into the soup.",
+        "Serve immediately in two bowls and sprinkle the chopped fresh scallion over the top."
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Gentle Green Asparagus Cream with Crisp Ham Shavings",
+      "description": "A light cream made by using the whole tender green asparagus stalks blended with leek and vegetable broth, crowned with crisp serrano ham flakes. An optimal supply of potassium, folic acid, and satiating inulin.",
+      "instructions": [
+        "Trim the tips of 4 asparagus and reserve them whole for the final decoration.",
+        "In a pot, heat half of the olive oil and sauté the leek with the chopped asparagus stalks for 4 minutes.",
+        "Pour in the hot vegetable broth and cook over medium heat for 10 minutes until the stalks are very tender.",
+        "In a small pan with a few drops of oil, sauté the asparagus tips and ham pieces for 2 minutes until golden; set aside.",
+        "Blend the contents of the pot with the remaining raw olive oil and a pinch of white pepper until you get a fine cream; pass through a strainer if you wish to remove any fibrous bits.",
+        "Serve the hot green cream in two bowls, decorating with the sautéed asparagus tips and crisp ham."
+      ]
+    },
+    {
+      "id": 160,
+      "name": "Light Tom Kha Gai Chicken, Mushroom, and Coconut Milk Soup",
+      "description": "An aromatic Thai inspiration that fuses lean chicken breast strips with mushrooms in a light coconut milk broth flavored with ginger, lemongrass, and lime juice. The lauric acid of the coconut and the citrus offer satiety without raising insulin.",
+      "instructions": [
+        "In a casserole, combine the chicken broth, light coconut milk, and ginger slices; bring to a gentle boil over medium heat for 5 minutes to infuse.",
+        "Add the quartered mushrooms and cook for 3 minutes.",
+        "Add the thin chicken breast strips to the gently simmering soup.",
+        "Cook for 4-5 minutes until the chicken is tender and completely cooked through.",
+        "Turn off the heat, remove the hard ginger slices, and season with the lime juice and the fish or soy sauce.",
+        "Serve in two wide bowls and distribute abundant chopped fresh cilantro over the top."
+      ]
+    },
+    {
+      "id": 161,
+      "name": "Homemade Bone and Vegetable Broth with Turmeric and Thyme",
+      "description": "A broth slow-cooked for hours from poultry and beef bones with vegetables and turmeric. Extremely rich in soluble collagen, gut-barrier-protecting glutamine, and pure minerals, with null carbohydrate content.",
+      "instructions": [
+        "Place the bones in a large pot with the mineral water and apple cider vinegar; let rest 10 minutes in the cold.",
+        "Bring to a gentle boil and skim off the surface foam with a slotted spoon.",
+        "Add the leek, celery, carrot, thyme, and turmeric powder.",
+        "Lower the heat to the minimum, cover the pot, and cook over very gentle heat for at least 60 minutes (or up to 2 hours if time allows).",
+        "Strain the broth through a fine-mesh strainer, removing all the solids.",
+        "Let cool in the fridge, scoop off the solid surface fat layer with a spoon, and reheat the clean broth before serving in comforting broth cups."
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Velvety Wild Thyme Portobello Cream",
+      "description": "A silky-textured cream made by blending golden portobello mushrooms with onion and defatted vegetable broth, with no wheat flours or dairy cream. Its richness in beta-glucans and minerals supports the immune system and metabolic control.",
+      "instructions": [
+        "In a medium casserole, heat half of the olive oil and gently soften the onion with the garlic over medium heat for 4 minutes.",
+        "Add the sliced portobellos and sauté for 6 minutes until browned and their natural juices have evaporated.",
+        "Reserve a couple of golden portobello slices for decorating.",
+        "Pour in the hot vegetable broth and fresh thyme; simmer over gentle heat for 8 minutes.",
+        "Blend with the immersion blender, incorporating the remaining raw extra virgin olive oil and black pepper until you get a velvety, uniform texture.",
+        "Serve hot in two bowls and place the reserved portobello slices on top."
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Cumin Red Coral Lentil Soup with Fresh Spinach",
+      "description": "A quick-cooking split-lentil soup that naturally breaks down, creating a thick broth with no added starches. Combined with fresh spinach leaves added at the end, it provides plant iron and slow-absorbing carbohydrates.",
+      "instructions": [
+        "Rinse the red lentils in a fine strainer under cold water.",
+        "In a casserole, heat the olive oil over medium heat and gently soften the onion for 4 minutes; add the cumin and diced tomato, sautéing 2 more minutes.",
+        "Add the red lentils and cover with the hot vegetable broth.",
+        "Bring to a gentle boil, cover, and cook over low heat for 14 minutes (the red lentils will soften and begin to break down, thickening the soup).",
+        "Add the fresh spinach and lemon juice, stirring for 2 minutes until the leaves reduce in size.",
+        "Serve hot in three deep plates."
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Cold Cucumber, Greek Yogurt, and Fresh Dill Soup (Tarator)",
+      "description": "A classic Balkan cold soup made with crisp grated cucumbers, protein-rich strained plain yogurt, chopped walnuts, and fresh dill. Excellent summer hydration with a practically null carbohydrate profile.",
+      "instructions": [
+        "In a large bowl, whisk the Greek yogurt with the half crushed garlic clove, lemon juice, and very cold water until you get a fluid consistency.",
+        "Add the grated cucumber and chopped fresh dill; mix well.",
+        "Add the extra virgin olive oil and stir to integrate.",
+        "Refrigerate for 15 minutes to serve well chilled.",
+        "Divide between two deep bowls and scatter the chopped walnuts over the top before enjoying with a spoon."
+      ]
+    },
+    {
+      "id": 165,
+      "name": "Homemade Turkey Meatball Soup with Spinach and Poultry Broth",
+      "description": "A complete dish that combines a light defatted broth with homemade mini meatballs of spiced ground turkey and tender baby spinach leaves. It provides satiety with high biological-value lean protein and null glycemic impact.",
+      "instructions": [
+        "In a bowl, mix the turkey meat with the egg white, chopped parsley, garlic powder, and pepper.",
+        "Shape 8 compact walnut-sized mini meatballs with your palms.",
+        "In a pot, heat the defatted chicken broth until it comes to a gentle boil.",
+        "Drop the mini meatballs into the simmering broth one by one.",
+        "Cook over medium heat for 10 minutes so the meatballs are cooked and tender inside.",
+        "Add the baby spinach and extra virgin olive oil; cook 2 more minutes until the leaves wilt.",
+        "Serve hot in deep bowls, dividing 4 meatballs and abundant broth per serving."
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Steamed Broccoli and Nutmeg Cream with Nutritional Yeast",
+      "description": "An intense green cream rich in glucosinolates and antioxidants, made by steaming broccoli to preserve its micronutrients and blending it with nutritional yeast that brings a subtle aged-cheese note without dairy.",
+      "instructions": [
+        "Steam the broccoli florets over boiling water for 7 minutes until tender while keeping their bright green color.",
+        "Place the steamed broccoli in the blender cup.",
+        "Add the hot vegetable broth, nutritional yeast, extra virgin olive oil, nutmeg, and white pepper.",
+        "Blend at maximum power for 2 minutes until you get a creamy, light, and completely uniform texture.",
+        "Adjust with hot broth if a thinner consistency is preferred.",
+        "Serve freshly blended in two bowls."
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Roman Stracciatella Soup with Poultry Broth, Egg, and Aged Cheese",
+      "description": "A traditional specialty of the Lazio region consisting of beating fresh eggs with grated Parmesan and pouring them in a thin stream into simmering poultry broth to form ethereal protein filaments. Ultra-rapid digestion and zero sugars.",
+      "instructions": [
+        "In a bowl, beat the two eggs with the grated Parmesan, nutmeg, and a pinch of black pepper until you get a foamy mixture.",
+        "In a casserole, heat the chicken broth to a full boil.",
+        "Pour the egg mixture into the boiling broth in a continuous stream while whisking vigorously with kitchen whisk.",
+        "Cook over medium heat for 1-2 minutes until the egg sets into small curds and floating filaments (stracciatella).",
+        "Turn off the heat immediately so the egg does not toughen.",
+        "Serve immediately in two soup plates, decorating with a little chopped fresh parsley."
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Gentle Roasted Carrot Cream with Fresh Cilantro and Cumin",
+      "description": "A comforting cream made with carrots previously roasted in the oven that gently caramelize their natural sugars, balanced by the earthy notes of cumin and the freshness of cilantro. A great source of cardioprotective beta-carotene.",
+      "instructions": [
+        "Preheat the oven to 200 °C.",
+        "Arrange the carrot slices and onion on a baking sheet, drizzle with half of the olive oil and ground cumin; roast 20 minutes until tender and toasted at the edges.",
+        "Transfer the roasted vegetables to a pot and pour in the hot vegetable broth.",
+        "Cook over gentle heat for 5 minutes so the aromas mingle.",
+        "Blend vigorously with the immersion blender along with the remaining raw extra virgin olive oil until you get a fine consistency.",
+        "Serve hot in two deep bowls and sprinkle abundant freshly chopped cilantro."
+      ]
+    },
+    {
+      "id": 169,
+      "name": "White Fish Soup with Rockfish Broth, Fennel, and Saffron",
+      "description": "A light brothy maritime stew that uses white fish flakes cooked in a broth with finely julienned fennel bulb and saffron threads. Fennel provides digestive and carminative effects, reducing abdominal bloating.",
+      "instructions": [
+        "In a casserole, heat the olive oil over medium heat and sauté the julienned fennel for 5 minutes until softened.",
+        "Add the diced tomato and sauté 2 more minutes.",
+        "Pour in the hot fish stock and add the crushed saffron threads; simmer over gentle heat for 5 minutes.",
+        "Add the fish fillets cut into even bite-sized pieces.",
+        "Cook over low heat for 4 minutes until the fish is opaque white and cooked just right.",
+        "Serve the hot soup in two deep plates, ensuring a generous distribution of fish and fennel."
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Traditional Bread-Free Andalusian Gazpacho with Extra Virgin Olive Oil",
+      "description": "A raw cold soup of ripe vegetables emulsified with extra virgin olive oil and sherry vinegar with no added bread crumb. A concentrate of lycopene, potassium, and antioxidants with null glycemic impact thanks to the absence of refined carbohydrates.",
+      "instructions": [
+        "Wash and chop the ripe tomatoes, green pepper, and cucumber.",
+        "Place all the vegetables in the blender cup along with the half garlic clove and sherry vinegar.",
+        "Blend at maximum speed for 3 minutes until you get a completely liquid, fine mixture.",
+        "Add the very cold water and, with the blender running at low speed, pour the extra virgin olive oil in a stream to emulsify the soup and give it its characteristic orange color and silky texture.",
+        "Pass through a chinois strainer if an even smoother texture is desired.",
+        "Refrigerate for at least 30 minutes and serve very cold in two wide bowls or glasses."
+      ]
+    },
+    {
+      "id": 171,
+      "name": "Rustic Green Cabbage and Lean Beef Soup with Bay",
+      "description": "A hot peasant soup that brings together lean beef pieces slow-cooked with green cabbage and bay leaf. The cabbage provides glucosinolate fiber and prolonged satiety without causing postprandial glucose swings.",
+      "instructions": [
+        "In a medium pot, heat the olive oil over high heat and brown the beef dice for 4 minutes to seal in their juices.",
+        "Add the chopped onion and sauté for 3 minutes.",
+        "Add the julienned green cabbage, bay leaf, and a pinch of pepper.",
+        "Pour in the hot defatted meat broth.",
+        "Bring to a boil, cover the pot, and cook over low heat for 22-25 minutes until the meat is tender and the cabbage is meltingly soft.",
+        "Remove the bay leaf and serve hot in deep bowls."
+      ]
+    },
+    {
+      "id": 172,
+      "name": "Green Zucchini and Fresh Basil Cream with Low-Fat Ricotta",
+      "description": "An aromatic garden cream based on zucchini boiled with skin to retain chlorophyll and carotenoids, enriched with fresh basil and a spoonful of low-fat ricotta that adds protein smoothness without excessive saturated fats.",
+      "instructions": [
+        "In a pot, heat half of the oil and sauté the scallion for 3 minutes without browning.",
+        "Add the zucchini slices and hot vegetable broth; cook covered over medium heat for 10 minutes until tender.",
+        "Remove from the heat and place the zucchini with its broth in the blender cup.",
+        "Add the fresh basil leaves, half of the low-fat ricotta, the remaining olive oil, and a pinch of white pepper.",
+        "Blend for 1 and a half minutes until you get a bright green, uniform emulsion.",
+        "Serve in two bowls and place a teaspoon of the remaining ricotta in the center of each plate."
+      ]
+    },
+    {
+      "id": 173,
+      "name": "Comforting Chickpea, Chard, and Paprika Vegetable Broth Soup",
+      "description": "A traditional hearty dish that combines tender cooked chickpeas with green chard stalks and leaves in a paprika-flavored aromatic broth. It offers slow-digesting resistant starch and plant thickening fiber.",
+      "instructions": [
+        "In a casserole, heat the olive oil over medium heat and brown the sliced garlic.",
+        "Remove from the heat for a moment, add the sweet paprika, and stir quickly so it does not burn.",
+        "Add the chopped chard and sauté for 2 minutes until reduced in volume.",
+        "Pour in the hot vegetable broth and bring to a boil.",
+        "Add the cooked chickpeas and cook over medium heat for 15 minutes so the vegetables are tender and the broth takes on body.",
+        "Serve hot in three deep plates."
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Leek and Almond Cream with Extra Virgin Olive Oil",
+      "description": "A smooth cream made from slowly softened leeks and ground raw almonds that act as a natural emulsifier, replacing dairy creams or butters. It provides vitamin E and cardioprotective monounsaturated lipids.",
+      "instructions": [
+        "In a pot, heat half of the oil and gently soften the leeks over low heat for 6 minutes without letting them color.",
+        "Add the raw almonds and hot vegetable broth.",
+        "Cook covered over gentle heat for 12 minutes until the leeks and almonds are very tender.",
+        "Transfer everything to the blender cup and add the remaining raw olive oil and a pinch of white pepper.",
+        "Blend at maximum speed for 2 continuous minutes until you get a very white, glossy, and silky cream.",
+        "Serve hot in two bowls."
+      ]
+    },
+    {
+      "id": 175,
+      "name": "Light French Onion Soup with Gruyère Gratin (No Bread)",
+      "description": "Onions slowly caramelized in their own natural sugars with dark meat broth, served in individual dishes and gratinéed in the oven with Swiss Gruyère cheese without toasted bread slices. Very satisfying, comforting, and low in net carbohydrates.",
+      "instructions": [
+        "In a heavy-bottomed casserole, heat the olive oil over medium-low heat.",
+        "Add the julienned onion and cook slowly for 20 minutes, stirring frequently, until tender, translucent, and naturally caramelized golden (without adding sugar).",
+        "Pour in the hot meat broth and thyme sprigs; cook over gentle heat for 10 more minutes.",
+        "Preheat the oven grill to 220 °C.",
+        "Divide the hot onion soup between two individual ovenproof dishes.",
+        "Cover the surface of each dish directly with the grated Gruyère cheese.",
+        "Gratiné in the oven for 4-5 minutes until the cheese forms a melted, golden crust.",
+        "Remove with oven mitts and serve hot with care."
+      ]
+    }
+  ]
+}
