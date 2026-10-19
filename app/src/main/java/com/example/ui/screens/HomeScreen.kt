@@ -73,6 +73,7 @@ fun HomeScreen(
   val favoriteIds by viewModel.favoriteRecipeIds.collectAsState()
   val allRecipes = viewModel.repository.getRecipes()
   val mealPlanItems by viewModel.mealPlanItems.collectAsState()
+  val availableCategories by viewModel.exploreCategories.collectAsState()
 
   val featuredRecipe = allRecipes.find { it.isFeatured } ?: allRecipes.first()
   val popularRecipes = allRecipes.filter { it.isPopular }
@@ -87,7 +88,8 @@ fun HomeScreen(
     else -> AppStrings.greetingEvening()
   }
 
-  // Quick categories
+  // Quick categories: keep the curated order, but only show categories that
+  // currently have at least one recipe so the chips never lead to empty results.
   val quickCategories = listOf(
     RecipeCategory.BREAKFAST,
     RecipeCategory.LUNCH,
@@ -97,7 +99,7 @@ fun HomeScreen(
     RecipeCategory.SALADS,
     RecipeCategory.SOUPS,
     RecipeCategory.DESSERTS
-  )
+  ).filter { it in availableCategories }
 
   LazyColumn(
     modifier = modifier

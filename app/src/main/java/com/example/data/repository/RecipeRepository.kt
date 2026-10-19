@@ -16,15 +16,37 @@ import com.example.data.model.RecipeCollection
 import com.example.data.model.UserProfile
 import com.example.ui.i18n.Language
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.combine
-import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import java.util.Locale
 
 class RecipeRepository(private val dao: DiaRecipesDao, context: Context? = null) {
 
-  // All catalog recipes from JSON only (SampleData is for previews/tests only)
-  private val allRecipes: List<Recipe> = loadJsonRecipes(context)
+  // Set to true only when the JSON catalog could not be read at all. Used to
+  // avoid treating an I/O failure as "every category is empty".
+  private var catalogLoadFailed: Boolean = false
+
+  // All catalog recipes from JSON only (SampleData is for previews/tests only).
+  // Backed by a StateFlow so derived data (like the visible categories) is
+  // recalculated automatically whenever the recipe set changes.
+  private val allRecipes: MutableStateFlow<List<Recipe>> =
+    MutableStateFlow(loadJsonRecipes(context))
+
+  private val recipeList: List<Recipe> get() = allRecipes.value
+
+  /** Emits the full catalog, so observers can react to recipe changes. */
+  val recipes: StateFlow<List<Recipe>> = allRecipes.asStateFlow()
+
+  /**
+   * Emits the categories that currently have at least one recipe. Recomputed on
+   * every catalog change, so categories disappear/reappear without restarting.
+   */
+  val availableCategories: Flow<List<RecipeCategory>> = allRecipes
+    .map { categoryListFor(it) }
+    .distinctUntilChanged()
 
   private fun loadJsonRecipes(context: Context?): List<Recipe> {
     if (context == null) return emptyList()
@@ -32,13 +54,35 @@ class RecipeRepository(private val dao: DiaRecipesDao, context: Context? = null)
       RecipeJsonLoader.loadRecipes(context)
     } catch (e: Exception) {
       e.printStackTrace()
+      catalogLoadFailed = true
       emptyList()
     }
   }
 
-  fun getRecipes(): List<Recipe> = allRecipes
+  /** Replaces the catalog (e.g. after a data refresh) and recomputes categories. */
+  fun updateRecipeCatalog(recipes: List<Recipe>) {
+    catalogLoadFailed = false
+    allRecipes.value = recipes
+  }
 
-  fun getRecipeById(id: String): Recipe? = allRecipes.find { it.id == id }
+  fun getRecipes(): List<Recipe> = recipeList
+
+  fun getRecipeById(id: String): Recipe? = recipeList.find { it.id == id }
+
+  /**
+   * Categories that currently have at least one associated recipe, in the enum's
+   * declaration order. Derived from the real recipes using the same association
+   * rules as [searchRecipes], so a category is only offered when selecting it can
+   * actually return results.
+   */
+  fun getAvailableCategories(): List<RecipeCategory> = categoryListFor(recipeList)
+
+  private fun categoryListFor(recipes: List<Recipe>): List<RecipeCategory> {
+    // A total load failure is not proof that the categories are empty: keep the
+    // definitions visible instead of silently hiding every one of them.
+    if (recipes.isEmpty() && catalogLoadFailed) return RecipeCategory.values().toList()
+    return RecipeCategory.withRecipes(recipes)
+  }
 
   // Filtered & Searched Recipes
   fun searchRecipes(
@@ -52,7 +96,7 @@ class RecipeRepository(private val dao: DiaRecipesDao, context: Context? = null)
     sortBy: SortOption,
     language: Language
   ): List<Recipe> {
-    var result = allRecipes.asSequence()
+    var result = recipeList.asSequence()
 
     if (query.isNotBlank()) {
       val cleanQuery = query.trim().lowercase(Locale.ROOT)
@@ -72,9 +116,7 @@ class RecipeRepository(private val dao: DiaRecipesDao, context: Context? = null)
     }
 
     if (category != null) {
-      result = result.filter { 
-        it.category == category || it.secondaryCategories.contains(category) 
-      }
+      result = result.filter { it.matchesCategory(category) }
     }
 
     if (maxCarbs != null && maxCarbs > 0) {
@@ -207,16 +249,21 @@ class RecipeRepository(private val dao: DiaRecipesDao, context: Context? = null)
 
   suspend fun generateWeeklyMenu() {
     dao.clearMealPlan()
-    val breakfasts = allRecipes.filter { it.category == RecipeCategory.BREAKFAST || it.secondaryCategories.contains(RecipeCategory.BREAKFAST) }
-    val lunches = allRecipes.filter { it.category == RecipeCategory.LUNCH || it.secondaryCategories.contains(RecipeCategory.LUNCH) }
-    val dinners = allRecipes.filter { it.category == RecipeCategory.DINNER || it.secondaryCategories.contains(RecipeCategory.DINNER) }
-    val snacks = allRecipes.filter { it.category == RecipeCategory.SNACKS || it.category == RecipeCategory.DESSERTS }
+    val menuRecipes = recipeList
+    val breakfasts = menuRecipes.filter { it.matchesCategory(RecipeCategory.BREAKFAST) }
+    val lunches = menuRecipes.filter { it.matchesCategory(RecipeCategory.LUNCH) }
+    val dinners = menuRecipes.filter { it.matchesCategory(RecipeCategory.DINNER) }
+    val snacks = menuRecipes.filter {
+      it.matchesCategory(RecipeCategory.SNACKS) || it.matchesCategory(RecipeCategory.DESSERTS)
+    }
+
+    if (menuRecipes.isEmpty()) return
 
     for (day in 1..7) {
-      val b = breakfasts.getOrNull((day - 1) % breakfasts.size) ?: allRecipes.first()
-      val l = lunches.getOrNull((day - 1) % lunches.size) ?: allRecipes[1 % allRecipes.size]
-      val d = dinners.getOrNull((day - 1) % dinners.size) ?: allRecipes[2 % allRecipes.size]
-      val s = snacks.getOrNull((day - 1) % snacks.size) ?: allRecipes[3 % allRecipes.size]
+      val b = breakfasts.getOrNull((day - 1) % breakfasts.size) ?: menuRecipes.first()
+      val l = lunches.getOrNull((day - 1) % lunches.size) ?: menuRecipes[1 % menuRecipes.size]
+      val d = dinners.getOrNull((day - 1) % dinners.size) ?: menuRecipes[2 % menuRecipes.size]
+      val s = snacks.getOrNull((day - 1) % snacks.size) ?: menuRecipes[3 % menuRecipes.size]
 
       dao.insertMealPlanItem(MealPlanEntity(dayOfWeek = day, slotKey = MealSlot.BREAKFAST.key, recipeId = b.id))
       dao.insertMealPlanItem(MealPlanEntity(dayOfWeek = day, slotKey = MealSlot.LUNCH.key, recipeId = l.id))

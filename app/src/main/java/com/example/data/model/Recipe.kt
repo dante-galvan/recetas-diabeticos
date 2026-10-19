@@ -61,6 +61,14 @@ data class Recipe(
 ) {
   val totalTimeMinutes: Int get() = prepTimeMinutes + cookTimeMinutes
 
+  /**
+   * Single source of truth for whether this recipe is associated with a category.
+   * Covers both the primary category and any secondary categories, matching the
+   * behaviour of the Explore filters.
+   */
+  fun matchesCategory(category: RecipeCategory): Boolean =
+    this.category == category || secondaryCategories.contains(category)
+
   fun localizedTitle(lang: Language): String = if (lang == Language.SPANISH) titleEs else titleEn
   fun localizedDescription(lang: Language): String = if (lang == Language.SPANISH) descriptionEs else descriptionEn
   fun localizedSteps(lang: Language): List<String> = if (lang == Language.SPANISH) stepsEs else stepsEn

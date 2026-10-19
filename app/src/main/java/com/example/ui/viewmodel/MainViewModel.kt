@@ -117,6 +117,12 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     )
   }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), repository.getRecipes())
 
+  // Categories that currently have at least one recipe. Derived from the live
+  // catalog so they are recalculated automatically whenever the recipe set
+  // changes; a category is never offered while it would lead to an empty screen.
+  val exploreCategories: StateFlow<List<RecipeCategory>> = repository.availableCategories
+    .stateIn(viewModelScope, SharingStarted.Eagerly, repository.getAvailableCategories())
+
   // Favorites
   val favoriteRecipeIds: StateFlow<Set<String>> = repository.favoriteRecipeIds
     .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptySet())

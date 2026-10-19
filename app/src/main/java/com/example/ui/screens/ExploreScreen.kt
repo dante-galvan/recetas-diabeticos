@@ -45,7 +45,6 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.data.model.RecipeCategory
 import com.example.ui.components.EmptyStateView
 import com.example.ui.components.RecipeCard
 import com.example.ui.i18n.AppStrings
@@ -65,6 +64,7 @@ fun ExploreScreen(
   val filters by viewModel.filterState.collectAsState()
   val recipes by viewModel.exploreRecipes.collectAsState()
   val favoriteIds by viewModel.favoriteRecipeIds.collectAsState()
+  val availableCategories by viewModel.exploreCategories.collectAsState()
 
   val hasActiveFilters = filters.category != null ||
     filters.maxCarbs != null ||
@@ -72,8 +72,6 @@ fun ExploreScreen(
     filters.maxPrepTime != null ||
     filters.difficulty != null ||
     filters.dietaryPreference != null
-
-  val allCategories = RecipeCategory.values().toList()
 
   Column(
     modifier = modifier
@@ -165,7 +163,7 @@ fun ExploreScreen(
         )
       }
 
-      items(allCategories) { category ->
+      items(availableCategories) { category ->
         FilterChip(
           selected = filters.category == category,
           onClick = {

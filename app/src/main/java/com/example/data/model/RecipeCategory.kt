@@ -31,6 +31,27 @@ enum class RecipeCategory(
   FAST("fast", "Rápidas", "Fast Recipes", "bolt");
 
   fun localizedName(lang: Language): String = if (lang == Language.SPANISH) nameEs else nameEn
+
+  companion object {
+    /**
+     * Categories that have at least one associated recipe, keeping the enum
+     * declaration order.
+     *
+     * A category is considered associated to a recipe using exactly the same
+     * relation as filtering in the repository: the recipe's primary
+     * [Recipe.category] OR any of its [Recipe.secondaryCategories]. This keeps
+     * "Explorar" chips and search results consistent: choosing any returned
+     * category always produces at least one result.
+     */
+    fun withRecipes(recipes: List<Recipe>): List<RecipeCategory> {
+      val present = HashSet<RecipeCategory>()
+      for (recipe in recipes) {
+        present.add(recipe.category)
+        present.addAll(recipe.secondaryCategories)
+      }
+      return values().filter { it in present }
+    }
+  }
 }
 
 enum class Difficulty {
