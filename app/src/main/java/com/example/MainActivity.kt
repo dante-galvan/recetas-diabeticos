@@ -295,8 +295,8 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
       language = language,
       recipeId = recipe.id,
       collections = collections,
-      onSelectCollection = { collectionId ->
-        viewModel.saveRecipeToCollection(collectionId, recipe.id)
+      onToggleCollection = { collectionId, add ->
+        viewModel.toggleRecipeInCollection(collectionId, recipe.id, add)
       },
       onCreateCollection = { name ->
         viewModel.createCollectionAndSave(name, recipe.id)

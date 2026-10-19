@@ -213,7 +213,7 @@
     <string name="delete_collection_message">This removes the collection only. Your recipes stay in the app.</string>
     <string name="remove_from_collection">Remove from collection</string>
     <string name="empty_collection">This collection is empty</string>
-    <string name="empty_collection_desc">Tap the bookmark icon on any recipe to add it here.</string>
+    <string name="empty_collection_desc">There are no recipes in this collection yet. Add your favourite recipes to organise them here.</string>
     <string name="no_collections_yet">No collections yet</string>
     <string name="no_collections_desc">Create a collection to organise your favourite recipes.</string>
     <string name="add_to_collection">Add to collection</string>
@@ -225,4 +225,14 @@
     <string name="replace_menu_message">Generating a new menu will replace your current weekly plan.</string>
     <string name="replace">Replace</string>
     <string name="generating_menu">Generating menu…</string>
+    <!-- Built-in collections (names only; ids are stable and code-based) -->
+    <string name="collection_default_breakfast">Breakfast</string>
+    <string name="collection_default_lunch">Lunch</string>
+    <string name="collection_default_dinner">Dinner</string>
+    <string name="collection_default_snacks">Snacks</string>
+    <string name="collection_default_salads">Salads</string>
+    <string name="collection_default_soups">Soups</string>
+    <string name="collection_default_desserts">Desserts</string>
+    <string name="collection_default_drinks">Drinks</string>
+    <string name="save_to_collection_hint">Tap a collection to add or remove this recipe.</string>
 </resources>

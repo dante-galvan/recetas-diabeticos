@@ -1,8 +1,11 @@
 package com.example.ui.i18n
 
+import androidx.annotation.StringRes
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import com.app.diabeticos.R
+import com.example.data.model.DefaultCollections
+import com.example.data.model.RecipeCollection
 
 object AppStrings {
   @Composable
@@ -297,6 +300,35 @@ object AppStrings {
 
   @Composable
   fun noCollectionsDesc() = stringResource(R.string.no_collections_desc)
+
+  @Composable
+  fun saveToCollectionHint() = stringResource(R.string.save_to_collection_hint)
+
+  /**
+   * Display name of a collection in the active language. Built-in collections
+   * are resolved from resources through their stable id (so every supported
+   * language gets a translated name); user collections fall back to their
+   * stored Spanish/English name.
+   */
+  @Composable
+  fun collectionName(collection: RecipeCollection, language: Language): String {
+    val res = defaultCollectionNameRes(collection.id)
+    return if (res != 0) stringResource(res) else collection.localizedName(language)
+  }
+
+  /** [StringRes] id for a built-in collection, or 0 when it is a user collection. */
+  @StringRes
+  fun defaultCollectionNameRes(id: String): Int = when (id) {
+    DefaultCollections.BREAKFAST_ID -> R.string.collection_default_breakfast
+    DefaultCollections.LUNCH_ID -> R.string.collection_default_lunch
+    DefaultCollections.DINNER_ID -> R.string.collection_default_dinner
+    DefaultCollections.SNACKS_ID -> R.string.collection_default_snacks
+    DefaultCollections.SALADS_ID -> R.string.collection_default_salads
+    DefaultCollections.SOUPS_ID -> R.string.collection_default_soups
+    DefaultCollections.DESSERTS_ID -> R.string.collection_default_desserts
+    DefaultCollections.DRINKS_ID -> R.string.collection_default_drinks
+    else -> 0
+  }
 
   // Weekly menu generation
   @Composable

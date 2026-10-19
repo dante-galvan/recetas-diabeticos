@@ -25,6 +25,7 @@ import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Checkbox
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -308,15 +309,20 @@ fun RecipePickerForSlotDialog(
 }
 
 /**
- * Lets the user pick (or create) a personal collection to save [recipeId] into.
- * Collections that already contain the recipe are marked so duplicates are obvious.
+ * Lets the user mark/unmark [recipeId] in any number of collections. The
+ * checkbox shows the real persisted membership; toggling a row immediately
+ * adds or removes the recipe from that one collection (other collections are
+ * left untouched). The dialog stays open so several changes can be made in a
+ * row before closing, and closing keeps every change already applied.
+ *
+ * Creating a new collection from here also saves the recipe into it.
  */
 @Composable
 fun SaveToCollectionDialog(
   language: Language,
   recipeId: String,
   collections: List<RecipeCollection>,
-  onSelectCollection: (String) -> Unit,
+  onToggleCollection: (collectionId: String, add: Boolean) -> Unit,
   onCreateCollection: (String) -> Unit,
   onDismiss: () -> Unit
 ) {
@@ -339,7 +345,13 @@ fun SaveToCollectionDialog(
           .verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.spacedBy(10.dp)
       ) {
-        if (collections.isEmpty()) {
+        if (collections.isNotEmpty()) {
+          Text(
+            text = AppStrings.saveToCollectionHint(),
+            fontSize = 13.sp,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+          )
+        } else {
           Text(
             text = AppStrings.noCollectionsDesc(),
             fontSize = 13.sp,
@@ -353,18 +365,29 @@ fun SaveToCollectionDialog(
             modifier = Modifier
               .fillMaxWidth()
               .testTag("save_to_collection_${col.id}")
-              .clickable { onSelectCollection(col.id) },
+              .clickable { onToggleCollection(col.id, !alreadySaved) },
             shape = RoundedCornerShape(14.dp),
-            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+            colors = CardDefaults.cardColors(
+              containerColor = if (alreadySaved) {
+                MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.5f)
+              } else {
+                MaterialTheme.colorScheme.surface
+              }
+            ),
             border = CardDefaults.outlinedCardBorder()
           ) {
             Row(
               modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 12.dp, vertical = 12.dp),
+                .padding(end = 12.dp),
               verticalAlignment = Alignment.CenterVertically,
-              horizontalArrangement = Arrangement.spacedBy(10.dp)
+              horizontalArrangement = Arrangement.spacedBy(6.dp)
             ) {
+              Checkbox(
+                checked = alreadySaved,
+                onCheckedChange = { checked -> onToggleCollection(col.id, checked) },
+                modifier = Modifier.testTag("save_checkbox_${col.id}")
+              )
               Icon(
                 imageVector = Icons.Default.Folder,
                 contentDescription = null,
@@ -372,11 +395,16 @@ fun SaveToCollectionDialog(
                 modifier = Modifier.size(20.dp)
               )
               Text(
-                text = col.localizedName(language),
+                text = AppStrings.collectionName(col, language),
                 fontSize = 14.sp,
                 fontWeight = FontWeight.SemiBold,
                 color = MaterialTheme.colorScheme.onSurface,
                 modifier = Modifier.weight(1f)
+              )
+              Text(
+                text = "${col.recipeIds.size}",
+                fontSize = 12.sp,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
               )
               if (alreadySaved) {
                 Icon(

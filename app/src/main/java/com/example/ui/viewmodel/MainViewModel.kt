@@ -96,6 +96,9 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
       if (repository.userProfile.first() == null) {
         repository.saveUserProfile(UserProfile())
       }
+      // Make sure the built-in collections exist for this install. The call is
+      // idempotent and non-destructive, so it is safe on every launch.
+      repository.ensureDefaultCollections()
     }
   }
 
@@ -282,15 +285,26 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     saveToCollectionFor.value = null
   }
 
-  fun saveRecipeToCollection(collectionId: String, recipeId: String) {
+  /**
+   * Adds or removes [recipeId] from [collectionId] depending on [add]. The
+   * dialog stays open so the user can keep toggling other collections, and the
+   * UI reflects the change as soon as Room emits the updated collections. A
+   * real success/failure message is shown; a failed write never fakes success.
+   */
+  fun toggleRecipeInCollection(collectionId: String, recipeId: String, add: Boolean) {
     viewModelScope.launch {
-      val result = repository.addRecipeToCollection(collectionId, recipeId)
-      if (result == CollectionActionResult.Success) {
-        saveToCollectionFor.value = null
-        _toastMessage.emit(str(R.string.saved_to_collection))
+      val result = if (add) {
+        repository.addRecipeToCollection(collectionId, recipeId)
       } else {
-        _toastMessage.emit(str(R.string.collection_action_failed))
+        repository.removeRecipeFromCollection(collectionId, recipeId)
       }
+      val messageRes = when (result) {
+        CollectionActionResult.Success ->
+          if (add) R.string.saved_to_collection else R.string.removed_from_collection
+        CollectionActionResult.NotFound,
+        CollectionActionResult.Failure -> R.string.collection_action_failed
+      }
+      _toastMessage.emit(str(messageRes))
     }
   }
 
@@ -298,9 +312,10 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     viewModelScope.launch {
       when (val created = repository.createCollection(name)) {
         is CreateCollectionResult.Success -> {
+          // Keep the dialog open so the freshly created collection shows up as
+          // selected and the user can continue organising the recipe.
           val added = repository.addRecipeToCollection(created.collection.id, recipeId)
           if (added == CollectionActionResult.Success) {
-            saveToCollectionFor.value = null
             _toastMessage.emit(str(R.string.saved_to_collection))
           } else {
             _toastMessage.emit(str(R.string.collection_action_failed))

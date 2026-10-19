@@ -7,6 +7,7 @@ import com.example.data.local.FavoriteEntity
 import com.example.data.local.MealPlanEntity
 import com.example.data.local.RecipeJsonLoader
 import com.example.data.local.UserProfileEntity
+import com.example.data.model.DefaultCollections
 import com.example.data.model.Difficulty
 import com.example.data.model.MealPlanItem
 import com.example.data.model.MealSlot
@@ -181,6 +182,56 @@ class RecipeRepository(private val dao: DiaRecipesDao, context: Context? = null)
   /** Recipes resolved from the catalog, in catalog order. Missing ids are skipped. */
   fun getRecipesByIds(ids: Collection<String>): List<Recipe> =
     recipeList.filter { it.id in ids }
+
+  /**
+   * Creates the built-in collections that ship with the app when they are
+   * missing. Designed to run once on every launch:
+   *
+   * - **Idempotent**: a default is matched by its stable [DefaultCollection.id],
+   *   so running this again never creates a duplicate.
+   * - **Non-destructive**: user collections and their saved recipes are never
+   *   touched, and a default is skipped when the user already owns a collection
+   *   with the same (Spanish or English) name, to avoid redundant entries.
+   * - **Empty on purpose**: defaults start with no recipes. Recipes are never
+   *   invented or auto-assigned; the user adds them through the save action.
+   *
+   * @return true when at least one default collection had to be created.
+   */
+  suspend fun ensureDefaultCollections(): Boolean {
+    return try {
+      val existing = dao.getCollectionsOnce()
+      val existingIds = existing.mapTo(HashSet()) { it.id }
+      val existingNames = HashSet<String>()
+      for (collection in existing) {
+        existingNames.add(collection.nameEs.trim().lowercase(Locale.ROOT))
+        existingNames.add(collection.nameEn.trim().lowercase(Locale.ROOT))
+      }
+
+      var created = false
+      for (default in DefaultCollections.all) {
+        if (default.id in existingIds) continue
+        if (existingNames.contains(default.nameEs.lowercase(Locale.ROOT)) ||
+          existingNames.contains(default.nameEn.lowercase(Locale.ROOT))
+        ) {
+          continue
+        }
+        dao.insertCollection(
+          CollectionEntity(
+            id = default.id,
+            nameEs = default.nameEs,
+            nameEn = default.nameEn,
+            icon = default.icon,
+            recipeIdsCsv = ""
+          )
+        )
+        created = true
+      }
+      created
+    } catch (e: Exception) {
+      e.printStackTrace()
+      false
+    }
+  }
 
   suspend fun createCollection(name: String): CreateCollectionResult {
     val trimmed = name.trim()

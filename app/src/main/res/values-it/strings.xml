@@ -213,7 +213,7 @@
     <string name="delete_collection_message">Viene eliminata solo la collezione. Le ricette restano nell\'app.</string>
     <string name="remove_from_collection">Rimuovi dalla collezione</string>
     <string name="empty_collection">Questa collezione è vuota</string>
-    <string name="empty_collection_desc">Tocca l\'icona del segnalibro su una ricetta per aggiungerla qui.</string>
+    <string name="empty_collection_desc">Non ci sono ancora ricette in questa collezione. Aggiungi le tue ricette preferite per organizzarle qui.</string>
     <string name="no_collections_yet">Nessuna collezione per ora</string>
     <string name="no_collections_desc">Crea una collezione per organizzare le tue ricette preferite.</string>
     <string name="add_to_collection">Aggiungi a una collezione</string>
@@ -225,4 +225,14 @@
     <string name="replace_menu_message">Generare un nuovo menù sostituirà il piano settimanale attuale.</string>
     <string name="replace">Sostituisci</string>
     <string name="generating_menu">Generazione del menù…</string>
+    <!-- Built-in collections (names only; ids are stable and code-based) -->
+    <string name="collection_default_breakfast">Colazioni</string>
+    <string name="collection_default_lunch">Pranzi</string>
+    <string name="collection_default_dinner">Cene</string>
+    <string name="collection_default_snacks">Spuntini</string>
+    <string name="collection_default_salads">Insalate</string>
+    <string name="collection_default_soups">Zuppe</string>
+    <string name="collection_default_desserts">Dessert</string>
+    <string name="collection_default_drinks">Bevande</string>
+    <string name="save_to_collection_hint">Tocca una collezione per aggiungere o rimuovere questa ricetta.</string>
 </resources>

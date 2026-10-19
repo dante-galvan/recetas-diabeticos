@@ -213,7 +213,7 @@
     <string name="delete_collection_message">Nur die Sammlung wird entfernt. Deine Rezepte bleiben in der App.</string>
     <string name="remove_from_collection">Aus Sammlung entfernen</string>
     <string name="empty_collection">Diese Sammlung ist leer</string>
-    <string name="empty_collection_desc">Tippe auf das Lesezeichen-Symbol eines Rezepts, um es hier hinzuzufügen.</string>
+    <string name="empty_collection_desc">In dieser Sammlung gibt es noch keine Rezepte. Füge deine Lieblingsrezepte hinzu, um sie hier zu organisieren.</string>
     <string name="no_collections_yet">Noch keine Sammlungen</string>
     <string name="no_collections_desc">Erstelle eine Sammlung, um deine Lieblingsrezepte zu organisieren.</string>
     <string name="add_to_collection">Zu Sammlung hinzufügen</string>
@@ -225,4 +225,14 @@
     <string name="replace_menu_message">Ein neues Menü ersetzt deinen aktuellen Wochenplan.</string>
     <string name="replace">Ersetzen</string>
     <string name="generating_menu">Menü wird erstellt…</string>
+    <!-- Built-in collections (names only; ids are stable and code-based) -->
+    <string name="collection_default_breakfast">Frühstück</string>
+    <string name="collection_default_lunch">Mittagessen</string>
+    <string name="collection_default_dinner">Abendessen</string>
+    <string name="collection_default_snacks">Snacks</string>
+    <string name="collection_default_salads">Salate</string>
+    <string name="collection_default_soups">Suppen</string>
+    <string name="collection_default_desserts">Desserts</string>
+    <string name="collection_default_drinks">Getränke</string>
+    <string name="save_to_collection_hint">Tippe auf eine Sammlung, um dieses Rezept hinzuzufügen oder zu entfernen.</string>
 </resources>

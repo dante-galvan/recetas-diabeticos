@@ -41,6 +41,7 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.data.model.DefaultCollections
 import com.example.data.model.RecipeCollection
 import com.example.ui.components.ConfirmDialog
 import com.example.ui.components.EmptyStateView
@@ -174,7 +175,7 @@ fun FavoritesScreen(
             onClick = {
               viewModel.selectedCollectionId.value = if (selectedCollectionId == col.id) null else col.id
             },
-            label = { Text("${col.localizedName(language)} (${col.recipeIds.size})") },
+            label = { Text("${AppStrings.collectionName(col, language)} (${col.recipeIds.size})") },
             leadingIcon = {
               Icon(
                 imageVector = Icons.Default.Folder,
@@ -198,19 +199,33 @@ fun FavoritesScreen(
         verticalAlignment = Alignment.CenterVertically
       ) {
         Text(
-          text = selectedCollection.localizedName(language),
+          text = AppStrings.collectionName(selectedCollection, language),
           style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
           color = MaterialTheme.colorScheme.onBackground
         )
-        IconButton(
-          onClick = { collectionToDelete = selectedCollection },
-          modifier = Modifier.testTag("delete_collection_button")
-        ) {
-          Icon(
-            imageVector = Icons.Default.Delete,
-            contentDescription = AppStrings.deleteCollection(),
-            tint = MaterialTheme.colorScheme.error
-          )
+        Row(verticalAlignment = Alignment.CenterVertically) {
+          // Evident way to add recipes to the currently open collection.
+          TextButton(
+            onClick = { viewModel.navigateTo(AppScreen.EXPLORE) },
+            modifier = Modifier.testTag("add_recipes_to_collection_button")
+          ) {
+            Icon(imageVector = Icons.Default.Add, contentDescription = null, modifier = Modifier.size(16.dp))
+            Text(text = AppStrings.discoverRecipes(), fontSize = 12.sp, fontWeight = FontWeight.Bold)
+          }
+          // Built-in collections are permanent, so only user collections can be
+          // deleted (deleting a default would just be recreated on next launch).
+          if (!DefaultCollections.isDefault(selectedCollection.id)) {
+            IconButton(
+              onClick = { collectionToDelete = selectedCollection },
+              modifier = Modifier.testTag("delete_collection_button")
+            ) {
+              Icon(
+                imageVector = Icons.Default.Delete,
+                contentDescription = AppStrings.deleteCollection(),
+                tint = MaterialTheme.colorScheme.error
+              )
+            }
+          }
         }
       }
     }

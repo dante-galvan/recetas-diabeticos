@@ -2,6 +2,8 @@ package com.example
 
 import android.content.Context
 import androidx.compose.ui.test.assertIsDisplayed
+import androidx.compose.ui.test.assertIsOff
+import androidx.compose.ui.test.assertIsOn
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performClick
@@ -25,7 +27,7 @@ import org.robolectric.annotation.Config
  * callbacks, so they cannot silently become decorative buttons.
  */
 @RunWith(RobolectricTestRunner::class)
-@Config(sdk = [36])
+@Config(sdk = [36], qualifiers = "en")
 class CollectionUiTest {
 
   @get:Rule
@@ -34,8 +36,7 @@ class CollectionUiTest {
   private val context: Context = ApplicationProvider.getApplicationContext()
 
   @Test
-  fun saveDialog_listsCollections_andSelectingOneSaves() {
-    var selected: String? = null
+  fun saveDialog_showsRealMembership_asCheckedState() {
     composeRule.setContent {
       SaveToCollectionDialog(
         language = Language.ENGLISH,
@@ -44,15 +45,41 @@ class CollectionUiTest {
           RecipeCollection("c1", "Desayunos", "Breakfasts"),
           RecipeCollection("c2", "Cenas", "Dinners", recipeIds = setOf("recipe_1"))
         ),
-        onSelectCollection = { selected = it },
+        onToggleCollection = { _, _ -> },
         onCreateCollection = {},
         onDismiss = {}
       )
     }
 
-    composeRule.onNodeWithTag("save_to_collection_c1").assertIsDisplayed().performClick()
+    composeRule.onNodeWithTag("save_checkbox_c1").assertIsDisplayed().assertIsOff()
+    composeRule.onNodeWithTag("save_checkbox_c2").assertIsDisplayed().assertIsOn()
+  }
 
-    assertEquals("c1", selected)
+  @Test
+  fun saveDialog_tappingRow_addsWhenAbsent_andRemovesWhenPresent() {
+    var lastToggle: Pair<String, Boolean>? = null
+    composeRule.setContent {
+      SaveToCollectionDialog(
+        language = Language.ENGLISH,
+        recipeId = "recipe_1",
+        collections = listOf(
+          RecipeCollection("c1", "Desayunos", "Breakfasts"),
+          RecipeCollection("c2", "Cenas", "Dinners", recipeIds = setOf("recipe_1"))
+        ),
+        onToggleCollection = { id, add -> lastToggle = id to add },
+        onCreateCollection = {},
+        onDismiss = {}
+      )
+    }
+
+    // Not in c1 -> tapping must ADD.
+    composeRule.onNodeWithTag("save_to_collection_c1").performClick()
+    assertEquals("c1" to true, lastToggle)
+
+    // Already in c2 -> tapping must REMOVE (this is the reversible action the
+    // old dialog was missing).
+    composeRule.onNodeWithTag("save_to_collection_c2").performClick()
+    assertEquals("c2" to false, lastToggle)
   }
 
   @Test
@@ -63,7 +90,7 @@ class CollectionUiTest {
         language = Language.ENGLISH,
         recipeId = "recipe_1",
         collections = emptyList(),
-        onSelectCollection = {},
+        onToggleCollection = { _, _ -> },
         onCreateCollection = { createdName = it },
         onDismiss = {}
       )
