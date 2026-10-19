@@ -198,4 +198,31 @@
     <string name="allergen_shellfish">Crostacei</string>
     <string name="allergen_eggs">Uova</string>
     <string name="allergen_soy">Soia</string>
+    <!-- Collections & weekly menu actions -->
+    <string name="save_to_collection">Salva nella collezione</string>
+    <string name="cd_save_to_collection">Salva nella collezione</string>
+    <string name="saved_to_collection">Ricetta salvata nella collezione</string>
+    <string name="removed_from_collection">Ricetta rimossa dalla collezione</string>
+    <string name="collection_created">Collezione creata</string>
+    <string name="collection_deleted">Collezione eliminata</string>
+    <string name="collection_name_empty">Inserisci un nome per la collezione</string>
+    <string name="collection_name_duplicate">Esiste già una collezione con questo nome</string>
+    <string name="collection_action_failed">Impossibile completare l\'azione. Riprova.</string>
+    <string name="delete_collection">Elimina collezione</string>
+    <string name="delete_collection_title">Eliminare la collezione?</string>
+    <string name="delete_collection_message">Viene eliminata solo la collezione. Le ricette restano nell\'app.</string>
+    <string name="remove_from_collection">Rimuovi dalla collezione</string>
+    <string name="empty_collection">Questa collezione è vuota</string>
+    <string name="empty_collection_desc">Tocca l\'icona del segnalibro su una ricetta per aggiungerla qui.</string>
+    <string name="no_collections_yet">Nessuna collezione per ora</string>
+    <string name="no_collections_desc">Crea una collezione per organizzare le tue ricette preferite.</string>
+    <string name="add_to_collection">Aggiungi a una collezione</string>
+    <string name="already_saved">Già salvata</string>
+    <string name="menu_generated">Menù settimanale generato</string>
+    <string name="menu_empty_catalog">Nessuna ricetta disponibile per creare un menù.</string>
+    <string name="menu_generation_failed">Impossibile generare il menù. Riprova.</string>
+    <string name="replace_menu_title">Sostituire il menù attuale?</string>
+    <string name="replace_menu_message">Generare un nuovo menù sostituirà il piano settimanale attuale.</string>
+    <string name="replace">Sostituisci</string>
+    <string name="generating_menu">Generazione del menù…</string>
 </resources>

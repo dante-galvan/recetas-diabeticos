@@ -198,4 +198,31 @@
     <string name="allergen_shellfish">Shellfish</string>
     <string name="allergen_eggs">Eggs</string>
     <string name="allergen_soy">Soy</string>
+    <!-- Collections & weekly menu actions -->
+    <string name="save_to_collection">Save to collection</string>
+    <string name="cd_save_to_collection">Save to collection</string>
+    <string name="saved_to_collection">Recipe saved to collection</string>
+    <string name="removed_from_collection">Recipe removed from collection</string>
+    <string name="collection_created">Collection created</string>
+    <string name="collection_deleted">Collection deleted</string>
+    <string name="collection_name_empty">Enter a name for the collection</string>
+    <string name="collection_name_duplicate">A collection with that name already exists</string>
+    <string name="collection_action_failed">Couldn\'t complete the action. Please try again.</string>
+    <string name="delete_collection">Delete collection</string>
+    <string name="delete_collection_title">Delete collection?</string>
+    <string name="delete_collection_message">This removes the collection only. Your recipes stay in the app.</string>
+    <string name="remove_from_collection">Remove from collection</string>
+    <string name="empty_collection">This collection is empty</string>
+    <string name="empty_collection_desc">Tap the bookmark icon on any recipe to add it here.</string>
+    <string name="no_collections_yet">No collections yet</string>
+    <string name="no_collections_desc">Create a collection to organise your favourite recipes.</string>
+    <string name="add_to_collection">Add to collection</string>
+    <string name="already_saved">Already saved</string>
+    <string name="menu_generated">Weekly menu generated</string>
+    <string name="menu_empty_catalog">No recipes available to build a menu.</string>
+    <string name="menu_generation_failed">Couldn\'t generate the menu. Please try again.</string>
+    <string name="replace_menu_title">Replace current menu?</string>
+    <string name="replace_menu_message">Generating a new menu will replace your current weekly plan.</string>
+    <string name="replace">Replace</string>
+    <string name="generating_menu">Generating menu…</string>
 </resources>

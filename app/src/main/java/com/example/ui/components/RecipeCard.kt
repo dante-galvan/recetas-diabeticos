@@ -19,8 +19,11 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Bookmark
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Schedule
+import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -55,9 +58,12 @@ import com.example.ui.theme.CarbAccentLight
 fun RecipeCard(
   recipe: Recipe,
   isFavorite: Boolean,
+  isSaved: Boolean,
   language: Language,
   onRecipeClick: () -> Unit,
   onFavoriteClick: () -> Unit,
+  onSaveToCollectionClick: () -> Unit,
+  onRemoveFromCollection: (() -> Unit)? = null,
   modifier: Modifier = Modifier
 ) {
   Card(
@@ -129,7 +135,7 @@ fun RecipeCard(
           }
         }
 
-        // Favorite Toggle Button (Top-Right)
+        // Save / Favorite actions (Top-Right)
         val favScale by animateFloatAsState(
           targetValue = if (isFavorite) 1.15f else 1f,
           label = "favScale"
@@ -139,23 +145,64 @@ fun RecipeCard(
           label = "favColor"
         )
 
-        IconButton(
-          onClick = onFavoriteClick,
+        Column(
           modifier = Modifier
             .padding(8.dp)
-            .size(40.dp)
-            .align(Alignment.TopEnd)
-            .background(Color.Black.copy(alpha = 0.3f), CircleShape)
-            .testTag("fav_btn_${recipe.id}")
+            .align(Alignment.TopEnd),
+          verticalArrangement = Arrangement.spacedBy(6.dp),
+          horizontalAlignment = Alignment.End
         ) {
-          Icon(
-            imageVector = if (isFavorite) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
-            contentDescription = if (isFavorite) AppStrings.cdRemoveFavorite() else AppStrings.cdAddFavorite(),
-            tint = favColor,
+          // Remove from the collection currently being viewed (optional)
+          if (onRemoveFromCollection != null) {
+            IconButton(
+              onClick = onRemoveFromCollection,
+              modifier = Modifier
+                .size(40.dp)
+                .background(Color.Black.copy(alpha = 0.3f), CircleShape)
+                .testTag("remove_from_collection_${recipe.id}")
+            ) {
+              Icon(
+                imageVector = Icons.Default.Close,
+                contentDescription = AppStrings.removeFromCollection(),
+                tint = Color.White,
+                modifier = Modifier.size(20.dp)
+              )
+            }
+          }
+
+          // Save to collection
+          IconButton(
+            onClick = onSaveToCollectionClick,
             modifier = Modifier
-              .size(22.dp)
-              .scale(favScale)
-          )
+              .size(40.dp)
+              .background(Color.Black.copy(alpha = 0.3f), CircleShape)
+              .testTag("save_btn_${recipe.id}")
+          ) {
+            Icon(
+              imageVector = if (isSaved) Icons.Filled.Bookmark else Icons.Outlined.BookmarkBorder,
+              contentDescription = AppStrings.cdSaveToCollection(),
+              tint = if (isSaved) MaterialTheme.colorScheme.primary else Color.White,
+              modifier = Modifier.size(20.dp)
+            )
+          }
+
+          // Favorite Toggle Button
+          IconButton(
+            onClick = onFavoriteClick,
+            modifier = Modifier
+              .size(40.dp)
+              .background(Color.Black.copy(alpha = 0.3f), CircleShape)
+              .testTag("fav_btn_${recipe.id}")
+          ) {
+            Icon(
+              imageVector = if (isFavorite) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
+              contentDescription = if (isFavorite) AppStrings.cdRemoveFavorite() else AppStrings.cdAddFavorite(),
+              tint = favColor,
+              modifier = Modifier
+                .size(22.dp)
+                .scale(favScale)
+            )
+          }
         }
 
         // Time and Difficulty Pill (Bottom-Left)
@@ -273,9 +320,11 @@ fun RecipeCard(
 fun RecipeHorizontalCard(
   recipe: Recipe,
   isFavorite: Boolean,
+  isSaved: Boolean,
   language: Language,
   onRecipeClick: () -> Unit,
   onFavoriteClick: () -> Unit,
+  onSaveToCollectionClick: () -> Unit,
   modifier: Modifier = Modifier
 ) {
   Card(
@@ -330,20 +379,41 @@ fun RecipeHorizontalCard(
           )
         }
 
-        IconButton(
-          onClick = onFavoriteClick,
+        Column(
           modifier = Modifier
             .padding(6.dp)
-            .size(36.dp)
-            .align(Alignment.TopEnd)
-            .background(Color.Black.copy(alpha = 0.3f), CircleShape)
+            .align(Alignment.TopEnd),
+          verticalArrangement = Arrangement.spacedBy(4.dp),
+          horizontalAlignment = Alignment.End
         ) {
-          Icon(
-            imageVector = if (isFavorite) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
-                contentDescription = AppStrings.cdFavorite(),
-            tint = if (isFavorite) MaterialTheme.colorScheme.error else Color.White,
-            modifier = Modifier.size(20.dp)
-          )
+          IconButton(
+            onClick = onSaveToCollectionClick,
+            modifier = Modifier
+              .size(36.dp)
+              .background(Color.Black.copy(alpha = 0.3f), CircleShape)
+              .testTag("save_horiz_btn_${recipe.id}")
+          ) {
+            Icon(
+              imageVector = if (isSaved) Icons.Filled.Bookmark else Icons.Outlined.BookmarkBorder,
+              contentDescription = AppStrings.cdSaveToCollection(),
+              tint = if (isSaved) MaterialTheme.colorScheme.primary else Color.White,
+              modifier = Modifier.size(18.dp)
+            )
+          }
+
+          IconButton(
+            onClick = onFavoriteClick,
+            modifier = Modifier
+              .size(36.dp)
+              .background(Color.Black.copy(alpha = 0.3f), CircleShape)
+          ) {
+            Icon(
+              imageVector = if (isFavorite) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
+              contentDescription = AppStrings.cdFavorite(),
+              tint = if (isFavorite) MaterialTheme.colorScheme.error else Color.White,
+              modifier = Modifier.size(20.dp)
+            )
+          }
         }
 
         // Time pill

@@ -198,4 +198,31 @@
     <string name="allergen_shellfish">Krustentiere</string>
     <string name="allergen_eggs">Eier</string>
     <string name="allergen_soy">Soja</string>
+    <!-- Collections & weekly menu actions -->
+    <string name="save_to_collection">In Sammlung speichern</string>
+    <string name="cd_save_to_collection">In Sammlung speichern</string>
+    <string name="saved_to_collection">Rezept in der Sammlung gespeichert</string>
+    <string name="removed_from_collection">Rezept aus der Sammlung entfernt</string>
+    <string name="collection_created">Sammlung erstellt</string>
+    <string name="collection_deleted">Sammlung gelöscht</string>
+    <string name="collection_name_empty">Gib einen Namen für die Sammlung ein</string>
+    <string name="collection_name_duplicate">Eine Sammlung mit diesem Namen existiert bereits</string>
+    <string name="collection_action_failed">Aktion konnte nicht abgeschlossen werden. Versuche es erneut.</string>
+    <string name="delete_collection">Sammlung löschen</string>
+    <string name="delete_collection_title">Sammlung löschen?</string>
+    <string name="delete_collection_message">Nur die Sammlung wird entfernt. Deine Rezepte bleiben in der App.</string>
+    <string name="remove_from_collection">Aus Sammlung entfernen</string>
+    <string name="empty_collection">Diese Sammlung ist leer</string>
+    <string name="empty_collection_desc">Tippe auf das Lesezeichen-Symbol eines Rezepts, um es hier hinzuzufügen.</string>
+    <string name="no_collections_yet">Noch keine Sammlungen</string>
+    <string name="no_collections_desc">Erstelle eine Sammlung, um deine Lieblingsrezepte zu organisieren.</string>
+    <string name="add_to_collection">Zu Sammlung hinzufügen</string>
+    <string name="already_saved">Bereits gespeichert</string>
+    <string name="menu_generated">Wochenplan erstellt</string>
+    <string name="menu_empty_catalog">Keine Rezepte zum Erstellen eines Menüs verfügbar.</string>
+    <string name="menu_generation_failed">Menü konnte nicht erstellt werden. Versuche es erneut.</string>
+    <string name="replace_menu_title">Aktuellen Plan ersetzen?</string>
+    <string name="replace_menu_message">Ein neues Menü ersetzt deinen aktuellen Wochenplan.</string>
+    <string name="replace">Ersetzen</string>
+    <string name="generating_menu">Menü wird erstellt…</string>
 </resources>

@@ -1,8 +1,6 @@
 package com.example.ui.screens
 
-import android.content.Context
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -19,7 +17,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
@@ -28,9 +25,9 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
-import com.app.diabeticos.R
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -39,11 +36,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -53,9 +52,9 @@ import androidx.compose.ui.unit.sp
 import com.example.data.model.MealPlanItem
 import com.example.data.model.MealSlot
 import com.example.data.model.Recipe
+import com.example.ui.components.ConfirmDialog
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
-import com.example.ui.i18n.getString
 import com.example.ui.theme.CarbAccent
 import com.example.ui.viewmodel.MainViewModel
 
@@ -67,6 +66,9 @@ fun MealPlanScreen(
   val language by viewModel.currentLanguage.collectAsState()
   val selectedDay by viewModel.selectedDayOfWeek.collectAsState()
   val mealPlanItems by viewModel.mealPlanItems.collectAsState()
+  val isGeneratingMenu by viewModel.isGeneratingMenu.collectAsState()
+
+  var showReplaceConfirm by remember { mutableStateOf(false) }
 
   val days = listOf(
     1 to AppStrings.dayMonday(),
@@ -80,120 +82,146 @@ fun MealPlanScreen(
 
   val dayMeals = mealPlanItems.filter { it.dayOfWeek == selectedDay }
 
-  LazyColumn(
-    modifier = modifier
-      .fillMaxSize()
-      .testTag("meal_plan_screen"),
-    contentPadding = PaddingValues(bottom = 90.dp),
-    verticalArrangement = Arrangement.spacedBy(16.dp)
-  ) {
-    // Header & "Generate Menu" CTA
-    item {
-      Column(
-        modifier = Modifier
-          .fillMaxWidth()
-          .padding(horizontal = 20.dp, vertical = 10.dp)
-      ) {
-        Text(
-          text = AppStrings.weeklyMealPlanner(),
-          style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold),
-          color = MaterialTheme.colorScheme.onBackground
-        )
-
-        Spacer(modifier = Modifier.height(4.dp))
-
-        Text(
-          text = AppStrings.generateMenuDesc(),
-          style = MaterialTheme.typography.bodyMedium,
-          color = MaterialTheme.colorScheme.onSurfaceVariant
-        )
-
-        Spacer(modifier = Modifier.height(14.dp))
-
-        // Prominent Friendly Generate Button
-        val context = LocalContext.current
-        Button(
-          onClick = {
-            viewModel.generateWeeklyMenu(
-              getString(context, R.string.generate_weekly_menu)
-            )
-          },
-          shape = RoundedCornerShape(14.dp),
-          colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary),
+  Box(modifier = modifier.fillMaxSize()) {
+    LazyColumn(
+      modifier = Modifier
+        .fillMaxSize()
+        .testTag("meal_plan_screen"),
+      contentPadding = PaddingValues(bottom = 90.dp),
+      verticalArrangement = Arrangement.spacedBy(16.dp)
+    ) {
+      // Header & "Generate Menu" CTA
+      item {
+        Column(
           modifier = Modifier
             .fillMaxWidth()
-            .height(48.dp)
-            .testTag("generate_menu_button")
+            .padding(horizontal = 20.dp, vertical = 10.dp)
         ) {
-          Icon(
-            imageVector = Icons.Default.AutoAwesome,
-            contentDescription = null,
-            modifier = Modifier.size(18.dp)
-          )
-          Spacer(modifier = Modifier.width(6.dp))
           Text(
-            text = AppStrings.generateWeeklyMenu(),
-            fontSize = 12.sp,
-            fontWeight = FontWeight.Bold
+            text = AppStrings.weeklyMealPlanner(),
+            style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold),
+            color = MaterialTheme.colorScheme.onBackground
           )
-        }
-      }
-    }
 
-    // Days Tabs Selector (Monday to Sunday)
-    item {
-      LazyRow(
-        contentPadding = PaddingValues(horizontal = 20.dp),
-        horizontalArrangement = Arrangement.spacedBy(8.dp)
-      ) {
-        items(days) { (dayNum, dayName) ->
-          val isSelected = selectedDay == dayNum
-          Surface(
-            shape = RoundedCornerShape(16.dp),
-            color = if (isSelected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surface,
-            border = if (isSelected) null else CardDefaults.outlinedCardBorder(),
+          Spacer(modifier = Modifier.height(4.dp))
+
+          Text(
+            text = AppStrings.generateMenuDesc(),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+          )
+
+          Spacer(modifier = Modifier.height(14.dp))
+
+          // Prominent Friendly Generate Button
+          Button(
+            onClick = {
+              // Ask before overwriting a plan the user may have edited by hand.
+              if (mealPlanItems.isEmpty()) viewModel.generateWeeklyMenu() else showReplaceConfirm = true
+            },
+            enabled = !isGeneratingMenu,
+            shape = RoundedCornerShape(14.dp),
+            colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary),
             modifier = Modifier
-              .clickable { viewModel.selectedDayOfWeek.value = dayNum }
-              .testTag("day_tab_$dayNum")
+              .fillMaxWidth()
+              .height(48.dp)
+              .testTag("generate_menu_button")
           ) {
-            Column(
-              modifier = Modifier.padding(horizontal = 16.dp, vertical = 10.dp),
-              horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-              Text(
-                text = dayName,
-                fontSize = 13.sp,
-                fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium,
-                color = if (isSelected) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurface
+            if (isGeneratingMenu) {
+              CircularProgressIndicator(
+                modifier = Modifier.size(18.dp),
+                strokeWidth = 2.dp,
+                color = MaterialTheme.colorScheme.onPrimary
+              )
+            } else {
+              Icon(
+                imageVector = Icons.Default.AutoAwesome,
+                contentDescription = null,
+                modifier = Modifier.size(18.dp)
               )
             }
+            Spacer(modifier = Modifier.width(6.dp))
+            Text(
+              text =
+                if (isGeneratingMenu) AppStrings.generatingMenu() else AppStrings.generateWeeklyMenu(),
+              fontSize = 12.sp,
+              fontWeight = FontWeight.Bold
+            )
+          }
+        }
+      }
+
+      // Days Tabs Selector (Monday to Sunday)
+      item {
+        LazyRow(
+          contentPadding = PaddingValues(horizontal = 20.dp),
+          horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+          items(days) { (dayNum, dayName) ->
+            val isSelected = selectedDay == dayNum
+            Surface(
+              shape = RoundedCornerShape(16.dp),
+              color = if (isSelected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surface,
+              border = if (isSelected) null else CardDefaults.outlinedCardBorder(),
+              modifier = Modifier
+                .clickable { viewModel.selectedDayOfWeek.value = dayNum }
+                .testTag("day_tab_$dayNum")
+            ) {
+              Column(
+                modifier = Modifier.padding(horizontal = 16.dp, vertical = 10.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+              ) {
+                Text(
+                  text = dayName,
+                  fontSize = 13.sp,
+                  fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium,
+                  color = if (isSelected) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurface
+                )
+              }
+            }
+          }
+        }
+      }
+
+      // 4 Meal Slots: Breakfast, Lunch, Dinner, Snack
+      item {
+        Column(
+          modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 20.dp),
+          verticalArrangement = Arrangement.spacedBy(14.dp)
+        ) {
+          MealSlot.values().forEach { slot ->
+            val plannedItem = dayMeals.find { it.slot == slot }
+
+            MealSlotCard(
+              slot = slot,
+              plannedItem = plannedItem,
+              language = language,
+              onRecipeClick = { plannedItem?.recipe?.let { viewModel.openRecipeDetail(it) } },
+              onAddClick = { viewModel.showRecipePickerForPlanSlot.value = Pair(selectedDay, slot) },
+              onChangeClick = { viewModel.showRecipePickerForPlanSlot.value = Pair(selectedDay, slot) },
+              onRemoveClick = { plannedItem?.let { viewModel.removeMealPlanItem(it.id) } }
+            )
           }
         }
       }
     }
 
-    // 4 Meal Slots: Breakfast, Lunch, Dinner, Snack
-    item {
-      Column(
-        modifier = Modifier
-          .fillMaxWidth()
-          .padding(horizontal = 20.dp),
-        verticalArrangement = Arrangement.spacedBy(14.dp)
-      ) {
-        MealSlot.values().forEach { slot ->
-          val plannedItem = dayMeals.find { it.slot == slot }
-
-          MealSlotCard(
-            slot = slot,
-            plannedItem = plannedItem,
-            language = language,
-            onRecipeClick = { plannedItem?.recipe?.let { viewModel.openRecipeDetail(it) } },
-            onAddClick = { viewModel.showRecipePickerForPlanSlot.value = Pair(selectedDay, slot) },
-            onChangeClick = { viewModel.showRecipePickerForPlanSlot.value = Pair(selectedDay, slot) },
-            onRemoveClick = { plannedItem?.let { viewModel.removeMealPlanItem(it.id) } }
-          )
-        }
-      }
+    // Confirmation before replacing an existing (possibly hand-edited) plan.
+    // Kept outside the LazyColumn so it is composed regardless of scroll position.
+    if (showReplaceConfirm) {
+      ConfirmDialog(
+        title = AppStrings.replaceMenuTitle(),
+        message = AppStrings.replaceMenuMessage(),
+        confirmText = AppStrings.replace(),
+        cancelText = AppStrings.cancel(),
+        onConfirm = {
+          showReplaceConfirm = false
+          viewModel.generateWeeklyMenu()
+        },
+        onDismiss = { showReplaceConfirm = false }
+      )
     }
   }
 }

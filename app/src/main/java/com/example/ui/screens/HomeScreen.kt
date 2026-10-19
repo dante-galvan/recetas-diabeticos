@@ -22,11 +22,13 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowForward
+import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.CalendarToday
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.LocalFireDepartment
 import androidx.compose.material.icons.filled.RestaurantMenu
 import androidx.compose.material.icons.filled.Schedule
+import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -71,6 +73,7 @@ fun HomeScreen(
 ) {
   val language by viewModel.currentLanguage.collectAsState()
   val favoriteIds by viewModel.favoriteRecipeIds.collectAsState()
+  val savedRecipeIds by viewModel.savedRecipeIds.collectAsState()
   val allRecipes = viewModel.repository.getRecipes()
   val mealPlanItems by viewModel.mealPlanItems.collectAsState()
   val availableCategories by viewModel.exploreCategories.collectAsState()
@@ -165,9 +168,11 @@ fun HomeScreen(
         FeaturedRecipeCard(
           recipe = featuredRecipe,
           isFavorite = favoriteIds.contains(featuredRecipe.id),
+          isSaved = savedRecipeIds.contains(featuredRecipe.id),
           language = language,
           onRecipeClick = { viewModel.openRecipeDetail(featuredRecipe) },
-          onFavoriteClick = { viewModel.toggleFavorite(featuredRecipe.id) }
+          onFavoriteClick = { viewModel.toggleFavorite(featuredRecipe.id) },
+          onSaveToCollectionClick = { viewModel.requestSaveToCollection(featuredRecipe) }
         )
       }
     }
@@ -347,9 +352,11 @@ fun HomeScreen(
             RecipeHorizontalCard(
               recipe = recipe,
               isFavorite = favoriteIds.contains(recipe.id),
+              isSaved = savedRecipeIds.contains(recipe.id),
               language = language,
               onRecipeClick = { viewModel.openRecipeDetail(recipe) },
-              onFavoriteClick = { viewModel.toggleFavorite(recipe.id) }
+              onFavoriteClick = { viewModel.toggleFavorite(recipe.id) },
+              onSaveToCollectionClick = { viewModel.requestSaveToCollection(recipe) }
             )
           }
         }
@@ -383,9 +390,11 @@ fun HomeScreen(
           RecipeCard(
             recipe = recipe,
             isFavorite = favoriteIds.contains(recipe.id),
+            isSaved = savedRecipeIds.contains(recipe.id),
             language = language,
             onRecipeClick = { viewModel.openRecipeDetail(recipe) },
-            onFavoriteClick = { viewModel.toggleFavorite(recipe.id) }
+            onFavoriteClick = { viewModel.toggleFavorite(recipe.id) },
+            onSaveToCollectionClick = { viewModel.requestSaveToCollection(recipe) }
           )
         }
       }
@@ -409,9 +418,11 @@ fun HomeScreen(
           RecipeCard(
             recipe = recipe,
             isFavorite = favoriteIds.contains(recipe.id),
+            isSaved = savedRecipeIds.contains(recipe.id),
             language = language,
             onRecipeClick = { viewModel.openRecipeDetail(recipe) },
-            onFavoriteClick = { viewModel.toggleFavorite(recipe.id) }
+            onFavoriteClick = { viewModel.toggleFavorite(recipe.id) },
+            onSaveToCollectionClick = { viewModel.requestSaveToCollection(recipe) }
           )
         }
       }
@@ -423,9 +434,11 @@ fun HomeScreen(
 private fun FeaturedRecipeCard(
   recipe: Recipe,
   isFavorite: Boolean,
+  isSaved: Boolean,
   language: Language,
   onRecipeClick: () -> Unit,
-  onFavoriteClick: () -> Unit
+  onFavoriteClick: () -> Unit,
+  onSaveToCollectionClick: () -> Unit
 ) {
   Card(
     modifier = Modifier
@@ -479,19 +492,37 @@ private fun FeaturedRecipeCard(
         )
       }
 
-      // Favorite button (Top Right)
-      IconButton(
-        onClick = onFavoriteClick,
+      // Save / Favorite buttons (Top Right)
+      Column(
         modifier = Modifier
           .padding(12.dp)
-          .align(Alignment.TopEnd)
-          .background(Color.Black.copy(alpha = 0.35f), CircleShape)
+          .align(Alignment.TopEnd),
+        verticalArrangement = Arrangement.spacedBy(6.dp),
+        horizontalAlignment = Alignment.End
       ) {
-        Icon(
-          imageVector = if (isFavorite) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
-          contentDescription = AppStrings.cdFavorite(),
-          tint = if (isFavorite) MaterialTheme.colorScheme.error else Color.White
-        )
+        IconButton(
+          onClick = onSaveToCollectionClick,
+          modifier = Modifier
+            .background(Color.Black.copy(alpha = 0.35f), CircleShape)
+            .testTag("save_btn_featured")
+        ) {
+          Icon(
+            imageVector = if (isSaved) Icons.Filled.Bookmark else Icons.Outlined.BookmarkBorder,
+            contentDescription = AppStrings.cdSaveToCollection(),
+            tint = if (isSaved) MaterialTheme.colorScheme.primary else Color.White
+          )
+        }
+
+        IconButton(
+          onClick = onFavoriteClick,
+          modifier = Modifier.background(Color.Black.copy(alpha = 0.35f), CircleShape)
+        ) {
+          Icon(
+            imageVector = if (isFavorite) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
+            contentDescription = AppStrings.cdFavorite(),
+            tint = if (isFavorite) MaterialTheme.colorScheme.error else Color.White
+          )
+        }
       }
 
       // Bottom Content: Title, time, difficulty, calories

@@ -261,6 +261,56 @@ object AppStrings {
   @Composable
   fun exploreRecipesCta() = stringResource(R.string.explore_recipes_cta)
 
+  // Collections management
+  @Composable
+  fun saveToCollection() = stringResource(R.string.save_to_collection)
+
+  @Composable
+  fun cdSaveToCollection() = stringResource(R.string.cd_save_to_collection)
+
+  @Composable
+  fun addToCollection() = stringResource(R.string.add_to_collection)
+
+  @Composable
+  fun alreadySaved() = stringResource(R.string.already_saved)
+
+  @Composable
+  fun deleteCollection() = stringResource(R.string.delete_collection)
+
+  @Composable
+  fun deleteCollectionTitle() = stringResource(R.string.delete_collection_title)
+
+  @Composable
+  fun deleteCollectionMessage() = stringResource(R.string.delete_collection_message)
+
+  @Composable
+  fun removeFromCollection() = stringResource(R.string.remove_from_collection)
+
+  @Composable
+  fun emptyCollection() = stringResource(R.string.empty_collection)
+
+  @Composable
+  fun emptyCollectionDesc() = stringResource(R.string.empty_collection_desc)
+
+  @Composable
+  fun noCollectionsYet() = stringResource(R.string.no_collections_yet)
+
+  @Composable
+  fun noCollectionsDesc() = stringResource(R.string.no_collections_desc)
+
+  // Weekly menu generation
+  @Composable
+  fun generatingMenu() = stringResource(R.string.generating_menu)
+
+  @Composable
+  fun replaceMenuTitle() = stringResource(R.string.replace_menu_title)
+
+  @Composable
+  fun replaceMenuMessage() = stringResource(R.string.replace_menu_message)
+
+  @Composable
+  fun replace() = stringResource(R.string.replace)
+
   // Onboarding
   @Composable
   fun onboardingWelcomeTitle() = stringResource(R.string.onboarding_welcome_title)

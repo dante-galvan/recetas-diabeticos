@@ -22,6 +22,8 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import java.util.Locale
+import java.util.UUID
+import kotlin.random.Random
 
 class RecipeRepository(private val dao: DiaRecipesDao, context: Context? = null) {
 
@@ -169,52 +171,99 @@ class RecipeRepository(private val dao: DiaRecipesDao, context: Context? = null)
   }
 
   // Collections
+  // Only real, persisted collections are exposed. (The previous hardcoded
+  // "starter collections" referenced SampleData ids that do not exist in the
+  // JSON catalog, so they always resolved to zero recipes.)
   val collections: Flow<List<RecipeCollection>> = dao.getAllCollections().map { list ->
-    if (list.isEmpty()) {
-      // Return default starter collections
-      listOf(
-        RecipeCollection("col_breakfast", "Mis Desayunos", "My Breakfasts", "free_breakfast", setOf("greek_yogurt_berry_parfait", "spinach_feta_omelet")),
-        RecipeCollection("col_quick_dinners", "Cenas Rápidas", "Quick Dinners", "dinner_dining", setOf("salmon_asparagus_quinoa", "turkey_lettuce_tacos")),
-        RecipeCollection("col_weekend", "Fin de Semana", "Weekend Special", "celebration", setOf("rustic_lentil_vegetable_stew"))
-      )
-    } else {
-      list.map { entity ->
-        RecipeCollection(
-          id = entity.id,
-          nameEs = entity.nameEs,
-          nameEn = entity.nameEn,
-          icon = entity.icon,
-          recipeIds = if (entity.recipeIdsCsv.isBlank()) emptySet() else entity.recipeIdsCsv.split(",").toSet()
+    list.map { it.toModel() }
+  }
+
+  /** Recipes resolved from the catalog, in catalog order. Missing ids are skipped. */
+  fun getRecipesByIds(ids: Collection<String>): List<Recipe> =
+    recipeList.filter { it.id in ids }
+
+  suspend fun createCollection(name: String): CreateCollectionResult {
+    val trimmed = name.trim()
+    if (trimmed.isBlank()) return CreateCollectionResult.BlankName
+    return try {
+      val duplicate = dao.getCollectionsOnce().any { it.matchesName(trimmed) }
+      if (duplicate) {
+        CreateCollectionResult.DuplicateName
+      } else {
+        val entity = CollectionEntity(
+          id = "col_${UUID.randomUUID()}",
+          nameEs = trimmed,
+          nameEn = trimmed,
+          icon = "folder",
+          recipeIdsCsv = ""
         )
+        dao.insertCollection(entity)
+        CreateCollectionResult.Success(entity.toModel())
       }
+    } catch (e: Exception) {
+      e.printStackTrace()
+      CreateCollectionResult.Failure
     }
   }
 
-  suspend fun createCollection(name: String) {
-    val id = "col_${System.currentTimeMillis()}"
-    dao.insertCollection(
-      CollectionEntity(
-        id = id,
-        nameEs = name,
-        nameEn = name,
-        icon = "folder",
-        recipeIdsCsv = ""
-      )
-    )
+  /**
+   * Adds a recipe to a collection. Idempotent: saving the same recipe twice does
+   * not create a duplicate entry. Returns [CollectionActionResult.NotFound] when
+   * the collection or the recipe does not exist.
+   */
+  suspend fun addRecipeToCollection(collectionId: String, recipeId: String): CollectionActionResult {
+    return try {
+      val entity = dao.getCollectionById(collectionId) ?: return CollectionActionResult.NotFound
+      if (getRecipeById(recipeId) == null) return CollectionActionResult.NotFound
+      val ids = entity.recipeIdSet()
+      if (recipeId in ids) return CollectionActionResult.Success
+      dao.insertCollection(entity.copy(recipeIdsCsv = (ids + recipeId).joinToString(",")))
+      CollectionActionResult.Success
+    } catch (e: Exception) {
+      e.printStackTrace()
+      CollectionActionResult.Failure
+    }
   }
 
-  suspend fun addRecipeToCollection(collectionId: String, recipeId: String, currentCollection: RecipeCollection) {
-    val updatedIds = (currentCollection.recipeIds + recipeId).joinToString(",")
-    dao.insertCollection(
-      CollectionEntity(
-        id = collectionId,
-        nameEs = currentCollection.nameEs,
-        nameEn = currentCollection.nameEn,
-        icon = currentCollection.icon,
-        recipeIdsCsv = updatedIds
-      )
-    )
+  suspend fun removeRecipeFromCollection(collectionId: String, recipeId: String): CollectionActionResult {
+    return try {
+      val entity = dao.getCollectionById(collectionId) ?: return CollectionActionResult.NotFound
+      val ids = entity.recipeIdSet()
+      dao.insertCollection(entity.copy(recipeIdsCsv = (ids - recipeId).joinToString(",")))
+      CollectionActionResult.Success
+    } catch (e: Exception) {
+      e.printStackTrace()
+      CollectionActionResult.Failure
+    }
   }
+
+  suspend fun deleteCollection(collectionId: String): CollectionActionResult {
+    return try {
+      dao.deleteCollection(collectionId)
+      CollectionActionResult.Success
+    } catch (e: Exception) {
+      e.printStackTrace()
+      CollectionActionResult.Failure
+    }
+  }
+
+  private fun CollectionEntity.matchesName(name: String): Boolean =
+    nameEs.equals(name, ignoreCase = true) || nameEn.equals(name, ignoreCase = true)
+
+  private fun CollectionEntity.recipeIdSet(): Set<String> =
+    if (recipeIdsCsv.isBlank()) {
+      emptySet()
+    } else {
+      recipeIdsCsv.split(",").map { it.trim() }.filter { it.isNotEmpty() }.toSet()
+    }
+
+  private fun CollectionEntity.toModel(): RecipeCollection = RecipeCollection(
+    id = id,
+    nameEs = nameEs,
+    nameEn = nameEn,
+    icon = icon,
+    recipeIds = recipeIdSet()
+  )
 
   // Meal Planner
   val mealPlanItems: Flow<List<MealPlanItem>> = dao.getAllMealPlanItems().map { list ->
@@ -247,29 +296,71 @@ class RecipeRepository(private val dao: DiaRecipesDao, context: Context? = null)
     dao.deleteMealPlanItemById(id)
   }
 
-  suspend fun generateWeeklyMenu() {
-    dao.clearMealPlan()
-    val menuRecipes = recipeList
-    val breakfasts = menuRecipes.filter { it.matchesCategory(RecipeCategory.BREAKFAST) }
-    val lunches = menuRecipes.filter { it.matchesCategory(RecipeCategory.LUNCH) }
-    val dinners = menuRecipes.filter { it.matchesCategory(RecipeCategory.DINNER) }
-    val snacks = menuRecipes.filter {
-      it.matchesCategory(RecipeCategory.SNACKS) || it.matchesCategory(RecipeCategory.DESSERTS)
+  /**
+   * Builds a fresh, randomised seven-day menu from the real catalog and replaces
+   * the persisted plan. Recipes are drawn per meal slot so that, whenever a slot
+   * has enough recipes, none is repeated within the week. When a slot has too few
+   * recipes (e.g. only breakfasts exist), the whole catalog is used as a fallback
+   * and repeats are allowed on purpose.
+   *
+   * The plan is only replaced after it has been fully built, and never when the
+   * catalog is empty, so a failed/empty generation cannot wipe an existing plan.
+   *
+   * @param random injectable source of randomness so tests are reproducible.
+   */
+  suspend fun generateWeeklyMenu(random: Random = Random.Default): WeeklyMenuResult {
+    val catalog = recipeList
+    if (catalog.isEmpty()) return WeeklyMenuResult.NoRecipesAvailable
+
+    return try {
+      val picksBySlot = MealSlot.values().associateWith { slot ->
+        pickForWeek(poolForSlot(catalog, slot), DAYS_PER_WEEK, random)
+      }
+
+      val items = buildList {
+        for (day in 1..DAYS_PER_WEEK) {
+          for (slot in MealSlot.values()) {
+            val recipe = picksBySlot.getValue(slot)[day - 1]
+            add(MealPlanEntity(dayOfWeek = day, slotKey = slot.key, recipeId = recipe.id))
+          }
+        }
+      }
+
+      dao.clearMealPlan()
+      items.forEach { dao.insertMealPlanItem(it) }
+      WeeklyMenuResult.Success(items.size)
+    } catch (e: Exception) {
+      e.printStackTrace()
+      WeeklyMenuResult.Failure
     }
+  }
 
-    if (menuRecipes.isEmpty()) return
-
-    for (day in 1..7) {
-      val b = breakfasts.getOrNull((day - 1) % breakfasts.size) ?: menuRecipes.first()
-      val l = lunches.getOrNull((day - 1) % lunches.size) ?: menuRecipes[1 % menuRecipes.size]
-      val d = dinners.getOrNull((day - 1) % dinners.size) ?: menuRecipes[2 % menuRecipes.size]
-      val s = snacks.getOrNull((day - 1) % snacks.size) ?: menuRecipes[3 % menuRecipes.size]
-
-      dao.insertMealPlanItem(MealPlanEntity(dayOfWeek = day, slotKey = MealSlot.BREAKFAST.key, recipeId = b.id))
-      dao.insertMealPlanItem(MealPlanEntity(dayOfWeek = day, slotKey = MealSlot.LUNCH.key, recipeId = l.id))
-      dao.insertMealPlanItem(MealPlanEntity(dayOfWeek = day, slotKey = MealSlot.DINNER.key, recipeId = d.id))
-      dao.insertMealPlanItem(MealPlanEntity(dayOfWeek = day, slotKey = MealSlot.SNACK.key, recipeId = s.id))
+  private fun poolForSlot(catalog: List<Recipe>, slot: MealSlot): List<Recipe> {
+    val matches = when (slot) {
+      MealSlot.BREAKFAST -> catalog.filter { it.matchesCategory(RecipeCategory.BREAKFAST) }
+      MealSlot.LUNCH -> catalog.filter { it.matchesCategory(RecipeCategory.LUNCH) }
+      MealSlot.DINNER -> catalog.filter { it.matchesCategory(RecipeCategory.DINNER) }
+      MealSlot.SNACK ->
+        catalog.filter { it.matchesCategory(RecipeCategory.SNACKS) || it.matchesCategory(RecipeCategory.DESSERTS) }
     }
+    // Fall back to the full catalog so a slot is never left empty.
+    return matches.ifEmpty { catalog }
+  }
+
+  /**
+   * Returns [count] recipes from [pool]. The pool order is shuffled; once every
+   * recipe has been used it is reshuffled for the next round, so repetitions only
+   * happen when the pool is smaller than [count].
+   */
+  private fun pickForWeek(pool: List<Recipe>, count: Int, random: Random): List<Recipe> {
+    if (pool.isEmpty()) return emptyList()
+    val picks = ArrayList<Recipe>(count)
+    var bag = pool.shuffled(random).toMutableList()
+    while (picks.size < count) {
+      if (bag.isEmpty()) bag = pool.shuffled(random).toMutableList()
+      picks.add(bag.removeAt(0))
+    }
+    return picks
   }
 
   // User Profile (null when no profile row has been persisted yet)
@@ -309,6 +400,31 @@ class RecipeRepository(private val dao: DiaRecipesDao, context: Context? = null)
       )
     )
   }
+}
+
+/** Number of days a generated weekly menu covers (Monday..Sunday). */
+const val DAYS_PER_WEEK = 7
+
+/** Result of creating a personal collection. */
+sealed interface CreateCollectionResult {
+  data class Success(val collection: RecipeCollection) : CreateCollectionResult
+  data object BlankName : CreateCollectionResult
+  data object DuplicateName : CreateCollectionResult
+  data object Failure : CreateCollectionResult
+}
+
+/** Result of mutating a personal collection (add/remove recipe, delete). */
+sealed interface CollectionActionResult {
+  data object Success : CollectionActionResult
+  data object NotFound : CollectionActionResult
+  data object Failure : CollectionActionResult
+}
+
+/** Result of generating a weekly menu. */
+sealed interface WeeklyMenuResult {
+  data class Success(val mealCount: Int) : WeeklyMenuResult
+  data object NoRecipesAvailable : WeeklyMenuResult
+  data object Failure : WeeklyMenuResult
 }
 
 enum class SortOption {

@@ -53,6 +53,7 @@ import com.example.ui.components.AddToPlanDialog
 import com.example.ui.components.FilterBottomSheet
 import com.example.ui.components.NewCollectionDialog
 import com.example.ui.components.RecipePickerForSlotDialog
+import com.example.ui.components.SaveToCollectionDialog
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
 import com.example.ui.i18n.getString
@@ -283,6 +284,24 @@ fun DiaRecipesApp(viewModel: MainViewModel) {
       language = language,
       onConfirm = { name -> viewModel.createNewCollection(name) },
       onDismiss = { viewModel.showNewCollectionDialog.value = false }
+    )
+  }
+
+  // 2b. Save to Collection Dialog (triggered from any recipe card / detail)
+  val saveToCollectionFor by viewModel.saveToCollectionFor.collectAsState()
+  val collections by viewModel.collections.collectAsState()
+  saveToCollectionFor?.let { recipe ->
+    SaveToCollectionDialog(
+      language = language,
+      recipeId = recipe.id,
+      collections = collections,
+      onSelectCollection = { collectionId ->
+        viewModel.saveRecipeToCollection(collectionId, recipe.id)
+      },
+      onCreateCollection = { name ->
+        viewModel.createCollectionAndSave(name, recipe.id)
+      },
+      onDismiss = { viewModel.dismissSaveToCollection() }
     )
   }
 

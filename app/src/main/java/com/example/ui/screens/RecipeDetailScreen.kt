@@ -25,11 +25,13 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.CalendarMonth
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material.icons.filled.Share
+import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -84,6 +86,7 @@ fun RecipeDetailScreen(
   val recipe = viewModel.selectedRecipe.collectAsState().value
   val servingsMultiplier by viewModel.servingsMultiplier.collectAsState()
   val favoriteIds by viewModel.favoriteRecipeIds.collectAsState()
+  val savedIds by viewModel.savedRecipeIds.collectAsState()
 
   if (recipe == null) {
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
@@ -93,6 +96,7 @@ fun RecipeDetailScreen(
   }
 
   val isFavorite = favoriteIds.contains(recipe.id)
+  val isSaved = savedIds.contains(recipe.id)
   val currentServings = (recipe.defaultServings * servingsMultiplier).toInt().coerceAtLeast(1)
 
   // Interactive checked steps for easy cooking mode
@@ -179,6 +183,21 @@ fun RecipeDetailScreen(
                   imageVector = Icons.Default.Share,
                   contentDescription = getString(context, R.string.share_recipe),
                   tint = Color.White
+                )
+              }
+
+              // Save to collection Button
+              IconButton(
+                onClick = { viewModel.requestSaveToCollection(recipe) },
+                modifier = Modifier
+                  .size(42.dp)
+                  .background(Color.Black.copy(alpha = 0.4f), CircleShape)
+                  .testTag("detail_save_button")
+              ) {
+                Icon(
+                  imageVector = if (isSaved) Icons.Filled.Bookmark else Icons.Outlined.BookmarkBorder,
+                  contentDescription = AppStrings.cdSaveToCollection(),
+                  tint = if (isSaved) MaterialTheme.colorScheme.primary else Color.White
                 )
               }
 

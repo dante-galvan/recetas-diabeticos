@@ -58,8 +58,14 @@ interface DiaRecipesDao {
   suspend fun deleteFavorite(recipeId: String)
 
   // Collections
-  @Query("SELECT * FROM collections")
+  @Query("SELECT * FROM collections ORDER BY nameEs COLLATE NOCASE ASC")
   fun getAllCollections(): Flow<List<CollectionEntity>>
+
+  @Query("SELECT * FROM collections ORDER BY nameEs COLLATE NOCASE ASC")
+  suspend fun getCollectionsOnce(): List<CollectionEntity>
+
+  @Query("SELECT * FROM collections WHERE id = :id")
+  suspend fun getCollectionById(id: String): CollectionEntity?
 
   @Insert(onConflict = OnConflictStrategy.REPLACE)
   suspend fun insertCollection(col: CollectionEntity)

@@ -198,4 +198,31 @@
     <string name="allergen_shellfish">Crustacés</string>
     <string name="allergen_eggs">Œufs</string>
     <string name="allergen_soy">Soja</string>
+    <!-- Collections & weekly menu actions -->
+    <string name="save_to_collection">Enregistrer dans une collection</string>
+    <string name="cd_save_to_collection">Enregistrer dans une collection</string>
+    <string name="saved_to_collection">Recette enregistrée dans la collection</string>
+    <string name="removed_from_collection">Recette retirée de la collection</string>
+    <string name="collection_created">Collection créée</string>
+    <string name="collection_deleted">Collection supprimée</string>
+    <string name="collection_name_empty">Saisissez un nom pour la collection</string>
+    <string name="collection_name_duplicate">Une collection portant ce nom existe déjà</string>
+    <string name="collection_action_failed">Impossible de terminer l\'action. Réessayez.</string>
+    <string name="delete_collection">Supprimer la collection</string>
+    <string name="delete_collection_title">Supprimer la collection ?</string>
+    <string name="delete_collection_message">Seule la collection est supprimée. Les recettes restent dans l\'application.</string>
+    <string name="remove_from_collection">Retirer de la collection</string>
+    <string name="empty_collection">Cette collection est vide</string>
+    <string name="empty_collection_desc">Appuyez sur l\'icône de signet d\'une recette pour l\'ajouter ici.</string>
+    <string name="no_collections_yet">Aucune collection pour l\'instant</string>
+    <string name="no_collections_desc">Créez une collection pour organiser vos recettes favorites.</string>
+    <string name="add_to_collection">Ajouter à une collection</string>
+    <string name="already_saved">Déjà enregistrée</string>
+    <string name="menu_generated">Menu hebdomadaire généré</string>
+    <string name="menu_empty_catalog">Aucune recette disponible pour créer un menu.</string>
+    <string name="menu_generation_failed">Impossible de générer le menu. Réessayez.</string>
+    <string name="replace_menu_title">Remplacer le menu actuel ?</string>
+    <string name="replace_menu_message">Générer un nouveau menu remplacera votre plan hebdomadaire actuel.</string>
+    <string name="replace">Remplacer</string>
+    <string name="generating_menu">Génération du menu…</string>
 </resources>

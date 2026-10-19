@@ -17,8 +17,10 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Folder
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
@@ -40,12 +42,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.data.model.MealSlot
 import com.example.data.model.Recipe
+import com.example.data.model.RecipeCollection
 import com.example.ui.i18n.AppStrings
 import com.example.ui.i18n.Language
 import com.example.ui.theme.CarbAccent
@@ -300,5 +304,167 @@ fun RecipePickerForSlotDialog(
       }
     },
     confirmButton = {}
+  )
+}
+
+/**
+ * Lets the user pick (or create) a personal collection to save [recipeId] into.
+ * Collections that already contain the recipe are marked so duplicates are obvious.
+ */
+@Composable
+fun SaveToCollectionDialog(
+  language: Language,
+  recipeId: String,
+  collections: List<RecipeCollection>,
+  onSelectCollection: (String) -> Unit,
+  onCreateCollection: (String) -> Unit,
+  onDismiss: () -> Unit
+) {
+  var showCreate by remember { mutableStateOf(collections.isEmpty()) }
+  var newName by remember { mutableStateOf("") }
+
+  AlertDialog(
+    onDismissRequest = onDismiss,
+    shape = RoundedCornerShape(24.dp),
+    title = {
+      Text(
+        text = AppStrings.saveToCollection(),
+        style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold)
+      )
+    },
+    text = {
+      Column(
+        modifier = Modifier
+          .fillMaxWidth()
+          .verticalScroll(rememberScrollState()),
+        verticalArrangement = Arrangement.spacedBy(10.dp)
+      ) {
+        if (collections.isEmpty()) {
+          Text(
+            text = AppStrings.noCollectionsDesc(),
+            fontSize = 13.sp,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+          )
+        }
+
+        collections.forEach { col ->
+          val alreadySaved = recipeId in col.recipeIds
+          Card(
+            modifier = Modifier
+              .fillMaxWidth()
+              .testTag("save_to_collection_${col.id}")
+              .clickable { onSelectCollection(col.id) },
+            shape = RoundedCornerShape(14.dp),
+            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+            border = CardDefaults.outlinedCardBorder()
+          ) {
+            Row(
+              modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 12.dp, vertical = 12.dp),
+              verticalAlignment = Alignment.CenterVertically,
+              horizontalArrangement = Arrangement.spacedBy(10.dp)
+            ) {
+              Icon(
+                imageVector = Icons.Default.Folder,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.size(20.dp)
+              )
+              Text(
+                text = col.localizedName(language),
+                fontSize = 14.sp,
+                fontWeight = FontWeight.SemiBold,
+                color = MaterialTheme.colorScheme.onSurface,
+                modifier = Modifier.weight(1f)
+              )
+              if (alreadySaved) {
+                Icon(
+                  imageVector = Icons.Default.Check,
+                  contentDescription = AppStrings.alreadySaved(),
+                  tint = MaterialTheme.colorScheme.primary,
+                  modifier = Modifier.size(18.dp)
+                )
+              }
+            }
+          }
+        }
+
+        if (showCreate) {
+          OutlinedTextField(
+            value = newName,
+            onValueChange = { newName = it },
+            placeholder = { Text(AppStrings.collectionNamePrompt(), fontSize = 13.sp) },
+            singleLine = true,
+            shape = RoundedCornerShape(12.dp),
+            modifier = Modifier
+              .fillMaxWidth()
+              .testTag("new_collection_name_field")
+          )
+          Button(
+            onClick = { onCreateCollection(newName) },
+            enabled = newName.isNotBlank(),
+            shape = RoundedCornerShape(12.dp),
+            modifier = Modifier
+              .fillMaxWidth()
+              .testTag("create_collection_confirm")
+          ) {
+            Text(text = AppStrings.createCollection(), fontWeight = FontWeight.Bold)
+          }
+        } else {
+          TextButton(onClick = { showCreate = true }) {
+            Row(
+              verticalAlignment = Alignment.CenterVertically,
+              horizontalArrangement = Arrangement.spacedBy(4.dp)
+            ) {
+              Icon(imageVector = Icons.Default.Add, contentDescription = null, modifier = Modifier.size(16.dp))
+              Text(text = AppStrings.newCollection(), fontSize = 13.sp, fontWeight = FontWeight.Bold)
+            }
+          }
+        }
+      }
+    },
+    confirmButton = {},
+    dismissButton = {
+      TextButton(onClick = onDismiss) {
+        Text(text = AppStrings.close())
+      }
+    }
+  )
+}
+
+/** Reusable confirmation dialog used for destructive actions. */
+@Composable
+fun ConfirmDialog(
+  title: String,
+  message: String,
+  confirmText: String,
+  cancelText: String,
+  onConfirm: () -> Unit,
+  onDismiss: () -> Unit
+) {
+  AlertDialog(
+    onDismissRequest = onDismiss,
+    shape = RoundedCornerShape(24.dp),
+    title = {
+      Text(
+        text = title,
+        style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold)
+      )
+    },
+    text = { Text(text = message) },
+    confirmButton = {
+      Button(
+        onClick = onConfirm,
+        shape = RoundedCornerShape(12.dp)
+      ) {
+        Text(text = confirmText, fontWeight = FontWeight.Bold)
+      }
+    },
+    dismissButton = {
+      TextButton(onClick = onDismiss) {
+        Text(text = cancelText)
+      }
+    }
   )
 }

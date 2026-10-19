@@ -1,9 +1,11 @@
 package com.example.ui.viewmodel
 
 import android.app.Application
+import androidx.annotation.StringRes
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.room.Room
+import com.app.diabeticos.R
 import com.example.data.local.DiaRecipesDatabase
 import com.example.data.model.Difficulty
 import com.example.data.model.MealPlanItem
@@ -12,8 +14,11 @@ import com.example.data.model.Recipe
 import com.example.data.model.RecipeCategory
 import com.example.data.model.RecipeCollection
 import com.example.data.model.UserProfile
+import com.example.data.repository.CollectionActionResult
+import com.example.data.repository.CreateCollectionResult
 import com.example.data.repository.RecipeRepository
 import com.example.data.repository.SortOption
+import com.example.data.repository.WeeklyMenuResult
 import com.example.ui.i18n.Language
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -146,6 +151,23 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
 
   val selectedCollectionId = MutableStateFlow<String?>(null)
 
+  /** Every recipe id that is stored in at least one collection. */
+  val savedRecipeIds: StateFlow<Set<String>> = collections
+    .map { cols -> cols.flatMap { it.recipeIds }.toSet() }
+    .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptySet())
+
+  /** Recipes of the currently selected collection (missing ids are skipped). */
+  val selectedCollectionRecipes: StateFlow<List<Recipe>> = combine(
+    collections,
+    selectedCollectionId
+  ) { cols, selectedId ->
+    val ids = cols.find { it.id == selectedId }?.recipeIds ?: emptySet()
+    repository.getRecipesByIds(ids)
+  }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
+
+  /** When non-null, the "save to collection" dialog is shown for that recipe. */
+  val saveToCollectionFor = MutableStateFlow<Recipe?>(null)
+
   // Meal Planner
   val mealPlanItems: StateFlow<List<MealPlanItem>> = repository.mealPlanItems
     .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
@@ -231,21 +253,104 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     }
   }
 
-  fun generateWeeklyMenu(successMessage: String) {
+  val isGeneratingMenu = MutableStateFlow(false)
+
+  fun generateWeeklyMenu() {
+    if (isGeneratingMenu.value) return
     viewModelScope.launch {
-      repository.generateWeeklyMenu()
-      _toastMessage.emit(successMessage)
+      isGeneratingMenu.value = true
+      val result = try {
+        repository.generateWeeklyMenu()
+      } finally {
+        isGeneratingMenu.value = false
+      }
+      val message = when (result) {
+        is WeeklyMenuResult.Success -> str(R.string.menu_generated)
+        WeeklyMenuResult.NoRecipesAvailable -> str(R.string.menu_empty_catalog)
+        WeeklyMenuResult.Failure -> str(R.string.menu_generation_failed)
+      }
+      _toastMessage.emit(message)
     }
   }
 
   // Collections
-  fun createNewCollection(name: String) {
-    if (name.isBlank()) return
+  fun requestSaveToCollection(recipe: Recipe) {
+    saveToCollectionFor.value = recipe
+  }
+
+  fun dismissSaveToCollection() {
+    saveToCollectionFor.value = null
+  }
+
+  fun saveRecipeToCollection(collectionId: String, recipeId: String) {
     viewModelScope.launch {
-      repository.createCollection(name)
-      showNewCollectionDialog.value = false
+      val result = repository.addRecipeToCollection(collectionId, recipeId)
+      if (result == CollectionActionResult.Success) {
+        saveToCollectionFor.value = null
+        _toastMessage.emit(str(R.string.saved_to_collection))
+      } else {
+        _toastMessage.emit(str(R.string.collection_action_failed))
+      }
     }
   }
+
+  fun createCollectionAndSave(name: String, recipeId: String) {
+    viewModelScope.launch {
+      when (val created = repository.createCollection(name)) {
+        is CreateCollectionResult.Success -> {
+          val added = repository.addRecipeToCollection(created.collection.id, recipeId)
+          if (added == CollectionActionResult.Success) {
+            saveToCollectionFor.value = null
+            _toastMessage.emit(str(R.string.saved_to_collection))
+          } else {
+            _toastMessage.emit(str(R.string.collection_action_failed))
+          }
+        }
+        CreateCollectionResult.BlankName -> _toastMessage.emit(str(R.string.collection_name_empty))
+        CreateCollectionResult.DuplicateName -> _toastMessage.emit(str(R.string.collection_name_duplicate))
+        CreateCollectionResult.Failure -> _toastMessage.emit(str(R.string.collection_action_failed))
+      }
+    }
+  }
+
+  fun createNewCollection(name: String) {
+    viewModelScope.launch {
+      when (repository.createCollection(name)) {
+        is CreateCollectionResult.Success -> {
+          showNewCollectionDialog.value = false
+          _toastMessage.emit(str(R.string.collection_created))
+        }
+        CreateCollectionResult.BlankName -> _toastMessage.emit(str(R.string.collection_name_empty))
+        CreateCollectionResult.DuplicateName -> _toastMessage.emit(str(R.string.collection_name_duplicate))
+        CreateCollectionResult.Failure -> _toastMessage.emit(str(R.string.collection_action_failed))
+      }
+    }
+  }
+
+  fun deleteCollection(collectionId: String) {
+    viewModelScope.launch {
+      when (repository.deleteCollection(collectionId)) {
+        CollectionActionResult.Success -> {
+          if (selectedCollectionId.value == collectionId) selectedCollectionId.value = null
+          _toastMessage.emit(str(R.string.collection_deleted))
+        }
+        CollectionActionResult.NotFound,
+        CollectionActionResult.Failure -> _toastMessage.emit(str(R.string.collection_action_failed))
+      }
+    }
+  }
+
+  fun removeRecipeFromCollection(collectionId: String, recipeId: String) {
+    viewModelScope.launch {
+      when (repository.removeRecipeFromCollection(collectionId, recipeId)) {
+        CollectionActionResult.Success -> _toastMessage.emit(str(R.string.removed_from_collection))
+        CollectionActionResult.NotFound,
+        CollectionActionResult.Failure -> _toastMessage.emit(str(R.string.collection_action_failed))
+      }
+    }
+  }
+
+  private fun str(@StringRes id: Int): String = getApplication<Application>().getString(id)
 
   // Language & Theme & Profile Settings
   fun setLanguage(lang: Language) {

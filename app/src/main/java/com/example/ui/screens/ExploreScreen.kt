@@ -64,6 +64,7 @@ fun ExploreScreen(
   val filters by viewModel.filterState.collectAsState()
   val recipes by viewModel.exploreRecipes.collectAsState()
   val favoriteIds by viewModel.favoriteRecipeIds.collectAsState()
+  val savedRecipeIds by viewModel.savedRecipeIds.collectAsState()
   val availableCategories by viewModel.exploreCategories.collectAsState()
 
   val hasActiveFilters = filters.category != null ||
@@ -221,9 +222,11 @@ fun ExploreScreen(
           RecipeCard(
             recipe = recipe,
             isFavorite = favoriteIds.contains(recipe.id),
+            isSaved = savedRecipeIds.contains(recipe.id),
             language = language,
             onRecipeClick = { viewModel.openRecipeDetail(recipe) },
-            onFavoriteClick = { viewModel.toggleFavorite(recipe.id) }
+            onFavoriteClick = { viewModel.toggleFavorite(recipe.id) },
+            onSaveToCollectionClick = { viewModel.requestSaveToCollection(recipe) }
           )
         }
       }
